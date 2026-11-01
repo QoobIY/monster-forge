@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "source_git_revision": "7a252745",
+  "source_record": {
+    "schema_version": 2,
+    "id": "campaign-mage",
+    "revision": 12,
+    "label": "Mage",
+    "assets": {
+      "campaign_mage_head": {
+        "kind": "model",
+        "path": "assets/creatures/campaign-mage/revisions/0012/model/head/ef08e12a62a2ae275276ee27--model.glb",
+        "weights": "assets/creatures/campaign-mage/revisions/0012/weight_sidecar/head/b34a59bb4ffd41b41c0a6430--weights.json",
+        "rig": "humanoid_v1",
+        "slot": "head",
+        "grip": null,
+        "grip_frame": "hand"
+      },
+      "campaign_mage_left_arm": {
+        "kind": "model",
+        "path": "assets/creatures/campaign-mage/revisions/0012/model/left_arm/2f7616d007c28bf641dd2794--model.glb",
+        "weights": "assets/creatures/campaign-mage/revisions/0012/weight_sidecar/left_arm/4ca892143af0c6207d0858af--weights.json",
+        "rig": "humanoid_v1",
+        "slot": "left_arm",
+        "grip": null,
+        "grip_frame": "hand"
+      },
+      "campaign_mage_left_leg": {
+        "kind": "model",
+        "path": "assets/creatures/campaign-mage/revisions/0012/model/left_leg/a6e0a9eef978a7027fa36909--model.glb",
+        "weights": "assets/creatures/campaign-mage/revisions/0012/weight_sidecar/left_leg/177d8f59db18785c1f7f8465--weights.json",
+        "rig": "humanoid_v1",
+        "slot": "left_leg",
+        "grip": null,
+        "grip_frame": "hand"
+      },
+      "campaign_mage_right_arm": {
+        "kind": "model",
+        "path": "assets/creatures/campaign-mage/revisions/0012/model/right_arm/c867952f0913ec1ab5c3a6ce--model.glb",
+        "weights": "assets/creatures/campaign-mage/revisions/0012/weight_sidecar/right_arm/67ea378f309dc1eb642a7475--weights.json",
+        "rig": "humanoid_v1",
+        "slot": "right_arm",
+        "grip": null,
+        "grip_frame": "hand"
+      },
+      "campaign_mage_right_leg": {
+        "kind": "model",
+        "path": "assets/creatures/campaign-mage/revisions/0012/model/right_leg/a0e84446528b7d02a0b68a68--model.glb",
+        "weights": "assets/creatures/campaign-mage/revisions/0012/weight_sidecar/right_leg/daf995d9fcd0a9a495549aa7--weights.json",
+        "rig": "humanoid_v1",
+        "slot": "right_leg",
+        "grip": null,
+        "grip_frame": "hand"
+      },
+      "campaign_mage_torso": {
+        "kind": "model",
+        "path": "assets/creatures/campaign-mage/revisions/0012/model/torso/e84a45a2017f5a92f21bb0bf--model.glb",
+        "weights": "assets/creatures/campaign-mage/revisions/0012/weight_sidecar/torso/d6117188aa77835e15d7cf83--weights.json",
+        "rig": "humanoid_v1",
+        "slot": "torso",
+        "grip": null,
+        "grip_frame": "hand"
+      }
+    },
+    "character": {
+      "rig": "humanoid_v1",
+      "authored_bind_pose": true,
+      "prelit": true,
+      "whole": false,
+      "parts": {
+        "head": "campaign_mage_head",
+        "left_arm": "campaign_mage_left_arm",
+        "left_leg": "campaign_mage_left_leg",
+        "right_arm": "campaign_mage_right_arm",
+        "right_leg": "campaign_mage_right_leg",
+        "torso": "campaign_mage_torso"
+      },
+      "attachments": {},
+      "hand_sockets": {
+        "left": [
+          -0.825,
+          0.91,
+          0.11
+        ],
+        "right": [
+          0.825,
+          0.91,
+          0.11
+        ]
+      }
+    },
+    "files": {
+      "assets/creatures/campaign-mage/revisions/0012/model/head/ef08e12a62a2ae275276ee27--model.glb": "ef08e12a62a2ae275276ee278c7dbbdab6132495e80aafe187bc6975735d61d8",
+      "assets/creatures/campaign-mage/revisions/0012/weight_sidecar/head/b34a59bb4ffd41b41c0a6430--weights.json": "b34a59bb4ffd41b41c0a64301e11c278b6abf162720a159ee12c6903541a3fc6",
+      "assets/creatures/campaign-mage/revisions/0012/model/left_arm/2f7616d007c28bf641dd2794--model.glb": "2f7616d007c28bf641dd279480123c676da292294ec1714710fd22601b89d31a",
+      "assets/creatures/campaign-mage/revisions/0012/weight_sidecar/left_arm/4ca892143af0c6207d0858af--weights.json": "4ca892143af0c6207d0858af4f411070f6dbcd4241372c722babf5c48bdb3fe8",
+      "assets/creatures/campaign-mage/revisions/0012/model/left_leg/a6e0a9eef978a7027fa36909--model.glb": "a6e0a9eef978a7027fa36909e5d024c386446c51bfb09850f2698852f57e1037",
+      "assets/creatures/campaign-mage/revisions/0012/weight_sidecar/left_leg/177d8f59db18785c1f7f8465--weights.json": "177d8f59db18785c1f7f8465bff4908e6e5e3e4297e72265c61967fd8d5f87b8",
+      "assets/creatures/campaign-mage/revisions/0012/model/right_arm/c867952f0913ec1ab5c3a6ce--model.glb": "c867952f0913ec1ab5c3a6ce3ed2a0a913ea43e6880c63fc77398f95ba137a47",
+      "assets/creatures/campaign-mage/revisions/0012/weight_sidecar/right_arm/67ea378f309dc1eb642a7475--weights.json": "67ea378f309dc1eb642a7475eb16fa9dc07ee6841a26c526aa37fb61d4561da8",
+      "assets/creatures/campaign-mage/revisions/0012/model/right_leg/a0e84446528b7d02a0b68a68--model.glb": "a0e84446528b7d02a0b68a687665b16744512c1673da1f96e0b47e1dc8a1fb2e",
+      "assets/creatures/campaign-mage/revisions/0012/weight_sidecar/right_leg/daf995d9fcd0a9a495549aa7--weights.json": "daf995d9fcd0a9a495549aa7fa61c8ff9ad646aee12f13b353a5a78597737baa",
+      "assets/creatures/campaign-mage/revisions/0012/model/torso/e84a45a2017f5a92f21bb0bf--model.glb": "e84a45a2017f5a92f21bb0bf411b9b63181019a042f88ac886abfe3931159327",
+      "assets/creatures/campaign-mage/revisions/0012/weight_sidecar/torso/d6117188aa77835e15d7cf83--weights.json": "d6117188aa77835e15d7cf83b81c47545dd478f102c9eb23d89ccff192d46e72"
+    },
+    "provenance": {
+      "author": "BHM explicit geometric instructions",
+      "recipe": "crypt_campaign/v6/mage/authored_recipe.json",
+      "method": "fixed authored parts, global SDK bind coordinates; immutable revision"
+    }
+  },
+  "attachments": {}
+}

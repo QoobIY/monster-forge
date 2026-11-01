@@ -1,0 +1,243 @@
+{
+  "assembly_reference": "ghost_v1",
+  "bind_profile": "canonical",
+  "commands": [
+    {
+      "id": "c001",
+      "material": "skin",
+      "op": "loft",
+      "part": "slime_body",
+      "purpose": "slime body",
+      "sides": 12,
+      "skin_bone": "body",
+      "slot": "torso",
+      "stage": 2,
+      "stations": [
+        [
+          0,
+          0,
+          0,
+          0.64,
+          0.55
+        ],
+        [
+          0.13,
+          0,
+          0,
+          0.76,
+          0.64
+        ],
+        [
+          0.47,
+          -0.05,
+          -0.06,
+          0.62,
+          0.53
+        ],
+        [
+          0.8,
+          0.06,
+          -0.04,
+          0.37,
+          0.31
+        ],
+        [
+          1.02,
+          0.1,
+          -0.04,
+          0.11,
+          0.1
+        ]
+      ]
+    },
+    {
+      "center": [
+        -0.25,
+        0.42,
+        0.38
+      ],
+      "id": "c002",
+      "material": "secondary",
+      "op": "ellipsoid",
+      "part": "slime_surface_bubble",
+      "purpose": "slime surface bubble",
+      "radii": [
+        0.13,
+        0.13,
+        0.13
+      ],
+      "rings": 4,
+      "sides": 8,
+      "skin_bone": "body",
+      "slot": "torso",
+      "stage": 2
+    },
+    {
+      "id": "c003",
+      "material": "accent",
+      "op": "sweep",
+      "part": "slime_mineral",
+      "path": [
+        [
+          -0.25,
+          0.42,
+          0.38
+        ],
+        [
+          -0.25,
+          0.64,
+          0.38
+        ]
+      ],
+      "purpose": "slime mineral",
+      "radii": [
+        0.08,
+        0.005
+      ],
+      "sides": 6,
+      "skin_bone": "body",
+      "slot": "torso",
+      "stage": 2
+    },
+    {
+      "center": [
+        0.22,
+        0.25,
+        0.49
+      ],
+      "id": "c004",
+      "material": "secondary",
+      "op": "ellipsoid",
+      "part": "slime_surface_bubble",
+      "purpose": "slime surface bubble",
+      "radii": [
+        0.13,
+        0.13,
+        0.13
+      ],
+      "rings": 4,
+      "sides": 8,
+      "skin_bone": "body",
+      "slot": "torso",
+      "stage": 2
+    },
+    {
+      "id": "c005",
+      "material": "accent",
+      "op": "sweep",
+      "part": "slime_mineral",
+      "path": [
+        [
+          0.22,
+          0.25,
+          0.49
+        ],
+        [
+          0.22,
+          0.47,
+          0.49
+        ]
+      ],
+      "purpose": "slime mineral",
+      "radii": [
+        0.08,
+        0.005
+      ],
+      "sides": 6,
+      "skin_bone": "body",
+      "slot": "torso",
+      "stage": 2
+    },
+    {
+      "center": [
+        0,
+        0.65,
+        0.24
+      ],
+      "id": "c006",
+      "material": "secondary",
+      "op": "ellipsoid",
+      "part": "slime_surface_bubble",
+      "purpose": "slime surface bubble",
+      "radii": [
+        0.13,
+        0.13,
+        0.13
+      ],
+      "rings": 4,
+      "sides": 8,
+      "skin_bone": "body",
+      "slot": "torso",
+      "stage": 2
+    },
+    {
+      "id": "c007",
+      "material": "accent",
+      "op": "sweep",
+      "part": "slime_mineral",
+      "path": [
+        [
+          0,
+          0.65,
+          0.24
+        ],
+        [
+          0,
+          0.87,
+          0.24
+        ]
+      ],
+      "purpose": "slime mineral",
+      "radii": [
+        0.08,
+        0.005
+      ],
+      "sides": 6,
+      "skin_bone": "body",
+      "slot": "torso",
+      "stage": 2
+    }
+  ],
+  "constructor_anatomy": {
+    "contract": "ghost_v1",
+    "description_ru": "Бесформенные кислотные существа: студенистое ядро, верхняя масса и две боковые лопасти, без человеческих конечностей.",
+    "gender": "male",
+    "hair": "cropped",
+    "id": "native-slime-03",
+    "label": "Жижа с минеральным ядром",
+    "own_body": true,
+    "race": "slime",
+    "variant": 2
+  },
+  "coordinate_system": "metres; Y up; +Z forward; floor Y=0",
+  "id": "native-slime-03.torso",
+  "label": "native-slime-03.torso",
+  "palette": {
+    "accent": "9dd3ae",
+    "bone": "cbc5ad",
+    "cloth": "4c3c54",
+    "dark": "33383b",
+    "eyes": "e9ef8b",
+    "hair": "48372e",
+    "hair_light": "544035",
+    "leather": "573e32",
+    "lip": "3f6449",
+    "metal": "85715b",
+    "pupil": "272a2b",
+    "sclera": "d4d1bc",
+    "secondary": "c4df77",
+    "shadow": "375840",
+    "skin": "588b65"
+  },
+  "schema_version": 1,
+  "stages": [
+    "Основные массы и опоры",
+    "Голова и анатомия",
+    "Одежда и защитные пластины",
+    "Отличительные детали",
+    "Кисти, опоры и завершающие акценты"
+  ],
+  "team_materials": [
+    "cloth"
+  ]
+}

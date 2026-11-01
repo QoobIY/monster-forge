@@ -1,0 +1,411 @@
+{
+  "schema_version": 2,
+  "id": "humanoid_v1",
+  "coordinate_system": {
+    "up": "+Y",
+    "forward": "+Z",
+    "handedness": "right"
+  },
+  "provenance": {
+    "bind_proportions": "assetforge biped_template",
+    "pose_source": "python",
+    "bind_revision": "Knees +0.14m forward; feet retain canonical world positions; topology unchanged."
+  },
+  "runtime_asset_contract": {
+    "storage": "separate_slot_glb",
+    "combined_character_glb": false,
+    "current_binding": "python_weight_sidecar",
+    "fallback_binding": "rigid_slot",
+    "gameplay_scale_source": "selected_torso_to_bind_span",
+    "leg_alignment": {
+      "mode": "shared_lower_plane",
+      "ground_bones": [
+        "left_foot",
+        "right_foot"
+      ],
+      "preserve_part_scale": true,
+      "shorter_leg_policy": "allow_upper_seam"
+    }
+  },
+  "slot_bindings": {
+    "head": {
+      "anchor": "head",
+      "allowed_bones": [
+        "neck",
+        "head"
+      ]
+    },
+    "torso": {
+      "anchor": "chest",
+      "allowed_bones": [
+        "pelvis",
+        "spine",
+        "chest",
+        "neck",
+        "left_shoulder",
+        "right_shoulder"
+      ]
+    },
+    "left_arm": {
+      "anchor": "left_shoulder",
+      "allowed_bones": [
+        "chest",
+        "left_shoulder",
+        "left_elbow",
+        "left_hand"
+      ]
+    },
+    "right_arm": {
+      "anchor": "right_shoulder",
+      "allowed_bones": [
+        "chest",
+        "right_shoulder",
+        "right_elbow",
+        "right_hand"
+      ]
+    },
+    "left_leg": {
+      "anchor": "left_hip",
+      "allowed_bones": [
+        "pelvis",
+        "left_hip",
+        "left_knee",
+        "left_foot"
+      ]
+    },
+    "right_leg": {
+      "anchor": "right_hip",
+      "allowed_bones": [
+        "pelvis",
+        "right_hip",
+        "right_knee",
+        "right_foot"
+      ]
+    },
+    "back_attachment": {
+      "anchor": "chest",
+      "allowed_bones": [
+        "chest"
+      ]
+    }
+  },
+  "bones": [
+    {
+      "id": "root",
+      "parent": null,
+      "bind_translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bind_rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "pelvis",
+      "parent": "root",
+      "bind_translation": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "bind_rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "spine",
+      "parent": "pelvis",
+      "bind_translation": [
+        0.0,
+        0.325,
+        0.025
+      ],
+      "bind_rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "chest",
+      "parent": "spine",
+      "bind_translation": [
+        0.0,
+        0.325,
+        0.025
+      ],
+      "bind_rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "neck",
+      "parent": "chest",
+      "bind_translation": [
+        0.0,
+        0.33,
+        0.03
+      ],
+      "bind_rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "head",
+      "parent": "neck",
+      "bind_translation": [
+        0.0,
+        0.24,
+        0.04
+      ],
+      "bind_rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "left_shoulder",
+      "parent": "chest",
+      "bind_translation": [
+        -0.36,
+        0.15,
+        -0.01
+      ],
+      "bind_rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "left_elbow",
+      "parent": "left_shoulder",
+      "bind_translation": [
+        -0.36,
+        -0.44,
+        -0.02
+      ],
+      "bind_rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "left_hand",
+      "parent": "left_elbow",
+      "bind_translation": [
+        -0.1,
+        -0.4,
+        0.06
+      ],
+      "bind_rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "right_shoulder",
+      "parent": "chest",
+      "bind_translation": [
+        0.36,
+        0.15,
+        -0.01
+      ],
+      "bind_rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "right_elbow",
+      "parent": "right_shoulder",
+      "bind_translation": [
+        0.36,
+        -0.44,
+        -0.02
+      ],
+      "bind_rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "right_hand",
+      "parent": "right_elbow",
+      "bind_translation": [
+        0.1,
+        -0.4,
+        0.06
+      ],
+      "bind_rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "left_hip",
+      "parent": "pelvis",
+      "bind_translation": [
+        -0.22,
+        -0.05,
+        0.0
+      ],
+      "bind_rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "left_knee",
+      "parent": "left_hip",
+      "bind_translation": [
+        -0.06,
+        -0.47,
+        0.16
+      ],
+      "bind_rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "left_foot",
+      "parent": "left_knee",
+      "bind_translation": [
+        -0.04,
+        -0.46,
+        0.02
+      ],
+      "bind_rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "right_hip",
+      "parent": "pelvis",
+      "bind_translation": [
+        0.22,
+        -0.05,
+        0.0
+      ],
+      "bind_rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "right_knee",
+      "parent": "right_hip",
+      "bind_translation": [
+        0.06,
+        -0.47,
+        0.16
+      ],
+      "bind_rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "right_foot",
+      "parent": "right_knee",
+      "bind_translation": [
+        0.04,
+        -0.46,
+        0.02
+      ],
+      "bind_rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "ik_chains": [
+    {
+      "id": "left_leg",
+      "start": "left_hip",
+      "middle": "left_knee",
+      "end": "left_foot",
+      "pole": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "right_leg",
+      "start": "right_hip",
+      "middle": "right_knee",
+      "end": "right_foot",
+      "pole": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "left_arm",
+      "start": "left_shoulder",
+      "middle": "left_elbow",
+      "end": "left_hand",
+      "pole": [
+        -0.35,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "id": "right_arm",
+      "start": "right_shoulder",
+      "middle": "right_elbow",
+      "end": "right_hand",
+      "pole": [
+        0.35,
+        0.0,
+        -1.0
+      ]
+    }
+  ],
+  "bind_profile": "workshop_knees_v1"
+}

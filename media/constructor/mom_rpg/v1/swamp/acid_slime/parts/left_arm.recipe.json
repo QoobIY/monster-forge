@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "id": "acid_slime.left_arm",
+  "kind": "procedural_swamp_anatomy",
+  "bind_profile": "canonical",
+  "builder_sha256": "82874a8ebae85605a91ea353f88c4d2e7eed109e659c0f5ad0fc8625a4183a1b",
+  "triangles": 336,
+  "bounds": [
+    [
+      -1.0952923025428827,
+      0.8001211298249977,
+      -0.14
+    ],
+    [
+      -0.246751607043044,
+      1.8844851302871517,
+      0.3452923025428826
+    ]
+  ]
+}

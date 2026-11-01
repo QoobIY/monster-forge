@@ -1,0 +1,288 @@
+{
+  "assembly_reference": "humanoid_v1",
+  "bind_profile": "canonical",
+  "commands": [
+    {
+      "center": [
+        0,
+        1.01,
+        0
+      ],
+      "id": "c001",
+      "material": "secondary",
+      "op": "ellipsoid",
+      "part": "satyr_fur_hips",
+      "purpose": "satyr fur hips",
+      "radii": [
+        0.28,
+        0.21,
+        0.2
+      ],
+      "rings": 4,
+      "sides": 8,
+      "skin_bone": "pelvis",
+      "slot": "torso",
+      "stage": 2
+    },
+    {
+      "id": "c002",
+      "material": "skin",
+      "op": "loft",
+      "part": "satyr_chest",
+      "purpose": "satyr chest",
+      "sides": 10,
+      "skin_bone": "chest",
+      "slot": "torso",
+      "stage": 2,
+      "stations": [
+        [
+          1.1,
+          0,
+          0.01,
+          0.23,
+          0.17
+        ],
+        [
+          1.47,
+          0,
+          0.03,
+          0.34,
+          0.21
+        ],
+        [
+          1.73,
+          0,
+          0.05,
+          0.31,
+          0.18
+        ]
+      ]
+    },
+    {
+      "center": [
+        0,
+        1.58,
+        0.2
+      ],
+      "id": "c003",
+      "material": "secondary",
+      "op": "ellipsoid",
+      "part": "satyr_breast_fur",
+      "purpose": "satyr breast fur",
+      "radii": [
+        0.22,
+        0.18,
+        0.055
+      ],
+      "rings": 4,
+      "sides": 8,
+      "skin_bone": "chest",
+      "slot": "torso",
+      "stage": 2
+    },
+    {
+      "id": "c004",
+      "material": "skin",
+      "op": "sweep",
+      "part": "satyr_neck",
+      "path": [
+        [
+          0,
+          1.72,
+          0.08
+        ],
+        [
+          0,
+          2.0,
+          0.09
+        ]
+      ],
+      "purpose": "satyr neck",
+      "radii": [
+        0.13,
+        0.12
+      ],
+      "sides": 6,
+      "skin_bone": "neck",
+      "slot": "torso",
+      "stage": 2
+    },
+    {
+      "id": "c005",
+      "material": "leather",
+      "op": "loft",
+      "part": "satyr_belt",
+      "purpose": "satyr belt",
+      "sides": 8,
+      "skin_bone": "pelvis",
+      "slot": "torso",
+      "stage": 2,
+      "stations": [
+        [
+          1.05,
+          0,
+          0,
+          0.28,
+          0.21
+        ],
+        [
+          1.15,
+          0,
+          0,
+          0.27,
+          0.2
+        ]
+      ]
+    },
+    {
+      "center": [
+        0,
+        1.1,
+        0.22
+      ],
+      "id": "c006",
+      "material": "metal",
+      "op": "box",
+      "part": "satyr_buckle",
+      "purpose": "satyr buckle",
+      "size": [
+        0.09,
+        0.07,
+        0.025
+      ],
+      "skin_bone": "pelvis",
+      "slot": "torso",
+      "stage": 2
+    }
+  ],
+  "constructor": {
+    "schema_version": 1,
+    "settings": {
+      "arms": "native-satyr-01",
+      "back": null,
+      "colors": {
+        "accent": null,
+        "back_frame": null,
+        "back_primary": null,
+        "back_secondary": null,
+        "cloth": null,
+        "eyes": null,
+        "hair": null,
+        "leather": null,
+        "metal": null,
+        "secondary": null,
+        "skin": null
+      },
+      "decor": {
+        "beard": "none",
+        "belt": "none",
+        "emblem": "none",
+        "headwear": "none",
+        "mustache": "none",
+        "pattern": "none",
+        "shoulders": "none"
+      },
+      "eye_shape": "original",
+      "eye_size": 1.0,
+      "face": "native-satyr-01",
+      "features": {
+        "brows": "profile",
+        "ears": "profile",
+        "jaw": "profile",
+        "mouth": "profile",
+        "nose": "profile"
+      },
+      "form": "regular",
+      "gender": "male",
+      "hair": "original",
+      "legs": "native-satyr-01",
+      "outfit": "native-satyr-01",
+      "race": "satyr",
+      "reference_parts": {
+        "accessories": 0,
+        "arms": 0,
+        "back": 0,
+        "beards": 0,
+        "belts": 0,
+        "body_forms": 0,
+        "boots": 0,
+        "brows": 0,
+        "colorways": 0,
+        "ears": 0,
+        "emblems": 0,
+        "eyes": 0,
+        "female_clothes": 0,
+        "female_faces": 0,
+        "gloves": 0,
+        "hair": 0,
+        "headwear": 0,
+        "jaws": 0,
+        "legs": 0,
+        "male_clothes": 0,
+        "male_faces": 0,
+        "mouths": 0,
+        "mustaches": 0,
+        "noses": 0,
+        "patterns": 0,
+        "race_heads": 0,
+        "shoulders": 0
+      },
+      "schema_version": 5
+    },
+    "slot": "torso",
+    "sources": [
+      {
+        "donor": "native-satyr-01",
+        "manifest_sha256": "583e42b0ca24ece600269ff8dd29aa5eb810afeb86c13378e822dc3a288149cc",
+        "model_sha256": "58a240ecc62f62e4551873d4d8ca9c535105b84a43211c755f76d7835c292593",
+        "recipe_sha256": "13bc992d0f2c91e799431db75cc9b8ede42205dabb282b8164db737c75f6e39a",
+        "record_sha256": "8eb5c9aa78b8074f4e6617ef927f8d3f6aa58bd10c0eaa7e9985a59b62173696",
+        "reference_files": [],
+        "slot": "torso"
+      }
+    ],
+    "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07"
+  },
+  "constructor_anatomy": {
+    "contract": "humanoid_v1",
+    "description_ru": "Рогатые лесные существа с заострёнными ушами, шерстяными ногами, скакательными суставами и раздвоенными копытами.",
+    "gender": "male",
+    "hair": "cropped",
+    "id": "native-satyr-01",
+    "label": "Лесной сатир",
+    "own_body": true,
+    "race": "satyr",
+    "variant": 0
+  },
+  "coordinate_system": "metres; Y up; +Z forward; floor Y=0",
+  "id": "constructor.2c0bada3544e760b92ee00df3d0fabb371884cf1e532cf67643967c5cee50bf5.torso",
+  "label": "native-satyr-01.torso",
+  "palette": {
+    "accent": "a3bd66",
+    "bone": "cbc5ad",
+    "cloth": "4c3c54",
+    "dark": "33383b",
+    "eyes": "d4b65b",
+    "hair": "48372e",
+    "hair_light": "544035",
+    "leather": "573e32",
+    "lip": "6e5338",
+    "metal": "85715b",
+    "pupil": "272a2b",
+    "sclera": "d4d1bc",
+    "secondary": "403434",
+    "shadow": "604831",
+    "skin": "99734e"
+  },
+  "schema_version": 1,
+  "stages": [
+    "Основные массы и опоры",
+    "Голова и анатомия",
+    "Одежда и защитные пластины",
+    "Отличительные детали",
+    "Кисти, опоры и завершающие акценты"
+  ],
+  "team_materials": [
+    "cloth"
+  ]
+}

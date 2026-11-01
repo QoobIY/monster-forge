@@ -1,0 +1,28 @@
+{
+  "schema_version": 3,
+  "distribution": "tools-only",
+  "code_license": "Apache-2.0",
+  "license_files": [
+    "LICENSE",
+    "NOTICE",
+    "LICENSE_SCOPE.md"
+  ],
+  "asset_library_included": false,
+  "git_history_included": false,
+  "documentation_images": [
+    "docs/images/constructor.png",
+    "docs/images/sdk-guide.png"
+  ],
+  "included_code_contracts": [
+    "media/rigs/body_rigs.json",
+    "media/rigs/humanoid/canonical.json",
+    "media/rigs/humanoid/workshop_knees_v1.json"
+  ],
+  "tool_config_files": [
+    "config/style_profile.json",
+    "config/humanoid_v1.json",
+    "config/release_rights.json",
+    "config/release_policy.json"
+  ],
+  "constructor_resources": "config/constructor_resources_v1.json"
+}

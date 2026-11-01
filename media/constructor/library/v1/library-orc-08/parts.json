@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "rig_reference": "humanoid_v1",
+  "coordinates": "metres; Y up; +Z forward; floor Y=0",
+  "storage": "separate_slot_glb",
+  "assembly": "in memory only; no rescaling of individual parts",
+  "binding": "static shared-coordinate parts; skinning not yet authored",
+  "parts": {
+    "head": {
+      "model": "parts/head.glb",
+      "image": "parts/head.png",
+      "recipe": "parts/head.recipe.json",
+      "commands": [
+        "original_015",
+        "original_016",
+        "original_017",
+        "original_018",
+        "original_019",
+        "original_020",
+        "original_021",
+        "original_022",
+        "original_023",
+        "original_024",
+        "original_025",
+        "original_026",
+        "original_027",
+        "original_028",
+        "original_029",
+        "original_030",
+        "original_031",
+        "original_032",
+        "original_033",
+        "original_034",
+        "original_035",
+        "original_036",
+        "original_037"
+      ],
+      "triangles": 872,
+      "sha256": "740d9a18fc8368c3f6841056eb1e59752434eff158ee4986ba18ac34a290844a",
+      "bounds_metres": [
+        [
+          -0.23899999260902405,
+          2.0350000858306885,
+          -0.24021130800247192
+        ],
+        [
+          0.23899999260902405,
+          2.630000114440918,
+          0.2621961534023285
+        ]
+      ]
+    },
+    "left_arm": {
+      "model": "parts/left_arm.glb",
+      "image": "parts/left_arm.png",
+      "recipe": "parts/left_arm.recipe.json",
+      "commands": [
+        "original_006",
+        "original_007",
+        "original_008",
+        "original_045"
+      ],
+      "triangles": 156,
+      "sha256": "de0421ec4c94bac9dd250ff952f474fd8bcb50e6c1ea17ff4d587284766130f9",
+      "bounds_metres": [
+        [
+          -0.9119445085525513,
+          0.8209999799728394,
+          -0.08979984372854233
+        ],
+        [
+          -0.2596025764942169,
+          1.882396936416626,
+          0.17383748292922974
+        ]
+      ]
+    },
+    "left_leg": {
+      "model": "parts/left_leg.glb",
+      "image": "parts/left_leg.png",
+      "recipe": "parts/left_leg.recipe.json",
+      "commands": [
+        "original_003",
+        "original_004",
+        "original_005"
+      ],
+      "triangles": 132,
+      "sha256": "a62d7b5d674078e23c35914c7671860c03947dbf5957410ca8e63c875cdfe931",
+      "bounds_metres": [
+        [
+          -0.4449999928474426,
+          0.0,
+          -0.13687613606452942
+        ],
+        [
+          -0.08410090953111649,
+          0.9673174619674683,
+          0.3700000047683716
+        ]
+      ]
+    },
+    "right_arm": {
+      "model": "parts/right_arm.glb",
+      "image": "parts/right_arm.png",
+      "recipe": "parts/right_arm.recipe.json",
+      "commands": [
+        "original_012",
+        "original_013",
+        "original_014",
+        "original_046"
+      ],
+      "triangles": 156,
+      "sha256": "be169a9c875055ff083322af688aa573f238ac389f9064d33fa4071d1570611c",
+      "bounds_metres": [
+        [
+          0.2596025764942169,
+          0.8209999799728394,
+          -0.08979984372854233
+        ],
+        [
+          0.9119445085525513,
+          1.882396936416626,
+          0.17383748292922974
+        ]
+      ]
+    },
+    "right_leg": {
+      "model": "parts/right_leg.glb",
+      "image": "parts/right_leg.png",
+      "recipe": "parts/right_leg.recipe.json",
+      "commands": [
+        "original_009",
+        "original_010",
+        "original_011"
+      ],
+      "triangles": 132,
+      "sha256": "434f846e3d76b0fa2e8676dec4c4f242004965dbd7fdf176d19b683b66f8105c",
+      "bounds_metres": [
+        [
+          0.08410090953111649,
+          0.0,
+          -0.13687613606452942
+        ],
+        [
+          0.4449999928474426,
+          0.9673174619674683,
+          0.3700000047683716
+        ]
+      ]
+    },
+    "torso": {
+      "model": "parts/torso.glb",
+      "image": "parts/torso.png",
+      "recipe": "parts/torso.recipe.json",
+      "commands": [
+        "original_001",
+        "original_002",
+        "original_038",
+        "original_039",
+        "original_040",
+        "original_041",
+        "original_042",
+        "original_043",
+        "original_044"
+      ],
+      "triangles": 300,
+      "sha256": "d5716af2bd61d25726b0477b808685ec6048721b01c1d0f4450041b4471625eb",
+      "bounds_metres": [
+        [
+          -0.375,
+          0.4000000059604645,
+          -0.19496658444404602
+        ],
+        [
+          0.3400000035762787,
+          2.077507495880127,
+          0.26440000534057617
+        ]
+      ]
+    }
+  }
+}

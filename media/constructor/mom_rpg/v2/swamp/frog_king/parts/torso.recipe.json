@@ -1,0 +1,400 @@
+{
+  "assembly_reference": "quadruped_v1",
+  "bind_profile": "canonical",
+  "commands": [
+    {
+      "center": [
+        0,
+        0.65,
+        -0.13
+      ],
+      "id": "c001",
+      "material": "skin",
+      "op": "ellipsoid",
+      "part": "frog_body",
+      "purpose": "frog body",
+      "radii": [
+        0.64,
+        0.43,
+        0.83
+      ],
+      "rings": 4,
+      "sides": 12,
+      "skin_bone": "body",
+      "slot": "torso",
+      "stage": 2
+    },
+    {
+      "center": [
+        0,
+        0.39,
+        0.14
+      ],
+      "id": "c002",
+      "material": "secondary",
+      "op": "ellipsoid",
+      "part": "frog_belly",
+      "purpose": "frog belly",
+      "radii": [
+        0.51,
+        0.2,
+        0.59
+      ],
+      "rings": 4,
+      "sides": 10,
+      "skin_bone": "body",
+      "slot": "torso",
+      "stage": 2
+    },
+    {
+      "center": [
+        -0.38,
+        0.99,
+        -0.57
+      ],
+      "id": "c003",
+      "material": "shadow",
+      "op": "ellipsoid",
+      "part": "frog_wart",
+      "purpose": "frog wart",
+      "radii": [
+        0.1,
+        0.045,
+        0.085
+      ],
+      "rings": 4,
+      "sides": 8,
+      "skin_bone": "body",
+      "slot": "torso",
+      "stage": 2
+    },
+    {
+      "center": [
+        -0.38,
+        0.96,
+        -0.35
+      ],
+      "id": "c004",
+      "material": "shadow",
+      "op": "ellipsoid",
+      "part": "frog_wart",
+      "purpose": "frog wart",
+      "radii": [
+        0.1,
+        0.045,
+        0.085
+      ],
+      "rings": 4,
+      "sides": 8,
+      "skin_bone": "body",
+      "slot": "torso",
+      "stage": 2
+    },
+    {
+      "center": [
+        -0.38,
+        0.99,
+        -0.13
+      ],
+      "id": "c005",
+      "material": "shadow",
+      "op": "ellipsoid",
+      "part": "frog_wart",
+      "purpose": "frog wart",
+      "radii": [
+        0.1,
+        0.045,
+        0.085
+      ],
+      "rings": 4,
+      "sides": 8,
+      "skin_bone": "body",
+      "slot": "torso",
+      "stage": 2
+    },
+    {
+      "center": [
+        -0.38,
+        0.96,
+        0.09
+      ],
+      "id": "c006",
+      "material": "shadow",
+      "op": "ellipsoid",
+      "part": "frog_wart",
+      "purpose": "frog wart",
+      "radii": [
+        0.1,
+        0.045,
+        0.085
+      ],
+      "rings": 4,
+      "sides": 8,
+      "skin_bone": "body",
+      "slot": "torso",
+      "stage": 2
+    },
+    {
+      "center": [
+        -0.38,
+        0.99,
+        0.31
+      ],
+      "id": "c007",
+      "material": "shadow",
+      "op": "ellipsoid",
+      "part": "frog_wart",
+      "purpose": "frog wart",
+      "radii": [
+        0.1,
+        0.045,
+        0.085
+      ],
+      "rings": 4,
+      "sides": 8,
+      "skin_bone": "body",
+      "slot": "torso",
+      "stage": 2
+    },
+    {
+      "center": [
+        0.38,
+        0.99,
+        -0.57
+      ],
+      "id": "c008",
+      "material": "shadow",
+      "op": "ellipsoid",
+      "part": "frog_wart",
+      "purpose": "frog wart",
+      "radii": [
+        0.1,
+        0.045,
+        0.085
+      ],
+      "rings": 4,
+      "sides": 8,
+      "skin_bone": "body",
+      "slot": "torso",
+      "stage": 2
+    },
+    {
+      "center": [
+        0.38,
+        0.96,
+        -0.35
+      ],
+      "id": "c009",
+      "material": "shadow",
+      "op": "ellipsoid",
+      "part": "frog_wart",
+      "purpose": "frog wart",
+      "radii": [
+        0.1,
+        0.045,
+        0.085
+      ],
+      "rings": 4,
+      "sides": 8,
+      "skin_bone": "body",
+      "slot": "torso",
+      "stage": 2
+    },
+    {
+      "center": [
+        0.38,
+        0.99,
+        -0.13
+      ],
+      "id": "c010",
+      "material": "shadow",
+      "op": "ellipsoid",
+      "part": "frog_wart",
+      "purpose": "frog wart",
+      "radii": [
+        0.1,
+        0.045,
+        0.085
+      ],
+      "rings": 4,
+      "sides": 8,
+      "skin_bone": "body",
+      "slot": "torso",
+      "stage": 2
+    },
+    {
+      "center": [
+        0.38,
+        0.96,
+        0.09
+      ],
+      "id": "c011",
+      "material": "shadow",
+      "op": "ellipsoid",
+      "part": "frog_wart",
+      "purpose": "frog wart",
+      "radii": [
+        0.1,
+        0.045,
+        0.085
+      ],
+      "rings": 4,
+      "sides": 8,
+      "skin_bone": "body",
+      "slot": "torso",
+      "stage": 2
+    },
+    {
+      "center": [
+        0.38,
+        0.99,
+        0.31
+      ],
+      "id": "c012",
+      "material": "shadow",
+      "op": "ellipsoid",
+      "part": "frog_wart",
+      "purpose": "frog wart",
+      "radii": [
+        0.1,
+        0.045,
+        0.085
+      ],
+      "rings": 4,
+      "sides": 8,
+      "skin_bone": "body",
+      "slot": "torso",
+      "stage": 2
+    }
+  ],
+  "constructor": {
+    "schema_version": 1,
+    "settings": {
+      "arms": "native-frog-03",
+      "back": null,
+      "colors": {
+        "accent": null,
+        "back_frame": null,
+        "back_primary": null,
+        "back_secondary": null,
+        "cloth": null,
+        "eyes": null,
+        "hair": null,
+        "leather": null,
+        "metal": null,
+        "secondary": null,
+        "skin": null
+      },
+      "decor": {
+        "beard": "none",
+        "belt": "none",
+        "emblem": "none",
+        "headwear": "none",
+        "mustache": "none",
+        "pattern": "none",
+        "shoulders": "none"
+      },
+      "eye_shape": "original",
+      "eye_size": 1.0,
+      "face": "native-frog-03",
+      "features": {
+        "brows": "profile",
+        "ears": "profile",
+        "jaw": "profile",
+        "mouth": "profile",
+        "nose": "profile"
+      },
+      "form": "regular",
+      "gender": "male",
+      "hair": "original",
+      "legs": "native-frog-03",
+      "outfit": "native-frog-03",
+      "race": "frog",
+      "reference_parts": {
+        "accessories": 0,
+        "arms": 0,
+        "back": 0,
+        "beards": 0,
+        "belts": 0,
+        "body_forms": 0,
+        "boots": 0,
+        "brows": 0,
+        "colorways": 0,
+        "ears": 0,
+        "emblems": 0,
+        "eyes": 0,
+        "female_clothes": 0,
+        "female_faces": 0,
+        "gloves": 0,
+        "hair": 0,
+        "headwear": 0,
+        "jaws": 0,
+        "legs": 0,
+        "male_clothes": 0,
+        "male_faces": 0,
+        "mouths": 0,
+        "mustaches": 0,
+        "noses": 0,
+        "patterns": 0,
+        "race_heads": 0,
+        "shoulders": 0
+      },
+      "schema_version": 5
+    },
+    "slot": "torso",
+    "sources": [
+      {
+        "donor": "native-frog-03",
+        "manifest_sha256": "3f04f43c4f7bd22e6e00e626c595aa5ba0001141ec1595c71086c9f45493aaa4",
+        "model_sha256": "dc4d9ee89d8283c1f5181e2626d188179264b5c2754dbaf371af8e7512fc6f53",
+        "recipe_sha256": "07a97ee86f31bb4beed8e4b2dc63203488a7b87ef607b5847d0be1fb9830caa4",
+        "record_sha256": "74734fdb3f0ed4c3cf6c005403cb15d7bb03302514c3ed2160766474db49eace",
+        "reference_files": [],
+        "slot": "torso"
+      }
+    ],
+    "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07"
+  },
+  "constructor_anatomy": {
+    "contract": "quadruped_v1",
+    "description_ru": "Четвероногие земноводные с широким ртом, выпуклыми глазами, складными задними ногами и перепонками.",
+    "gender": "male",
+    "hair": "cropped",
+    "id": "native-frog-03",
+    "label": "Королевская лягушка",
+    "own_body": true,
+    "race": "frog",
+    "variant": 2
+  },
+  "coordinate_system": "metres; Y up; +Z forward; floor Y=0",
+  "id": "constructor.b4c2cbeced38ae7fe480eefb54e53326493850fcb157832614a73ae2571c1b54.torso",
+  "label": "native-frog-03.torso",
+  "palette": {
+    "accent": "c2a05c",
+    "bone": "cbc5ad",
+    "cloth": "4c3c54",
+    "dark": "33383b",
+    "eyes": "dec35f",
+    "hair": "48372e",
+    "hair_light": "544035",
+    "leather": "573e32",
+    "lip": "475e30",
+    "metal": "85715b",
+    "pupil": "272a2b",
+    "sclera": "d4d1bc",
+    "secondary": "c1c88a",
+    "shadow": "3e532a",
+    "skin": "628342"
+  },
+  "schema_version": 1,
+  "stages": [
+    "Основные массы и опоры",
+    "Голова и анатомия",
+    "Одежда и защитные пластины",
+    "Отличительные детали",
+    "Кисти, опоры и завершающие акценты"
+  ],
+  "team_materials": [
+    "cloth"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "derived_files": {
+    "front.png": "37bfe5c68987b486d408ce8b2c116cf0353216c360f9a4b9b1034904571e1e69"
+  },
+  "files": {
+    "left_arm.glb": "e5c47eb48bdc24e72a99b161cfb365b3fc27d3e85a57adadc75ddbcc62a744af",
+    "left_leg.glb": "9f9ddba8136c9a7b67933b87f72e5ca6c182ded47cbcd2f6393fa2f9d60ec5f9",
+    "recipe.json": "c537d789d39290e7f42ff7cb9f28c1fe51bd3d635beb13111ca92cd8fb7cc56f",
+    "right_arm.glb": "672ecc160eb88acb9ed5c1ab5decc40dd714415a497bd05ab9119bd9a053cb0c",
+    "right_leg.glb": "97d3692b9748ca998e88aeea796d8c4dc92478b93dda934257d1e5b092b1df57",
+    "torso.glb": "e0c1ad7f1ce3c240ccb8faa2da6eef9be196e0af3364167fdd149f9fa5f70c6b"
+  },
+  "schema_version": 2,
+  "triangles": 1884
+}

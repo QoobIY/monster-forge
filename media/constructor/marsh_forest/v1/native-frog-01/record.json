@@ -1,0 +1,13 @@
+{
+  "contract": "quadruped_v1",
+  "description_ru": "Четвероногие земноводные с широким ртом, выпуклыми глазами, складными задними ногами и перепонками.",
+  "gender": "male",
+  "hair": "cropped",
+  "id": "native-frog-01",
+  "label": "Болотная лягушка",
+  "own_body": true,
+  "race": "frog",
+  "rig": "quadruped_v1",
+  "schema_version": 1,
+  "variant": 0
+}

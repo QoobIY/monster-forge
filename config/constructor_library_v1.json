@@ -1,0 +1,968 @@
+{
+  "schema_version": 1,
+  "id": "constructor_library_v1",
+  "contract": "humanoid_v1",
+  "designs": [
+    {
+      "id": "library-human-01",
+      "label": "Люди · Страж Латунных Ворот",
+      "race": "human",
+      "gender": "male",
+      "costume": "warden",
+      "hair": "swept",
+      "face": {
+        "width": 0.208,
+        "jaw": 0.74,
+        "nose": 0.035,
+        "eye_tilt": -0.003
+      },
+      "palette": {
+        "skin": "bc9170",
+        "hair": "463e39",
+        "iris": "6d7e68",
+        "cloth": "7d8062",
+        "accent": "bc9a58",
+        "leather": "514437",
+        "metal": "697176"
+      },
+      "library_variant": 1
+    },
+    {
+      "id": "library-human-02",
+      "label": "Люди · Картограф Приливов",
+      "race": "human",
+      "gender": "female",
+      "costume": "scholar",
+      "hair": "bob",
+      "face": {
+        "width": 0.185,
+        "jaw": 0.53,
+        "nose": 0.046,
+        "eye_tilt": 0.008
+      },
+      "palette": {
+        "skin": "bc9170",
+        "hair": "975e3e",
+        "iris": "809ba1",
+        "cloth": "3f727b",
+        "accent": "c0b697",
+        "leather": "67503f",
+        "metal": "87969a"
+      },
+      "library_variant": 2
+    },
+    {
+      "id": "library-human-03",
+      "label": "Люди · Кузнец Угольного Двора",
+      "race": "human",
+      "gender": "male",
+      "costume": "forger",
+      "hair": "knot",
+      "face": {
+        "width": 0.249,
+        "jaw": 0.98,
+        "nose": 0.071,
+        "eye_tilt": -0.01
+      },
+      "palette": {
+        "skin": "bc9170",
+        "hair": "4f352d",
+        "iris": "b49b58",
+        "cloth": "625b4a",
+        "accent": "bb8251",
+        "leather": "5d3e30",
+        "metal": "676d6e"
+      },
+      "library_variant": 3
+    },
+    {
+      "id": "library-human-04",
+      "label": "Люди · Следопыт Лунной Рощи",
+      "race": "human",
+      "gender": "female",
+      "costume": "ranger",
+      "hair": "twin-braids",
+      "face": {
+        "width": 0.193,
+        "jaw": 0.62,
+        "nose": 0.052,
+        "eye_tilt": 0.012
+      },
+      "palette": {
+        "skin": "bc9170",
+        "hair": "685441",
+        "iris": "9ca965",
+        "cloth": "566e58",
+        "accent": "b4ba8c",
+        "leather": "66503e",
+        "metal": "868d85"
+      },
+      "library_variant": 4
+    },
+    {
+      "id": "library-human-05",
+      "label": "Люди · Страж Базальтового Моста",
+      "race": "human",
+      "gender": "male",
+      "costume": "basalt",
+      "hair": "mane",
+      "face": {
+        "width": 0.26,
+        "jaw": 0.91,
+        "nose": 0.082,
+        "eye_tilt": -0.006
+      },
+      "palette": {
+        "skin": "bc9170",
+        "hair": "4d4943",
+        "iris": "aa9867",
+        "cloth": "555a60",
+        "accent": "b89565",
+        "leather": "574634",
+        "metal": "777d80"
+      },
+      "library_variant": 5
+    },
+    {
+      "id": "library-human-06",
+      "label": "Люди · Проводница Снежных Троп",
+      "race": "human",
+      "gender": "female",
+      "costume": "pathfinder",
+      "hair": "forelock",
+      "face": {
+        "width": 0.217,
+        "jaw": 0.64,
+        "nose": 0.065,
+        "eye_tilt": 0.003
+      },
+      "palette": {
+        "skin": "bc9170",
+        "hair": "778286",
+        "iris": "779ca1",
+        "cloth": "526a80",
+        "accent": "c2c6bb",
+        "leather": "5d5148",
+        "metal": "899599"
+      },
+      "library_variant": 6
+    },
+    {
+      "id": "library-human-07",
+      "label": "Люди · Целительница Белого Круга",
+      "race": "human",
+      "gender": "male",
+      "costume": "healer",
+      "hair": "braided-bun",
+      "face": {
+        "width": 0.225,
+        "jaw": 0.82,
+        "nose": 0.038,
+        "eye_tilt": -0.012
+      },
+      "palette": {
+        "skin": "bc9170",
+        "hair": "b5ab91",
+        "iris": "7d967a",
+        "cloth": "c7c7b5",
+        "accent": "7997a1",
+        "leather": "8a7960",
+        "metal": "ae9b70"
+      },
+      "library_variant": 7
+    },
+    {
+      "id": "library-human-08",
+      "label": "Люди · Архивариус Тёмных Чернил",
+      "race": "human",
+      "gender": "female",
+      "costume": "archivist",
+      "hair": "cropped",
+      "face": {
+        "width": 0.201,
+        "jaw": 0.57,
+        "nose": 0.03,
+        "eye_tilt": 0.001
+      },
+      "palette": {
+        "skin": "bc9170",
+        "hair": "494654",
+        "iris": "759b99",
+        "cloth": "454557",
+        "accent": "b9ab87",
+        "leather": "5a4b43",
+        "metal": "8a857e"
+      },
+      "library_variant": 8
+    },
+    {
+      "id": "library-human-09",
+      "label": "Люди · Посол Медной Палаты",
+      "race": "human",
+      "gender": "male",
+      "costume": "envoy",
+      "hair": "slick",
+      "face": {
+        "width": 0.233,
+        "jaw": 0.76,
+        "nose": 0.073,
+        "eye_tilt": 0.006
+      },
+      "palette": {
+        "skin": "bc9170",
+        "hair": "383b40",
+        "iris": "ba995d",
+        "cloth": "744c56",
+        "accent": "b48d65",
+        "leather": "51413e",
+        "metal": "a5825e"
+      },
+      "library_variant": 9
+    },
+    {
+      "id": "library-human-10",
+      "label": "Люди · Мастерица Южных Полей",
+      "race": "human",
+      "gender": "female",
+      "costume": "artisan",
+      "hair": "wrapped-braid",
+      "face": {
+        "width": 0.213,
+        "jaw": 0.67,
+        "nose": 0.058,
+        "eye_tilt": -0.001
+      },
+      "palette": {
+        "skin": "bc9170",
+        "hair": "654330",
+        "iris": "879273",
+        "cloth": "a47752",
+        "accent": "c6ba96",
+        "leather": "6b4a39",
+        "metal": "8b8f83"
+      },
+      "library_variant": 10
+    },
+    {
+      "id": "library-orc-01",
+      "label": "Орки · Страж Латунных Ворот",
+      "race": "orc",
+      "gender": "male",
+      "costume": "warden",
+      "hair": "swept",
+      "face": {
+        "width": 0.208,
+        "jaw": 0.74,
+        "nose": 0.035,
+        "eye_tilt": -0.003
+      },
+      "palette": {
+        "skin": "768267",
+        "hair": "463e39",
+        "iris": "6d7e68",
+        "cloth": "7d8062",
+        "accent": "bc9a58",
+        "leather": "514437",
+        "metal": "697176"
+      },
+      "library_variant": 1
+    },
+    {
+      "id": "library-orc-02",
+      "label": "Орки · Картограф Приливов",
+      "race": "orc",
+      "gender": "female",
+      "costume": "scholar",
+      "hair": "bob",
+      "face": {
+        "width": 0.185,
+        "jaw": 0.53,
+        "nose": 0.046,
+        "eye_tilt": 0.008
+      },
+      "palette": {
+        "skin": "768267",
+        "hair": "975e3e",
+        "iris": "809ba1",
+        "cloth": "3f727b",
+        "accent": "c0b697",
+        "leather": "67503f",
+        "metal": "87969a"
+      },
+      "library_variant": 2
+    },
+    {
+      "id": "library-orc-03",
+      "label": "Орки · Кузнец Угольного Двора",
+      "race": "orc",
+      "gender": "male",
+      "costume": "forger",
+      "hair": "knot",
+      "face": {
+        "width": 0.249,
+        "jaw": 0.98,
+        "nose": 0.071,
+        "eye_tilt": -0.01
+      },
+      "palette": {
+        "skin": "768267",
+        "hair": "4f352d",
+        "iris": "b49b58",
+        "cloth": "625b4a",
+        "accent": "bb8251",
+        "leather": "5d3e30",
+        "metal": "676d6e"
+      },
+      "library_variant": 3
+    },
+    {
+      "id": "library-orc-04",
+      "label": "Орки · Следопыт Лунной Рощи",
+      "race": "orc",
+      "gender": "female",
+      "costume": "ranger",
+      "hair": "twin-braids",
+      "face": {
+        "width": 0.193,
+        "jaw": 0.62,
+        "nose": 0.052,
+        "eye_tilt": 0.012
+      },
+      "palette": {
+        "skin": "768267",
+        "hair": "685441",
+        "iris": "9ca965",
+        "cloth": "566e58",
+        "accent": "b4ba8c",
+        "leather": "66503e",
+        "metal": "868d85"
+      },
+      "library_variant": 4
+    },
+    {
+      "id": "library-orc-05",
+      "label": "Орки · Страж Базальтового Моста",
+      "race": "orc",
+      "gender": "male",
+      "costume": "basalt",
+      "hair": "mane",
+      "face": {
+        "width": 0.26,
+        "jaw": 0.91,
+        "nose": 0.082,
+        "eye_tilt": -0.006
+      },
+      "palette": {
+        "skin": "768267",
+        "hair": "4d4943",
+        "iris": "aa9867",
+        "cloth": "555a60",
+        "accent": "b89565",
+        "leather": "574634",
+        "metal": "777d80"
+      },
+      "library_variant": 5
+    },
+    {
+      "id": "library-orc-06",
+      "label": "Орки · Проводница Снежных Троп",
+      "race": "orc",
+      "gender": "female",
+      "costume": "pathfinder",
+      "hair": "forelock",
+      "face": {
+        "width": 0.217,
+        "jaw": 0.64,
+        "nose": 0.065,
+        "eye_tilt": 0.003
+      },
+      "palette": {
+        "skin": "768267",
+        "hair": "778286",
+        "iris": "779ca1",
+        "cloth": "526a80",
+        "accent": "c2c6bb",
+        "leather": "5d5148",
+        "metal": "899599"
+      },
+      "library_variant": 6
+    },
+    {
+      "id": "library-orc-07",
+      "label": "Орки · Целительница Белого Круга",
+      "race": "orc",
+      "gender": "male",
+      "costume": "healer",
+      "hair": "braided-bun",
+      "face": {
+        "width": 0.225,
+        "jaw": 0.82,
+        "nose": 0.038,
+        "eye_tilt": -0.012
+      },
+      "palette": {
+        "skin": "768267",
+        "hair": "b5ab91",
+        "iris": "7d967a",
+        "cloth": "c7c7b5",
+        "accent": "7997a1",
+        "leather": "8a7960",
+        "metal": "ae9b70"
+      },
+      "library_variant": 7
+    },
+    {
+      "id": "library-orc-08",
+      "label": "Орки · Архивариус Тёмных Чернил",
+      "race": "orc",
+      "gender": "female",
+      "costume": "archivist",
+      "hair": "cropped",
+      "face": {
+        "width": 0.201,
+        "jaw": 0.57,
+        "nose": 0.03,
+        "eye_tilt": 0.001
+      },
+      "palette": {
+        "skin": "768267",
+        "hair": "494654",
+        "iris": "759b99",
+        "cloth": "454557",
+        "accent": "b9ab87",
+        "leather": "5a4b43",
+        "metal": "8a857e"
+      },
+      "library_variant": 8
+    },
+    {
+      "id": "library-orc-09",
+      "label": "Орки · Посол Медной Палаты",
+      "race": "orc",
+      "gender": "male",
+      "costume": "envoy",
+      "hair": "slick",
+      "face": {
+        "width": 0.233,
+        "jaw": 0.76,
+        "nose": 0.073,
+        "eye_tilt": 0.006
+      },
+      "palette": {
+        "skin": "768267",
+        "hair": "383b40",
+        "iris": "ba995d",
+        "cloth": "744c56",
+        "accent": "b48d65",
+        "leather": "51413e",
+        "metal": "a5825e"
+      },
+      "library_variant": 9
+    },
+    {
+      "id": "library-orc-10",
+      "label": "Орки · Мастерица Южных Полей",
+      "race": "orc",
+      "gender": "female",
+      "costume": "artisan",
+      "hair": "wrapped-braid",
+      "face": {
+        "width": 0.213,
+        "jaw": 0.67,
+        "nose": 0.058,
+        "eye_tilt": -0.001
+      },
+      "palette": {
+        "skin": "768267",
+        "hair": "654330",
+        "iris": "879273",
+        "cloth": "a47752",
+        "accent": "c6ba96",
+        "leather": "6b4a39",
+        "metal": "8b8f83"
+      },
+      "library_variant": 10
+    },
+    {
+      "id": "library-minotaur-01",
+      "label": "Минотавры · Страж Латунных Ворот",
+      "race": "minotaur",
+      "gender": "male",
+      "costume": "warden",
+      "hair": "swept",
+      "face": {
+        "width": 0.208,
+        "jaw": 0.74,
+        "nose": 0.035,
+        "eye_tilt": -0.003
+      },
+      "palette": {
+        "skin": "88715c",
+        "hair": "463e39",
+        "iris": "6d7e68",
+        "cloth": "7d8062",
+        "accent": "bc9a58",
+        "leather": "514437",
+        "metal": "697176"
+      },
+      "library_variant": 1
+    },
+    {
+      "id": "library-minotaur-02",
+      "label": "Минотавры · Картограф Приливов",
+      "race": "minotaur",
+      "gender": "female",
+      "costume": "scholar",
+      "hair": "bob",
+      "face": {
+        "width": 0.185,
+        "jaw": 0.53,
+        "nose": 0.046,
+        "eye_tilt": 0.008
+      },
+      "palette": {
+        "skin": "88715c",
+        "hair": "975e3e",
+        "iris": "809ba1",
+        "cloth": "3f727b",
+        "accent": "c0b697",
+        "leather": "67503f",
+        "metal": "87969a"
+      },
+      "library_variant": 2
+    },
+    {
+      "id": "library-minotaur-03",
+      "label": "Минотавры · Кузнец Угольного Двора",
+      "race": "minotaur",
+      "gender": "male",
+      "costume": "forger",
+      "hair": "knot",
+      "face": {
+        "width": 0.249,
+        "jaw": 0.98,
+        "nose": 0.071,
+        "eye_tilt": -0.01
+      },
+      "palette": {
+        "skin": "88715c",
+        "hair": "4f352d",
+        "iris": "b49b58",
+        "cloth": "625b4a",
+        "accent": "bb8251",
+        "leather": "5d3e30",
+        "metal": "676d6e"
+      },
+      "library_variant": 3
+    },
+    {
+      "id": "library-minotaur-04",
+      "label": "Минотавры · Следопыт Лунной Рощи",
+      "race": "minotaur",
+      "gender": "female",
+      "costume": "ranger",
+      "hair": "twin-braids",
+      "face": {
+        "width": 0.193,
+        "jaw": 0.62,
+        "nose": 0.052,
+        "eye_tilt": 0.012
+      },
+      "palette": {
+        "skin": "88715c",
+        "hair": "685441",
+        "iris": "9ca965",
+        "cloth": "566e58",
+        "accent": "b4ba8c",
+        "leather": "66503e",
+        "metal": "868d85"
+      },
+      "library_variant": 4
+    },
+    {
+      "id": "library-minotaur-05",
+      "label": "Минотавры · Страж Базальтового Моста",
+      "race": "minotaur",
+      "gender": "male",
+      "costume": "basalt",
+      "hair": "mane",
+      "face": {
+        "width": 0.26,
+        "jaw": 0.91,
+        "nose": 0.082,
+        "eye_tilt": -0.006
+      },
+      "palette": {
+        "skin": "88715c",
+        "hair": "4d4943",
+        "iris": "aa9867",
+        "cloth": "555a60",
+        "accent": "b89565",
+        "leather": "574634",
+        "metal": "777d80"
+      },
+      "library_variant": 5
+    },
+    {
+      "id": "library-minotaur-06",
+      "label": "Минотавры · Проводница Снежных Троп",
+      "race": "minotaur",
+      "gender": "female",
+      "costume": "pathfinder",
+      "hair": "forelock",
+      "face": {
+        "width": 0.217,
+        "jaw": 0.64,
+        "nose": 0.065,
+        "eye_tilt": 0.003
+      },
+      "palette": {
+        "skin": "88715c",
+        "hair": "778286",
+        "iris": "779ca1",
+        "cloth": "526a80",
+        "accent": "c2c6bb",
+        "leather": "5d5148",
+        "metal": "899599"
+      },
+      "library_variant": 6
+    },
+    {
+      "id": "library-minotaur-07",
+      "label": "Минотавры · Целительница Белого Круга",
+      "race": "minotaur",
+      "gender": "male",
+      "costume": "healer",
+      "hair": "braided-bun",
+      "face": {
+        "width": 0.225,
+        "jaw": 0.82,
+        "nose": 0.038,
+        "eye_tilt": -0.012
+      },
+      "palette": {
+        "skin": "88715c",
+        "hair": "b5ab91",
+        "iris": "7d967a",
+        "cloth": "c7c7b5",
+        "accent": "7997a1",
+        "leather": "8a7960",
+        "metal": "ae9b70"
+      },
+      "library_variant": 7
+    },
+    {
+      "id": "library-minotaur-08",
+      "label": "Минотавры · Архивариус Тёмных Чернил",
+      "race": "minotaur",
+      "gender": "female",
+      "costume": "archivist",
+      "hair": "cropped",
+      "face": {
+        "width": 0.201,
+        "jaw": 0.57,
+        "nose": 0.03,
+        "eye_tilt": 0.001
+      },
+      "palette": {
+        "skin": "88715c",
+        "hair": "494654",
+        "iris": "759b99",
+        "cloth": "454557",
+        "accent": "b9ab87",
+        "leather": "5a4b43",
+        "metal": "8a857e"
+      },
+      "library_variant": 8
+    },
+    {
+      "id": "library-minotaur-09",
+      "label": "Минотавры · Посол Медной Палаты",
+      "race": "minotaur",
+      "gender": "male",
+      "costume": "envoy",
+      "hair": "slick",
+      "face": {
+        "width": 0.233,
+        "jaw": 0.76,
+        "nose": 0.073,
+        "eye_tilt": 0.006
+      },
+      "palette": {
+        "skin": "88715c",
+        "hair": "383b40",
+        "iris": "ba995d",
+        "cloth": "744c56",
+        "accent": "b48d65",
+        "leather": "51413e",
+        "metal": "a5825e"
+      },
+      "library_variant": 9
+    },
+    {
+      "id": "library-minotaur-10",
+      "label": "Минотавры · Мастерица Южных Полей",
+      "race": "minotaur",
+      "gender": "female",
+      "costume": "artisan",
+      "hair": "wrapped-braid",
+      "face": {
+        "width": 0.213,
+        "jaw": 0.67,
+        "nose": 0.058,
+        "eye_tilt": -0.001
+      },
+      "palette": {
+        "skin": "88715c",
+        "hair": "654330",
+        "iris": "879273",
+        "cloth": "a47752",
+        "accent": "c6ba96",
+        "leather": "6b4a39",
+        "metal": "8b8f83"
+      },
+      "library_variant": 10
+    },
+    {
+      "id": "library-skeleton-01",
+      "label": "Скелеты · Страж Латунных Ворот",
+      "race": "skeleton",
+      "gender": "male",
+      "costume": "warden",
+      "hair": "swept",
+      "face": {
+        "width": 0.208,
+        "jaw": 0.74,
+        "nose": 0.035,
+        "eye_tilt": -0.003
+      },
+      "palette": {
+        "skin": "c5bea6",
+        "hair": "463e39",
+        "iris": "6d7e68",
+        "cloth": "7d8062",
+        "accent": "bc9a58",
+        "leather": "514437",
+        "metal": "697176"
+      },
+      "library_variant": 1
+    },
+    {
+      "id": "library-skeleton-02",
+      "label": "Скелеты · Картограф Приливов",
+      "race": "skeleton",
+      "gender": "male",
+      "costume": "scholar",
+      "hair": "bob",
+      "face": {
+        "width": 0.185,
+        "jaw": 0.53,
+        "nose": 0.046,
+        "eye_tilt": 0.008
+      },
+      "palette": {
+        "skin": "c5bea6",
+        "hair": "975e3e",
+        "iris": "809ba1",
+        "cloth": "3f727b",
+        "accent": "c0b697",
+        "leather": "67503f",
+        "metal": "87969a"
+      },
+      "library_variant": 2
+    },
+    {
+      "id": "library-skeleton-03",
+      "label": "Скелеты · Кузнец Угольного Двора",
+      "race": "skeleton",
+      "gender": "male",
+      "costume": "forger",
+      "hair": "knot",
+      "face": {
+        "width": 0.249,
+        "jaw": 0.98,
+        "nose": 0.071,
+        "eye_tilt": -0.01
+      },
+      "palette": {
+        "skin": "c5bea6",
+        "hair": "4f352d",
+        "iris": "b49b58",
+        "cloth": "625b4a",
+        "accent": "bb8251",
+        "leather": "5d3e30",
+        "metal": "676d6e"
+      },
+      "library_variant": 3
+    },
+    {
+      "id": "library-skeleton-04",
+      "label": "Скелеты · Следопыт Лунной Рощи",
+      "race": "skeleton",
+      "gender": "male",
+      "costume": "ranger",
+      "hair": "twin-braids",
+      "face": {
+        "width": 0.193,
+        "jaw": 0.62,
+        "nose": 0.052,
+        "eye_tilt": 0.012
+      },
+      "palette": {
+        "skin": "c5bea6",
+        "hair": "685441",
+        "iris": "9ca965",
+        "cloth": "566e58",
+        "accent": "b4ba8c",
+        "leather": "66503e",
+        "metal": "868d85"
+      },
+      "library_variant": 4
+    },
+    {
+      "id": "library-skeleton-05",
+      "label": "Скелеты · Страж Базальтового Моста",
+      "race": "skeleton",
+      "gender": "male",
+      "costume": "basalt",
+      "hair": "mane",
+      "face": {
+        "width": 0.26,
+        "jaw": 0.91,
+        "nose": 0.082,
+        "eye_tilt": -0.006
+      },
+      "palette": {
+        "skin": "c5bea6",
+        "hair": "4d4943",
+        "iris": "aa9867",
+        "cloth": "555a60",
+        "accent": "b89565",
+        "leather": "574634",
+        "metal": "777d80"
+      },
+      "library_variant": 5
+    },
+    {
+      "id": "library-skeleton-06",
+      "label": "Скелеты · Проводница Снежных Троп",
+      "race": "skeleton",
+      "gender": "male",
+      "costume": "pathfinder",
+      "hair": "forelock",
+      "face": {
+        "width": 0.217,
+        "jaw": 0.64,
+        "nose": 0.065,
+        "eye_tilt": 0.003
+      },
+      "palette": {
+        "skin": "c5bea6",
+        "hair": "778286",
+        "iris": "779ca1",
+        "cloth": "526a80",
+        "accent": "c2c6bb",
+        "leather": "5d5148",
+        "metal": "899599"
+      },
+      "library_variant": 6
+    },
+    {
+      "id": "library-skeleton-07",
+      "label": "Скелеты · Целительница Белого Круга",
+      "race": "skeleton",
+      "gender": "male",
+      "costume": "healer",
+      "hair": "braided-bun",
+      "face": {
+        "width": 0.225,
+        "jaw": 0.82,
+        "nose": 0.038,
+        "eye_tilt": -0.012
+      },
+      "palette": {
+        "skin": "c5bea6",
+        "hair": "b5ab91",
+        "iris": "7d967a",
+        "cloth": "c7c7b5",
+        "accent": "7997a1",
+        "leather": "8a7960",
+        "metal": "ae9b70"
+      },
+      "library_variant": 7
+    },
+    {
+      "id": "library-skeleton-08",
+      "label": "Скелеты · Архивариус Тёмных Чернил",
+      "race": "skeleton",
+      "gender": "male",
+      "costume": "archivist",
+      "hair": "cropped",
+      "face": {
+        "width": 0.201,
+        "jaw": 0.57,
+        "nose": 0.03,
+        "eye_tilt": 0.001
+      },
+      "palette": {
+        "skin": "c5bea6",
+        "hair": "494654",
+        "iris": "759b99",
+        "cloth": "454557",
+        "accent": "b9ab87",
+        "leather": "5a4b43",
+        "metal": "8a857e"
+      },
+      "library_variant": 8
+    },
+    {
+      "id": "library-skeleton-09",
+      "label": "Скелеты · Посол Медной Палаты",
+      "race": "skeleton",
+      "gender": "male",
+      "costume": "envoy",
+      "hair": "slick",
+      "face": {
+        "width": 0.233,
+        "jaw": 0.76,
+        "nose": 0.073,
+        "eye_tilt": 0.006
+      },
+      "palette": {
+        "skin": "c5bea6",
+        "hair": "383b40",
+        "iris": "ba995d",
+        "cloth": "744c56",
+        "accent": "b48d65",
+        "leather": "51413e",
+        "metal": "a5825e"
+      },
+      "library_variant": 9
+    },
+    {
+      "id": "library-skeleton-10",
+      "label": "Скелеты · Мастерица Южных Полей",
+      "race": "skeleton",
+      "gender": "male",
+      "costume": "artisan",
+      "hair": "wrapped-braid",
+      "face": {
+        "width": 0.213,
+        "jaw": 0.67,
+        "nose": 0.058,
+        "eye_tilt": -0.001
+      },
+      "palette": {
+        "skin": "c5bea6",
+        "hair": "654330",
+        "iris": "879273",
+        "cloth": "a47752",
+        "accent": "c6ba96",
+        "leather": "6b4a39",
+        "metal": "8b8f83"
+      },
+      "library_variant": 10
+    }
+  ],
+  "variants_per_race": 10
+}

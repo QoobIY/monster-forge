@@ -1,0 +1,1646 @@
+{
+  "attribute_reference": {
+    "authoring_revision": 1,
+    "authoring_sha256": "e56a294b021eb58bb982901f3f3d2be22a611e5b3f368faea374ba263b48b05f",
+    "category": "headwear",
+    "cell_pixels": [
+      1228,
+      512,
+      1536,
+      1024
+    ],
+    "depth_status": "Manually authored volumes; Front reference supplies silhouette/proportions only",
+    "design": {
+      "costume": "warden",
+      "face": {
+        "eye_tilt": -0.009,
+        "jaw": 0.8,
+        "nose": 0.048,
+        "width": 0.227
+      },
+      "gender": "male",
+      "hair": "swept",
+      "id": "hand-headwear-10",
+      "label": "headwear",
+      "library_variant": 10,
+      "palette": {
+        "accent": "d6c5a0",
+        "cloth": "35516d",
+        "hair": "614633",
+        "iris": "685d42",
+        "leather": "654833",
+        "metal": "919ba3",
+        "secondary": "938466",
+        "skin": "bd9577"
+      },
+      "race": "human"
+    },
+    "generation": {
+      "combined_mask": "../attribute_grid_mask_v1.png",
+      "combined_mask_sha256": "b67288dead6f5e6c48d8f0e1412d7cd39bbd08158e42df904c008ee3d6ac2234",
+      "id": "headwear",
+      "image": "front.png",
+      "image_sha256": "d9c361a7b844326184eb15ee87abbc79f34e2dd70bf2d51a37fcf362f2b285c7",
+      "label": "Головные аксессуары",
+      "layout": {
+        "columns": 5,
+        "count": 10,
+        "rows": 2
+      },
+      "mask_transmission": "builtin tool has no mask argument; layout constraints in prompt",
+      "model_snapshot": null,
+      "model_snapshot_status": "not exposed by built-in tool",
+      "production_pool": false,
+      "prompt": "prompt.txt",
+      "prompt_sha256": "fc0876a8fa1339358066b4210a6dcf42bf6a99ef36208dbcacb6dacfc3e77aac",
+      "purpose": "Ten attribute variants in one image; concept references, not reconstructed GLB assets",
+      "raw_response": "tool-response.json",
+      "raw_response_sha256": "32a9b68a988f2d745c25c2945294cb8ce143ce1445351dc8e3349ef00a3bf47e",
+      "schema_version": 1,
+      "style_reference_images": [],
+      "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+      "template_id": "constructor_attribute_grid_master_v1",
+      "template_sha256": "1577ff27f8a8c175c23674db6031a6b0c1b3b9e098061f31a0151a6157269c84",
+      "tool": "image_gen.imagegen",
+      "variant_count": 10,
+      "view": "Front"
+    },
+    "image": "media/experiments/constructor_attribute_references/v1/headwear/front.png",
+    "image_sha256": "d9c361a7b844326184eb15ee87abbc79f34e2dd70bf2d51a37fcf362f2b285c7",
+    "material_groups": {
+      "atlas_headwear_10_accent": "accent",
+      "atlas_headwear_10_bone": "fixed",
+      "atlas_headwear_10_cloth": "cloth",
+      "atlas_headwear_10_dark": "fixed",
+      "atlas_headwear_10_decor_accent": "accent",
+      "atlas_headwear_10_decor_bone": "fixed",
+      "atlas_headwear_10_decor_cloth": "cloth",
+      "atlas_headwear_10_decor_dark": "fixed",
+      "atlas_headwear_10_decor_hair": "hair",
+      "atlas_headwear_10_decor_hair_light": "hair",
+      "atlas_headwear_10_decor_iris": "eyes",
+      "atlas_headwear_10_decor_leather": "leather",
+      "atlas_headwear_10_decor_lip": "skin",
+      "atlas_headwear_10_decor_metal": "metal",
+      "atlas_headwear_10_decor_pupil": "fixed",
+      "atlas_headwear_10_decor_sclera": "fixed",
+      "atlas_headwear_10_decor_secondary": "secondary",
+      "atlas_headwear_10_decor_shadow": "skin",
+      "atlas_headwear_10_decor_skin": "skin",
+      "atlas_headwear_10_hair": "hair",
+      "atlas_headwear_10_hair_light": "hair",
+      "atlas_headwear_10_iris": "eyes",
+      "atlas_headwear_10_leather": "leather",
+      "atlas_headwear_10_lip": "skin",
+      "atlas_headwear_10_metal": "metal",
+      "atlas_headwear_10_pupil": "fixed",
+      "atlas_headwear_10_sclera": "fixed",
+      "atlas_headwear_10_secondary": "secondary",
+      "atlas_headwear_10_shadow": "skin",
+      "atlas_headwear_10_skin": "skin"
+    },
+    "method": "manual_low_poly_volumes",
+    "prompt_sha256": "fc0876a8fa1339358066b4210a6dcf42bf6a99ef36208dbcacb6dacfc3e77aac",
+    "schema_version": 1,
+    "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+    "variant": 10
+  },
+  "commands": [
+    {
+      "authored_primitive": {
+        "authored_primitive": {
+          "authored_outline_metres": [
+            [
+              -0.18,
+              2.36,
+              0.265
+            ],
+            [
+              0.18,
+              2.36,
+              0.265
+            ],
+            [
+              0.14,
+              2.29,
+              0.275
+            ],
+            [
+              0,
+              2.3,
+              0.3
+            ],
+            [
+              -0.14,
+              2.29,
+              0.275
+            ]
+          ],
+          "depth_assumption": {
+            "back_metres": [
+              0.249,
+              0.249,
+              0.259,
+              0.284,
+              0.259
+            ],
+            "bevel_fraction": 0.09,
+            "crown_metres": 0.006,
+            "front_metres": [
+              0.265,
+              0.265,
+              0.275,
+              0.3,
+              0.275
+            ]
+          },
+          "faces": [
+            [
+              5,
+              1,
+              0
+            ],
+            [
+              5,
+              6,
+              1
+            ],
+            [
+              1,
+              10,
+              0
+            ],
+            [
+              11,
+              10,
+              1
+            ],
+            [
+              6,
+              2,
+              1
+            ],
+            [
+              6,
+              7,
+              2
+            ],
+            [
+              2,
+              11,
+              1
+            ],
+            [
+              12,
+              11,
+              2
+            ],
+            [
+              7,
+              3,
+              2
+            ],
+            [
+              7,
+              8,
+              3
+            ],
+            [
+              3,
+              12,
+              2
+            ],
+            [
+              13,
+              12,
+              3
+            ],
+            [
+              8,
+              4,
+              3
+            ],
+            [
+              8,
+              9,
+              4
+            ],
+            [
+              4,
+              13,
+              3
+            ],
+            [
+              14,
+              13,
+              4
+            ],
+            [
+              9,
+              0,
+              4
+            ],
+            [
+              9,
+              5,
+              0
+            ],
+            [
+              0,
+              14,
+              4
+            ],
+            [
+              10,
+              14,
+              0
+            ],
+            [
+              15,
+              6,
+              5
+            ],
+            [
+              15,
+              7,
+              6
+            ],
+            [
+              15,
+              8,
+              7
+            ],
+            [
+              15,
+              9,
+              8
+            ],
+            [
+              15,
+              5,
+              9
+            ],
+            [
+              14,
+              10,
+              11
+            ],
+            [
+              11,
+              12,
+              13
+            ],
+            [
+              11,
+              13,
+              14
+            ]
+          ],
+          "id": "c001",
+          "material": "metal",
+          "op": "indexed_mesh",
+          "part": "ornament_half_mask",
+          "purpose": "ornament half mask",
+          "slot": "head",
+          "stage": 4,
+          "vertices": [
+            [
+              -0.18,
+              2.36,
+              0.265
+            ],
+            [
+              0.18,
+              2.36,
+              0.265
+            ],
+            [
+              0.14,
+              2.29,
+              0.275
+            ],
+            [
+              0.0,
+              2.3,
+              0.3
+            ],
+            [
+              -0.14,
+              2.29,
+              0.275
+            ],
+            [
+              -0.1638,
+              2.3564,
+              0.271
+            ],
+            [
+              0.1638,
+              2.3564,
+              0.271
+            ],
+            [
+              0.1274,
+              2.2927,
+              0.281
+            ],
+            [
+              0.0,
+              2.3018,
+              0.306
+            ],
+            [
+              -0.1274,
+              2.2927,
+              0.281
+            ],
+            [
+              -0.18,
+              2.36,
+              0.249
+            ],
+            [
+              0.18,
+              2.36,
+              0.249
+            ],
+            [
+              0.14,
+              2.29,
+              0.259
+            ],
+            [
+              0.0,
+              2.3,
+              0.284
+            ],
+            [
+              -0.14,
+              2.29,
+              0.259
+            ],
+            [
+              0.0,
+              2.32,
+              0.2904
+            ]
+          ]
+        },
+        "faces": [
+          [
+            5,
+            1,
+            0
+          ],
+          [
+            5,
+            6,
+            1
+          ],
+          [
+            1,
+            10,
+            0
+          ],
+          [
+            11,
+            10,
+            1
+          ],
+          [
+            6,
+            2,
+            1
+          ],
+          [
+            6,
+            7,
+            2
+          ],
+          [
+            2,
+            11,
+            1
+          ],
+          [
+            12,
+            11,
+            2
+          ],
+          [
+            7,
+            3,
+            2
+          ],
+          [
+            7,
+            8,
+            3
+          ],
+          [
+            3,
+            12,
+            2
+          ],
+          [
+            13,
+            12,
+            3
+          ],
+          [
+            8,
+            4,
+            3
+          ],
+          [
+            8,
+            9,
+            4
+          ],
+          [
+            4,
+            13,
+            3
+          ],
+          [
+            14,
+            13,
+            4
+          ],
+          [
+            9,
+            0,
+            4
+          ],
+          [
+            9,
+            5,
+            0
+          ],
+          [
+            0,
+            14,
+            4
+          ],
+          [
+            10,
+            14,
+            0
+          ],
+          [
+            15,
+            6,
+            5
+          ],
+          [
+            15,
+            7,
+            6
+          ],
+          [
+            15,
+            8,
+            7
+          ],
+          [
+            15,
+            9,
+            8
+          ],
+          [
+            15,
+            5,
+            9
+          ],
+          [
+            14,
+            10,
+            11
+          ],
+          [
+            11,
+            12,
+            13
+          ],
+          [
+            11,
+            13,
+            14
+          ]
+        ],
+        "id": "decor_head_0",
+        "material": "decor_metal",
+        "op": "indexed_mesh",
+        "part": "ornament_half_mask",
+        "purpose": "User-selected ornament; immutable body part revision",
+        "slot": "head",
+        "stage": 4,
+        "vertices": [
+          [
+            -0.18,
+            2.36,
+            0.265
+          ],
+          [
+            0.18,
+            2.36,
+            0.265
+          ],
+          [
+            0.14,
+            2.29,
+            0.275
+          ],
+          [
+            0.0,
+            2.3,
+            0.3
+          ],
+          [
+            -0.14,
+            2.29,
+            0.275
+          ],
+          [
+            -0.1638,
+            2.3564,
+            0.271
+          ],
+          [
+            0.1638,
+            2.3564,
+            0.271
+          ],
+          [
+            0.1274,
+            2.2927,
+            0.281
+          ],
+          [
+            0.0,
+            2.3018,
+            0.306
+          ],
+          [
+            -0.1274,
+            2.2927,
+            0.281
+          ],
+          [
+            -0.18,
+            2.36,
+            0.249
+          ],
+          [
+            0.18,
+            2.36,
+            0.249
+          ],
+          [
+            0.14,
+            2.29,
+            0.259
+          ],
+          [
+            0.0,
+            2.3,
+            0.284
+          ],
+          [
+            -0.14,
+            2.29,
+            0.259
+          ],
+          [
+            0.0,
+            2.32,
+            0.2904
+          ]
+        ]
+      },
+      "faces": [
+        [
+          5,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          1
+        ],
+        [
+          1,
+          10,
+          0
+        ],
+        [
+          11,
+          10,
+          1
+        ],
+        [
+          6,
+          2,
+          1
+        ],
+        [
+          6,
+          7,
+          2
+        ],
+        [
+          2,
+          11,
+          1
+        ],
+        [
+          12,
+          11,
+          2
+        ],
+        [
+          7,
+          3,
+          2
+        ],
+        [
+          7,
+          8,
+          3
+        ],
+        [
+          3,
+          12,
+          2
+        ],
+        [
+          13,
+          12,
+          3
+        ],
+        [
+          8,
+          4,
+          3
+        ],
+        [
+          8,
+          9,
+          4
+        ],
+        [
+          4,
+          13,
+          3
+        ],
+        [
+          14,
+          13,
+          4
+        ],
+        [
+          9,
+          0,
+          4
+        ],
+        [
+          9,
+          5,
+          0
+        ],
+        [
+          0,
+          14,
+          4
+        ],
+        [
+          10,
+          14,
+          0
+        ],
+        [
+          15,
+          6,
+          5
+        ],
+        [
+          15,
+          7,
+          6
+        ],
+        [
+          15,
+          8,
+          7
+        ],
+        [
+          15,
+          9,
+          8
+        ],
+        [
+          15,
+          5,
+          9
+        ],
+        [
+          14,
+          10,
+          11
+        ],
+        [
+          11,
+          12,
+          13
+        ],
+        [
+          11,
+          13,
+          14
+        ]
+      ],
+      "id": "atlas_headwear_10_0",
+      "material": "atlas_headwear_10_decor_metal",
+      "op": "indexed_mesh",
+      "part": "atlas_headwear_10_ornament_half_mask",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "head",
+      "stage": 4,
+      "vertices": [
+        [
+          -0.18,
+          2.36,
+          0.265
+        ],
+        [
+          0.18,
+          2.36,
+          0.265
+        ],
+        [
+          0.14,
+          2.29,
+          0.275
+        ],
+        [
+          0.0,
+          2.3,
+          0.3
+        ],
+        [
+          -0.14,
+          2.29,
+          0.275
+        ],
+        [
+          -0.1638,
+          2.3564,
+          0.271
+        ],
+        [
+          0.1638,
+          2.3564,
+          0.271
+        ],
+        [
+          0.1274,
+          2.2927,
+          0.281
+        ],
+        [
+          0.0,
+          2.3018,
+          0.306
+        ],
+        [
+          -0.1274,
+          2.2927,
+          0.281
+        ],
+        [
+          -0.18,
+          2.36,
+          0.249
+        ],
+        [
+          0.18,
+          2.36,
+          0.249
+        ],
+        [
+          0.14,
+          2.29,
+          0.259
+        ],
+        [
+          0.0,
+          2.3,
+          0.284
+        ],
+        [
+          -0.14,
+          2.29,
+          0.259
+        ],
+        [
+          0.0,
+          2.32,
+          0.2904
+        ]
+      ]
+    },
+    {
+      "authored_primitive": {
+        "authored_primitive": {
+          "id": "c002",
+          "material": "accent",
+          "op": "sweep",
+          "part": "ornament_mask_brow_trim",
+          "path": [
+            [
+              -0.018,
+              2.357,
+              0.292
+            ],
+            [
+              -0.09,
+              2.367,
+              0.287
+            ],
+            [
+              -0.165,
+              2.35,
+              0.286
+            ]
+          ],
+          "purpose": "ornament mask brow trim",
+          "radii": [
+            0.004,
+            0.004,
+            0.004
+          ],
+          "sides": 4,
+          "slot": "head",
+          "stage": 4
+        },
+        "faces": [
+          [
+            1,
+            4,
+            0
+          ],
+          [
+            5,
+            4,
+            1
+          ],
+          [
+            2,
+            5,
+            1
+          ],
+          [
+            6,
+            5,
+            2
+          ],
+          [
+            3,
+            6,
+            2
+          ],
+          [
+            7,
+            6,
+            3
+          ],
+          [
+            0,
+            7,
+            3
+          ],
+          [
+            4,
+            7,
+            0
+          ],
+          [
+            5,
+            8,
+            4
+          ],
+          [
+            9,
+            8,
+            5
+          ],
+          [
+            6,
+            9,
+            5
+          ],
+          [
+            10,
+            9,
+            6
+          ],
+          [
+            7,
+            10,
+            6
+          ],
+          [
+            11,
+            10,
+            7
+          ],
+          [
+            4,
+            11,
+            7
+          ],
+          [
+            8,
+            11,
+            4
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            2,
+            0
+          ],
+          [
+            8,
+            9,
+            10
+          ],
+          [
+            8,
+            10,
+            11
+          ]
+        ],
+        "id": "decor_head_1",
+        "material": "decor_accent",
+        "op": "indexed_mesh",
+        "part": "ornament_mask_brow_trim",
+        "purpose": "User-selected ornament; immutable body part revision",
+        "slot": "head",
+        "stage": 4,
+        "vertices": [
+          [
+            -0.017722889605286753,
+            2.357,
+            0.28800961031612926
+          ],
+          [
+            -0.018547657382469194,
+            2.353037850964886,
+            0.2919619682373285
+          ],
+          [
+            -0.018277110394713244,
+            2.357,
+            0.2959903896838707
+          ],
+          [
+            -0.017452342617530803,
+            2.3609621490351143,
+            0.29203803176267146
+          ],
+          [
+            -0.08983661296988216,
+            2.3669945792380473,
+            0.2830033419843913
+          ],
+          [
+            -0.0898102769831313,
+            2.3630045236090393,
+            0.28701317520950476
+          ],
+          [
+            -0.09016338703011784,
+            2.3670054207619526,
+            0.29099665801560864
+          ],
+          [
+            -0.09018972301686869,
+            2.3709954763909606,
+            0.2869868247904952
+          ],
+          [
+            -0.16494012378137807,
+            2.3499711018254077,
+            0.28200055257142326
+          ],
+          [
+            -0.16411633651124913,
+            2.3460990483776496,
+            0.28604141592363874
+          ],
+          [
+            -0.16505987621862195,
+            2.3500288981745925,
+            0.2899994474285767
+          ],
+          [
+            -0.1658836634887509,
+            2.3539009516223506,
+            0.2859585840763612
+          ]
+        ]
+      },
+      "faces": [
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          5,
+          4,
+          1
+        ],
+        [
+          2,
+          5,
+          1
+        ],
+        [
+          6,
+          5,
+          2
+        ],
+        [
+          3,
+          6,
+          2
+        ],
+        [
+          7,
+          6,
+          3
+        ],
+        [
+          0,
+          7,
+          3
+        ],
+        [
+          4,
+          7,
+          0
+        ],
+        [
+          5,
+          8,
+          4
+        ],
+        [
+          9,
+          8,
+          5
+        ],
+        [
+          6,
+          9,
+          5
+        ],
+        [
+          10,
+          9,
+          6
+        ],
+        [
+          7,
+          10,
+          6
+        ],
+        [
+          11,
+          10,
+          7
+        ],
+        [
+          4,
+          11,
+          7
+        ],
+        [
+          8,
+          11,
+          4
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          8,
+          9,
+          10
+        ],
+        [
+          8,
+          10,
+          11
+        ]
+      ],
+      "id": "atlas_headwear_10_1",
+      "material": "atlas_headwear_10_decor_accent",
+      "op": "indexed_mesh",
+      "part": "atlas_headwear_10_ornament_mask_brow_trim",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "head",
+      "stage": 4,
+      "vertices": [
+        [
+          -0.017722889605286753,
+          2.357,
+          0.28800961031612926
+        ],
+        [
+          -0.018547657382469194,
+          2.353037850964886,
+          0.2919619682373285
+        ],
+        [
+          -0.018277110394713244,
+          2.357,
+          0.2959903896838707
+        ],
+        [
+          -0.017452342617530803,
+          2.3609621490351143,
+          0.29203803176267146
+        ],
+        [
+          -0.08983661296988216,
+          2.3669945792380473,
+          0.2830033419843913
+        ],
+        [
+          -0.0898102769831313,
+          2.3630045236090393,
+          0.28701317520950476
+        ],
+        [
+          -0.09016338703011784,
+          2.3670054207619526,
+          0.29099665801560864
+        ],
+        [
+          -0.09018972301686869,
+          2.3709954763909606,
+          0.2869868247904952
+        ],
+        [
+          -0.16494012378137807,
+          2.3499711018254077,
+          0.28200055257142326
+        ],
+        [
+          -0.16411633651124913,
+          2.3460990483776496,
+          0.28604141592363874
+        ],
+        [
+          -0.16505987621862195,
+          2.3500288981745925,
+          0.2899994474285767
+        ],
+        [
+          -0.1658836634887509,
+          2.3539009516223506,
+          0.2859585840763612
+        ]
+      ]
+    },
+    {
+      "authored_primitive": {
+        "authored_primitive": {
+          "id": "c003",
+          "material": "accent",
+          "op": "sweep",
+          "part": "ornament_mask_brow_trim",
+          "path": [
+            [
+              0.018,
+              2.357,
+              0.292
+            ],
+            [
+              0.09,
+              2.367,
+              0.287
+            ],
+            [
+              0.165,
+              2.35,
+              0.286
+            ]
+          ],
+          "purpose": "ornament mask brow trim",
+          "radii": [
+            0.004,
+            0.004,
+            0.004
+          ],
+          "sides": 4,
+          "slot": "head",
+          "stage": 4
+        },
+        "faces": [
+          [
+            1,
+            4,
+            0
+          ],
+          [
+            5,
+            4,
+            1
+          ],
+          [
+            2,
+            5,
+            1
+          ],
+          [
+            6,
+            5,
+            2
+          ],
+          [
+            3,
+            6,
+            2
+          ],
+          [
+            7,
+            6,
+            3
+          ],
+          [
+            0,
+            7,
+            3
+          ],
+          [
+            4,
+            7,
+            0
+          ],
+          [
+            5,
+            8,
+            4
+          ],
+          [
+            9,
+            8,
+            5
+          ],
+          [
+            6,
+            9,
+            5
+          ],
+          [
+            10,
+            9,
+            6
+          ],
+          [
+            7,
+            10,
+            6
+          ],
+          [
+            11,
+            10,
+            7
+          ],
+          [
+            4,
+            11,
+            7
+          ],
+          [
+            8,
+            11,
+            4
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            2,
+            0
+          ],
+          [
+            8,
+            9,
+            10
+          ],
+          [
+            8,
+            10,
+            11
+          ]
+        ],
+        "id": "decor_head_2",
+        "material": "decor_accent",
+        "op": "indexed_mesh",
+        "part": "ornament_mask_brow_trim",
+        "purpose": "User-selected ornament; immutable body part revision",
+        "slot": "head",
+        "stage": 4,
+        "vertices": [
+          [
+            0.018277110394713244,
+            2.357,
+            0.2959903896838707
+          ],
+          [
+            0.018547657382469194,
+            2.353037850964886,
+            0.2919619682373285
+          ],
+          [
+            0.017722889605286753,
+            2.357,
+            0.28800961031612926
+          ],
+          [
+            0.017452342617530803,
+            2.3609621490351143,
+            0.29203803176267146
+          ],
+          [
+            0.09016338703011784,
+            2.3670054207619526,
+            0.29099665801560864
+          ],
+          [
+            0.0898102769831313,
+            2.3630045236090393,
+            0.28701317520950476
+          ],
+          [
+            0.08983661296988216,
+            2.3669945792380473,
+            0.2830033419843913
+          ],
+          [
+            0.09018972301686869,
+            2.3709954763909606,
+            0.2869868247904952
+          ],
+          [
+            0.16505987621862195,
+            2.3500288981745925,
+            0.2899994474285767
+          ],
+          [
+            0.16411633651124913,
+            2.3460990483776496,
+            0.28604141592363874
+          ],
+          [
+            0.16494012378137807,
+            2.3499711018254077,
+            0.28200055257142326
+          ],
+          [
+            0.1658836634887509,
+            2.3539009516223506,
+            0.2859585840763612
+          ]
+        ]
+      },
+      "faces": [
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          5,
+          4,
+          1
+        ],
+        [
+          2,
+          5,
+          1
+        ],
+        [
+          6,
+          5,
+          2
+        ],
+        [
+          3,
+          6,
+          2
+        ],
+        [
+          7,
+          6,
+          3
+        ],
+        [
+          0,
+          7,
+          3
+        ],
+        [
+          4,
+          7,
+          0
+        ],
+        [
+          5,
+          8,
+          4
+        ],
+        [
+          9,
+          8,
+          5
+        ],
+        [
+          6,
+          9,
+          5
+        ],
+        [
+          10,
+          9,
+          6
+        ],
+        [
+          7,
+          10,
+          6
+        ],
+        [
+          11,
+          10,
+          7
+        ],
+        [
+          4,
+          11,
+          7
+        ],
+        [
+          8,
+          11,
+          4
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          8,
+          9,
+          10
+        ],
+        [
+          8,
+          10,
+          11
+        ]
+      ],
+      "id": "atlas_headwear_10_2",
+      "material": "atlas_headwear_10_decor_accent",
+      "op": "indexed_mesh",
+      "part": "atlas_headwear_10_ornament_mask_brow_trim",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "head",
+      "stage": 4,
+      "vertices": [
+        [
+          0.018277110394713244,
+          2.357,
+          0.2959903896838707
+        ],
+        [
+          0.018547657382469194,
+          2.353037850964886,
+          0.2919619682373285
+        ],
+        [
+          0.017722889605286753,
+          2.357,
+          0.28800961031612926
+        ],
+        [
+          0.017452342617530803,
+          2.3609621490351143,
+          0.29203803176267146
+        ],
+        [
+          0.09016338703011784,
+          2.3670054207619526,
+          0.29099665801560864
+        ],
+        [
+          0.0898102769831313,
+          2.3630045236090393,
+          0.28701317520950476
+        ],
+        [
+          0.08983661296988216,
+          2.3669945792380473,
+          0.2830033419843913
+        ],
+        [
+          0.09018972301686869,
+          2.3709954763909606,
+          0.2869868247904952
+        ],
+        [
+          0.16505987621862195,
+          2.3500288981745925,
+          0.2899994474285767
+        ],
+        [
+          0.16411633651124913,
+          2.3460990483776496,
+          0.28604141592363874
+        ],
+        [
+          0.16494012378137807,
+          2.3499711018254077,
+          0.28200055257142326
+        ],
+        [
+          0.1658836634887509,
+          2.3539009516223506,
+          0.2859585840763612
+        ]
+      ]
+    }
+  ],
+  "coordinate_system": "metres; Y up; +Z forward; floor Y=0",
+  "id": "hand-headwear-10",
+  "palette": {
+    "atlas_headwear_10_accent": "d6c5a0",
+    "atlas_headwear_10_bone": "cbc5ad",
+    "atlas_headwear_10_cloth": "35516d",
+    "atlas_headwear_10_dark": "33383b",
+    "atlas_headwear_10_decor_accent": "d0b67a",
+    "atlas_headwear_10_decor_bone": "cbc5ad",
+    "atlas_headwear_10_decor_cloth": "667b83",
+    "atlas_headwear_10_decor_dark": "33383b",
+    "atlas_headwear_10_decor_hair": "544136",
+    "atlas_headwear_10_decor_hair_light": "614b3f",
+    "atlas_headwear_10_decor_iris": "659198",
+    "atlas_headwear_10_decor_leather": "624c3d",
+    "atlas_headwear_10_decor_lip": "88735c",
+    "atlas_headwear_10_decor_metal": "919ba1",
+    "atlas_headwear_10_decor_pupil": "272a2b",
+    "atlas_headwear_10_decor_sclera": "d4d1bc",
+    "atlas_headwear_10_decor_secondary": "976356",
+    "atlas_headwear_10_decor_shadow": "776551",
+    "atlas_headwear_10_decor_skin": "bda080",
+    "atlas_headwear_10_hair": "614633",
+    "atlas_headwear_10_hair_light": "71513b",
+    "atlas_headwear_10_iris": "685d42",
+    "atlas_headwear_10_leather": "654833",
+    "atlas_headwear_10_lip": "886b56",
+    "atlas_headwear_10_metal": "919ba3",
+    "atlas_headwear_10_pupil": "272a2b",
+    "atlas_headwear_10_sclera": "d4d1bc",
+    "atlas_headwear_10_secondary": "938466",
+    "atlas_headwear_10_shadow": "775e4b",
+    "atlas_headwear_10_skin": "bd9577"
+  },
+  "production_pool": false,
+  "schema_version": 1
+}

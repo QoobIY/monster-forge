@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "source_git_revision": "7a252745",
+  "source_record": {
+    "schema_version": 2,
+    "id": "campaign-hunter",
+    "revision": 10,
+    "label": "Hunter",
+    "assets": {
+      "campaign_hunter_head": {
+        "kind": "model",
+        "path": "assets/creatures/campaign-hunter/revisions/0010/model/head/f70957eba960ec4e7e40facd--model.glb",
+        "weights": "assets/creatures/campaign-hunter/revisions/0010/weight_sidecar/head/e4281c13fea92c1732af5c47--weights.json",
+        "rig": "humanoid_v1",
+        "slot": "head",
+        "grip": null,
+        "grip_frame": "hand"
+      },
+      "campaign_hunter_left_arm": {
+        "kind": "model",
+        "path": "assets/creatures/campaign-hunter/revisions/0010/model/left_arm/30382cf54fadd60ef1e5fe92--model.glb",
+        "weights": "assets/creatures/campaign-hunter/revisions/0010/weight_sidecar/left_arm/bff1d2e0632c7f8636571cc6--weights.json",
+        "rig": "humanoid_v1",
+        "slot": "left_arm",
+        "grip": null,
+        "grip_frame": "hand"
+      },
+      "campaign_hunter_left_leg": {
+        "kind": "model",
+        "path": "assets/creatures/campaign-hunter/revisions/0010/model/left_leg/735471985724d853377fba59--model.glb",
+        "weights": "assets/creatures/campaign-hunter/revisions/0010/weight_sidecar/left_leg/8c20decc74646325aa692ebc--weights.json",
+        "rig": "humanoid_v1",
+        "slot": "left_leg",
+        "grip": null,
+        "grip_frame": "hand"
+      },
+      "campaign_hunter_right_arm": {
+        "kind": "model",
+        "path": "assets/creatures/campaign-hunter/revisions/0010/model/right_arm/7c0342416f627cb81a5f9165--model.glb",
+        "weights": "assets/creatures/campaign-hunter/revisions/0010/weight_sidecar/right_arm/01ba83e69370e7368a80fb77--weights.json",
+        "rig": "humanoid_v1",
+        "slot": "right_arm",
+        "grip": null,
+        "grip_frame": "hand"
+      },
+      "campaign_hunter_right_leg": {
+        "kind": "model",
+        "path": "assets/creatures/campaign-hunter/revisions/0010/model/right_leg/0f9c4017688114e991b98241--model.glb",
+        "weights": "assets/creatures/campaign-hunter/revisions/0010/weight_sidecar/right_leg/8e6a5f7786323004383b8232--weights.json",
+        "rig": "humanoid_v1",
+        "slot": "right_leg",
+        "grip": null,
+        "grip_frame": "hand"
+      },
+      "campaign_hunter_torso": {
+        "kind": "model",
+        "path": "assets/creatures/campaign-hunter/revisions/0010/model/torso/5ecea8226cc59eda5066eb86--model.glb",
+        "weights": "assets/creatures/campaign-hunter/revisions/0010/weight_sidecar/torso/238d257066aa2e952da127ec--weights.json",
+        "rig": "humanoid_v1",
+        "slot": "torso",
+        "grip": null,
+        "grip_frame": "hand"
+      }
+    },
+    "character": {
+      "rig": "humanoid_v1",
+      "authored_bind_pose": true,
+      "prelit": true,
+      "whole": false,
+      "parts": {
+        "head": "campaign_hunter_head",
+        "left_arm": "campaign_hunter_left_arm",
+        "left_leg": "campaign_hunter_left_leg",
+        "right_arm": "campaign_hunter_right_arm",
+        "right_leg": "campaign_hunter_right_leg",
+        "torso": "campaign_hunter_torso"
+      },
+      "attachments": {},
+      "hand_sockets": {
+        "left": [
+          -0.825,
+          0.91,
+          0.11
+        ],
+        "right": [
+          0.825,
+          0.91,
+          0.11
+        ]
+      }
+    },
+    "files": {
+      "assets/creatures/campaign-hunter/revisions/0010/model/head/f70957eba960ec4e7e40facd--model.glb": "f70957eba960ec4e7e40facd2bcd3b353ec202ca8322cd159467cd1c81e63874",
+      "assets/creatures/campaign-hunter/revisions/0010/weight_sidecar/head/e4281c13fea92c1732af5c47--weights.json": "e4281c13fea92c1732af5c47d7f25784a5d204d9644d329b0b2d2c1b8f96266a",
+      "assets/creatures/campaign-hunter/revisions/0010/model/left_arm/30382cf54fadd60ef1e5fe92--model.glb": "30382cf54fadd60ef1e5fe9297ca1ba703624868dad3d7bf66805ca38fb7b8ca",
+      "assets/creatures/campaign-hunter/revisions/0010/weight_sidecar/left_arm/bff1d2e0632c7f8636571cc6--weights.json": "bff1d2e0632c7f8636571cc6ef02c8d25ddcd53e623dfc24b866fcb687143512",
+      "assets/creatures/campaign-hunter/revisions/0010/model/left_leg/735471985724d853377fba59--model.glb": "735471985724d853377fba5907f950a9a274f17ff01b821def4ace6ff38c1b2b",
+      "assets/creatures/campaign-hunter/revisions/0010/weight_sidecar/left_leg/8c20decc74646325aa692ebc--weights.json": "8c20decc74646325aa692ebc8cc7ebbf735c85bd16a7b3dbfd16ea6d7596f805",
+      "assets/creatures/campaign-hunter/revisions/0010/model/right_arm/7c0342416f627cb81a5f9165--model.glb": "7c0342416f627cb81a5f9165f86d01c2a6e9bba86fad4fb4c0c6bdb8a523d0d3",
+      "assets/creatures/campaign-hunter/revisions/0010/weight_sidecar/right_arm/01ba83e69370e7368a80fb77--weights.json": "01ba83e69370e7368a80fb77c47213b744887a55188e9103f713e4b3066c132e",
+      "assets/creatures/campaign-hunter/revisions/0010/model/right_leg/0f9c4017688114e991b98241--model.glb": "0f9c4017688114e991b982410b62ff2b01c90e65421042d1fc349935b969ee88",
+      "assets/creatures/campaign-hunter/revisions/0010/weight_sidecar/right_leg/8e6a5f7786323004383b8232--weights.json": "8e6a5f7786323004383b82329c2dfc48eb6aa527fe9cd06b1568c829bb43243d",
+      "assets/creatures/campaign-hunter/revisions/0010/model/torso/5ecea8226cc59eda5066eb86--model.glb": "5ecea8226cc59eda5066eb86314fb62c0309d54ee4d3572f7230824eca972b1f",
+      "assets/creatures/campaign-hunter/revisions/0010/weight_sidecar/torso/238d257066aa2e952da127ec--weights.json": "238d257066aa2e952da127ec51b94c6f6493af2b72f63c80c86e25d6a7c89e16"
+    },
+    "provenance": {
+      "author": "BHM explicit geometric instructions",
+      "recipe": "crypt_campaign/v3/hunter/authored_recipe.json",
+      "method": "fixed authored parts, global SDK bind coordinates; immutable revision"
+    }
+  },
+  "attachments": {}
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "key": "demon_sword",
+    "label": "Меч демона",
+    "path": "media/icons/mom_rpg/v1/demon_sword/source.png",
+    "prompt": "Use case: stylized-concept. Asset type: square fantasy RPG inventory icon for Machine of Monsters, 256px display. Input images: reference images 1 and 2 are STYLE REFERENCES ONLY, not edit targets. Primary request: A single broad jagged demonic sword, diagonal blade, black iron and deep red metal, ember fissures, horned golden guard. Match the supplied canonical Angel Arena Nova icons: hand-painted broad angular faceted surfaces, crisp readable silhouette, saturated restrained colors, bright bevel highlights, low-poly fantasy item, charcoal near-black background. One isolated centered item fills 80% of a square composition. Lighting from upper left. No text, no frame, no border, no UI, no watermarks, no photorealism, no tiny noisy detail."
+  },
+  {
+    "key": "succubus_armor",
+    "label": "Доспех суккуба",
+    "path": "media/icons/mom_rpg/v1/succubus_armor/source.png",
+    "prompt": "Use case: stylized-concept. Asset type: square fantasy RPG inventory icon for Machine of Monsters, 256px display. Input images: reference images 1 and 2 are STYLE REFERENCES ONLY, not edit targets. Primary request: A single empty elegant succubus breastplate armor, dark purple iron with crimson plates and small curved horn shoulder accents; no wearer, no body. Match the supplied canonical Angel Arena Nova icons: hand-painted broad angular faceted surfaces, crisp readable silhouette, saturated restrained colors, bright bevel highlights, low-poly fantasy item, charcoal near-black background. One isolated centered item fills 80% of a square composition. Lighting from upper left. No text, no frame, no border, no UI, no watermarks, no photorealism, no tiny noisy detail."
+  },
+  {
+    "key": "hound_fangs",
+    "label": "Клыки собаки",
+    "path": "media/icons/mom_rpg/v1/hound_fangs/source.png",
+    "prompt": "Use case: stylized-concept. Asset type: square fantasy RPG inventory icon for Machine of Monsters, 256px display. Input images: reference images 1 and 2 are STYLE REFERENCES ONLY, not edit targets. Primary request: A talisman made from three large curved demonic hound fangs tied with a dark cord, ivory tips and dark red roots, small glowing violet bead. Match the supplied canonical Angel Arena Nova icons: hand-painted broad angular faceted surfaces, crisp readable silhouette, saturated restrained colors, bright bevel highlights, low-poly fantasy item, charcoal near-black background. One isolated centered item fills 80% of a square composition. Lighting from upper left. No text, no frame, no border, no UI, no watermarks, no photorealism, no tiny noisy detail."
+  },
+  {
+    "key": "demon_wings",
+    "label": "Крылья демона",
+    "path": "media/icons/mom_rpg/v1/demon_wings/source.png",
+    "prompt": "Use case: stylized-concept. Asset type: square fantasy RPG inventory icon for Machine of Monsters, 256px display. Input images: reference images 1 and 2 are STYLE REFERENCES ONLY, not edit targets. Primary request: A pair of folded then spread batlike demonic wings as an equipment item, crimson membranes, dark violet bone struts, strong symmetrical silhouette. Match the supplied canonical Angel Arena Nova icons: hand-painted broad angular faceted surfaces, crisp readable silhouette, saturated restrained colors, bright bevel highlights, low-poly fantasy item, charcoal near-black background. One isolated centered item fills 80% of a square composition. Lighting from upper left. No text, no frame, no border, no UI, no watermarks, no photorealism, no tiny noisy detail."
+  },
+  {
+    "key": "gatekeeper_helm",
+    "label": "Шлем хранителя врат",
+    "path": "media/icons/mom_rpg/v1/gatekeeper_helm/source.png",
+    "prompt": "Use case: stylized-concept. Asset type: square fantasy RPG inventory icon for Machine of Monsters, 256px display. Input images: reference images 1 and 2 are STYLE REFERENCES ONLY, not edit targets. Primary request: A single massive demonic gatekeeper helmet, dark iron, two thick curved ivory horns, gold angular brow, glowing orange eye slits, no wearer. Match the supplied canonical Angel Arena Nova icons: hand-painted broad angular faceted surfaces, crisp readable silhouette, saturated restrained colors, bright bevel highlights, low-poly fantasy item, charcoal near-black background. One isolated centered item fills 80% of a square composition. Lighting from upper left. No text, no frame, no border, no UI, no watermarks, no photorealism, no tiny noisy detail."
+  },
+  {
+    "key": "demon_staff",
+    "label": "Посох низших демонов",
+    "path": "media/icons/mom_rpg/v1/demon_staff/source.png",
+    "prompt": "Use case: stylized-concept. Asset type: square fantasy RPG inventory icon for Machine of Monsters, 256px display. Input images: reference images 1 and 2 are STYLE REFERENCES ONLY, not edit targets. Primary request: A single diagonal demonic staff, dark red twisted shaft, horned iron head gripping a luminous faceted violet crystal, warm gold bindings. Match the supplied canonical Angel Arena Nova icons: hand-painted broad angular faceted surfaces, crisp readable silhouette, saturated restrained colors, bright bevel highlights, low-poly fantasy item, charcoal near-black background. One isolated centered item fills 80% of a square composition. Lighting from upper left. No text, no frame, no border, no UI, no watermarks, no photorealism, no tiny noisy detail."
+  },
+  {
+    "key": "lesser_demon_book",
+    "label": "Книга низших демонов",
+    "path": "media/icons/mom_rpg/v1/lesser_demon_book/source.png",
+    "prompt": "Use case: stylized-concept. Asset type: square fantasy RPG inventory icon for Machine of Monsters, 256px display. Input images: reference images 1 and 2 are STYLE REFERENCES ONLY, not edit targets. Primary request: A single partly open demonic grimoire, dark red leather cover, ivory fang clasps, bronze corners, a horned hound emblem, warm parchment page edges. Match the supplied canonical Angel Arena Nova icons: hand-painted broad angular faceted surfaces, crisp readable silhouette, saturated restrained colors, bright bevel highlights, low-poly fantasy item, charcoal near-black background. One isolated centered item fills 80% of a square composition. Lighting from upper left. No text, no frame, no border, no UI, no watermarks, no photorealism, no tiny noisy detail."
+  }
+]

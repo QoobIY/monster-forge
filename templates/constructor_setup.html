@@ -1,0 +1,26 @@
+{% extends "base.html" %} {% block title %}Конструктор · Monster Forge{% endblock %} {% block head
+%}
+<link rel="stylesheet" href="/static/library.css?v=modules-1" />
+{% endblock %} {% block content %}
+<main class="sdk-page">
+  <span class="eyebrow">НАСТРОЙКА РАБОЧЕГО МЕСТА</span>
+  <h1>Библиотека готова к работе.</h1>
+  <p>
+    Для сборки персонажей нужны исходники частей из поставки Monster Forge. Контракт новых частей —
+    <code>humanoid_v1</code>
+    .
+  </p>
+  <p class="hint">{{ constructor_reason }}</p>
+  <pre>make run</pre>
+  <p>
+    Если библиотека запущена с
+    <code>MONSTER_FORGE_MODE=library</code>
+    , убери этот параметр для работы конструктора.
+  </p>
+  <p>
+    <a href="/decorations/">Открыть библиотеку моделей</a>
+    ·
+    <a href="/sdk/">Использовать SDK</a>
+  </p>
+</main>
+{% endblock %}

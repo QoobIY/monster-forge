@@ -1,0 +1,133 @@
+{
+  "bind_profile": "canonical",
+  "constructor_settings": {
+    "arms": "native-satyr-01",
+    "back": null,
+    "colors": {
+      "accent": null,
+      "back_frame": null,
+      "back_primary": null,
+      "back_secondary": null,
+      "cloth": null,
+      "eyes": null,
+      "hair": null,
+      "leather": null,
+      "metal": null,
+      "secondary": null,
+      "skin": null
+    },
+    "decor": {
+      "beard": "none",
+      "belt": "none",
+      "emblem": "none",
+      "headwear": "none",
+      "mustache": "none",
+      "pattern": "none",
+      "shoulders": "none"
+    },
+    "eye_shape": "original",
+    "eye_size": 1.0,
+    "face": "native-satyr-01",
+    "features": {
+      "brows": "profile",
+      "ears": "profile",
+      "jaw": "profile",
+      "mouth": "profile",
+      "nose": "profile"
+    },
+    "form": "regular",
+    "gender": "male",
+    "hair": "original",
+    "legs": "native-satyr-01",
+    "outfit": "native-satyr-01",
+    "race": "satyr",
+    "reference_parts": {
+      "accessories": 0,
+      "arms": 0,
+      "back": 0,
+      "beards": 0,
+      "belts": 0,
+      "body_forms": 0,
+      "boots": 0,
+      "brows": 0,
+      "colorways": 0,
+      "ears": 0,
+      "emblems": 0,
+      "eyes": 0,
+      "female_clothes": 0,
+      "female_faces": 0,
+      "gloves": 0,
+      "hair": 0,
+      "headwear": 0,
+      "jaws": 0,
+      "legs": 0,
+      "male_clothes": 0,
+      "male_faces": 0,
+      "mouths": 0,
+      "mustaches": 0,
+      "noses": 0,
+      "patterns": 0,
+      "race_heads": 0,
+      "shoulders": 0
+    },
+    "schema_version": 5
+  },
+  "id": "satyr",
+  "label": "MOM RPG · Сатир",
+  "parts": {
+    "head": {
+      "model": "parts/head.glb"
+    },
+    "left_arm": {
+      "model": "parts/left_arm.glb"
+    },
+    "left_leg": {
+      "model": "parts/left_leg.glb"
+    },
+    "right_arm": {
+      "model": "parts/right_arm.glb"
+    },
+    "right_leg": {
+      "model": "parts/right_leg.glb"
+    },
+    "torso": {
+      "model": "parts/torso.glb"
+    }
+  },
+  "race": "satyr",
+  "rig": "humanoid_v1",
+  "schema_version": 1,
+  "source_assembly": {
+    "bind_profile": "canonical",
+    "id": "8673a58a7304b30a37cdf1e68b95148a5b4d32bf282a990d704e9b9df1ebae9f",
+    "parts": {
+      "head": {
+        "model_sha256": "935aae359145932cae074fc935dfb5d2137f63d74020f6a4567cb8ea320b8512",
+        "revision_id": "98dab4ccf1a134fb1d3eb1e30cde3096fe40a5ef5cae0bf2ea4a2372b04892bf"
+      },
+      "left_arm": {
+        "model_sha256": "62800cbf5d87e61eddea89dfad5eeaa3f58b5d3a29bbb7cc63af7418571f014c",
+        "revision_id": "0a097ce122c9ba01e603f1883f8c8856529c4c91f473e44f44c6e8f62084b4cb"
+      },
+      "left_leg": {
+        "model_sha256": "7748a9fda68668aaf9b67139712db2e969dd0f0e710af5fae4414ee5109ed064",
+        "revision_id": "3cd754da442f554c7ba039ee03938f9fa351fdaccc4bdd3d1bd9e847f5326b2c"
+      },
+      "right_arm": {
+        "model_sha256": "a7d2bcd3af7bc9c8c529340f3eaf92ec781af0955682ff376f5aab5939b4b7c5",
+        "revision_id": "957b18ab09b4a506bc9e350e7c5fce9196aae14a928c8558bf8c775dcd317989"
+      },
+      "right_leg": {
+        "model_sha256": "a3ca4e3ec5aed9c4b620fa0230493f406b900802880cc2551cf50e7d0fda8817",
+        "revision_id": "edda4290f21953b9f54c2554e5704959c58daee8f4be4f599766cacf4d5a3303"
+      },
+      "torso": {
+        "model_sha256": "b430a72392d9f30691011139673b95dc7d33daa112676a052e2103dd468fe27c",
+        "revision_id": "1fe933cee9d3766956c0dc335de3ae9ca874edaa9acf73a1f6526598c329b5b8"
+      }
+    },
+    "schema_version": 1,
+    "skeleton_id": "humanoid_v1",
+    "skeleton_sha256": "51656f90bbbded2e661b5b48c857b79ef5b02ed35c2855844a472a223d27643e"
+  }
+}

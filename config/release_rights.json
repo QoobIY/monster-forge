@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "notes": [
+    "This inventory records release decisions; it does not grant a license or establish ownership.",
+    "A source code license does not automatically cover imported assets, reference images, prompts, audio, fonts or archived third party source.",
+    "The public constructor includes its original built-in resources pinned in config/constructor_resources_v1.json. Other game assets, imports and historical collections remain outside this scope."
+  ],
+  "scopes": [
+    {
+      "id": "tool-documentation-screenshots",
+      "paths": [
+        "docs/images/constructor.png",
+        "docs/images/sdk-guide.png"
+      ],
+      "origin": "Project-owned browser captures of the built-in standalone character constructor and SDK guide, selected for README documentation.",
+      "license": "Apache-2.0",
+      "redistribution": "approved",
+      "evidence": [
+        "LICENSE",
+        "LICENSE_SCOPE.md",
+        "config/release_policy.json"
+      ],
+      "notes": [
+        "Only these exact two documentation captures are admitted; derived selector cards and other previews remain cache files."
+      ]
+    },
+    {
+      "id": "standalone-generator-archive",
+      "paths": [
+        "tools/assetforge_generator"
+      ],
+      "origin": "Preserved standalone FACET Forge HTML generator; provenance and redistribution terms have not been established for this release.",
+      "license": null,
+      "redistribution": "pending",
+      "evidence": [],
+      "notes": [
+        "This independent historical application is outside the supported Monster Forge extension API and is excluded from source-only exports until reviewed."
+      ]
+    },
+    {
+      "id": "bhm-bind-contracts",
+      "paths": [
+        "media/rigs/body_rigs.json",
+        "media/rigs/humanoid/canonical.json",
+        "media/rigs/humanoid/workshop_knees_v1.json"
+      ],
+      "origin": "BHM-owned bind skeleton and rig contracts, as defined by AGENTS.md. These exact source bytes are packaged as SDK resources.",
+      "license": "Apache-2.0",
+      "redistribution": "approved",
+      "evidence": [
+        "AGENTS.md",
+        "LICENSE",
+        "LICENSE_SCOPE.md",
+        "config/release_policy.json"
+      ],
+      "notes": [
+        "The owner selected Apache-2.0 for the tools and their BHM-owned SDK code contracts. Included as code-owned data in tools-only exports.",
+        "This scope does not approve any other media content. Legacy registry entries are preserved without expanding supported authoring beyond humanoid_v1."
+      ]
+    },
+    {
+      "id": "project-asset-metadata",
+      "paths": [
+        "config/constructor_presets",
+        "config/constructor_artifacts_v1.json",
+        "config/constructor_human_approval_v1.json",
+        "config/constructor_library_v1.json",
+        "config/constructor_part_descriptions_v7.json",
+        "config/constructor_portraits_v1.json",
+        "config/constructor_reference_kits_v1.json",
+        "config/constructor_species_v2.json"
+      ],
+      "origin": "Historical asset collection metadata outside the exact built-in constructor resource inventory.",
+      "license": null,
+      "redistribution": "pending",
+      "evidence": [],
+      "notes": [
+        "The included constructor resources are explicitly enumerated by path and hash in config/constructor_resources_v1.json; this pending scope covers other collection metadata."
+      ]
+    },
+    {
+      "id": "asset-library",
+      "paths": [
+        "media"
+      ],
+      "origin": "Mixed original, generated, imported and derived assets; ownership and redistribution scope have not been verified.",
+      "license": null,
+      "redistribution": "pending",
+      "evidence": [
+        "media/imported_catalog.json"
+      ],
+      "notes": [
+        "Catalog hashes establish file identity, not redistribution permission.",
+        "Review images, GLBs, recipes, fonts and audio separately where their origins differ."
+      ]
+    },
+    {
+      "id": "preserved-audio-license-evidence",
+      "paths": [
+        "media/audio/cinematic/random-god-reckoning/instrument_license.f2f5e6358fc7c1fe62aafc6c.txt"
+      ],
+      "origin": "Preserved Fluid soundfont notice with an MIT statement for Fluid and a separate GPL statement for Debian packaging.",
+      "license": null,
+      "redistribution": "pending",
+      "evidence": [
+        "media/audio/cinematic/random-god-reckoning/instrument_license.f2f5e6358fc7c1fe62aafc6c.txt"
+      ],
+      "notes": [
+        "This notice is evidence about the instrument source; it does not establish a license for all rendered audio or the repository."
+      ]
+    },
+    {
+      "id": "style-references",
+      "paths": [
+        "styles"
+      ],
+      "origin": "Preserved prompts, profiles and reference images, including MoM provenance.",
+      "license": null,
+      "redistribution": "pending",
+      "evidence": [
+        "styles/icons/profile.json"
+      ],
+      "notes": [
+        "Preserving a reference and its hash does not establish permission to redistribute it."
+      ]
+    },
+    {
+      "id": "imported-authoring-source",
+      "paths": [
+        "tools/imported_mom"
+      ],
+      "origin": "Archived MoM map authoring source. Upstream licensing has not been declared for this release.",
+      "license": null,
+      "redistribution": "pending",
+      "evidence": [
+        "tools/imported_mom/map_authoring_v1/nova/README.md",
+        "tools/imported_mom/map_authoring_v1/campaign/README.md"
+      ],
+      "notes": [
+        "Review source ownership and third party notices separately from Monster Forge's own code."
+      ]
+    },
+    {
+      "id": "historical-review-artifacts",
+      "paths": [
+        "artifacts"
+      ],
+      "origin": "Historical review exports and derivative bundles with mixed source provenance.",
+      "license": null,
+      "redistribution": "pending",
+      "evidence": [],
+      "notes": [
+        "These snapshots remain preserved locally; new review products belong under /tmp/monster-forge."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "assembly_id": "42e105c35d80e48005e7c3e2f501c5a3c1b855f263f73deee658799133408a66",
+  "settings": {
+    "schema_version": 5,
+    "race": "crab",
+    "gender": "male",
+    "face": "expansion-arena-crab-03",
+    "hair": "original",
+    "form": "regular",
+    "outfit": "expansion-arena-crab-03",
+    "arms": "expansion-arena-crab-03",
+    "legs": "expansion-arena-crab-03",
+    "back": null,
+    "eye_size": 1.0,
+    "eye_shape": "original",
+    "colors": {
+      "hair": null,
+      "eyes": null,
+      "skin": null,
+      "cloth": null,
+      "accent": null,
+      "metal": null,
+      "leather": null,
+      "secondary": null,
+      "back_primary": null,
+      "back_secondary": null,
+      "back_frame": null
+    },
+    "decor": {
+      "emblem": "none",
+      "shoulders": "none",
+      "belt": "none",
+      "headwear": "none",
+      "pattern": "none",
+      "beard": "none",
+      "mustache": "none"
+    },
+    "features": {
+      "nose": "profile",
+      "ears": "profile",
+      "jaw": "profile",
+      "brows": "profile",
+      "mouth": "profile"
+    },
+    "reference_parts": {
+      "male_faces": 0,
+      "female_faces": 0,
+      "hair": 0,
+      "brows": 0,
+      "eyes": 0,
+      "noses": 0,
+      "ears": 0,
+      "jaws": 0,
+      "mouths": 0,
+      "beards": 0,
+      "mustaches": 0,
+      "race_heads": 0,
+      "body_forms": 0,
+      "male_clothes": 0,
+      "female_clothes": 0,
+      "arms": 0,
+      "legs": 0,
+      "gloves": 0,
+      "boots": 0,
+      "shoulders": 0,
+      "belts": 0,
+      "headwear": 0,
+      "emblems": 0,
+      "back": 0,
+      "accessories": 0,
+      "patterns": 0,
+      "colorways": 0
+    }
+  },
+  "files": {
+    "arms.png": "fecb7251aeee1ff857654ac8b5d9355afbf26a91f6d1089e39cd1350f317ad4a",
+    "face.png": "880da7b470aa0198b1b64bc0fc61c0c08a34562c0523b1f1c7d815e4bc1dfb5c",
+    "legs.png": "2c315983ee224af019db7477f1ddd037126d3f92332896242182bde84b384308",
+    "outfit.png": "b7cf8eca0ed248e4472ce470320608256381a1fd16857d1fbf3673259745167c"
+  }
+}

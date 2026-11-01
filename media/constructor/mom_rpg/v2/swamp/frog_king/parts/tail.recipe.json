@@ -1,0 +1,158 @@
+{
+  "assembly_reference": "quadruped_v1",
+  "bind_profile": "canonical",
+  "commands": [
+    {
+      "center": [
+        0,
+        0.68,
+        -0.51
+      ],
+      "id": "c001",
+      "material": "skin",
+      "op": "ellipsoid",
+      "part": "frog_internal_tail_root",
+      "purpose": "frog internal tail root",
+      "radii": [
+        0.015,
+        0.015,
+        0.015
+      ],
+      "rings": 4,
+      "sides": 8,
+      "skin_bone": "tail",
+      "slot": "tail",
+      "stage": 2
+    }
+  ],
+  "constructor": {
+    "schema_version": 1,
+    "settings": {
+      "arms": "native-frog-03",
+      "back": null,
+      "colors": {
+        "accent": null,
+        "back_frame": null,
+        "back_primary": null,
+        "back_secondary": null,
+        "cloth": null,
+        "eyes": null,
+        "hair": null,
+        "leather": null,
+        "metal": null,
+        "secondary": null,
+        "skin": null
+      },
+      "decor": {
+        "beard": "none",
+        "belt": "none",
+        "emblem": "none",
+        "headwear": "none",
+        "mustache": "none",
+        "pattern": "none",
+        "shoulders": "none"
+      },
+      "eye_shape": "original",
+      "eye_size": 1.0,
+      "face": "native-frog-03",
+      "features": {
+        "brows": "profile",
+        "ears": "profile",
+        "jaw": "profile",
+        "mouth": "profile",
+        "nose": "profile"
+      },
+      "form": "regular",
+      "gender": "male",
+      "hair": "original",
+      "legs": "native-frog-03",
+      "outfit": "native-frog-03",
+      "race": "frog",
+      "reference_parts": {
+        "accessories": 0,
+        "arms": 0,
+        "back": 0,
+        "beards": 0,
+        "belts": 0,
+        "body_forms": 0,
+        "boots": 0,
+        "brows": 0,
+        "colorways": 0,
+        "ears": 0,
+        "emblems": 0,
+        "eyes": 0,
+        "female_clothes": 0,
+        "female_faces": 0,
+        "gloves": 0,
+        "hair": 0,
+        "headwear": 0,
+        "jaws": 0,
+        "legs": 0,
+        "male_clothes": 0,
+        "male_faces": 0,
+        "mouths": 0,
+        "mustaches": 0,
+        "noses": 0,
+        "patterns": 0,
+        "race_heads": 0,
+        "shoulders": 0
+      },
+      "schema_version": 5
+    },
+    "slot": "tail",
+    "sources": [
+      {
+        "donor": "native-frog-03",
+        "manifest_sha256": "3f04f43c4f7bd22e6e00e626c595aa5ba0001141ec1595c71086c9f45493aaa4",
+        "model_sha256": "7083a6585bf22927a1bc2ced2f8f83dcb00510b76f58752fa2a060ffd4a9993b",
+        "recipe_sha256": "b1574d030fe04852d77ed9392470bc41f023e3c715bb284d260e93f2acb4c3be",
+        "record_sha256": "74734fdb3f0ed4c3cf6c005403cb15d7bb03302514c3ed2160766474db49eace",
+        "reference_files": [],
+        "slot": "tail"
+      }
+    ],
+    "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07"
+  },
+  "constructor_anatomy": {
+    "contract": "quadruped_v1",
+    "description_ru": "Четвероногие земноводные с широким ртом, выпуклыми глазами, складными задними ногами и перепонками.",
+    "gender": "male",
+    "hair": "cropped",
+    "id": "native-frog-03",
+    "label": "Королевская лягушка",
+    "own_body": true,
+    "race": "frog",
+    "variant": 2
+  },
+  "coordinate_system": "metres; Y up; +Z forward; floor Y=0",
+  "id": "constructor.7ea3b4bc1b006836232e4b805df1546a2b281a7f3da60f5b495537c96128ac4e.tail",
+  "label": "native-frog-03.tail",
+  "palette": {
+    "accent": "c2a05c",
+    "bone": "cbc5ad",
+    "cloth": "4c3c54",
+    "dark": "33383b",
+    "eyes": "dec35f",
+    "hair": "48372e",
+    "hair_light": "544035",
+    "leather": "573e32",
+    "lip": "475e30",
+    "metal": "85715b",
+    "pupil": "272a2b",
+    "sclera": "d4d1bc",
+    "secondary": "c1c88a",
+    "shadow": "3e532a",
+    "skin": "628342"
+  },
+  "schema_version": 1,
+  "stages": [
+    "Основные массы и опоры",
+    "Голова и анатомия",
+    "Одежда и защитные пластины",
+    "Отличительные детали",
+    "Кисти, опоры и завершающие акценты"
+  ],
+  "team_materials": [
+    "cloth"
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "attribute_reference": {
+    "authoring_revision": 1,
+    "authoring_sha256": "48159c92584473d8ca4c91dae38fc1cc9f3746807c5e3f1910c6bd4d7e872253",
+    "category": "accessories",
+    "cell_pixels": [
+      0,
+      0,
+      307,
+      512
+    ],
+    "depth_status": "Manually authored volumes; Front reference supplies silhouette/proportions only",
+    "design": {
+      "costume": "warden",
+      "face": {
+        "eye_tilt": -0.01,
+        "jaw": 0.99,
+        "nose": 0.05,
+        "width": 0.236
+      },
+      "gender": "male",
+      "hair": "swept",
+      "id": "hand-accessories-01",
+      "label": "accessories",
+      "library_variant": 1,
+      "palette": {
+        "accent": "d6c5a0",
+        "cloth": "35516d",
+        "hair": "614633",
+        "iris": "685d42",
+        "leather": "654833",
+        "metal": "919ba3",
+        "secondary": "938466",
+        "skin": "bd9577"
+      },
+      "race": "human"
+    },
+    "generation": {
+      "combined_mask": "../attribute_grid_mask_v1.png",
+      "combined_mask_sha256": "b67288dead6f5e6c48d8f0e1412d7cd39bbd08158e42df904c008ee3d6ac2234",
+      "id": "accessories",
+      "image": "front.png",
+      "image_sha256": "006bec47d5e6a16265017d8ccdcc166e6dd04a637e1d133464e7b2e8d505441a",
+      "label": "Дополнительные аксессуары",
+      "layout": {
+        "columns": 5,
+        "count": 10,
+        "rows": 2
+      },
+      "mask_transmission": "builtin tool has no mask argument; layout constraints in prompt",
+      "model_snapshot": null,
+      "model_snapshot_status": "not exposed by built-in tool",
+      "production_pool": false,
+      "prompt": "prompt.txt",
+      "prompt_sha256": "b834d5cae471f4465d5f45339a2708086d1d4e9eeb7fa608bb2b559d32a9c304",
+      "purpose": "Ten attribute variants in one image; concept references, not reconstructed GLB assets",
+      "raw_response": "tool-response.json",
+      "raw_response_sha256": "ddb735c912f08690d033c3213b061e29a1e79908297e4f5729a225a75e1ff159",
+      "schema_version": 1,
+      "style_reference_images": [],
+      "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+      "template_id": "constructor_attribute_grid_master_v1",
+      "template_sha256": "1577ff27f8a8c175c23674db6031a6b0c1b3b9e098061f31a0151a6157269c84",
+      "tool": "image_gen.imagegen",
+      "variant_count": 10,
+      "view": "Front"
+    },
+    "image": "media/experiments/constructor_attribute_references/v1/accessories/front.png",
+    "image_sha256": "006bec47d5e6a16265017d8ccdcc166e6dd04a637e1d133464e7b2e8d505441a",
+    "material_groups": {
+      "atlas_accessories_01_accent": "accent",
+      "atlas_accessories_01_bone": "fixed",
+      "atlas_accessories_01_cloth": "cloth",
+      "atlas_accessories_01_dark": "fixed",
+      "atlas_accessories_01_hair": "hair",
+      "atlas_accessories_01_hair_light": "hair",
+      "atlas_accessories_01_iris": "eyes",
+      "atlas_accessories_01_leather": "leather",
+      "atlas_accessories_01_lip": "skin",
+      "atlas_accessories_01_metal": "metal",
+      "atlas_accessories_01_pupil": "fixed",
+      "atlas_accessories_01_sclera": "fixed",
+      "atlas_accessories_01_secondary": "secondary",
+      "atlas_accessories_01_shadow": "skin",
+      "atlas_accessories_01_skin": "skin"
+    },
+    "method": "manual_low_poly_volumes",
+    "prompt_sha256": "b834d5cae471f4465d5f45339a2708086d1d4e9eeb7fa608bb2b559d32a9c304",
+    "schema_version": 1,
+    "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+    "variant": 1
+  },
+  "commands": [
+    {
+      "authored_primitive": {
+        "center": [
+          0.25,
+          1.08,
+          0.26
+        ],
+        "id": "c001",
+        "material": "leather",
+        "op": "box",
+        "part": "hanging_book",
+        "purpose": "hanging book",
+        "size": [
+          0.17,
+          0.23,
+          0.085
+        ],
+        "slot": "torso",
+        "stage": 2
+      },
+      "faces": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          4,
+          6,
+          5
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          4,
+          7,
+          6
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          5,
+          2
+        ],
+        [
+          2,
+          5,
+          6
+        ],
+        [
+          2,
+          6,
+          3
+        ],
+        [
+          3,
+          6,
+          7
+        ],
+        [
+          3,
+          7,
+          0
+        ],
+        [
+          0,
+          7,
+          4
+        ]
+      ],
+      "id": "atlas_accessories_01_0",
+      "material": "atlas_accessories_01_leather",
+      "op": "indexed_mesh",
+      "part": "atlas_accessories_01_hanging_book",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "torso",
+      "stage": 2,
+      "vertices": [
+        [
+          0.16499999999999998,
+          0.9650000000000001,
+          0.3025
+        ],
+        [
+          0.335,
+          0.9650000000000001,
+          0.3025
+        ],
+        [
+          0.335,
+          1.195,
+          0.3025
+        ],
+        [
+          0.16499999999999998,
+          1.195,
+          0.3025
+        ],
+        [
+          0.16499999999999998,
+          0.9650000000000001,
+          0.21749999999999997
+        ],
+        [
+          0.335,
+          0.9650000000000001,
+          0.21749999999999997
+        ],
+        [
+          0.335,
+          1.195,
+          0.21749999999999997
+        ],
+        [
+          0.16499999999999998,
+          1.195,
+          0.21749999999999997
+        ]
+      ]
+    },
+    {
+      "authored_primitive": {
+        "center": [
+          0.25,
+          1.08,
+          0.312
+        ],
+        "id": "c002",
+        "material": "accent",
+        "op": "box",
+        "part": "book_pages",
+        "purpose": "book pages",
+        "size": [
+          0.135,
+          0.185,
+          0.013
+        ],
+        "slot": "torso",
+        "stage": 2
+      },
+      "faces": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          4,
+          6,
+          5
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          4,
+          7,
+          6
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          5,
+          2
+        ],
+        [
+          2,
+          5,
+          6
+        ],
+        [
+          2,
+          6,
+          3
+        ],
+        [
+          3,
+          6,
+          7
+        ],
+        [
+          3,
+          7,
+          0
+        ],
+        [
+          0,
+          7,
+          4
+        ]
+      ],
+      "id": "atlas_accessories_01_1",
+      "material": "atlas_accessories_01_accent",
+      "op": "indexed_mesh",
+      "part": "atlas_accessories_01_book_pages",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "torso",
+      "stage": 2,
+      "vertices": [
+        [
+          0.1825,
+          0.9875,
+          0.3185
+        ],
+        [
+          0.3175,
+          0.9875,
+          0.3185
+        ],
+        [
+          0.3175,
+          1.1725,
+          0.3185
+        ],
+        [
+          0.1825,
+          1.1725,
+          0.3185
+        ],
+        [
+          0.1825,
+          0.9875,
+          0.3055
+        ],
+        [
+          0.3175,
+          0.9875,
+          0.3055
+        ],
+        [
+          0.3175,
+          1.1725,
+          0.3055
+        ],
+        [
+          0.1825,
+          1.1725,
+          0.3055
+        ]
+      ]
+    }
+  ],
+  "coordinate_system": "metres; Y up; +Z forward; floor Y=0",
+  "id": "hand-accessories-01",
+  "palette": {
+    "atlas_accessories_01_accent": "d6c5a0",
+    "atlas_accessories_01_bone": "cbc5ad",
+    "atlas_accessories_01_cloth": "35516d",
+    "atlas_accessories_01_dark": "33383b",
+    "atlas_accessories_01_hair": "614633",
+    "atlas_accessories_01_hair_light": "71513b",
+    "atlas_accessories_01_iris": "685d42",
+    "atlas_accessories_01_leather": "654833",
+    "atlas_accessories_01_lip": "886b56",
+    "atlas_accessories_01_metal": "919ba3",
+    "atlas_accessories_01_pupil": "272a2b",
+    "atlas_accessories_01_sclera": "d4d1bc",
+    "atlas_accessories_01_secondary": "938466",
+    "atlas_accessories_01_shadow": "775e4b",
+    "atlas_accessories_01_skin": "bd9577"
+  },
+  "production_pool": false,
+  "schema_version": 1
+}

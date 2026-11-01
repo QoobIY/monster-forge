@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "source_git_revision": "7a252745",
+  "source_record": {
+    "schema_version": 2,
+    "id": "campaign-viking",
+    "revision": 12,
+    "label": "Viking",
+    "assets": {
+      "campaign_viking_head": {
+        "kind": "model",
+        "path": "assets/creatures/campaign-viking/revisions/0012/model/head/8ff3ffc943813377635bbc81--model.glb",
+        "weights": "assets/creatures/campaign-viking/revisions/0012/weight_sidecar/head/92b9e22632c3b6d9f061f948--weights.json",
+        "rig": "humanoid_v1",
+        "slot": "head",
+        "grip": null,
+        "grip_frame": "hand"
+      },
+      "campaign_viking_left_arm": {
+        "kind": "model",
+        "path": "assets/creatures/campaign-viking/revisions/0012/model/left_arm/41921de05dbe4b5564a03c7c--model.glb",
+        "weights": "assets/creatures/campaign-viking/revisions/0012/weight_sidecar/left_arm/7c605687a7432cdaa315aa38--weights.json",
+        "rig": "humanoid_v1",
+        "slot": "left_arm",
+        "grip": null,
+        "grip_frame": "hand"
+      },
+      "campaign_viking_left_leg": {
+        "kind": "model",
+        "path": "assets/creatures/campaign-viking/revisions/0012/model/left_leg/f9b7b1f719f77b2e42dad849--model.glb",
+        "weights": "assets/creatures/campaign-viking/revisions/0012/weight_sidecar/left_leg/c41b4c9a8534a3c326e66968--weights.json",
+        "rig": "humanoid_v1",
+        "slot": "left_leg",
+        "grip": null,
+        "grip_frame": "hand"
+      },
+      "campaign_viking_right_arm": {
+        "kind": "model",
+        "path": "assets/creatures/campaign-viking/revisions/0012/model/right_arm/293b3acd3ccb14db6275cbd8--model.glb",
+        "weights": "assets/creatures/campaign-viking/revisions/0012/weight_sidecar/right_arm/79241362fd5ab6ec6a6a96f8--weights.json",
+        "rig": "humanoid_v1",
+        "slot": "right_arm",
+        "grip": null,
+        "grip_frame": "hand"
+      },
+      "campaign_viking_right_leg": {
+        "kind": "model",
+        "path": "assets/creatures/campaign-viking/revisions/0012/model/right_leg/e18b87b4c658f211124eaeb0--model.glb",
+        "weights": "assets/creatures/campaign-viking/revisions/0012/weight_sidecar/right_leg/f05e468abf4d9da75c7f2865--weights.json",
+        "rig": "humanoid_v1",
+        "slot": "right_leg",
+        "grip": null,
+        "grip_frame": "hand"
+      },
+      "campaign_viking_torso": {
+        "kind": "model",
+        "path": "assets/creatures/campaign-viking/revisions/0012/model/torso/7796c739aef85195c948f7d0--model.glb",
+        "weights": "assets/creatures/campaign-viking/revisions/0012/weight_sidecar/torso/5293983015f2494a2b3958d7--weights.json",
+        "rig": "humanoid_v1",
+        "slot": "torso",
+        "grip": null,
+        "grip_frame": "hand"
+      }
+    },
+    "character": {
+      "rig": "humanoid_v1",
+      "authored_bind_pose": true,
+      "prelit": true,
+      "whole": false,
+      "parts": {
+        "head": "campaign_viking_head",
+        "left_arm": "campaign_viking_left_arm",
+        "left_leg": "campaign_viking_left_leg",
+        "right_arm": "campaign_viking_right_arm",
+        "right_leg": "campaign_viking_right_leg",
+        "torso": "campaign_viking_torso"
+      },
+      "attachments": {},
+      "hand_sockets": {
+        "left": [
+          -0.825,
+          0.91,
+          0.11
+        ],
+        "right": [
+          0.825,
+          0.91,
+          0.11
+        ]
+      }
+    },
+    "files": {
+      "assets/creatures/campaign-viking/revisions/0012/model/head/8ff3ffc943813377635bbc81--model.glb": "8ff3ffc943813377635bbc81b3e0874a5183eea772d7ba4d0197cfc7f7634cfd",
+      "assets/creatures/campaign-viking/revisions/0012/weight_sidecar/head/92b9e22632c3b6d9f061f948--weights.json": "92b9e22632c3b6d9f061f948a1f7f39379c978d5344fc2bf58fc9c931d98ca67",
+      "assets/creatures/campaign-viking/revisions/0012/model/left_arm/41921de05dbe4b5564a03c7c--model.glb": "41921de05dbe4b5564a03c7cd471e0d4806d2af8a2c96a7ff3b771f0cfb6c175",
+      "assets/creatures/campaign-viking/revisions/0012/weight_sidecar/left_arm/7c605687a7432cdaa315aa38--weights.json": "7c605687a7432cdaa315aa3836e016d056ff14e890db456fb7ef0e9609fab4f2",
+      "assets/creatures/campaign-viking/revisions/0012/model/left_leg/f9b7b1f719f77b2e42dad849--model.glb": "f9b7b1f719f77b2e42dad8498a2faf6c9f5af25603bb60e1d70b23265e7ff1e7",
+      "assets/creatures/campaign-viking/revisions/0012/weight_sidecar/left_leg/c41b4c9a8534a3c326e66968--weights.json": "c41b4c9a8534a3c326e66968111021b649bd28352213138a00ac0a6aff0493da",
+      "assets/creatures/campaign-viking/revisions/0012/model/right_arm/293b3acd3ccb14db6275cbd8--model.glb": "293b3acd3ccb14db6275cbd868235446dd2ad317b1b5db99cd3de7e89ca69d97",
+      "assets/creatures/campaign-viking/revisions/0012/weight_sidecar/right_arm/79241362fd5ab6ec6a6a96f8--weights.json": "79241362fd5ab6ec6a6a96f814c399ad3e14d0e24805a753902a9d9884383cb7",
+      "assets/creatures/campaign-viking/revisions/0012/model/right_leg/e18b87b4c658f211124eaeb0--model.glb": "e18b87b4c658f211124eaeb0231fe8f9beb7ed7800661703e06e785033d76ece",
+      "assets/creatures/campaign-viking/revisions/0012/weight_sidecar/right_leg/f05e468abf4d9da75c7f2865--weights.json": "f05e468abf4d9da75c7f286546bf991c0968f183855a8868446bac0d2ef38023",
+      "assets/creatures/campaign-viking/revisions/0012/model/torso/7796c739aef85195c948f7d0--model.glb": "7796c739aef85195c948f7d0f036895aebeb6516becba7d71dc0ff246c75020f",
+      "assets/creatures/campaign-viking/revisions/0012/weight_sidecar/torso/5293983015f2494a2b3958d7--weights.json": "5293983015f2494a2b3958d7faf03c3dad7dcbde9ec4177848d60cfece8da291"
+    },
+    "provenance": {
+      "author": "BHM explicit geometric instructions",
+      "recipe": "crypt_campaign/v6/viking/authored_recipe.json",
+      "method": "fixed authored parts, global SDK bind coordinates; immutable revision"
+    }
+  },
+  "attachments": {}
+}

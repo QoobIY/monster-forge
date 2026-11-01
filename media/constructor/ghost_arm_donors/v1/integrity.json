@@ -1,0 +1,16 @@
+{
+  "derived_files": {
+    "female-left_arm.glb": "82e205348b8b3b6006f70982a99ecc14d956ee8fbc31a690a7140b040b996fe3",
+    "female-right_arm.glb": "b21779b3d2012337db051437a26034675722d1364b528b3aca3579c82a734807",
+    "male-left_arm.glb": "03cbf7376d230f0b4891e61f9f63d6bc4c0d41d8e6633912c0dd976fb87a86cd",
+    "male-right_arm.glb": "31ad7d20f15203c08c8f11b53f244354352fc6a5b43114510e4980db03adf194"
+  },
+  "files": {
+    "female-left_arm.recipe.json": "e3b8d443e5b6c077c906f67e4eba005a8da20ca294ecaf6ede918463a64cd0ad",
+    "female-right_arm.recipe.json": "97eb0865b4645989189fc055a6aa5970d869a9a5435ab6b5d91c8b6bdeda8699",
+    "male-left_arm.recipe.json": "9367c599114cfe6768407e160bf693102593871625488b5011fae9696763ab01",
+    "male-right_arm.recipe.json": "af2c56a5035534a7495725635ee62d67837e378425c5f115963e407f412838a1",
+    "manifest.json": "d6d9b58e017536450eb9f8e4fdd2be48b5791e9f127e77de0331d56944b32fdb"
+  },
+  "schema_version": 2
+}

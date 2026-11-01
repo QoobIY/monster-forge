@@ -1,0 +1,140 @@
+{
+  "bind_profile": "canonical",
+  "constructor_settings": {
+    "arms": "native-frog-03",
+    "back": null,
+    "colors": {
+      "accent": null,
+      "back_frame": null,
+      "back_primary": null,
+      "back_secondary": null,
+      "cloth": null,
+      "eyes": null,
+      "hair": null,
+      "leather": null,
+      "metal": null,
+      "secondary": null,
+      "skin": null
+    },
+    "decor": {
+      "beard": "none",
+      "belt": "none",
+      "emblem": "none",
+      "headwear": "none",
+      "mustache": "none",
+      "pattern": "none",
+      "shoulders": "none"
+    },
+    "eye_shape": "original",
+    "eye_size": 1.0,
+    "face": "native-frog-03",
+    "features": {
+      "brows": "profile",
+      "ears": "profile",
+      "jaw": "profile",
+      "mouth": "profile",
+      "nose": "profile"
+    },
+    "form": "regular",
+    "gender": "male",
+    "hair": "original",
+    "legs": "native-frog-03",
+    "outfit": "native-frog-03",
+    "race": "frog",
+    "reference_parts": {
+      "accessories": 0,
+      "arms": 0,
+      "back": 0,
+      "beards": 0,
+      "belts": 0,
+      "body_forms": 0,
+      "boots": 0,
+      "brows": 0,
+      "colorways": 0,
+      "ears": 0,
+      "emblems": 0,
+      "eyes": 0,
+      "female_clothes": 0,
+      "female_faces": 0,
+      "gloves": 0,
+      "hair": 0,
+      "headwear": 0,
+      "jaws": 0,
+      "legs": 0,
+      "male_clothes": 0,
+      "male_faces": 0,
+      "mouths": 0,
+      "mustaches": 0,
+      "noses": 0,
+      "patterns": 0,
+      "race_heads": 0,
+      "shoulders": 0
+    },
+    "schema_version": 5
+  },
+  "id": "frog_king",
+  "label": "MOM RPG · Король лягушек",
+  "parts": {
+    "front_left_leg": {
+      "model": "parts/front_left_leg.glb"
+    },
+    "front_right_leg": {
+      "model": "parts/front_right_leg.glb"
+    },
+    "head": {
+      "model": "parts/head.glb"
+    },
+    "hind_left_leg": {
+      "model": "parts/hind_left_leg.glb"
+    },
+    "hind_right_leg": {
+      "model": "parts/hind_right_leg.glb"
+    },
+    "tail": {
+      "model": "parts/tail.glb"
+    },
+    "torso": {
+      "model": "parts/torso.glb"
+    }
+  },
+  "race": "frog",
+  "rig": "quadruped_v1",
+  "schema_version": 1,
+  "source_assembly": {
+    "bind_profile": "canonical",
+    "id": "dcea31296ad9cf4f11e8188de488cf64eb582a2f6bae72ab6730700a53aac1ec",
+    "parts": {
+      "front_left_leg": {
+        "model_sha256": "fe7ed28547bc9ead0e7ce6404b1976c5ab97b6b6c08e55156ed51fa6892c1dc4",
+        "revision_id": "f2e296a8c6b98e8c9ffa312ca22c28e422df466b36b3227156c31c8943368cc8"
+      },
+      "front_right_leg": {
+        "model_sha256": "0aec189dd1a8405d320c18032fa921585739ea273322ad03bfc21030ef5245f3",
+        "revision_id": "0523d407ac24d758145ed4544be9abdb37fdfd80b5e2cd46e18d9a3956ec88d7"
+      },
+      "head": {
+        "model_sha256": "4ecd4455a08680852584414e20e97cfc07ecec4095a02162fbde2e8a19dfd1dc",
+        "revision_id": "e510a38c046e3d16974ddf8facd6429e223d4a7f96513b0cf9f35f222c528c95"
+      },
+      "hind_left_leg": {
+        "model_sha256": "eaf337db5dff5952259a127fa0bc09e13a87ccd10fcfc98679d1669b8895d1e0",
+        "revision_id": "afd1b963d90cee0186ec8b8ed4b2f9f73e0224401a601ff06b2a99cdd5cd7a39"
+      },
+      "hind_right_leg": {
+        "model_sha256": "999e9e2421681eb90fd6254ae0322c6b15ff556d8a5b7f9b76c35ba23fd9cf94",
+        "revision_id": "dc0a593b97315b6fa4e75da79535acc5583dfdf372d84bf7105dd6178861bddf"
+      },
+      "tail": {
+        "model_sha256": "e69abfed0946106411ed16944f609d84266b85e9f9d1e8263d6505c2f84e204c",
+        "revision_id": "ae09ad9133966c217c65fede46ed342f6e4f13abb483e526668983435026ceda"
+      },
+      "torso": {
+        "model_sha256": "0a3551fb711e4c0108c993af07ad3e4f39770da51cb516adbd9fe1da37adb04f",
+        "revision_id": "2d2c168f367b28ba22d3d27b561c7eb7b332fc8ab649cbdd502e6c236e40239f"
+      }
+    },
+    "schema_version": 1,
+    "skeleton_id": "quadruped_v1",
+    "skeleton_sha256": "9770cb3bafc66f8718f978c92473ed3013fddc5651c39fbb0cf167d9b760f132"
+  }
+}

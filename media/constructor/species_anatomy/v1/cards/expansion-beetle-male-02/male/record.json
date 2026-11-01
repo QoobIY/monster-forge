@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "assembly_id": "8a33283893e376664e249a18f0e7d8a3ee3faeca95b49179f19c83dce7c6dcdf",
+  "settings": {
+    "schema_version": 5,
+    "race": "beetle",
+    "gender": "male",
+    "face": "expansion-beetle-male-02",
+    "hair": "original",
+    "form": "regular",
+    "outfit": "expansion-beetle-male-02",
+    "arms": "expansion-beetle-male-02",
+    "legs": "expansion-beetle-male-02",
+    "back": null,
+    "eye_size": 1.0,
+    "eye_shape": "original",
+    "colors": {
+      "hair": null,
+      "eyes": null,
+      "skin": null,
+      "cloth": null,
+      "accent": null,
+      "metal": null,
+      "leather": null,
+      "secondary": null,
+      "back_primary": null,
+      "back_secondary": null,
+      "back_frame": null
+    },
+    "decor": {
+      "emblem": "none",
+      "shoulders": "none",
+      "belt": "none",
+      "headwear": "none",
+      "pattern": "none",
+      "beard": "none",
+      "mustache": "none"
+    },
+    "features": {
+      "nose": "profile",
+      "ears": "profile",
+      "jaw": "profile",
+      "brows": "profile",
+      "mouth": "profile"
+    },
+    "reference_parts": {
+      "male_faces": 0,
+      "female_faces": 0,
+      "hair": 0,
+      "brows": 0,
+      "eyes": 0,
+      "noses": 0,
+      "ears": 0,
+      "jaws": 0,
+      "mouths": 0,
+      "beards": 0,
+      "mustaches": 0,
+      "race_heads": 0,
+      "body_forms": 0,
+      "male_clothes": 0,
+      "female_clothes": 0,
+      "arms": 0,
+      "legs": 0,
+      "gloves": 0,
+      "boots": 0,
+      "shoulders": 0,
+      "belts": 0,
+      "headwear": 0,
+      "emblems": 0,
+      "back": 0,
+      "accessories": 0,
+      "patterns": 0,
+      "colorways": 0
+    }
+  },
+  "files": {
+    "arms.png": "97b5490e874e8d2a2e5407597a93d98a11fe7c6fb5c2a3d7a2f2f46a9a6f56b3",
+    "face.png": "73eb1d7e2a53a68975ae67bb0388d4471576bd7fc9c16b0165f50664717c3829",
+    "legs.png": "421de8c4adeafd5e30b4d4c9dbd2cc99b4859872d30bc5281762ffeed3b0a395",
+    "outfit.png": "b336e38e6f1aa884015c28fd5de655adefed3266ba332f7f1b2db3e16e6296ae"
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "description": {
+    "identity": "Орки · Картограф Приливов",
+    "limitations": "Authoring draft; visual and in-game motion acceptance pending",
+    "method": "New original character geometry; existing models guide style only"
+  },
+  "gender": "female",
+  "id": "library-orc-02",
+  "index_entry": {
+    "group": "original",
+    "id": "library-orc-02",
+    "label": "Орки · Картограф Приливов",
+    "record": "library-orc-02/record.json",
+    "status": "built",
+    "thumbnail": null
+  },
+  "label": "Орки · Картограф Приливов",
+  "original_design": {
+    "authoring_revision": 2,
+    "bind_source": "machine_of_monsters.animation.load_skeleton",
+    "method": "Original numerical art direction; no donor character mesh or recipe loaded",
+    "schema_version": 1,
+    "spec": {
+      "costume": "scholar",
+      "face": {
+        "eye_tilt": 0.008,
+        "jaw": 0.53,
+        "nose": 0.046,
+        "width": 0.185
+      },
+      "gender": "female",
+      "hair": "bob",
+      "id": "library-orc-02",
+      "label": "Орки · Картограф Приливов",
+      "library_variant": 2,
+      "palette": {
+        "accent": "c0b697",
+        "cloth": "3f727b",
+        "hair": "975e3e",
+        "iris": "809ba1",
+        "leather": "67503f",
+        "metal": "87969a",
+        "skin": "768267"
+      },
+      "race": "orc"
+    },
+    "style_profile": {
+      "art_direction": "All characters, creatures, equipment, projectiles, buildings, terrain pieces, and decorations must use one coherent low-poly visual language. Each asset should read as a lightweight production mesh, not concept art, not a high-poly render, and not a glossy toy. Do not imitate a recognizable game, franchise, or studio style.",
+      "geometry_rules": "Use primitive-based construction with visible planar facets, hard silhouette breaks, chunky masses, few large mesh pieces, and a deliberately low triangle budget. Avoid tiny geometry, ornate trim, dense sculpting, smooth subdivision, and high-frequency detail.",
+      "global_negative": "photorealistic, high-poly, ultra detailed, smooth subdivision, dense mesh, tiny surface detail, ornate trim, cinematic lighting, complex background, glossy plastic, anime, chibi, voxel, pixel art, flat 2D illustration, painterly concept art, text, labels, watermark, UI",
+      "material_rules": "Use matte hand-painted diffuse colors, 2 to 4 main material colors, broad color regions, simple gradients, very sparse painted highlights, and no realistic pores, scratches, fibers, or micro surface detail.",
+      "name": "Unified low-poly project style",
+      "presentation_rules": "Use a neutral dark #1e1e1e background, orthographic camera, centered full asset, equal padding, clean silhouette, no text, no labels, no UI, no watermark, and no cropped parts."
+    },
+    "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07"
+  },
+  "parts": {
+    "head": {
+      "bounds_metres": [
+        [
+          -0.28999999165534973,
+          2.0350000858306885,
+          -0.24021130800247192
+        ],
+        [
+          0.28999999165534973,
+          2.630000114440918,
+          0.2621961534023285
+        ]
+      ],
+      "commands": [
+        "original_015",
+        "original_016",
+        "original_017",
+        "original_018",
+        "original_019",
+        "original_020",
+        "original_021",
+        "original_022",
+        "original_023",
+        "original_024",
+        "original_025",
+        "original_026",
+        "original_027",
+        "original_028",
+        "original_029",
+        "original_030",
+        "original_031",
+        "original_032",
+        "original_033",
+        "original_034",
+        "original_035",
+        "original_036",
+        "original_037"
+      ],
+      "image": "parts/head.png",
+      "model": "parts/head.glb",
+      "recipe": "parts/head.recipe.json",
+      "sha256": "0c92680770169a5afe28442db53df8aaeb33ee1641355698b9300a3429165162",
+      "triangles": 904
+    },
+    "left_arm": {
+      "bounds_metres": [
+        [
+          -0.9119445085525513,
+          0.8209999799728394,
+          -0.08979984372854233
+        ],
+        [
+          -0.2596025764942169,
+          1.882396936416626,
+          0.17383748292922974
+        ]
+      ],
+      "commands": [
+        "original_006",
+        "original_007",
+        "original_008",
+        "original_048"
+      ],
+      "image": "parts/left_arm.png",
+      "model": "parts/left_arm.glb",
+      "recipe": "parts/left_arm.recipe.json",
+      "sha256": "7bec4e67eb8e000e078516519af89ade056099e1ead4b34d2e4914988c6a7276",
+      "triangles": 156
+    },
+    "left_leg": {
+      "bounds_metres": [
+        [
+          -0.4449999928474426,
+          0.0,
+          -0.13687613606452942
+        ],
+        [
+          -0.08410090953111649,
+          0.9673174619674683,
+          0.3700000047683716
+        ]
+      ],
+      "commands": [
+        "original_003",
+        "original_004",
+        "original_005"
+      ],
+      "image": "parts/left_leg.png",
+      "model": "parts/left_leg.glb",
+      "recipe": "parts/left_leg.recipe.json",
+      "sha256": "8dd65d5c9961a63930da3be3368b37c220ee6013a39895c88290a861e2e9e727",
+      "triangles": 132
+    },
+    "right_arm": {
+      "bounds_metres": [
+        [
+          0.2596025764942169,
+          0.8209999799728394,
+          -0.08979984372854233
+        ],
+        [
+          0.9119445085525513,
+          1.882396936416626,
+          0.17383748292922974
+        ]
+      ],
+      "commands": [
+        "original_012",
+        "original_013",
+        "original_014",
+        "original_049"
+      ],
+      "image": "parts/right_arm.png",
+      "model": "parts/right_arm.glb",
+      "recipe": "parts/right_arm.recipe.json",
+      "sha256": "4a44a20001f9ae3f02939cdc8982419443e42aea3fc9aaea2ef225350023d406",
+      "triangles": 156
+    },
+    "right_leg": {
+      "bounds_metres": [
+        [
+          0.08410090953111649,
+          0.0,
+          -0.13687613606452942
+        ],
+        [
+          0.4449999928474426,
+          0.9673174619674683,
+          0.3700000047683716
+        ]
+      ],
+      "commands": [
+        "original_009",
+        "original_010",
+        "original_011"
+      ],
+      "image": "parts/right_leg.png",
+      "model": "parts/right_leg.glb",
+      "recipe": "parts/right_leg.recipe.json",
+      "sha256": "e33cdf7d015489f50c4d7e385d1ae2f25f34fb29e829227a793ce6735c992358",
+      "triangles": 132
+    },
+    "torso": {
+      "bounds_metres": [
+        [
+          -0.36000001430511475,
+          0.38999998569488525,
+          -0.19496658444404602
+        ],
+        [
+          0.3400000035762787,
+          2.077507495880127,
+          0.2849999964237213
+        ]
+      ],
+      "commands": [
+        "original_001",
+        "original_002",
+        "original_038",
+        "original_039",
+        "original_040",
+        "original_041",
+        "original_042",
+        "original_043",
+        "original_044",
+        "original_045",
+        "original_046",
+        "original_047"
+      ],
+      "image": "parts/torso.png",
+      "model": "parts/torso.glb",
+      "recipe": "parts/torso.recipe.json",
+      "sha256": "9b626b39123ffbceb65e244dde46cc2f35a2c43db1abdf17e2330722a4f97ba1",
+      "triangles": 344
+    }
+  },
+  "race": "orc",
+  "reference_image": null,
+  "rig": "humanoid_v1",
+  "schema_version": 1,
+  "triangles": 1824
+}

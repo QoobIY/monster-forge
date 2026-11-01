@@ -1,0 +1,917 @@
+{
+  "schema_version": 1,
+  "presets": [
+    {
+      "group": "library",
+      "path": "library/library-human-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-human-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-human-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-human-04.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-human-05.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-human-06.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-human-07.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-human-08.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-human-09.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-human-10.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-orc-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-orc-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-orc-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-orc-04.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-orc-05.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-orc-06.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-orc-07.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-orc-08.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-orc-09.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-orc-10.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-minotaur-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-minotaur-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-minotaur-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-minotaur-04.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-minotaur-05.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-minotaur-06.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-minotaur-07.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-minotaur-08.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-minotaur-09.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-minotaur-10.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-skeleton-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-skeleton-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-skeleton-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-skeleton-04.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-skeleton-05.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-skeleton-06.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-skeleton-07.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-skeleton-08.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-skeleton-09.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-skeleton-10.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-spider-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-spider-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-spider-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-spider-04.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-spider-05.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-spider-06.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-spider-07.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-spider-08.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-spider-09.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-spider-10.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-animal-sheep-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-animal-sheep-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-animal-sheep-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-animal-wolf-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-animal-wolf-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-animal-wolf-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-animal-bear-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-animal-bear-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-animal-bear-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-animal-boar-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-animal-boar-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-animal-boar-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-animal-dog-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-animal-dog-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-animal-dog-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-animal-tiger-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-animal-tiger-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-animal-tiger-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-animal-horse-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-animal-horse-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/library-animal-horse-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/flyer-dragon-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/flyer-dragon-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/flyer-dragon-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/flyer-bone-dragon-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/flyer-bone-dragon-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/flyer-bone-dragon-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/flyer-eagle-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/flyer-eagle-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/flyer-eagle-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-dragon-2-head.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-dragon-3-head.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-hippogriff-male-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-naga-male-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-naga-male-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-naga-male-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-naga-male-04.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-naga-male-05.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-naga-female-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-naga-female-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-naga-female-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-naga-female-04.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-naga-female-05.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-centaur-male-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-centaur-male-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-centaur-male-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-elephant-male-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-elephant-male-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-elephant-male-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-beetle-male-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-beetle-male-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-beetle-male-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-nerubian-male-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-arena-crab-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-arena-crab-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-arena-crab-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-arena-scorpion-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-arena-scorpion-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-arena-scorpion-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-ghost-male-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-ghost-male-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-ghost-male-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-ghost-male-04.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-ghost-male-05.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-ghost-male-06.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-ghost-male-07.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-ghost-male-08.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-ghost-male-09.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-ghost-male-10.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-golem-male-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-golem-male-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-golem-male-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-golem-male-04.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-golem-male-05.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-panda-male-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-panda-male-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-panda-male-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-panda-male-04.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-panda-female-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-panda-female-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-panda-female-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-panda-female-04.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-beorn-male-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-beorn-male-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-beorn-male-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-beorn-male-04.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-beorn-female-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-beorn-female-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-beorn-female-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-beorn-female-04.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-kobold-male-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-kobold-male-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-kobold-male-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-kobold-male-04.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-kobold-female-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-kobold-female-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-kobold-female-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-kobold-female-04.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-quillboar-male-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-quillboar-male-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-quillboar-male-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-quillboar-male-04.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-quillboar-female-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-quillboar-female-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-quillboar-female-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-quillboar-female-04.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-water-golem-male-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-ape-male-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-ape-male-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-ape-female-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-ape-female-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-owl-male-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-owl-female-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-treant-rooted-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-treant-rooted-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-treant-rooted-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-treant-rooted-04.json"
+    },
+    {
+      "group": "library",
+      "path": "library/expansion-treant-rooted-05.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-randomium-random-god-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-randomium-mahjong-god-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-frog-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-frog-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-frog-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-slime-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-slime-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-slime-03.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-satyr-01.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-satyr-02.json"
+    },
+    {
+      "group": "library",
+      "path": "library/native-satyr-03.json"
+    },
+    {
+      "group": "mom_rpg",
+      "path": "mom_rpg/classes/viking.json"
+    },
+    {
+      "group": "mom_rpg",
+      "path": "mom_rpg/classes/witcher.json"
+    },
+    {
+      "group": "mom_rpg",
+      "path": "mom_rpg/classes/mage.json"
+    },
+    {
+      "group": "mom_rpg",
+      "path": "mom_rpg/desert/quillback.json"
+    },
+    {
+      "group": "mom_rpg",
+      "path": "mom_rpg/desert/quillback_mage.json"
+    },
+    {
+      "group": "mom_rpg",
+      "path": "mom_rpg/desert/quillback_chief.json"
+    },
+    {
+      "group": "mom_rpg",
+      "path": "mom_rpg/demons/azanus.json"
+    },
+    {
+      "group": "mom_rpg",
+      "path": "mom_rpg/swamp/frog_mutant.json"
+    },
+    {
+      "group": "mom_rpg",
+      "path": "mom_rpg/swamp/frog_king.json"
+    },
+    {
+      "group": "mom_rpg",
+      "path": "mom_rpg/swamp/acid_slime.json"
+    },
+    {
+      "group": "mom_rpg",
+      "path": "mom_rpg/forest/satyr.json"
+    },
+    {
+      "group": "mom_rpg",
+      "path": "mom_rpg/forest/satyr_king.json"
+    },
+    {
+      "group": "mom_rpg",
+      "path": "mom_rpg/forest/cursed_tree.json"
+    },
+    {
+      "group": "mom_rpg",
+      "path": "mom_rpg/forest/ancient_tree.json"
+    },
+    {
+      "group": "reference",
+      "path": "reference/reference-human-captain.json"
+    },
+    {
+      "group": "reference",
+      "path": "reference/reference-human-mage.json"
+    },
+    {
+      "group": "reference",
+      "path": "reference/reference-orc-guard.json"
+    },
+    {
+      "group": "reference",
+      "path": "reference/reference-orc-artisan.json"
+    },
+    {
+      "group": "reference",
+      "path": "reference/reference-minotaur-smith.json"
+    },
+    {
+      "group": "attribute",
+      "path": "attribute/attribute-male-01.json"
+    },
+    {
+      "group": "attribute",
+      "path": "attribute/attribute-male-02.json"
+    },
+    {
+      "group": "attribute",
+      "path": "attribute/attribute-male-03.json"
+    },
+    {
+      "group": "attribute",
+      "path": "attribute/attribute-male-04.json"
+    },
+    {
+      "group": "attribute",
+      "path": "attribute/attribute-male-05.json"
+    },
+    {
+      "group": "attribute",
+      "path": "attribute/attribute-male-06.json"
+    },
+    {
+      "group": "attribute",
+      "path": "attribute/attribute-male-07.json"
+    },
+    {
+      "group": "attribute",
+      "path": "attribute/attribute-male-08.json"
+    },
+    {
+      "group": "attribute",
+      "path": "attribute/attribute-male-09.json"
+    },
+    {
+      "group": "attribute",
+      "path": "attribute/attribute-male-10.json"
+    },
+    {
+      "group": "attribute",
+      "path": "attribute/attribute-female-01.json"
+    },
+    {
+      "group": "attribute",
+      "path": "attribute/attribute-female-02.json"
+    },
+    {
+      "group": "attribute",
+      "path": "attribute/attribute-female-03.json"
+    },
+    {
+      "group": "attribute",
+      "path": "attribute/attribute-female-04.json"
+    },
+    {
+      "group": "attribute",
+      "path": "attribute/attribute-female-05.json"
+    },
+    {
+      "group": "attribute",
+      "path": "attribute/attribute-female-06.json"
+    },
+    {
+      "group": "attribute",
+      "path": "attribute/attribute-female-07.json"
+    },
+    {
+      "group": "attribute",
+      "path": "attribute/attribute-female-08.json"
+    },
+    {
+      "group": "attribute",
+      "path": "attribute/attribute-female-09.json"
+    },
+    {
+      "group": "attribute",
+      "path": "attribute/attribute-female-10.json"
+    },
+    {
+      "group": "mom_skins",
+      "path": "mom_skins/stalker.json"
+    },
+    {
+      "group": "mom_skins",
+      "path": "mom_skins/knight.json"
+    },
+    {
+      "group": "mom_skins",
+      "path": "mom_skins/archer.json"
+    },
+    {
+      "group": "mom_skins",
+      "path": "mom_skins/goblin.json"
+    },
+    {
+      "group": "mom_skins",
+      "path": "mom_skins/red_orc.json"
+    },
+    {
+      "group": "mom_skins",
+      "path": "mom_skins/elf.json"
+    },
+    {
+      "group": "mom_skins",
+      "path": "mom_skins/glasses.json"
+    },
+    {
+      "group": "mom_skins",
+      "path": "mom_skins/paladin.json"
+    },
+    {
+      "group": "mom_skins",
+      "path": "mom_skins/angel.json"
+    },
+    {
+      "group": "mom_skins",
+      "path": "mom_skins/demon.json"
+    }
+  ]
+}

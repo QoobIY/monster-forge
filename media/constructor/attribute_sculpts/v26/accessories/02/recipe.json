@@ -1,0 +1,1319 @@
+{
+  "attribute_reference": {
+    "authoring_revision": 1,
+    "authoring_sha256": "48159c92584473d8ca4c91dae38fc1cc9f3746807c5e3f1910c6bd4d7e872253",
+    "category": "accessories",
+    "cell_pixels": [
+      307,
+      0,
+      614,
+      512
+    ],
+    "depth_status": "Manually authored volumes; Front reference supplies silhouette/proportions only",
+    "design": {
+      "costume": "warden",
+      "face": {
+        "eye_tilt": 0,
+        "jaw": 0.66,
+        "nose": 0.06,
+        "width": 0.193
+      },
+      "gender": "male",
+      "hair": "swept",
+      "id": "hand-accessories-02",
+      "label": "accessories",
+      "library_variant": 2,
+      "palette": {
+        "accent": "d6c5a0",
+        "cloth": "35516d",
+        "hair": "614633",
+        "iris": "685d42",
+        "leather": "654833",
+        "metal": "919ba3",
+        "secondary": "938466",
+        "skin": "bd9577"
+      },
+      "race": "human"
+    },
+    "generation": {
+      "combined_mask": "../attribute_grid_mask_v1.png",
+      "combined_mask_sha256": "b67288dead6f5e6c48d8f0e1412d7cd39bbd08158e42df904c008ee3d6ac2234",
+      "id": "accessories",
+      "image": "front.png",
+      "image_sha256": "006bec47d5e6a16265017d8ccdcc166e6dd04a637e1d133464e7b2e8d505441a",
+      "label": "Дополнительные аксессуары",
+      "layout": {
+        "columns": 5,
+        "count": 10,
+        "rows": 2
+      },
+      "mask_transmission": "builtin tool has no mask argument; layout constraints in prompt",
+      "model_snapshot": null,
+      "model_snapshot_status": "not exposed by built-in tool",
+      "production_pool": false,
+      "prompt": "prompt.txt",
+      "prompt_sha256": "b834d5cae471f4465d5f45339a2708086d1d4e9eeb7fa608bb2b559d32a9c304",
+      "purpose": "Ten attribute variants in one image; concept references, not reconstructed GLB assets",
+      "raw_response": "tool-response.json",
+      "raw_response_sha256": "ddb735c912f08690d033c3213b061e29a1e79908297e4f5729a225a75e1ff159",
+      "schema_version": 1,
+      "style_reference_images": [],
+      "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+      "template_id": "constructor_attribute_grid_master_v1",
+      "template_sha256": "1577ff27f8a8c175c23674db6031a6b0c1b3b9e098061f31a0151a6157269c84",
+      "tool": "image_gen.imagegen",
+      "variant_count": 10,
+      "view": "Front"
+    },
+    "image": "media/experiments/constructor_attribute_references/v1/accessories/front.png",
+    "image_sha256": "006bec47d5e6a16265017d8ccdcc166e6dd04a637e1d133464e7b2e8d505441a",
+    "material_groups": {
+      "atlas_accessories_02_accent": "accent",
+      "atlas_accessories_02_bone": "fixed",
+      "atlas_accessories_02_cloth": "cloth",
+      "atlas_accessories_02_dark": "fixed",
+      "atlas_accessories_02_hair": "hair",
+      "atlas_accessories_02_hair_light": "hair",
+      "atlas_accessories_02_iris": "eyes",
+      "atlas_accessories_02_leather": "leather",
+      "atlas_accessories_02_lip": "skin",
+      "atlas_accessories_02_metal": "metal",
+      "atlas_accessories_02_pupil": "fixed",
+      "atlas_accessories_02_sclera": "fixed",
+      "atlas_accessories_02_secondary": "secondary",
+      "atlas_accessories_02_shadow": "skin",
+      "atlas_accessories_02_skin": "skin"
+    },
+    "method": "manual_low_poly_volumes",
+    "prompt_sha256": "b834d5cae471f4465d5f45339a2708086d1d4e9eeb7fa608bb2b559d32a9c304",
+    "schema_version": 1,
+    "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+    "variant": 2
+  },
+  "commands": [
+    {
+      "authored_primitive": {
+        "center": [
+          0.188,
+          1.08,
+          0.26
+        ],
+        "id": "c001",
+        "material": "secondary",
+        "op": "ellipsoid",
+        "part": "flask",
+        "purpose": "flask",
+        "radii": [
+          0.038,
+          0.06,
+          0.034
+        ],
+        "rings": 4,
+        "sides": 5,
+        "slot": "torso",
+        "stage": 2
+      },
+      "faces": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          5,
+          1
+        ],
+        [
+          1,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          7
+        ],
+        [
+          2,
+          7,
+          3
+        ],
+        [
+          3,
+          7,
+          8
+        ],
+        [
+          3,
+          8,
+          4
+        ],
+        [
+          4,
+          8,
+          9
+        ],
+        [
+          4,
+          9,
+          5
+        ],
+        [
+          5,
+          9,
+          10
+        ],
+        [
+          5,
+          10,
+          1
+        ],
+        [
+          1,
+          10,
+          6
+        ],
+        [
+          6,
+          11,
+          7
+        ],
+        [
+          7,
+          11,
+          12
+        ],
+        [
+          7,
+          12,
+          8
+        ],
+        [
+          8,
+          12,
+          13
+        ],
+        [
+          8,
+          13,
+          9
+        ],
+        [
+          9,
+          13,
+          14
+        ],
+        [
+          9,
+          14,
+          10
+        ],
+        [
+          10,
+          14,
+          15
+        ],
+        [
+          10,
+          15,
+          6
+        ],
+        [
+          6,
+          15,
+          11
+        ],
+        [
+          16,
+          12,
+          11
+        ],
+        [
+          16,
+          13,
+          12
+        ],
+        [
+          16,
+          14,
+          13
+        ],
+        [
+          16,
+          15,
+          14
+        ],
+        [
+          16,
+          11,
+          15
+        ]
+      ],
+      "id": "atlas_accessories_02_0",
+      "material": "atlas_accessories_02_secondary",
+      "op": "indexed_mesh",
+      "part": "atlas_accessories_02_flask",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "torso",
+      "stage": 2,
+      "vertices": [
+        [
+          0.188,
+          1.02,
+          0.26
+        ],
+        [
+          0.21487005768508882,
+          1.0375735931288073,
+          0.26
+        ],
+        [
+          0.1963033044645276,
+          1.0375735931288073,
+          0.28286494940677454
+        ],
+        [
+          0.166261666692928,
+          1.0375735931288073,
+          0.2741313158844334
+        ],
+        [
+          0.166261666692928,
+          1.0375735931288073,
+          0.2458686841155666
+        ],
+        [
+          0.1963033044645276,
+          1.0375735931288073,
+          0.23713505059322545
+        ],
+        [
+          0.226,
+          1.08,
+          0.26
+        ],
+        [
+          0.199742645786248,
+          1.08,
+          0.2923359215540352
+        ],
+        [
+          0.157257354213752,
+          1.08,
+          0.2799846985779441
+        ],
+        [
+          0.157257354213752,
+          1.08,
+          0.24001530142205593
+        ],
+        [
+          0.199742645786248,
+          1.08,
+          0.22766407844596478
+        ],
+        [
+          0.21487005768508882,
+          1.1224264068711929,
+          0.26
+        ],
+        [
+          0.1963033044645276,
+          1.1224264068711929,
+          0.28286494940677454
+        ],
+        [
+          0.166261666692928,
+          1.1224264068711929,
+          0.2741313158844334
+        ],
+        [
+          0.166261666692928,
+          1.1224264068711929,
+          0.2458686841155666
+        ],
+        [
+          0.1963033044645276,
+          1.1224264068711929,
+          0.23713505059322545
+        ],
+        [
+          0.188,
+          1.1400000000000001,
+          0.26
+        ]
+      ]
+    },
+    {
+      "authored_primitive": {
+        "center": [
+          0.188,
+          1.146,
+          0.26
+        ],
+        "id": "c002",
+        "material": "leather",
+        "op": "box",
+        "part": "flask_cork",
+        "purpose": "flask cork",
+        "size": [
+          0.026,
+          0.025,
+          0.028
+        ],
+        "slot": "torso",
+        "stage": 2
+      },
+      "faces": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          4,
+          6,
+          5
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          4,
+          7,
+          6
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          5,
+          2
+        ],
+        [
+          2,
+          5,
+          6
+        ],
+        [
+          2,
+          6,
+          3
+        ],
+        [
+          3,
+          6,
+          7
+        ],
+        [
+          3,
+          7,
+          0
+        ],
+        [
+          0,
+          7,
+          4
+        ]
+      ],
+      "id": "atlas_accessories_02_1",
+      "material": "atlas_accessories_02_leather",
+      "op": "indexed_mesh",
+      "part": "atlas_accessories_02_flask_cork",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "torso",
+      "stage": 2,
+      "vertices": [
+        [
+          0.175,
+          1.1335,
+          0.274
+        ],
+        [
+          0.201,
+          1.1335,
+          0.274
+        ],
+        [
+          0.201,
+          1.1584999999999999,
+          0.274
+        ],
+        [
+          0.175,
+          1.1584999999999999,
+          0.274
+        ],
+        [
+          0.175,
+          1.1335,
+          0.24600000000000002
+        ],
+        [
+          0.201,
+          1.1335,
+          0.24600000000000002
+        ],
+        [
+          0.201,
+          1.1584999999999999,
+          0.24600000000000002
+        ],
+        [
+          0.175,
+          1.1584999999999999,
+          0.24600000000000002
+        ]
+      ]
+    },
+    {
+      "authored_primitive": {
+        "center": [
+          0.25,
+          1.08,
+          0.26
+        ],
+        "id": "c003",
+        "material": "secondary",
+        "op": "ellipsoid",
+        "part": "flask",
+        "purpose": "flask",
+        "radii": [
+          0.038,
+          0.06,
+          0.034
+        ],
+        "rings": 4,
+        "sides": 5,
+        "slot": "torso",
+        "stage": 2
+      },
+      "faces": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          5,
+          1
+        ],
+        [
+          1,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          7
+        ],
+        [
+          2,
+          7,
+          3
+        ],
+        [
+          3,
+          7,
+          8
+        ],
+        [
+          3,
+          8,
+          4
+        ],
+        [
+          4,
+          8,
+          9
+        ],
+        [
+          4,
+          9,
+          5
+        ],
+        [
+          5,
+          9,
+          10
+        ],
+        [
+          5,
+          10,
+          1
+        ],
+        [
+          1,
+          10,
+          6
+        ],
+        [
+          6,
+          11,
+          7
+        ],
+        [
+          7,
+          11,
+          12
+        ],
+        [
+          7,
+          12,
+          8
+        ],
+        [
+          8,
+          12,
+          13
+        ],
+        [
+          8,
+          13,
+          9
+        ],
+        [
+          9,
+          13,
+          14
+        ],
+        [
+          9,
+          14,
+          10
+        ],
+        [
+          10,
+          14,
+          15
+        ],
+        [
+          10,
+          15,
+          6
+        ],
+        [
+          6,
+          15,
+          11
+        ],
+        [
+          16,
+          12,
+          11
+        ],
+        [
+          16,
+          13,
+          12
+        ],
+        [
+          16,
+          14,
+          13
+        ],
+        [
+          16,
+          15,
+          14
+        ],
+        [
+          16,
+          11,
+          15
+        ]
+      ],
+      "id": "atlas_accessories_02_2",
+      "material": "atlas_accessories_02_secondary",
+      "op": "indexed_mesh",
+      "part": "atlas_accessories_02_flask",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "torso",
+      "stage": 2,
+      "vertices": [
+        [
+          0.25,
+          1.02,
+          0.26
+        ],
+        [
+          0.2768700576850888,
+          1.0375735931288073,
+          0.26
+        ],
+        [
+          0.2583033044645276,
+          1.0375735931288073,
+          0.28286494940677454
+        ],
+        [
+          0.228261666692928,
+          1.0375735931288073,
+          0.2741313158844334
+        ],
+        [
+          0.228261666692928,
+          1.0375735931288073,
+          0.2458686841155666
+        ],
+        [
+          0.2583033044645276,
+          1.0375735931288073,
+          0.23713505059322545
+        ],
+        [
+          0.288,
+          1.08,
+          0.26
+        ],
+        [
+          0.261742645786248,
+          1.08,
+          0.2923359215540352
+        ],
+        [
+          0.219257354213752,
+          1.08,
+          0.2799846985779441
+        ],
+        [
+          0.219257354213752,
+          1.08,
+          0.24001530142205593
+        ],
+        [
+          0.261742645786248,
+          1.08,
+          0.22766407844596478
+        ],
+        [
+          0.2768700576850888,
+          1.1224264068711929,
+          0.26
+        ],
+        [
+          0.2583033044645276,
+          1.1224264068711929,
+          0.28286494940677454
+        ],
+        [
+          0.228261666692928,
+          1.1224264068711929,
+          0.2741313158844334
+        ],
+        [
+          0.228261666692928,
+          1.1224264068711929,
+          0.2458686841155666
+        ],
+        [
+          0.2583033044645276,
+          1.1224264068711929,
+          0.23713505059322545
+        ],
+        [
+          0.25,
+          1.1400000000000001,
+          0.26
+        ]
+      ]
+    },
+    {
+      "authored_primitive": {
+        "center": [
+          0.25,
+          1.146,
+          0.26
+        ],
+        "id": "c004",
+        "material": "leather",
+        "op": "box",
+        "part": "flask_cork",
+        "purpose": "flask cork",
+        "size": [
+          0.026,
+          0.025,
+          0.028
+        ],
+        "slot": "torso",
+        "stage": 2
+      },
+      "faces": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          4,
+          6,
+          5
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          4,
+          7,
+          6
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          5,
+          2
+        ],
+        [
+          2,
+          5,
+          6
+        ],
+        [
+          2,
+          6,
+          3
+        ],
+        [
+          3,
+          6,
+          7
+        ],
+        [
+          3,
+          7,
+          0
+        ],
+        [
+          0,
+          7,
+          4
+        ]
+      ],
+      "id": "atlas_accessories_02_3",
+      "material": "atlas_accessories_02_leather",
+      "op": "indexed_mesh",
+      "part": "atlas_accessories_02_flask_cork",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "torso",
+      "stage": 2,
+      "vertices": [
+        [
+          0.237,
+          1.1335,
+          0.274
+        ],
+        [
+          0.263,
+          1.1335,
+          0.274
+        ],
+        [
+          0.263,
+          1.1584999999999999,
+          0.274
+        ],
+        [
+          0.237,
+          1.1584999999999999,
+          0.274
+        ],
+        [
+          0.237,
+          1.1335,
+          0.24600000000000002
+        ],
+        [
+          0.263,
+          1.1335,
+          0.24600000000000002
+        ],
+        [
+          0.263,
+          1.1584999999999999,
+          0.24600000000000002
+        ],
+        [
+          0.237,
+          1.1584999999999999,
+          0.24600000000000002
+        ]
+      ]
+    },
+    {
+      "authored_primitive": {
+        "center": [
+          0.312,
+          1.08,
+          0.26
+        ],
+        "id": "c005",
+        "material": "secondary",
+        "op": "ellipsoid",
+        "part": "flask",
+        "purpose": "flask",
+        "radii": [
+          0.038,
+          0.06,
+          0.034
+        ],
+        "rings": 4,
+        "sides": 5,
+        "slot": "torso",
+        "stage": 2
+      },
+      "faces": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          5,
+          1
+        ],
+        [
+          1,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          7
+        ],
+        [
+          2,
+          7,
+          3
+        ],
+        [
+          3,
+          7,
+          8
+        ],
+        [
+          3,
+          8,
+          4
+        ],
+        [
+          4,
+          8,
+          9
+        ],
+        [
+          4,
+          9,
+          5
+        ],
+        [
+          5,
+          9,
+          10
+        ],
+        [
+          5,
+          10,
+          1
+        ],
+        [
+          1,
+          10,
+          6
+        ],
+        [
+          6,
+          11,
+          7
+        ],
+        [
+          7,
+          11,
+          12
+        ],
+        [
+          7,
+          12,
+          8
+        ],
+        [
+          8,
+          12,
+          13
+        ],
+        [
+          8,
+          13,
+          9
+        ],
+        [
+          9,
+          13,
+          14
+        ],
+        [
+          9,
+          14,
+          10
+        ],
+        [
+          10,
+          14,
+          15
+        ],
+        [
+          10,
+          15,
+          6
+        ],
+        [
+          6,
+          15,
+          11
+        ],
+        [
+          16,
+          12,
+          11
+        ],
+        [
+          16,
+          13,
+          12
+        ],
+        [
+          16,
+          14,
+          13
+        ],
+        [
+          16,
+          15,
+          14
+        ],
+        [
+          16,
+          11,
+          15
+        ]
+      ],
+      "id": "atlas_accessories_02_4",
+      "material": "atlas_accessories_02_secondary",
+      "op": "indexed_mesh",
+      "part": "atlas_accessories_02_flask",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "torso",
+      "stage": 2,
+      "vertices": [
+        [
+          0.312,
+          1.02,
+          0.26
+        ],
+        [
+          0.3388700576850888,
+          1.0375735931288073,
+          0.26
+        ],
+        [
+          0.3203033044645276,
+          1.0375735931288073,
+          0.28286494940677454
+        ],
+        [
+          0.290261666692928,
+          1.0375735931288073,
+          0.2741313158844334
+        ],
+        [
+          0.29026166669292797,
+          1.0375735931288073,
+          0.2458686841155666
+        ],
+        [
+          0.3203033044645276,
+          1.0375735931288073,
+          0.23713505059322545
+        ],
+        [
+          0.35,
+          1.08,
+          0.26
+        ],
+        [
+          0.323742645786248,
+          1.08,
+          0.2923359215540352
+        ],
+        [
+          0.281257354213752,
+          1.08,
+          0.2799846985779441
+        ],
+        [
+          0.281257354213752,
+          1.08,
+          0.24001530142205593
+        ],
+        [
+          0.323742645786248,
+          1.08,
+          0.22766407844596478
+        ],
+        [
+          0.3388700576850888,
+          1.1224264068711929,
+          0.26
+        ],
+        [
+          0.3203033044645276,
+          1.1224264068711929,
+          0.28286494940677454
+        ],
+        [
+          0.290261666692928,
+          1.1224264068711929,
+          0.2741313158844334
+        ],
+        [
+          0.29026166669292797,
+          1.1224264068711929,
+          0.2458686841155666
+        ],
+        [
+          0.3203033044645276,
+          1.1224264068711929,
+          0.23713505059322545
+        ],
+        [
+          0.312,
+          1.1400000000000001,
+          0.26
+        ]
+      ]
+    },
+    {
+      "authored_primitive": {
+        "center": [
+          0.312,
+          1.146,
+          0.26
+        ],
+        "id": "c006",
+        "material": "leather",
+        "op": "box",
+        "part": "flask_cork",
+        "purpose": "flask cork",
+        "size": [
+          0.026,
+          0.025,
+          0.028
+        ],
+        "slot": "torso",
+        "stage": 2
+      },
+      "faces": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          4,
+          6,
+          5
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          4,
+          7,
+          6
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          5,
+          2
+        ],
+        [
+          2,
+          5,
+          6
+        ],
+        [
+          2,
+          6,
+          3
+        ],
+        [
+          3,
+          6,
+          7
+        ],
+        [
+          3,
+          7,
+          0
+        ],
+        [
+          0,
+          7,
+          4
+        ]
+      ],
+      "id": "atlas_accessories_02_5",
+      "material": "atlas_accessories_02_leather",
+      "op": "indexed_mesh",
+      "part": "atlas_accessories_02_flask_cork",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "torso",
+      "stage": 2,
+      "vertices": [
+        [
+          0.299,
+          1.1335,
+          0.274
+        ],
+        [
+          0.325,
+          1.1335,
+          0.274
+        ],
+        [
+          0.325,
+          1.1584999999999999,
+          0.274
+        ],
+        [
+          0.299,
+          1.1584999999999999,
+          0.274
+        ],
+        [
+          0.299,
+          1.1335,
+          0.24600000000000002
+        ],
+        [
+          0.325,
+          1.1335,
+          0.24600000000000002
+        ],
+        [
+          0.325,
+          1.1584999999999999,
+          0.24600000000000002
+        ],
+        [
+          0.299,
+          1.1584999999999999,
+          0.24600000000000002
+        ]
+      ]
+    }
+  ],
+  "coordinate_system": "metres; Y up; +Z forward; floor Y=0",
+  "id": "hand-accessories-02",
+  "palette": {
+    "atlas_accessories_02_accent": "d6c5a0",
+    "atlas_accessories_02_bone": "cbc5ad",
+    "atlas_accessories_02_cloth": "35516d",
+    "atlas_accessories_02_dark": "33383b",
+    "atlas_accessories_02_hair": "614633",
+    "atlas_accessories_02_hair_light": "71513b",
+    "atlas_accessories_02_iris": "685d42",
+    "atlas_accessories_02_leather": "654833",
+    "atlas_accessories_02_lip": "886b56",
+    "atlas_accessories_02_metal": "919ba3",
+    "atlas_accessories_02_pupil": "272a2b",
+    "atlas_accessories_02_sclera": "d4d1bc",
+    "atlas_accessories_02_secondary": "938466",
+    "atlas_accessories_02_shadow": "775e4b",
+    "atlas_accessories_02_skin": "bd9577"
+  },
+  "production_pool": false,
+  "schema_version": 1
+}

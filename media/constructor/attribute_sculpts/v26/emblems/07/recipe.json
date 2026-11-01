@@ -1,0 +1,730 @@
+{
+  "attribute_reference": {
+    "authoring_revision": 1,
+    "authoring_sha256": "e56a294b021eb58bb982901f3f3d2be22a611e5b3f368faea374ba263b48b05f",
+    "category": "emblems",
+    "cell_pixels": [
+      307,
+      512,
+      614,
+      1024
+    ],
+    "depth_status": "Manually authored volumes; Front reference supplies silhouette/proportions only",
+    "design": {
+      "costume": "warden",
+      "face": {
+        "eye_tilt": -0.004,
+        "jaw": 0.99,
+        "nose": 0.04,
+        "width": 0.248
+      },
+      "gender": "male",
+      "hair": "swept",
+      "id": "hand-emblems-07",
+      "label": "emblems",
+      "library_variant": 7,
+      "palette": {
+        "accent": "d6c5a0",
+        "cloth": "35516d",
+        "hair": "614633",
+        "iris": "685d42",
+        "leather": "654833",
+        "metal": "919ba3",
+        "secondary": "938466",
+        "skin": "bd9577"
+      },
+      "race": "human"
+    },
+    "generation": {
+      "combined_mask": "../attribute_grid_mask_v1.png",
+      "combined_mask_sha256": "b67288dead6f5e6c48d8f0e1412d7cd39bbd08158e42df904c008ee3d6ac2234",
+      "id": "emblems",
+      "image": "front.png",
+      "image_sha256": "4dfdc43a3d58f98d7e4d001ef27dfa3ef187adfc5debb68f081c99ec2acc59ec",
+      "label": "Объёмные эмблемы",
+      "layout": {
+        "columns": 5,
+        "count": 10,
+        "rows": 2
+      },
+      "mask_transmission": "builtin tool has no mask argument; layout constraints in prompt",
+      "model_snapshot": null,
+      "model_snapshot_status": "not exposed by built-in tool",
+      "production_pool": false,
+      "prompt": "prompt.txt",
+      "prompt_sha256": "e53cf0959b2ec70c15876c0cb9dcfa0a544c2ea4970010c8f1b46fe924e24a63",
+      "purpose": "Ten attribute variants in one image; concept references, not reconstructed GLB assets",
+      "raw_response": "tool-response.json",
+      "raw_response_sha256": "c256a87fd7ed9e6ced64da0d52f55af0852aa50474509e9cfa34787f992aec60",
+      "schema_version": 1,
+      "style_reference_images": [],
+      "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+      "template_id": "constructor_attribute_grid_master_v1",
+      "template_sha256": "1577ff27f8a8c175c23674db6031a6b0c1b3b9e098061f31a0151a6157269c84",
+      "tool": "image_gen.imagegen",
+      "variant_count": 10,
+      "view": "Front"
+    },
+    "image": "media/experiments/constructor_attribute_references/v1/emblems/front.png",
+    "image_sha256": "4dfdc43a3d58f98d7e4d001ef27dfa3ef187adfc5debb68f081c99ec2acc59ec",
+    "material_groups": {
+      "atlas_emblems_07_accent": "accent",
+      "atlas_emblems_07_bone": "fixed",
+      "atlas_emblems_07_cloth": "cloth",
+      "atlas_emblems_07_dark": "fixed",
+      "atlas_emblems_07_hair": "hair",
+      "atlas_emblems_07_hair_light": "hair",
+      "atlas_emblems_07_iris": "eyes",
+      "atlas_emblems_07_leather": "leather",
+      "atlas_emblems_07_lip": "skin",
+      "atlas_emblems_07_metal": "metal",
+      "atlas_emblems_07_pupil": "fixed",
+      "atlas_emblems_07_sclera": "fixed",
+      "atlas_emblems_07_secondary": "secondary",
+      "atlas_emblems_07_shadow": "skin",
+      "atlas_emblems_07_skin": "skin"
+    },
+    "method": "manual_low_poly_volumes",
+    "prompt_sha256": "e53cf0959b2ec70c15876c0cb9dcfa0a544c2ea4970010c8f1b46fe924e24a63",
+    "schema_version": 1,
+    "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+    "variant": 7
+  },
+  "commands": [
+    {
+      "authored_primitive": {
+        "authored_outline_metres": [
+          [
+            0.015,
+            1.67,
+            0.325
+          ],
+          [
+            -0.095,
+            1.5050000000000001,
+            0.325
+          ],
+          [
+            -0.015,
+            1.5050000000000001,
+            0.325
+          ],
+          [
+            -0.025,
+            1.37,
+            0.325
+          ],
+          [
+            0.09,
+            1.56,
+            0.325
+          ],
+          [
+            0.02,
+            1.56,
+            0.325
+          ]
+        ],
+        "body_silhouette_revision": {
+          "bind_frame": "machine_of_monsters.animation.load_skeleton",
+          "max_surface_displacement_metres": 0.09129032258064518,
+          "revision": 2,
+          "schema_version": 1
+        },
+        "depth_assumption": {
+          "back_metres": [
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3
+          ],
+          "bevel_fraction": 0.09,
+          "crown_metres": 0.006,
+          "front_metres": [
+            0.325,
+            0.325,
+            0.325,
+            0.325,
+            0.325,
+            0.325
+          ]
+        },
+        "faces": [
+          [
+            6,
+            1,
+            0
+          ],
+          [
+            6,
+            7,
+            1
+          ],
+          [
+            1,
+            12,
+            0
+          ],
+          [
+            13,
+            12,
+            1
+          ],
+          [
+            7,
+            2,
+            1
+          ],
+          [
+            7,
+            8,
+            2
+          ],
+          [
+            2,
+            13,
+            1
+          ],
+          [
+            14,
+            13,
+            2
+          ],
+          [
+            8,
+            3,
+            2
+          ],
+          [
+            8,
+            9,
+            3
+          ],
+          [
+            3,
+            14,
+            2
+          ],
+          [
+            15,
+            14,
+            3
+          ],
+          [
+            9,
+            4,
+            3
+          ],
+          [
+            9,
+            10,
+            4
+          ],
+          [
+            4,
+            15,
+            3
+          ],
+          [
+            16,
+            15,
+            4
+          ],
+          [
+            10,
+            5,
+            4
+          ],
+          [
+            10,
+            11,
+            5
+          ],
+          [
+            5,
+            16,
+            4
+          ],
+          [
+            17,
+            16,
+            5
+          ],
+          [
+            11,
+            0,
+            5
+          ],
+          [
+            11,
+            6,
+            0
+          ],
+          [
+            0,
+            17,
+            5
+          ],
+          [
+            12,
+            17,
+            0
+          ],
+          [
+            18,
+            7,
+            6
+          ],
+          [
+            18,
+            8,
+            7
+          ],
+          [
+            18,
+            9,
+            8
+          ],
+          [
+            18,
+            10,
+            9
+          ],
+          [
+            18,
+            11,
+            10
+          ],
+          [
+            18,
+            6,
+            11
+          ],
+          [
+            12,
+            13,
+            14
+          ],
+          [
+            17,
+            12,
+            14
+          ],
+          [
+            17,
+            14,
+            15
+          ],
+          [
+            15,
+            16,
+            17
+          ]
+        ],
+        "id": "c001",
+        "material": "accent",
+        "op": "indexed_mesh",
+        "part": "ornament_bolt",
+        "purpose": "ornament bolt",
+        "slot": "torso",
+        "stage": 2,
+        "vertices": [
+          [
+            0.02,
+            1.6054054054054054,
+            0.325
+          ],
+          [
+            0.09,
+            1.6054054054054054,
+            0.325
+          ],
+          [
+            -0.025,
+            1.4612903225806453,
+            0.325
+          ],
+          [
+            -0.015,
+            1.5608108108108107,
+            0.325
+          ],
+          [
+            -0.095,
+            1.5608108108108107,
+            0.325
+          ],
+          [
+            0.015,
+            1.6945945945945946,
+            0.325
+          ],
+          [
+            0.01805,
+            1.6030945945945947,
+            0.331
+          ],
+          [
+            0.08175,
+            1.6030945945945947,
+            0.331
+          ],
+          [
+            -0.0229,
+            1.470483870967742,
+            0.331
+          ],
+          [
+            -0.0138,
+            1.5625135135135135,
+            0.331
+          ],
+          [
+            -0.0866,
+            1.5625135135135135,
+            0.331
+          ],
+          [
+            0.0135,
+            1.6842567567567568,
+            0.331
+          ],
+          [
+            0.02,
+            1.6054054054054054,
+            0.3
+          ],
+          [
+            0.09,
+            1.6054054054054054,
+            0.3
+          ],
+          [
+            -0.025,
+            1.4612903225806453,
+            0.3
+          ],
+          [
+            -0.015,
+            1.5608108108108107,
+            0.3
+          ],
+          [
+            -0.095,
+            1.5608108108108107,
+            0.3
+          ],
+          [
+            0.015,
+            1.6945945945945946,
+            0.3
+          ],
+          [
+            -0.001667,
+            1.5797294594594595,
+            0.3394
+          ]
+        ]
+      },
+      "faces": [
+        [
+          6,
+          1,
+          0
+        ],
+        [
+          6,
+          7,
+          1
+        ],
+        [
+          1,
+          12,
+          0
+        ],
+        [
+          13,
+          12,
+          1
+        ],
+        [
+          7,
+          2,
+          1
+        ],
+        [
+          7,
+          8,
+          2
+        ],
+        [
+          2,
+          13,
+          1
+        ],
+        [
+          14,
+          13,
+          2
+        ],
+        [
+          8,
+          3,
+          2
+        ],
+        [
+          8,
+          9,
+          3
+        ],
+        [
+          3,
+          14,
+          2
+        ],
+        [
+          15,
+          14,
+          3
+        ],
+        [
+          9,
+          4,
+          3
+        ],
+        [
+          9,
+          10,
+          4
+        ],
+        [
+          4,
+          15,
+          3
+        ],
+        [
+          16,
+          15,
+          4
+        ],
+        [
+          10,
+          5,
+          4
+        ],
+        [
+          10,
+          11,
+          5
+        ],
+        [
+          5,
+          16,
+          4
+        ],
+        [
+          17,
+          16,
+          5
+        ],
+        [
+          11,
+          0,
+          5
+        ],
+        [
+          11,
+          6,
+          0
+        ],
+        [
+          0,
+          17,
+          5
+        ],
+        [
+          12,
+          17,
+          0
+        ],
+        [
+          18,
+          7,
+          6
+        ],
+        [
+          18,
+          8,
+          7
+        ],
+        [
+          18,
+          9,
+          8
+        ],
+        [
+          18,
+          10,
+          9
+        ],
+        [
+          18,
+          11,
+          10
+        ],
+        [
+          18,
+          6,
+          11
+        ],
+        [
+          12,
+          13,
+          14
+        ],
+        [
+          17,
+          12,
+          14
+        ],
+        [
+          17,
+          14,
+          15
+        ],
+        [
+          15,
+          16,
+          17
+        ]
+      ],
+      "id": "atlas_emblems_07_0",
+      "material": "atlas_emblems_07_accent",
+      "op": "indexed_mesh",
+      "part": "atlas_emblems_07_ornament_bolt",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "torso",
+      "stage": 2,
+      "vertices": [
+        [
+          0.02,
+          1.6054054054054054,
+          0.325
+        ],
+        [
+          0.09,
+          1.6054054054054054,
+          0.325
+        ],
+        [
+          -0.025,
+          1.4612903225806453,
+          0.325
+        ],
+        [
+          -0.015,
+          1.5608108108108107,
+          0.325
+        ],
+        [
+          -0.095,
+          1.5608108108108107,
+          0.325
+        ],
+        [
+          0.015,
+          1.6945945945945946,
+          0.325
+        ],
+        [
+          0.01805,
+          1.6030945945945947,
+          0.331
+        ],
+        [
+          0.08175,
+          1.6030945945945947,
+          0.331
+        ],
+        [
+          -0.0229,
+          1.470483870967742,
+          0.331
+        ],
+        [
+          -0.0138,
+          1.5625135135135135,
+          0.331
+        ],
+        [
+          -0.0866,
+          1.5625135135135135,
+          0.331
+        ],
+        [
+          0.0135,
+          1.6842567567567568,
+          0.331
+        ],
+        [
+          0.02,
+          1.6054054054054054,
+          0.3
+        ],
+        [
+          0.09,
+          1.6054054054054054,
+          0.3
+        ],
+        [
+          -0.025,
+          1.4612903225806453,
+          0.3
+        ],
+        [
+          -0.015,
+          1.5608108108108107,
+          0.3
+        ],
+        [
+          -0.095,
+          1.5608108108108107,
+          0.3
+        ],
+        [
+          0.015,
+          1.6945945945945946,
+          0.3
+        ],
+        [
+          -0.001667,
+          1.5797294594594595,
+          0.3394
+        ]
+      ]
+    }
+  ],
+  "coordinate_system": "metres; Y up; +Z forward; floor Y=0",
+  "id": "hand-emblems-07",
+  "palette": {
+    "atlas_emblems_07_accent": "d6c5a0",
+    "atlas_emblems_07_bone": "cbc5ad",
+    "atlas_emblems_07_cloth": "35516d",
+    "atlas_emblems_07_dark": "33383b",
+    "atlas_emblems_07_hair": "614633",
+    "atlas_emblems_07_hair_light": "71513b",
+    "atlas_emblems_07_iris": "685d42",
+    "atlas_emblems_07_leather": "654833",
+    "atlas_emblems_07_lip": "886b56",
+    "atlas_emblems_07_metal": "919ba3",
+    "atlas_emblems_07_pupil": "272a2b",
+    "atlas_emblems_07_sclera": "d4d1bc",
+    "atlas_emblems_07_secondary": "938466",
+    "atlas_emblems_07_shadow": "775e4b",
+    "atlas_emblems_07_skin": "bd9577"
+  },
+  "production_pool": false,
+  "schema_version": 1
+}

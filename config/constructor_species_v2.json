@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "id": "constructor_species_v2",
+  "contracts": {
+    "quadruped_authoring_v1": [
+      "head",
+      "torso",
+      "front_left_leg",
+      "front_right_leg",
+      "hind_left_leg",
+      "hind_right_leg",
+      "tail"
+    ],
+    "arachnid_authoring_v1": [
+      "head",
+      "torso",
+      "abdomen",
+      "left_leg_1",
+      "left_leg_2",
+      "left_leg_3",
+      "left_leg_4",
+      "right_leg_1",
+      "right_leg_2",
+      "right_leg_3",
+      "right_leg_4"
+    ],
+    "scorpion_authoring_v1": [
+      "head",
+      "torso",
+      "abdomen",
+      "left_leg_1",
+      "left_leg_2",
+      "left_leg_3",
+      "left_leg_4",
+      "right_leg_1",
+      "right_leg_2",
+      "right_leg_3",
+      "right_leg_4",
+      "left_claw",
+      "right_claw",
+      "tail"
+    ],
+    "avian_authoring_v1": [
+      "head",
+      "torso",
+      "left_wing",
+      "right_wing",
+      "left_leg",
+      "right_leg",
+      "tail"
+    ],
+    "chiropteran_authoring_v1": [
+      "head",
+      "torso",
+      "left_wing",
+      "right_wing",
+      "left_leg",
+      "right_leg",
+      "tail"
+    ],
+    "dragon_authoring_v1": [
+      "head",
+      "torso",
+      "front_left_leg",
+      "front_right_leg",
+      "hind_left_leg",
+      "hind_right_leg",
+      "tail",
+      "left_wing",
+      "right_wing"
+    ]
+  },
+  "designs": [
+    {
+      "id": "library-spider-01",
+      "label": "Пауки · 01",
+      "race": "spider",
+      "gender": "male",
+      "contract": "arachnid_authoring_v1",
+      "anatomy": "spider",
+      "variant": 1,
+      "palette": {
+        "skin": "504d65",
+        "cloth": "504d65",
+        "accent": "a394bc",
+        "secondary": "a394bc",
+        "hair": "a394bc",
+        "iris": "c9b769",
+        "metal": "939ba0",
+        "leather": "615348"
+      }
+    },
+    {
+      "id": "library-spider-02",
+      "label": "Пауки · 02",
+      "race": "spider",
+      "gender": "male",
+      "contract": "arachnid_authoring_v1",
+      "anatomy": "spider",
+      "variant": 2,
+      "palette": {
+        "skin": "939b87",
+        "cloth": "939b87",
+        "accent": "d0d1b6",
+        "secondary": "d0d1b6",
+        "hair": "d0d1b6",
+        "iris": "c9b769",
+        "metal": "939ba0",
+        "leather": "615348"
+      }
+    },
+    {
+      "id": "library-spider-03",
+      "label": "Пауки · 03",
+      "race": "spider",
+      "gender": "male",
+      "contract": "arachnid_authoring_v1",
+      "anatomy": "spider",
+      "variant": 3,
+      "palette": {
+        "skin": "566b60",
+        "cloth": "566b60",
+        "accent": "c7ac73",
+        "secondary": "c7ac73",
+        "hair": "c7ac73",
+        "iris": "c9b769",
+        "metal": "939ba0",
+        "leather": "615348"
+      }
+    },
+    {
+      "id": "library-spider-04",
+      "label": "Пауки · 04",
+      "race": "spider",
+      "gender": "male",
+      "contract": "arachnid_authoring_v1",
+      "anatomy": "spider",
+      "variant": 4,
+      "palette": {
+        "skin": "8c7c56",
+        "cloth": "8c7c56",
+        "accent": "bc965e",
+        "secondary": "bc965e",
+        "hair": "bc965e",
+        "iris": "c9b769",
+        "metal": "939ba0",
+        "leather": "615348"
+      }
+    },
+    {
+      "id": "library-spider-05",
+      "label": "Пауки · 05",
+      "race": "spider",
+      "gender": "male",
+      "contract": "arachnid_authoring_v1",
+      "anatomy": "spider",
+      "variant": 5,
+      "palette": {
+        "skin": "496c70",
+        "cloth": "496c70",
+        "accent": "9bbbac",
+        "secondary": "9bbbac",
+        "hair": "9bbbac",
+        "iris": "c9b769",
+        "metal": "939ba0",
+        "leather": "615348"
+      }
+    },
+    {
+      "id": "library-spider-06",
+      "label": "Пауки · 06",
+      "race": "spider",
+      "gender": "male",
+      "contract": "arachnid_authoring_v1",
+      "anatomy": "spider",
+      "variant": 6,
+      "palette": {
+        "skin": "af9c80",
+        "cloth": "af9c80",
+        "accent": "e2d0a5",
+        "secondary": "e2d0a5",
+        "hair": "e2d0a5",
+        "iris": "c9b769",
+        "metal": "939ba0",
+        "leather": "615348"
+      }
+    },
+    {
+      "id": "library-spider-07",
+      "label": "Пауки · 07",
+      "race": "spider",
+      "gender": "male",
+      "contract": "arachnid_authoring_v1",
+      "anatomy": "spider",
+      "variant": 7,
+      "palette": {
+        "skin": "713e45",
+        "cloth": "713e45",
+        "accent": "bf8857",
+        "secondary": "bf8857",
+        "hair": "bf8857",
+        "iris": "c9b769",
+        "metal": "939ba0",
+        "leather": "615348"
+      }
+    },
+    {
+      "id": "library-spider-08",
+      "label": "Пауки · 08",
+      "race": "spider",
+      "gender": "male",
+      "contract": "arachnid_authoring_v1",
+      "anatomy": "spider",
+      "variant": 8,
+      "palette": {
+        "skin": "748177",
+        "cloth": "748177",
+        "accent": "b9b09a",
+        "secondary": "b9b09a",
+        "hair": "b9b09a",
+        "iris": "c9b769",
+        "metal": "939ba0",
+        "leather": "615348"
+      }
+    },
+    {
+      "id": "library-spider-09",
+      "label": "Пауки · 09",
+      "race": "spider",
+      "gender": "male",
+      "contract": "arachnid_authoring_v1",
+      "anatomy": "spider",
+      "variant": 9,
+      "palette": {
+        "skin": "9c6954",
+        "cloth": "9c6954",
+        "accent": "ccb276",
+        "secondary": "ccb276",
+        "hair": "ccb276",
+        "iris": "c9b769",
+        "metal": "939ba0",
+        "leather": "615348"
+      }
+    },
+    {
+      "id": "library-spider-10",
+      "label": "Пауки · 10",
+      "race": "spider",
+      "gender": "male",
+      "contract": "arachnid_authoring_v1",
+      "anatomy": "spider",
+      "variant": 10,
+      "palette": {
+        "skin": "697b8d",
+        "cloth": "697b8d",
+        "accent": "acc2c6",
+        "secondary": "acc2c6",
+        "hair": "acc2c6",
+        "iris": "c9b769",
+        "metal": "939ba0",
+        "leather": "615348"
+      }
+    }
+  ],
+  "animation_support": "authoring only; MOM SDK currently humanoid_v1"
+}

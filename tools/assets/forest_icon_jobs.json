@@ -1,0 +1,74 @@
+[
+  {
+    "key": "cursed_wood_shield",
+    "label": "Щит из проклятого дерева",
+    "prompt": "Use case: stylized-concept. Asset type: ONE square fantasy inventory icon for Machine of Monsters. Match canonical Angel Arena Nova icons seen in context: faceted low-poly painted equipment, broad angular planes, chunky readable silhouettes, hard crisp planar highlights, opaque near-black charcoal background, close 3/4 view, object fills 80% with safe margin, readable at 48px. Subject: A broad heavy shield of twisted dark cursed wood, thick splintered bark rim, thorny roots wrapping muted iron bands, one small eerie green knot at its center. No border, frame, text, letters, watermark, scenery, photorealistic texture, glow clouds, extra objects, or characters.",
+    "path": "media/icons/mom_rpg/v1/cursed_wood_shield/source.png",
+    "final_icon": "media/icons/mom_rpg/v1/cursed_wood_shield/icon.png",
+    "generator": "built-in imagegen"
+  },
+  {
+    "key": "forest_staff",
+    "label": "Посох леса",
+    "prompt": "Use case: stylized-concept. Asset type: ONE square fantasy inventory icon for Machine of Monsters. Match canonical Angel Arena Nova icons seen in context: faceted low-poly painted equipment, broad angular planes, chunky readable silhouettes, hard crisp planar highlights, opaque near-black charcoal background, close 3/4 view, object fills 80% with safe margin, readable at 48px. Subject: A long gnarled forest healing staff, forked dark wooden shaft cradling an emerald leaf-shaped stone, pale leaves, restrained green highlight; entire staff diagonally in frame. No border, frame, text, letters, watermark, scenery, photorealistic texture, glow clouds, extra objects, or characters.",
+    "path": "media/icons/mom_rpg/v1/forest_staff/source.png",
+    "final_icon": "media/icons/mom_rpg/v1/forest_staff/icon.png",
+    "generator": "built-in imagegen"
+  },
+  {
+    "key": "forest_book",
+    "label": "Книга леса",
+    "prompt": "Use case: stylized-concept. Asset type: ONE square fantasy inventory icon for Machine of Monsters. Match canonical Angel Arena Nova icons seen in context: faceted low-poly painted equipment, broad angular planes, chunky readable silhouettes, hard crisp planar highlights, opaque near-black charcoal background, close 3/4 view, object fills 80% with safe margin, readable at 48px. Subject: One closed forest spellbook, deep moss green leather covers reinforced with thick intertwined wooden roots, embossed stylized tree silhouette, thick pale page block. No border, frame, text, letters, watermark, scenery, photorealistic texture, glow clouds, extra objects, or characters.",
+    "path": "media/icons/mom_rpg/v1/forest_book/source.png",
+    "final_icon": "media/icons/mom_rpg/v1/forest_book/icon.png",
+    "generator": "built-in imagegen"
+  },
+  {
+    "key": "satyr_gloves",
+    "label": "Перчатки сатира",
+    "prompt": "Use case: stylized-concept. Asset type: ONE square fantasy inventory icon for Machine of Monsters. Match canonical Angel Arena Nova icons seen in context: faceted low-poly painted equipment, broad angular planes, chunky readable silhouettes, hard crisp planar highlights, opaque near-black charcoal background, close 3/4 view, object fills 80% with safe margin, readable at 48px. Subject: One pair of dark oxblood fingerless satyr combat gloves with stout bronze knuckle plates and curved horn spikes; clearly gloves, no person. No border, frame, text, letters, watermark, scenery, photorealistic texture, glow clouds, extra objects, or characters.",
+    "path": "media/icons/mom_rpg/v1/satyr_gloves/source.png",
+    "final_icon": "media/icons/mom_rpg/v1/satyr_gloves/icon.png",
+    "generator": "built-in imagegen"
+  },
+  {
+    "key": "satyr_pants",
+    "label": "Штаны сатира",
+    "prompt": "Use case: stylized-concept. Asset type: ONE square fantasy inventory icon for Machine of Monsters. Match canonical Angel Arena Nova icons seen in context: faceted low-poly painted equipment, broad angular planes, chunky readable silhouettes, hard crisp planar highlights, opaque near-black charcoal background, close 3/4 view, object fills 80% with safe margin, readable at 48px. Subject: One pair of rugged dark plum leather satyr trousers, reinforced thigh panels and moss green belt with a small horn buckle; empty clothing, no person. No border, frame, text, letters, watermark, scenery, photorealistic texture, glow clouds, extra objects, or characters.",
+    "path": "media/icons/mom_rpg/v1/satyr_pants/source.png",
+    "final_icon": "media/icons/mom_rpg/v1/satyr_pants/icon.png",
+    "generator": "built-in imagegen"
+  },
+  {
+    "key": "satyr_eye",
+    "label": "Глаз сатира",
+    "prompt": "Use case: stylized-concept. Asset type: ONE square fantasy inventory icon for Machine of Monsters. Match canonical Angel Arena Nova icons seen in context: faceted low-poly painted equipment, broad angular planes, chunky readable silhouettes, hard crisp planar highlights, opaque near-black charcoal background, close 3/4 view, object fills 80% with safe margin, readable at 48px. Subject: A single enchanted amber satyr eye with a horizontal dark pupil, set in an iron and twisted thornwood pendant, short cord, restrained emerald rim highlight. No border, frame, text, letters, watermark, scenery, photorealistic texture, glow clouds, extra objects, or characters.",
+    "path": "media/icons/mom_rpg/v1/satyr_eye/source.png",
+    "final_icon": "media/icons/mom_rpg/v1/satyr_eye/icon.png",
+    "generator": "built-in imagegen"
+  },
+  {
+    "key": "satyr_blade",
+    "label": "Клинок сатира",
+    "prompt": "Use case: stylized-concept. Asset type: ONE square fantasy inventory icon for Machine of Monsters. Match canonical Angel Arena Nova icons seen in context: faceted low-poly painted equipment, broad angular planes, chunky readable silhouettes, hard crisp planar highlights, opaque near-black charcoal background, close 3/4 view, object fills 80% with safe margin, readable at 48px. Subject: One curved satyr sword diagonally in frame, broad dark silver blade with a crisp pale cutting edge, hooked bronze horn guard and dark purple leather grip, full blade visible. No border, frame, text, letters, watermark, scenery, photorealistic texture, glow clouds, extra objects, or characters.",
+    "path": "media/icons/mom_rpg/v1/satyr_blade/source.png",
+    "final_icon": "media/icons/mom_rpg/v1/satyr_blade/icon.png",
+    "generator": "built-in imagegen"
+  },
+  {
+    "key": "treant_shoulders",
+    "label": "Наплечники трента",
+    "prompt": "Use case: stylized-concept. Asset type: ONE square fantasy inventory icon for Machine of Monsters. Match canonical Angel Arena Nova icons seen in context: faceted low-poly painted equipment, broad angular planes, chunky readable silhouettes, hard crisp planar highlights, opaque near-black charcoal background, close 3/4 view, object fills 80% with safe margin, readable at 48px. Subject: A matched pair of heavy treant shoulder armor plates, layered bark slabs, angular wooden thorns, moss green accents and muted bronze straps; isolated empty armor, no person. No border, frame, text, letters, watermark, scenery, photorealistic texture, glow clouds, extra objects, or characters.",
+    "path": "media/icons/mom_rpg/v1/treant_shoulders/source.png",
+    "final_icon": "media/icons/mom_rpg/v1/treant_shoulders/icon.png",
+    "generator": "built-in imagegen"
+  },
+  {
+    "key": "cursed_wood_belt",
+    "label": "Пояс из проклятого древа",
+    "prompt": "Use case: stylized-concept. Asset type: ONE square fantasy inventory icon for Machine of Monsters. Match canonical Angel Arena Nova icons seen in context: faceted low-poly painted equipment, broad angular planes, chunky readable silhouettes, hard crisp planar highlights, opaque near-black charcoal background, close 3/4 view, object fills 80% with safe margin, readable at 48px. Subject: One thick belt woven from cursed dark wood roots and muted purple leather, broad angular thornwood clasp enclosing a small smoky emerald gem, no text. No border, frame, text, letters, watermark, scenery, photorealistic texture, glow clouds, extra objects, or characters.",
+    "path": "media/icons/mom_rpg/v1/cursed_wood_belt/source.png",
+    "final_icon": "media/icons/mom_rpg/v1/cursed_wood_belt/icon.png",
+    "generator": "built-in imagegen"
+  }
+]

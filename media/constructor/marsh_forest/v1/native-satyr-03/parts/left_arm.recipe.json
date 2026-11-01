@@ -1,0 +1,205 @@
+{
+  "assembly_reference": "humanoid_v1",
+  "bind_profile": "canonical",
+  "commands": [
+    {
+      "id": "c001",
+      "material": "skin",
+      "op": "sweep",
+      "part": "satyr_upper_arm",
+      "path": [
+        [
+          -0.36,
+          1.8,
+          0.04
+        ],
+        [
+          -0.72,
+          1.36,
+          0.02
+        ]
+      ],
+      "purpose": "satyr upper arm",
+      "radii": [
+        0.13,
+        0.1
+      ],
+      "sides": 6,
+      "skin_bone": "left_shoulder",
+      "slot": "left_arm",
+      "stage": 2
+    },
+    {
+      "id": "c002",
+      "material": "skin",
+      "op": "sweep",
+      "part": "satyr_forearm",
+      "path": [
+        [
+          -0.72,
+          1.36,
+          0.02
+        ],
+        [
+          -0.82,
+          0.96,
+          0.08
+        ]
+      ],
+      "purpose": "satyr forearm",
+      "radii": [
+        0.1,
+        0.065
+      ],
+      "sides": 6,
+      "skin_bone": "left_elbow",
+      "slot": "left_arm",
+      "stage": 2
+    },
+    {
+      "center": [
+        -0.82,
+        0.93,
+        0.1
+      ],
+      "id": "c003",
+      "material": "skin",
+      "op": "ellipsoid",
+      "part": "satyr_hand",
+      "purpose": "satyr hand",
+      "radii": [
+        0.09,
+        0.12,
+        0.07
+      ],
+      "rings": 4,
+      "sides": 8,
+      "skin_bone": "left_hand",
+      "slot": "left_arm",
+      "stage": 2
+    },
+    {
+      "id": "c004",
+      "material": "bone",
+      "op": "sweep",
+      "part": "satyr_claw",
+      "path": [
+        [
+          -0.865,
+          0.89,
+          0.15
+        ],
+        [
+          -0.865,
+          0.78,
+          0.2
+        ]
+      ],
+      "purpose": "satyr claw",
+      "radii": [
+        0.019,
+        0.003
+      ],
+      "sides": 6,
+      "skin_bone": "left_hand",
+      "slot": "left_arm",
+      "stage": 2
+    },
+    {
+      "id": "c005",
+      "material": "bone",
+      "op": "sweep",
+      "part": "satyr_claw",
+      "path": [
+        [
+          -0.82,
+          0.89,
+          0.15
+        ],
+        [
+          -0.82,
+          0.78,
+          0.2
+        ]
+      ],
+      "purpose": "satyr claw",
+      "radii": [
+        0.019,
+        0.003
+      ],
+      "sides": 6,
+      "skin_bone": "left_hand",
+      "slot": "left_arm",
+      "stage": 2
+    },
+    {
+      "id": "c006",
+      "material": "bone",
+      "op": "sweep",
+      "part": "satyr_claw",
+      "path": [
+        [
+          -0.775,
+          0.89,
+          0.15
+        ],
+        [
+          -0.775,
+          0.78,
+          0.2
+        ]
+      ],
+      "purpose": "satyr claw",
+      "radii": [
+        0.019,
+        0.003
+      ],
+      "sides": 6,
+      "skin_bone": "left_hand",
+      "slot": "left_arm",
+      "stage": 2
+    }
+  ],
+  "constructor_anatomy": {
+    "contract": "humanoid_v1",
+    "description_ru": "Рогатые лесные существа с заострёнными ушами, шерстяными ногами, скакательными суставами и раздвоенными копытами.",
+    "gender": "male",
+    "hair": "cropped",
+    "id": "native-satyr-03",
+    "label": "Король сатиров",
+    "own_body": true,
+    "race": "satyr",
+    "variant": 2
+  },
+  "coordinate_system": "metres; Y up; +Z forward; floor Y=0",
+  "id": "native-satyr-03.left_arm",
+  "label": "native-satyr-03.left_arm",
+  "palette": {
+    "accent": "a3bd66",
+    "bone": "cbc5ad",
+    "cloth": "4c3c54",
+    "dark": "33383b",
+    "eyes": "d4b65b",
+    "hair": "48372e",
+    "hair_light": "544035",
+    "leather": "573e32",
+    "lip": "563b2d",
+    "metal": "85715b",
+    "pupil": "272a2b",
+    "sclera": "d4d1bc",
+    "secondary": "403434",
+    "shadow": "4c3428",
+    "skin": "78523f"
+  },
+  "schema_version": 1,
+  "stages": [
+    "Основные массы и опоры",
+    "Голова и анатомия",
+    "Одежда и защитные пластины",
+    "Отличительные детали",
+    "Кисти, опоры и завершающие акценты"
+  ],
+  "team_materials": [
+    "cloth"
+  ]
+}

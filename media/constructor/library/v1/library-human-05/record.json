@@ -1,0 +1,244 @@
+{
+  "description": {
+    "identity": "Люди · Страж Базальтового Моста",
+    "limitations": "Authoring draft; visual and in-game motion acceptance pending",
+    "method": "New original character geometry; existing models guide style only"
+  },
+  "gender": "male",
+  "id": "library-human-05",
+  "index_entry": {
+    "group": "original",
+    "id": "library-human-05",
+    "label": "Люди · Страж Базальтового Моста",
+    "record": "library-human-05/record.json",
+    "status": "built",
+    "thumbnail": null
+  },
+  "label": "Люди · Страж Базальтового Моста",
+  "original_design": {
+    "authoring_revision": 2,
+    "bind_source": "machine_of_monsters.animation.load_skeleton",
+    "method": "Original numerical art direction; no donor character mesh or recipe loaded",
+    "schema_version": 1,
+    "spec": {
+      "costume": "basalt",
+      "face": {
+        "eye_tilt": -0.006,
+        "jaw": 0.91,
+        "nose": 0.082,
+        "width": 0.26
+      },
+      "gender": "male",
+      "hair": "mane",
+      "id": "library-human-05",
+      "label": "Люди · Страж Базальтового Моста",
+      "library_variant": 5,
+      "palette": {
+        "accent": "b89565",
+        "cloth": "555a60",
+        "hair": "4d4943",
+        "iris": "aa9867",
+        "leather": "574634",
+        "metal": "777d80",
+        "skin": "bc9170"
+      },
+      "race": "human"
+    },
+    "style_profile": {
+      "art_direction": "All characters, creatures, equipment, projectiles, buildings, terrain pieces, and decorations must use one coherent low-poly visual language. Each asset should read as a lightweight production mesh, not concept art, not a high-poly render, and not a glossy toy. Do not imitate a recognizable game, franchise, or studio style.",
+      "geometry_rules": "Use primitive-based construction with visible planar facets, hard silhouette breaks, chunky masses, few large mesh pieces, and a deliberately low triangle budget. Avoid tiny geometry, ornate trim, dense sculpting, smooth subdivision, and high-frequency detail.",
+      "global_negative": "photorealistic, high-poly, ultra detailed, smooth subdivision, dense mesh, tiny surface detail, ornate trim, cinematic lighting, complex background, glossy plastic, anime, chibi, voxel, pixel art, flat 2D illustration, painterly concept art, text, labels, watermark, UI",
+      "material_rules": "Use matte hand-painted diffuse colors, 2 to 4 main material colors, broad color regions, simple gradients, very sparse painted highlights, and no realistic pores, scratches, fibers, or micro surface detail.",
+      "name": "Unified low-poly project style",
+      "presentation_rules": "Use a neutral dark #1e1e1e background, orthographic camera, centered full asset, equal padding, clean silhouette, no text, no labels, no UI, no watermark, and no cropped parts."
+    },
+    "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07"
+  },
+  "parts": {
+    "head": {
+      "bounds_metres": [
+        [
+          -0.3149999976158142,
+          2.0350000858306885,
+          -0.24021130800247192
+        ],
+        [
+          0.3149999976158142,
+          2.630000114440918,
+          0.29670634865760803
+        ]
+      ],
+      "commands": [
+        "original_015",
+        "original_016",
+        "original_017",
+        "original_018",
+        "original_019",
+        "original_020",
+        "original_021",
+        "original_022",
+        "original_023",
+        "original_024",
+        "original_025",
+        "original_026",
+        "original_027",
+        "original_028",
+        "original_029",
+        "original_030",
+        "original_031",
+        "original_032",
+        "original_033",
+        "original_034"
+      ],
+      "image": "parts/head.png",
+      "model": "parts/head.glb",
+      "recipe": "parts/head.recipe.json",
+      "sha256": "ba6483cb254cb8117f00e4ab50bbc7bda63e40120ee91910e86e33318c117571",
+      "triangles": 830
+    },
+    "left_arm": {
+      "bounds_metres": [
+        [
+          -0.8928077816963196,
+          0.8209999799728394,
+          -0.13588456809520721
+        ],
+        [
+          -0.22499999403953552,
+          1.9500000476837158,
+          0.20600000023841858
+        ]
+      ],
+      "commands": [
+        "original_006",
+        "original_007",
+        "original_008",
+        "original_047",
+        "original_048",
+        "original_049"
+      ],
+      "image": "parts/left_arm.png",
+      "model": "parts/left_arm.glb",
+      "recipe": "parts/left_arm.recipe.json",
+      "sha256": "31af44e4be534ea59d777690297fce59e8cc3ae4605a0b59872a6dd5f27b534b",
+      "triangles": 206
+    },
+    "left_leg": {
+      "bounds_metres": [
+        [
+          -0.4449999928474426,
+          0.0,
+          -0.15685804188251495
+        ],
+        [
+          -0.06426163017749786,
+          0.9698455333709717,
+          0.3700000047683716
+        ]
+      ],
+      "commands": [
+        "original_003",
+        "original_004",
+        "original_005",
+        "original_050"
+      ],
+      "image": "parts/left_leg.png",
+      "model": "parts/left_leg.glb",
+      "recipe": "parts/left_leg.recipe.json",
+      "sha256": "769eb9989d28cb0b5de0c39c239217dc7de83fce836a1ed747f7ab73384180ec",
+      "triangles": 154
+    },
+    "right_arm": {
+      "bounds_metres": [
+        [
+          0.22499999403953552,
+          0.8209999799728394,
+          -0.13588456809520721
+        ],
+        [
+          0.8928077816963196,
+          1.9500000476837158,
+          0.20600000023841858
+        ]
+      ],
+      "commands": [
+        "original_012",
+        "original_013",
+        "original_014",
+        "original_051",
+        "original_052",
+        "original_053"
+      ],
+      "image": "parts/right_arm.png",
+      "model": "parts/right_arm.glb",
+      "recipe": "parts/right_arm.recipe.json",
+      "sha256": "0391d1062d9872a3e5d6f804c8aeed6d322a3d46a890779cabb1d1d1ba883430",
+      "triangles": 206
+    },
+    "right_leg": {
+      "bounds_metres": [
+        [
+          0.06426163017749786,
+          0.0,
+          -0.15685804188251495
+        ],
+        [
+          0.4449999928474426,
+          0.9698455333709717,
+          0.3700000047683716
+        ]
+      ],
+      "commands": [
+        "original_009",
+        "original_010",
+        "original_011",
+        "original_054"
+      ],
+      "image": "parts/right_leg.png",
+      "model": "parts/right_leg.glb",
+      "recipe": "parts/right_leg.recipe.json",
+      "sha256": "d6abd7f1b4cd407addf1762ebf53bc1745274aea4e9f55e3687fcf224b3d284f",
+      "triangles": 154
+    },
+    "torso": {
+      "bounds_metres": [
+        [
+          -0.3449999988079071,
+          0.6200000047683716,
+          -0.19496658444404602
+        ],
+        [
+          0.3449999988079071,
+          2.077507495880127,
+          0.29600000381469727
+        ]
+      ],
+      "commands": [
+        "original_001",
+        "original_002",
+        "original_035",
+        "original_036",
+        "original_037",
+        "original_038",
+        "original_039",
+        "original_040",
+        "original_041",
+        "original_042",
+        "original_043",
+        "original_044",
+        "original_045",
+        "original_046"
+      ],
+      "image": "parts/torso.png",
+      "model": "parts/torso.glb",
+      "recipe": "parts/torso.recipe.json",
+      "sha256": "b693362f51a4294ae713e6b1051519c7aaf48150a117b63800b9798764349a75",
+      "triangles": 414
+    }
+  },
+  "race": "human",
+  "reference_image": null,
+  "rig": "humanoid_v1",
+  "schema_version": 1,
+  "triangles": 1964
+}

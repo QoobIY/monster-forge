@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "humanoid_v1",
+  "source_image": "data/templates/humanoid_position_template_v1.png",
+  "panels": [{"view": "front", "rect": {"x": 0.0, "y": 0.0, "width": 1.0, "height": 1.0}}],
+  "slots": [
+    {"id": "head", "label": "Head", "allowed_bones": ["neck", "head"], "front_rect": {"x": 0.055, "y": 0.055, "width": 0.14, "height": 0.21}},
+    {"id": "torso", "label": "Torso", "allowed_bones": ["pelvis", "spine", "chest", "neck", "left_shoulder", "right_shoulder"], "front_rect": {"x": 0.235, "y": 0.055, "width": 0.19, "height": 0.37}},
+    {"id": "left_arm", "label": "Left arm", "allowed_bones": ["chest", "left_shoulder", "left_elbow", "left_hand"], "front_rect": {"x": 0.055, "y": 0.33, "width": 0.13, "height": 0.45}},
+    {"id": "right_arm", "label": "Right arm", "allowed_bones": ["chest", "right_shoulder", "right_elbow", "right_hand"], "front_rect": {"x": 0.49, "y": 0.33, "width": 0.13, "height": 0.45}},
+    {"id": "left_leg", "label": "Left leg", "allowed_bones": ["pelvis", "left_hip", "left_knee", "left_foot"], "front_rect": {"x": 0.225, "y": 0.47, "width": 0.11, "height": 0.49}},
+    {"id": "right_leg", "label": "Right leg", "allowed_bones": ["pelvis", "right_hip", "right_knee", "right_foot"], "front_rect": {"x": 0.35, "y": 0.47, "width": 0.11, "height": 0.49}},
+    {"id": "back_attachment", "label": "Back attachment", "required": false, "allowed_bones": ["chest"], "front_rect": {"x": 0.67, "y": 0.18, "width": 0.22, "height": 0.62}}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "satyr_king",
+  "label": "Король сатиров",
+  "race": "satyr",
+  "rig": "humanoid_v1",
+  "bind_profile": "canonical",
+  "parts": {
+    "head": {
+      "model": "parts/head.glb"
+    },
+    "torso": {
+      "model": "parts/torso.glb"
+    },
+    "left_arm": {
+      "model": "parts/left_arm.glb"
+    },
+    "right_arm": {
+      "model": "parts/right_arm.glb"
+    },
+    "left_leg": {
+      "model": "parts/left_leg.glb"
+    },
+    "right_leg": {
+      "model": "parts/right_leg.glb"
+    }
+  },
+  "tags": [
+    "mom_rpg",
+    "forest",
+    "satyr"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "assembly_id": "e53cf910e4bccfb9f67666c47eb21d6d77b6612127c25baa2075df16f4245cdc",
+  "settings": {
+    "schema_version": 5,
+    "race": "centaur",
+    "gender": "female",
+    "face": "expansion-centaur-male-01",
+    "hair": "original",
+    "form": "regular",
+    "outfit": "expansion-centaur-male-01",
+    "arms": "expansion-centaur-male-01",
+    "legs": "expansion-centaur-male-01",
+    "back": null,
+    "eye_size": 1.0,
+    "eye_shape": "original",
+    "colors": {
+      "hair": null,
+      "eyes": null,
+      "skin": null,
+      "cloth": null,
+      "accent": null,
+      "metal": null,
+      "leather": null,
+      "secondary": null,
+      "back_primary": null,
+      "back_secondary": null,
+      "back_frame": null
+    },
+    "decor": {
+      "emblem": "none",
+      "shoulders": "none",
+      "belt": "none",
+      "headwear": "none",
+      "pattern": "none",
+      "beard": "none",
+      "mustache": "none"
+    },
+    "features": {
+      "nose": "profile",
+      "ears": "profile",
+      "jaw": "profile",
+      "brows": "profile",
+      "mouth": "profile"
+    },
+    "reference_parts": {
+      "male_faces": 0,
+      "female_faces": 0,
+      "hair": 0,
+      "brows": 0,
+      "eyes": 0,
+      "noses": 0,
+      "ears": 0,
+      "jaws": 0,
+      "mouths": 0,
+      "beards": 0,
+      "mustaches": 0,
+      "race_heads": 0,
+      "body_forms": 0,
+      "male_clothes": 0,
+      "female_clothes": 0,
+      "arms": 0,
+      "legs": 0,
+      "gloves": 0,
+      "boots": 0,
+      "shoulders": 0,
+      "belts": 0,
+      "headwear": 0,
+      "emblems": 0,
+      "back": 0,
+      "accessories": 0,
+      "patterns": 0,
+      "colorways": 0
+    }
+  },
+  "files": {
+    "arms.png": "00771473ce509346cb9393a55def68cbe8bcf864c80bd906890d7f45e2b0a240",
+    "face.png": "b7243d19a5c8b56bc9077e5f80c714b97015988c734274c00798af4e2aea9c78",
+    "legs.png": "b803d176266cecadbdb9abaa39034d349549cb92666f1cc82517f050b17961e8",
+    "outfit.png": "d5f337a74a804a0117f1d2db7611ca13674323f0c99c502ae011c1cb495d41d7"
+  }
+}

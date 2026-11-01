@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "id": "constructor_attribute_grid_master_v1",
+  "purpose": "User-requested ten-variant front concept reference atlas; layout guide only",
+  "size": [
+    1536,
+    1024
+  ],
+  "layout": {
+    "rows": 2,
+    "columns": 5,
+    "count": 10
+  },
+  "template": "attribute_grid_master_v1.png",
+  "template_sha256": "1577ff27f8a8c175c23674db6031a6b0c1b3b9e098061f31a0151a6157269c84",
+  "combined_mask": "attribute_grid_mask_v1.png",
+  "combined_mask_sha256": "b67288dead6f5e6c48d8f0e1412d7cd39bbd08158e42df904c008ee3d6ac2234",
+  "slots": [
+    {
+      "id": 1,
+      "bounds": [
+        18,
+        24,
+        289,
+        488
+      ]
+    },
+    {
+      "id": 2,
+      "bounds": [
+        325,
+        24,
+        596,
+        488
+      ]
+    },
+    {
+      "id": 3,
+      "bounds": [
+        632,
+        24,
+        904,
+        488
+      ]
+    },
+    {
+      "id": 4,
+      "bounds": [
+        940,
+        24,
+        1211,
+        488
+      ]
+    },
+    {
+      "id": 5,
+      "bounds": [
+        1247,
+        24,
+        1518,
+        488
+      ]
+    },
+    {
+      "id": 6,
+      "bounds": [
+        18,
+        536,
+        289,
+        1000
+      ]
+    },
+    {
+      "id": 7,
+      "bounds": [
+        325,
+        536,
+        596,
+        1000
+      ]
+    },
+    {
+      "id": 8,
+      "bounds": [
+        632,
+        536,
+        904,
+        1000
+      ]
+    },
+    {
+      "id": 9,
+      "bounds": [
+        940,
+        536,
+        1211,
+        1000
+      ]
+    },
+    {
+      "id": 10,
+      "bounds": [
+        1247,
+        536,
+        1518,
+        1000
+      ]
+    }
+  ],
+  "style_profile": "config/style_profile.json",
+  "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07"
+}

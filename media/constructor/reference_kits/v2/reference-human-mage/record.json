@@ -1,0 +1,333 @@
+{
+  "gender": "female",
+  "generation": {
+    "combined_mask": "media/experiments/constructor_imagegen_references/v1/humanoid_v1_edit_mask.png",
+    "combined_mask_sha256": "46994b2ea3ab802b44b8a333b8a3762d6249d1d9e62ace957841594d340e2e03",
+    "design": "Adult female human mage. Heart-shaped face, small upturned nose, high arched eyebrows, large almond amber eyes. Auburn asymmetrical bob. Deep teal robe with angular plum shoulder panels, warm gold diamond clasp, belt with a large spellbook and three simple bottles, short two-layer cape.",
+    "edit_target": "data/templates/humanoid_position_template_v1.png",
+    "edit_target_sha256": "ec1a91e23d62295fbe8e63822493273426d3848a9062ed082e472de18f4e542a",
+    "gender": "female",
+    "id": "human-mage",
+    "image": "front.png",
+    "image_sha256": "4afe18f22d3f539d2f2b46e77011a5baae8420c2ec4a98c5c564ffae000b48af",
+    "label": "Женщина-маг людей",
+    "mask_transmission": "builtin_tool_has_no_mask_parameter; layout_constraints_in_prompt",
+    "model_snapshot": null,
+    "model_snapshot_status": "not_exposed_by_builtin_tool",
+    "production_pool": false,
+    "prompt": "prompt.txt",
+    "prompt_sha256": "646c40deab32b081c169e1475ecd65cabbc9f6115f240a2c92d7cb76a8d3ff20",
+    "race": "human",
+    "raw_response": "tool-response.json",
+    "raw_response_sha256": "76c9eee08eb136a019e0318e044cc90b36d24d8390d1313b74ca8e7a477be274",
+    "schema_version": 1,
+    "style_profile_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+    "style_reference_images": [],
+    "tool": "image_gen.imagegen",
+    "view": "Front"
+  },
+  "id": "reference-human-mage",
+  "label": "Женщина-маг людей",
+  "parts": {
+    "back_attachment": {
+      "bounds_metres": [
+        [
+          -0.38249671459198,
+          0.83177649974823,
+          -0.45500001311302185
+        ],
+        [
+          0.38249671459198,
+          1.899999976158142,
+          -0.2639999985694885
+        ]
+      ],
+      "commands": [
+        "reference_0060",
+        "reference_0061",
+        "reference_0062",
+        "reference_0063",
+        "reference_0064"
+      ],
+      "image": "parts/back_attachment.png",
+      "model": "parts/back_attachment.glb",
+      "recipe": "parts/back_attachment.recipe.json",
+      "sha256": "d707171311876a2f7a3e7e3c043849ce23ab6d5736bdce3daef99899f639abbc",
+      "triangles": 130
+    },
+    "head": {
+      "bounds_metres": [
+        [
+          -0.28999999165534973,
+          2.0350000858306885,
+          -0.2352112978696823
+        ],
+        [
+          0.28999999165534973,
+          2.5999999046325684,
+          0.28696152567863464
+        ]
+      ],
+      "commands": [
+        "reference_0026",
+        "reference_0027",
+        "reference_0028",
+        "reference_0029",
+        "reference_0030",
+        "reference_0031",
+        "reference_0032",
+        "reference_0033",
+        "reference_0034",
+        "reference_0035",
+        "reference_0036",
+        "reference_0037",
+        "reference_0038",
+        "reference_0039",
+        "reference_0040",
+        "reference_0041",
+        "reference_0042",
+        "reference_0043",
+        "reference_0044",
+        "reference_0045",
+        "reference_0046",
+        "reference_0047",
+        "reference_0048",
+        "reference_0049",
+        "reference_0050",
+        "reference_0051",
+        "reference_0052"
+      ],
+      "image": "parts/head.png",
+      "model": "parts/head.glb",
+      "recipe": "parts/head.recipe.json",
+      "sha256": "bac03806065790cd8fa1630c92f35bfaeca03fd91309bc1e41e521bf7f4bb9a3",
+      "triangles": 986
+    },
+    "left_arm": {
+      "bounds_metres": [
+        [
+          -0.9119445085525513,
+          0.8209999799728394,
+          -0.11954482644796371
+        ],
+        [
+          -0.2199999988079071,
+          1.9700000286102295,
+          0.2095448225736618
+        ]
+      ],
+      "commands": [
+        "reference_0005",
+        "reference_0006",
+        "reference_0007",
+        "reference_0024",
+        "reference_0058"
+      ],
+      "image": "parts/left_arm.png",
+      "model": "parts/left_arm.glb",
+      "recipe": "parts/left_arm.recipe.json",
+      "sha256": "be805bf90d27418a625a21e28cad87798bcbb74b8cf53a9a4f8a2f69e8397ffa",
+      "triangles": 242
+    },
+    "left_leg": {
+      "bounds_metres": [
+        [
+          -0.4449999928474426,
+          0.0,
+          -0.13294728100299835
+        ],
+        [
+          -0.0958874449133873,
+          0.949999988079071,
+          0.3700000047683716
+        ]
+      ],
+      "commands": [
+        "reference_0002",
+        "reference_0003",
+        "reference_0004"
+      ],
+      "image": "parts/left_leg.png",
+      "model": "parts/left_leg.glb",
+      "recipe": "parts/left_leg.recipe.json",
+      "sha256": "d8c3cbbf35dd4ab3aa5c8b2398e719fe18a19be91d8aa7b61e0b5c967911612f",
+      "triangles": 182
+    },
+    "right_arm": {
+      "bounds_metres": [
+        [
+          0.2199999988079071,
+          0.8209999799728394,
+          -0.11954482644796371
+        ],
+        [
+          0.9119445085525513,
+          1.9700000286102295,
+          0.2095448225736618
+        ]
+      ],
+      "commands": [
+        "reference_0011",
+        "reference_0012",
+        "reference_0013",
+        "reference_0025",
+        "reference_0059"
+      ],
+      "image": "parts/right_arm.png",
+      "model": "parts/right_arm.glb",
+      "recipe": "parts/right_arm.recipe.json",
+      "sha256": "59217c2c7e5306f8195c4efb96bf542688224a836c392060fc63fb170e85a3e4",
+      "triangles": 242
+    },
+    "right_leg": {
+      "bounds_metres": [
+        [
+          0.0958874449133873,
+          0.0,
+          -0.13294728100299835
+        ],
+        [
+          0.4449999928474426,
+          0.949999988079071,
+          0.3700000047683716
+        ]
+      ],
+      "commands": [
+        "reference_0008",
+        "reference_0009",
+        "reference_0010"
+      ],
+      "image": "parts/right_leg.png",
+      "model": "parts/right_leg.glb",
+      "recipe": "parts/right_leg.recipe.json",
+      "sha256": "4f0cf42970fb01e657f5a81173261ca70191419cedb8d76a64b56bd3b9793978",
+      "triangles": 182
+    },
+    "torso": {
+      "bounds_metres": [
+        [
+          -0.36000001430511475,
+          0.38999998569488525,
+          -0.19496658444404602
+        ],
+        [
+          0.3400000035762787,
+          2.077507495880127,
+          0.3393999934196472
+        ]
+      ],
+      "commands": [
+        "reference_0000",
+        "reference_0001",
+        "reference_0014",
+        "reference_0015",
+        "reference_0016",
+        "reference_0017",
+        "reference_0018",
+        "reference_0019",
+        "reference_0020",
+        "reference_0021",
+        "reference_0022",
+        "reference_0023",
+        "reference_0053",
+        "reference_0054",
+        "reference_0055",
+        "reference_0056",
+        "reference_0057"
+      ],
+      "image": "parts/torso.png",
+      "model": "parts/torso.glb",
+      "recipe": "parts/torso.recipe.json",
+      "sha256": "4c53b32e485cc191cd183796e8a9a1422720f0ef642d0d41cb6622241812e017",
+      "triangles": 462
+    }
+  },
+  "production_pool": false,
+  "prompt": "Use case: stylized-concept. Asset type: production reference for a modular low-poly game character constructor, one front-only part sheet. EDIT THE PROVIDED APPROVED MASTER POSITION TEMPLATE. The input image is the edit target and a positioning/scale guide ONLY, never an art style reference. Preserve its landscape composition and seven separated regions exactly: head upper left; torso upper centre; character right arm on the left; character left arm on the right; two separate legs below the torso; separate back attachment in the far-right region. Replace the grey guide shapes with the designed parts. Maintain these region centres, approximate occupancy and common part scale, generous empty gaps, fully visible separate objects. Do not assemble a full standing character, do not add extra heads or extra limbs. The head must visibly show brows, eyes, nose, mouth, jaw, ears and hairstyle as distinct chunky forms. Outfit/accessories belong to their respective body parts; palms and feet belong to each arm/leg. Rounded faceted shoulder and upper-thigh ends, no connection collars or seam-covering rings. Neutral FRONT orthographic presentation of ALL parts only, no back or three-quarter views. Coherent primitive-based LOW-POLY production mesh aesthetic: planar facets, chunky masses, hard silhouettes, few large pieces, sparse geometric decorations, 2–4 broad matte diffuse material colours, no tiny ornament. Soft neutral even light, readable face. Solid neutral dark #1e1e1e background; use solid white instead only when a very dark design would lose silhouette contrast. No text, labels, UI, watermark, floor, scenery, gradients behind assets. Avoid photorealism, smooth high-poly subdivision, glossy toys, chibi, anime, painterly concept art, microtexture, pores, fabric fibers, tiny stitches. Specific character design: Adult female human mage. Heart-shaped face, small upturned nose, high arched eyebrows, large almond amber eyes. Auburn asymmetrical bob. Deep teal robe with angular plum shoulder panels, warm gold diamond clasp, belt with a large spellbook and three simple bottles, short two-layer cape.\n",
+  "race": "human",
+  "reference_design": {
+    "authoring_revision": 2,
+    "generation": {
+      "combined_mask": "media/experiments/constructor_imagegen_references/v1/humanoid_v1_edit_mask.png",
+      "combined_mask_sha256": "46994b2ea3ab802b44b8a333b8a3762d6249d1d9e62ace957841594d340e2e03",
+      "design": "Adult female human mage. Heart-shaped face, small upturned nose, high arched eyebrows, large almond amber eyes. Auburn asymmetrical bob. Deep teal robe with angular plum shoulder panels, warm gold diamond clasp, belt with a large spellbook and three simple bottles, short two-layer cape.",
+      "edit_target": "data/templates/humanoid_position_template_v1.png",
+      "edit_target_sha256": "ec1a91e23d62295fbe8e63822493273426d3848a9062ed082e472de18f4e542a",
+      "gender": "female",
+      "id": "human-mage",
+      "image": "front.png",
+      "image_sha256": "4afe18f22d3f539d2f2b46e77011a5baae8420c2ec4a98c5c564ffae000b48af",
+      "label": "Женщина-маг людей",
+      "mask_transmission": "builtin_tool_has_no_mask_parameter; layout_constraints_in_prompt",
+      "model_snapshot": null,
+      "model_snapshot_status": "not_exposed_by_builtin_tool",
+      "production_pool": false,
+      "prompt": "prompt.txt",
+      "prompt_sha256": "646c40deab32b081c169e1475ecd65cabbc9f6115f240a2c92d7cb76a8d3ff20",
+      "race": "human",
+      "raw_response": "tool-response.json",
+      "raw_response_sha256": "76c9eee08eb136a019e0318e044cc90b36d24d8390d1313b74ca8e7a477be274",
+      "schema_version": 1,
+      "style_profile_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+      "style_reference_images": [],
+      "tool": "image_gen.imagegen",
+      "view": "Front"
+    },
+    "method": "Human-authored numerical interpretation of observed image shapes and palette; not automatic image-to-3D reconstruction",
+    "reference_image_sha256": "4afe18f22d3f539d2f2b46e77011a5baae8420c2ec4a98c5c564ffae000b48af",
+    "schema_version": 1,
+    "spec": {
+      "accessories": {
+        "belt": "flasks",
+        "emblem": "diamond",
+        "shoulders": "plates"
+      },
+      "back_colors": [
+        "285666",
+        "c5a262",
+        "705035"
+      ],
+      "back_style": "back-layered",
+      "beard": "none",
+      "costume": "scholar",
+      "face": {
+        "eye_tilt": 0.006,
+        "jaw": 0.54,
+        "nose": 0.031,
+        "width": 0.193
+      },
+      "features": {
+        "brows": "arched",
+        "ears": "small",
+        "jaw": "tapered",
+        "mouth": "full",
+        "nose": "upturned"
+      },
+      "gender": "female",
+      "hair": "bob",
+      "id": "reference-human-mage",
+      "label": "Женщина-маг людей",
+      "library_variant": 2,
+      "mustache": "none",
+      "observed_hair": "pageboy",
+      "palette": {
+        "accent": "c5a262",
+        "cloth": "285666",
+        "hair": "ae5938",
+        "iris": "b68b41",
+        "leather": "705035",
+        "metal": "8f9291",
+        "secondary": "724257",
+        "skin": "cda184"
+      },
+      "race": "human",
+      "reference_id": "human-mage",
+      "reference_sha256": "4afe18f22d3f539d2f2b46e77011a5baae8420c2ec4a98c5c564ffae000b48af"
+    },
+    "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07"
+  },
+  "reference_image": "reference.png",
+  "reference_image_sha256": "4afe18f22d3f539d2f2b46e77011a5baae8420c2ec4a98c5c564ffae000b48af",
+  "rig": "humanoid_v1",
+  "schema_version": 1
+}

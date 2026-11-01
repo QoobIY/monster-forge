@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "id": "library-human-04:back_attachment",
+  "label": "Люди · Следопыт Лунной Рощи",
+  "coordinate_system": "metres; Y up; +Z forward; floor Y=0",
+  "palette": {
+    "skin": "bc9170",
+    "hair": "685441",
+    "iris": "9ca965",
+    "cloth": "566e58",
+    "accent": "b4ba8c",
+    "leather": "66503e",
+    "metal": "868d85",
+    "shadow": "765b47",
+    "lip": "876851",
+    "pupil": "272a2b",
+    "sclera": "d4d1bc",
+    "bone": "cbc5ad",
+    "dark": "33383b",
+    "hair_light": "79614b"
+  },
+  "stages": [
+    "Основные массы и опоры",
+    "Голова и анатомия",
+    "Одежда и защитные пластины",
+    "Отличительные детали",
+    "Кисти, опоры и завершающие акценты"
+  ],
+  "commands": [
+    {
+      "id": "original_060",
+      "stage": 3,
+      "op": "indexed_mesh",
+      "part": "asymmetric_cloak",
+      "material": "cloth",
+      "purpose": "asymmetric cloak",
+      "vertices": [
+        [
+          -0.3,
+          1.81,
+          -0.205
+        ],
+        [
+          0.29,
+          1.81,
+          -0.205
+        ],
+        [
+          0.33,
+          0.97,
+          -0.3
+        ],
+        [
+          0.03,
+          0.87,
+          -0.33
+        ],
+        [
+          -0.32,
+          1.14,
+          -0.285
+        ],
+        [
+          -0.27246,
+          1.7659,
+          -0.199
+        ],
+        [
+          0.26444,
+          1.7659,
+          -0.199
+        ],
+        [
+          0.30084,
+          1.0015,
+          -0.294
+        ],
+        [
+          0.02784,
+          0.9105,
+          -0.324
+        ],
+        [
+          -0.29066,
+          1.1562,
+          -0.279
+        ],
+        [
+          -0.3,
+          1.81,
+          -0.25
+        ],
+        [
+          0.29,
+          1.81,
+          -0.25
+        ],
+        [
+          0.33,
+          0.97,
+          -0.345
+        ],
+        [
+          0.03,
+          0.87,
+          -0.375
+        ],
+        [
+          -0.32,
+          1.14,
+          -0.33
+        ],
+        [
+          0.006,
+          1.32,
+          -0.2506
+        ]
+      ],
+      "faces": [
+        [
+          5,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          1
+        ],
+        [
+          1,
+          10,
+          0
+        ],
+        [
+          11,
+          10,
+          1
+        ],
+        [
+          6,
+          2,
+          1
+        ],
+        [
+          6,
+          7,
+          2
+        ],
+        [
+          2,
+          11,
+          1
+        ],
+        [
+          12,
+          11,
+          2
+        ],
+        [
+          7,
+          3,
+          2
+        ],
+        [
+          7,
+          8,
+          3
+        ],
+        [
+          3,
+          12,
+          2
+        ],
+        [
+          13,
+          12,
+          3
+        ],
+        [
+          8,
+          4,
+          3
+        ],
+        [
+          8,
+          9,
+          4
+        ],
+        [
+          4,
+          13,
+          3
+        ],
+        [
+          14,
+          13,
+          4
+        ],
+        [
+          9,
+          0,
+          4
+        ],
+        [
+          9,
+          5,
+          0
+        ],
+        [
+          0,
+          14,
+          4
+        ],
+        [
+          10,
+          14,
+          0
+        ],
+        [
+          15,
+          6,
+          5
+        ],
+        [
+          15,
+          7,
+          6
+        ],
+        [
+          15,
+          8,
+          7
+        ],
+        [
+          15,
+          9,
+          8
+        ],
+        [
+          15,
+          5,
+          9
+        ],
+        [
+          14,
+          10,
+          11
+        ],
+        [
+          14,
+          11,
+          12
+        ],
+        [
+          12,
+          13,
+          14
+        ]
+      ],
+      "depth_assumption": {
+        "front_metres": [
+          -0.205,
+          -0.205,
+          -0.3,
+          -0.33,
+          -0.285
+        ],
+        "back_metres": [
+          -0.25,
+          -0.25,
+          -0.345,
+          -0.375,
+          -0.32999999999999996
+        ],
+        "bevel_fraction": 0.09,
+        "crown_metres": 0.006
+      },
+      "slot": "back_attachment",
+      "authored_outline_metres": [
+        [
+          -0.3,
+          1.81,
+          -0.205
+        ],
+        [
+          0.29,
+          1.81,
+          -0.205
+        ],
+        [
+          0.33,
+          0.97,
+          -0.3
+        ],
+        [
+          0.03,
+          0.87,
+          -0.33
+        ],
+        [
+          -0.32,
+          1.14,
+          -0.285
+        ]
+      ]
+    }
+  ],
+  "assembly_reference": "humanoid_v1",
+  "original_design": {
+    "schema_version": 1,
+    "authoring_revision": 2,
+    "spec": {
+      "id": "library-human-04",
+      "label": "Люди · Следопыт Лунной Рощи",
+      "race": "human",
+      "gender": "female",
+      "costume": "ranger",
+      "hair": "twin-braids",
+      "face": {
+        "width": 0.193,
+        "jaw": 0.62,
+        "nose": 0.052,
+        "eye_tilt": 0.012
+      },
+      "palette": {
+        "skin": "bc9170",
+        "hair": "685441",
+        "iris": "9ca965",
+        "cloth": "566e58",
+        "accent": "b4ba8c",
+        "leather": "66503e",
+        "metal": "868d85"
+      },
+      "library_variant": 4
+    },
+    "method": "Original numerical art direction; no donor character mesh or recipe loaded",
+    "style_profile": {
+      "name": "Unified low-poly project style",
+      "art_direction": "All characters, creatures, equipment, projectiles, buildings, terrain pieces, and decorations must use one coherent low-poly visual language. Each asset should read as a lightweight production mesh, not concept art, not a high-poly render, and not a glossy toy. Do not imitate a recognizable game, franchise, or studio style.",
+      "geometry_rules": "Use primitive-based construction with visible planar facets, hard silhouette breaks, chunky masses, few large mesh pieces, and a deliberately low triangle budget. Avoid tiny geometry, ornate trim, dense sculpting, smooth subdivision, and high-frequency detail.",
+      "material_rules": "Use matte hand-painted diffuse colors, 2 to 4 main material colors, broad color regions, simple gradients, very sparse painted highlights, and no realistic pores, scratches, fibers, or micro surface detail.",
+      "presentation_rules": "Use a neutral dark #1e1e1e background, orthographic camera, centered full asset, equal padding, clean silhouette, no text, no labels, no UI, no watermark, and no cropped parts.",
+      "global_negative": "photorealistic, high-poly, ultra detailed, smooth subdivision, dense mesh, tiny surface detail, ornate trim, cinematic lighting, complex background, glossy plastic, anime, chibi, voxel, pixel art, flat 2D illustration, painterly concept art, text, labels, watermark, UI"
+    },
+    "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+    "bind_source": "machine_of_monsters.animation.load_skeleton"
+  }
+}

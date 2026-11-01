@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "id": "constructor_reference_kits_v1",
+  "contract": "humanoid_v1",
+  "designs": [
+    {
+      "id": "reference-human-captain",
+      "reference_id": "human-captain",
+      "label": "Капитан людей",
+      "race": "human",
+      "gender": "male",
+      "costume": "warden",
+      "hair": "swept",
+      "observed_hair": "pompadour",
+      "library_variant": 1,
+      "face": {
+        "width": 0.224,
+        "jaw": 0.88,
+        "nose": 0.061,
+        "eye_tilt": -0.004
+      },
+      "features": {
+        "nose": "aquiline",
+        "ears": "small",
+        "jaw": "square",
+        "brows": "thick",
+        "mouth": "stern"
+      },
+      "beard": "short",
+      "mustache": "thick",
+      "accessories": {
+        "emblem": "lion",
+        "shoulders": "plates",
+        "belt": "pouches"
+      },
+      "back_style": "back-split",
+      "back_colors": [
+        "793a40",
+        "c3a16c",
+        "504039"
+      ],
+      "palette": {
+        "skin": "a8856c",
+        "hair": "4d3c33",
+        "iris": "667782",
+        "cloth": "34485b",
+        "accent": "c3a16c",
+        "leather": "504039",
+        "metal": "777e87",
+        "secondary": "793a40"
+      },
+      "reference_sha256": "3dc0bb48ab5e45817aa4a9e8dec415264a1f4f52807102c33e4aa117a0e63029"
+    },
+    {
+      "id": "reference-human-mage",
+      "reference_id": "human-mage",
+      "label": "Женщина-маг людей",
+      "race": "human",
+      "gender": "female",
+      "costume": "scholar",
+      "hair": "bob",
+      "observed_hair": "pageboy",
+      "library_variant": 2,
+      "face": {
+        "width": 0.193,
+        "jaw": 0.54,
+        "nose": 0.031,
+        "eye_tilt": 0.006
+      },
+      "features": {
+        "nose": "upturned",
+        "ears": "small",
+        "jaw": "tapered",
+        "brows": "arched",
+        "mouth": "full"
+      },
+      "beard": "none",
+      "mustache": "none",
+      "accessories": {
+        "emblem": "diamond",
+        "shoulders": "plates",
+        "belt": "flasks"
+      },
+      "back_style": "back-layered",
+      "back_colors": [
+        "285666",
+        "c5a262",
+        "705035"
+      ],
+      "palette": {
+        "skin": "cda184",
+        "hair": "ae5938",
+        "iris": "b68b41",
+        "cloth": "285666",
+        "accent": "c5a262",
+        "leather": "705035",
+        "metal": "8f9291",
+        "secondary": "724257"
+      },
+      "reference_sha256": "4afe18f22d3f539d2f2b46e77011a5baae8420c2ec4a98c5c564ffae000b48af"
+    },
+    {
+      "id": "reference-orc-guard",
+      "reference_id": "orc-guard",
+      "label": "Орк-страж",
+      "race": "orc",
+      "gender": "male",
+      "costume": "basalt",
+      "hair": "knot",
+      "observed_hair": "mohawk",
+      "library_variant": 3,
+      "face": {
+        "width": 0.268,
+        "jaw": 0.98,
+        "nose": 0.076,
+        "eye_tilt": -0.004
+      },
+      "features": {
+        "nose": "flat",
+        "ears": "notched",
+        "jaw": "heavy",
+        "brows": "angled",
+        "mouth": "fangs"
+      },
+      "beard": "forked",
+      "mustache": "none",
+      "accessories": {
+        "emblem": "diamond",
+        "shoulders": "horns",
+        "belt": "double"
+      },
+      "back_style": "back-plates",
+      "back_colors": [
+        "3c4142",
+        "c6b993",
+        "4c3a2d"
+      ],
+      "palette": {
+        "skin": "849158",
+        "hair": "343433",
+        "iris": "b59b42",
+        "cloth": "3c4142",
+        "accent": "c6b993",
+        "leather": "4c3a2d",
+        "metal": "687078",
+        "secondary": "884b35"
+      },
+      "reference_sha256": "1bf19238eba75f4bd562ca3df2a7340b99b90a75fe793b27c5686d80d61c67ee"
+    },
+    {
+      "id": "reference-orc-artisan",
+      "reference_id": "orc-artisan",
+      "label": "Орчиха-мастер",
+      "race": "orc",
+      "gender": "female",
+      "costume": "artisan",
+      "hair": "twin-braids",
+      "observed_hair": "side-braid",
+      "library_variant": 4,
+      "face": {
+        "width": 0.235,
+        "jaw": 0.68,
+        "nose": 0.051,
+        "eye_tilt": 0.006
+      },
+      "features": {
+        "nose": "round",
+        "ears": "asymmetric",
+        "jaw": "tapered",
+        "brows": "thick",
+        "mouth": "fangs"
+      },
+      "beard": "none",
+      "mustache": "none",
+      "accessories": {
+        "emblem": "none",
+        "shoulders": "none",
+        "belt": "tools"
+      },
+      "back_style": "back-bedroll",
+      "back_colors": [
+        "be934e",
+        "be934e",
+        "73533d"
+      ],
+      "palette": {
+        "skin": "92974e",
+        "hair": "ac5b31",
+        "iris": "718663",
+        "cloth": "32585a",
+        "accent": "be934e",
+        "leather": "73533d",
+        "metal": "8a8d88",
+        "secondary": "be934e"
+      },
+      "reference_sha256": "0208c5f5c006cca03f4fe6571aeafc622763f14259f3714d702aec85f42d95e1"
+    },
+    {
+      "id": "reference-minotaur-smith",
+      "reference_id": "minotaur-smith",
+      "label": "Минотавр-кузнец",
+      "race": "minotaur",
+      "gender": "male",
+      "costume": "forger",
+      "hair": "mane",
+      "observed_hair": "messy",
+      "library_variant": 9,
+      "face": {
+        "width": 0.266,
+        "jaw": 0.98,
+        "nose": 0.085,
+        "eye_tilt": -0.004
+      },
+      "features": {
+        "nose": "broad",
+        "ears": "drooping",
+        "jaw": "broad",
+        "brows": "low",
+        "mouth": "stern"
+      },
+      "beard": "braided",
+      "mustache": "none",
+      "accessories": {
+        "emblem": "none",
+        "shoulders": "plates",
+        "belt": "tools"
+      },
+      "back_style": "back-bedroll",
+      "back_colors": [
+        "515b67",
+        "ad7754",
+        "67462f"
+      ],
+      "palette": {
+        "skin": "a55e3c",
+        "hair": "4e382c",
+        "iris": "754f36",
+        "cloth": "4c5869",
+        "accent": "ad7754",
+        "leather": "67462f",
+        "metal": "838784",
+        "secondary": "515b67"
+      },
+      "reference_sha256": "6883420c195791469eb152b6ceb32541324ccea910c5980939fc04d7292f1210"
+    }
+  ]
+}

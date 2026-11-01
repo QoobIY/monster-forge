@@ -1,0 +1,10 @@
+{
+  "derived_files": {
+    "head.glb": "83748b884cab118ea9babdf434ae98190000f9ec6da6dca43712bcd83b69c59b"
+  },
+  "files": {
+    "recipe.json": "9bfc4bf6fc51d8d53437601c19e0433d7a0f02b94f9d41940b9d00c7e7a2f658"
+  },
+  "schema_version": 2,
+  "triangles": 220
+}

@@ -1,0 +1,76 @@
+{% extends "base.html" %} {% block title %}SDK · Monster Forge{% endblock %} {% block head %}
+<link rel="stylesheet" href="/static/library.css?v=forge-1" />
+{% endblock %} {% block content %}
+<main class="sdk-page">
+  <span class="eyebrow">SDK ДЛЯ ВАШИХ ПРОЕКТОВ</span>
+  <h1>Ассеты из одного места.</h1>
+  <p>
+    Конструктор экспортирует персонажа как один model.glb и инструкцию assembly.json. GLB можно
+    открыть в совместимом движке или редакторе. SDK дополнительно позволяет читать опубликованные
+    каталоги ассетов с проверкой размера и SHA-256.
+  </p>
+  <h2>Установка SDK</h2>
+  <pre>python -m pip install -e /path/to/monster-forge</pre>
+  <p>
+    SDK использует только стандартную библиотеку Python. Конструктор и сервер для чтения локального
+    каталога не требуются.
+  </p>
+  <h2>Python</h2>
+  <pre>
+from monster_forge_sdk import AssetStore
+
+# Каталог содержит media/catalog.json и указанные в нём файлы.
+assets = AssetStore("/path/to/asset-release")
+for asset in assets.list("character"):
+    model_path = assets.path(asset.id)  # проверяет размер и SHA-256
+
+# Сохранённый URI также проходит проверку каталога.
+path = assets.resolve_uri(file_reference.uri)</pre
+  >
+  <h2>Контракт</h2>
+  <table>
+    <tr>
+      <th>Метод</th>
+      <th>Результат</th>
+    </tr>
+    <tr>
+      <td>list(kind)</td>
+      <td>Ассеты: character, icon, decoration, terrain</td>
+    </tr>
+    <tr>
+      <td>get(id)</td>
+      <td>Метаданные и доступные роли файлов</td>
+    </tr>
+    <tr>
+      <td>path(id, role)</td>
+      <td>Проверенный абсолютный путь к файлу</td>
+    </tr>
+    <tr>
+      <td>read(id, role)</td>
+      <td>Байты с проверкой размера и SHA-256</td>
+    </tr>
+    <tr>
+      <td>resolve_uri(uri)</td>
+      <td>Проверенный файл по сохранённому URI каталога</td>
+    </tr>
+    <tr>
+      <td>icon_style()</td>
+      <td>Сохранённый промпт с проверенными исходниками</td>
+    </tr>
+  </table>
+  <h2>HTTP</h2>
+  <pre>
+GET /api/assets/v1/catalog?kind=icon
+GET /api/assets/v1/catalog?kind=decoration
+GET /api/assets/v1/catalog?kind=character
+GET /api/assets/v1/catalog?kind=terrain
+GET /api/assets/v1/icon-style
+GET /media/&lt;path из files&gt;</pre
+  >
+  <p>
+    Каталог имеет явную версию схемы и идентификатор релиза. Неизвестные версии, отсутствующие файлы
+    и изменившиеся контрольные суммы вызывают ошибки. HTTP выдаёт только файлы, перечисленные в
+    каталоге.
+  </p>
+</main>
+{% endblock %}

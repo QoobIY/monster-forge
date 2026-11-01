@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "forge": "character.mom_rpg.v1.mage",
+  "hand_sockets": {
+    "left": [
+      -0.825,
+      0.91,
+      0.11
+    ],
+    "right": [
+      0.825,
+      0.91,
+      0.11
+    ]
+  },
+  "attachments": {}
+}

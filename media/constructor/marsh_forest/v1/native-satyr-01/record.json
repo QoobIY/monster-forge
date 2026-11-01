@@ -1,0 +1,13 @@
+{
+  "contract": "humanoid_v1",
+  "description_ru": "Рогатые лесные существа с заострёнными ушами, шерстяными ногами, скакательными суставами и раздвоенными копытами.",
+  "gender": "male",
+  "hair": "cropped",
+  "id": "native-satyr-01",
+  "label": "Лесной сатир",
+  "own_body": true,
+  "race": "satyr",
+  "rig": "humanoid_v1",
+  "schema_version": 1,
+  "variant": 0
+}

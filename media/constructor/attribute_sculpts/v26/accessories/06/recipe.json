@@ -1,0 +1,616 @@
+{
+  "attribute_reference": {
+    "authoring_revision": 1,
+    "authoring_sha256": "48159c92584473d8ca4c91dae38fc1cc9f3746807c5e3f1910c6bd4d7e872253",
+    "category": "accessories",
+    "cell_pixels": [
+      0,
+      512,
+      307,
+      1024
+    ],
+    "depth_status": "Manually authored volumes; Front reference supplies silhouette/proportions only",
+    "design": {
+      "costume": "warden",
+      "face": {
+        "eye_tilt": -0.008,
+        "jaw": 0.86,
+        "nose": 0.057,
+        "width": 0.218
+      },
+      "gender": "male",
+      "hair": "swept",
+      "id": "hand-accessories-06",
+      "label": "accessories",
+      "library_variant": 6,
+      "palette": {
+        "accent": "d6c5a0",
+        "cloth": "35516d",
+        "hair": "614633",
+        "iris": "685d42",
+        "leather": "654833",
+        "metal": "919ba3",
+        "secondary": "938466",
+        "skin": "bd9577"
+      },
+      "race": "human"
+    },
+    "generation": {
+      "combined_mask": "../attribute_grid_mask_v1.png",
+      "combined_mask_sha256": "b67288dead6f5e6c48d8f0e1412d7cd39bbd08158e42df904c008ee3d6ac2234",
+      "id": "accessories",
+      "image": "front.png",
+      "image_sha256": "006bec47d5e6a16265017d8ccdcc166e6dd04a637e1d133464e7b2e8d505441a",
+      "label": "Дополнительные аксессуары",
+      "layout": {
+        "columns": 5,
+        "count": 10,
+        "rows": 2
+      },
+      "mask_transmission": "builtin tool has no mask argument; layout constraints in prompt",
+      "model_snapshot": null,
+      "model_snapshot_status": "not exposed by built-in tool",
+      "production_pool": false,
+      "prompt": "prompt.txt",
+      "prompt_sha256": "b834d5cae471f4465d5f45339a2708086d1d4e9eeb7fa608bb2b559d32a9c304",
+      "purpose": "Ten attribute variants in one image; concept references, not reconstructed GLB assets",
+      "raw_response": "tool-response.json",
+      "raw_response_sha256": "ddb735c912f08690d033c3213b061e29a1e79908297e4f5729a225a75e1ff159",
+      "schema_version": 1,
+      "style_reference_images": [],
+      "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+      "template_id": "constructor_attribute_grid_master_v1",
+      "template_sha256": "1577ff27f8a8c175c23674db6031a6b0c1b3b9e098061f31a0151a6157269c84",
+      "tool": "image_gen.imagegen",
+      "variant_count": 10,
+      "view": "Front"
+    },
+    "image": "media/experiments/constructor_attribute_references/v1/accessories/front.png",
+    "image_sha256": "006bec47d5e6a16265017d8ccdcc166e6dd04a637e1d133464e7b2e8d505441a",
+    "material_groups": {
+      "atlas_accessories_06_accent": "accent",
+      "atlas_accessories_06_bone": "fixed",
+      "atlas_accessories_06_cloth": "cloth",
+      "atlas_accessories_06_dark": "fixed",
+      "atlas_accessories_06_hair": "hair",
+      "atlas_accessories_06_hair_light": "hair",
+      "atlas_accessories_06_iris": "eyes",
+      "atlas_accessories_06_leather": "leather",
+      "atlas_accessories_06_lip": "skin",
+      "atlas_accessories_06_metal": "metal",
+      "atlas_accessories_06_pupil": "fixed",
+      "atlas_accessories_06_sclera": "fixed",
+      "atlas_accessories_06_secondary": "secondary",
+      "atlas_accessories_06_shadow": "skin",
+      "atlas_accessories_06_skin": "skin"
+    },
+    "method": "manual_low_poly_volumes",
+    "prompt_sha256": "b834d5cae471f4465d5f45339a2708086d1d4e9eeb7fa608bb2b559d32a9c304",
+    "schema_version": 1,
+    "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+    "variant": 6
+  },
+  "commands": [
+    {
+      "authored_primitive": {
+        "id": "c001",
+        "material": "bone",
+        "op": "sweep",
+        "part": "trophy_horn",
+        "path": [
+          [
+            0.215,
+            1.15,
+            0.26
+          ],
+          [
+            0.165,
+            1.03,
+            0.26
+          ],
+          [
+            0.14,
+            0.96,
+            0.32
+          ]
+        ],
+        "purpose": "trophy horn",
+        "radii": [
+          0.034,
+          0.02,
+          0.002
+        ],
+        "sides": 5,
+        "slot": "torso",
+        "stage": 2
+      },
+      "faces": [
+        [
+          1,
+          5,
+          0
+        ],
+        [
+          6,
+          5,
+          1
+        ],
+        [
+          2,
+          6,
+          1
+        ],
+        [
+          7,
+          6,
+          2
+        ],
+        [
+          3,
+          7,
+          2
+        ],
+        [
+          8,
+          7,
+          3
+        ],
+        [
+          4,
+          8,
+          3
+        ],
+        [
+          9,
+          8,
+          4
+        ],
+        [
+          0,
+          9,
+          4
+        ],
+        [
+          5,
+          9,
+          0
+        ],
+        [
+          6,
+          10,
+          5
+        ],
+        [
+          11,
+          10,
+          6
+        ],
+        [
+          7,
+          11,
+          6
+        ],
+        [
+          12,
+          11,
+          7
+        ],
+        [
+          8,
+          12,
+          7
+        ],
+        [
+          13,
+          12,
+          8
+        ],
+        [
+          9,
+          13,
+          8
+        ],
+        [
+          14,
+          13,
+          9
+        ],
+        [
+          5,
+          14,
+          9
+        ],
+        [
+          10,
+          14,
+          5
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          4,
+          3,
+          0
+        ],
+        [
+          10,
+          11,
+          12
+        ],
+        [
+          10,
+          12,
+          13
+        ],
+        [
+          10,
+          13,
+          14
+        ]
+      ],
+      "id": "atlas_accessories_06_0",
+      "material": "atlas_accessories_06_bone",
+      "op": "indexed_mesh",
+      "part": "atlas_accessories_06_trophy_horn",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "torso",
+      "stage": 2,
+      "vertices": [
+        [
+          0.215,
+          1.15,
+          0.29400000000000004
+        ],
+        [
+          0.1851514570270444,
+          1.162436892905398,
+          0.2705065778087482
+        ],
+        [
+          0.1965525859280516,
+          1.1576864225299783,
+          0.2324934221912518
+        ],
+        [
+          0.23344741407194838,
+          1.1423135774700215,
+          0.2324934221912518
+        ],
+        [
+          0.24484854297295558,
+          1.1375631070946017,
+          0.2705065778087482
+        ],
+        [
+          0.16706954765084653,
+          1.0352428540488112,
+          0.27918930571812695
+        ],
+        [
+          0.14794692170651802,
+          1.0386040535086347,
+          0.2659298215771576
+        ],
+        [
+          0.15239107035096855,
+          1.030074743460548,
+          0.24447552556377894
+        ],
+        [
+          0.17426033120862428,
+          1.0214421404904206,
+          0.24447552556377894
+        ],
+        [
+          0.18333212908304264,
+          1.0246362084915857,
+          0.2659298215771576
+        ],
+        [
+          0.14044141758022652,
+          0.9611762131127074,
+          0.32155617262325303
+        ],
+        [
+          0.13834923446455566,
+          0.9610144939091987,
+          0.3204957572542967
+        ],
+        [
+          0.13853835321141197,
+          0.9594507786045571,
+          0.3187502222100717
+        ],
+        [
+          0.14074741814054983,
+          0.9586460686010689,
+          0.3187318375931429
+        ],
+        [
+          0.14192357660325608,
+          0.9597124457724677,
+          0.3204660103192358
+        ]
+      ]
+    },
+    {
+      "authored_primitive": {
+        "id": "c002",
+        "material": "bone",
+        "op": "sweep",
+        "part": "trophy_horn",
+        "path": [
+          [
+            0.285,
+            1.15,
+            0.26
+          ],
+          [
+            0.335,
+            1.03,
+            0.26
+          ],
+          [
+            0.36,
+            0.96,
+            0.32
+          ]
+        ],
+        "purpose": "trophy horn",
+        "radii": [
+          0.034,
+          0.02,
+          0.002
+        ],
+        "sides": 5,
+        "slot": "torso",
+        "stage": 2
+      },
+      "faces": [
+        [
+          1,
+          5,
+          0
+        ],
+        [
+          6,
+          5,
+          1
+        ],
+        [
+          2,
+          6,
+          1
+        ],
+        [
+          7,
+          6,
+          2
+        ],
+        [
+          3,
+          7,
+          2
+        ],
+        [
+          8,
+          7,
+          3
+        ],
+        [
+          4,
+          8,
+          3
+        ],
+        [
+          9,
+          8,
+          4
+        ],
+        [
+          0,
+          9,
+          4
+        ],
+        [
+          5,
+          9,
+          0
+        ],
+        [
+          6,
+          10,
+          5
+        ],
+        [
+          11,
+          10,
+          6
+        ],
+        [
+          7,
+          11,
+          6
+        ],
+        [
+          12,
+          11,
+          7
+        ],
+        [
+          8,
+          12,
+          7
+        ],
+        [
+          13,
+          12,
+          8
+        ],
+        [
+          9,
+          13,
+          8
+        ],
+        [
+          14,
+          13,
+          9
+        ],
+        [
+          5,
+          14,
+          9
+        ],
+        [
+          10,
+          14,
+          5
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          4,
+          3,
+          0
+        ],
+        [
+          10,
+          11,
+          12
+        ],
+        [
+          10,
+          12,
+          13
+        ],
+        [
+          10,
+          13,
+          14
+        ]
+      ],
+      "id": "atlas_accessories_06_1",
+      "material": "atlas_accessories_06_bone",
+      "op": "indexed_mesh",
+      "part": "atlas_accessories_06_trophy_horn",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "torso",
+      "stage": 2,
+      "vertices": [
+        [
+          0.285,
+          1.15,
+          0.29400000000000004
+        ],
+        [
+          0.2551514570270444,
+          1.1375631070946017,
+          0.2705065778087482
+        ],
+        [
+          0.2665525859280516,
+          1.1423135774700215,
+          0.2324934221912518
+        ],
+        [
+          0.30344741407194836,
+          1.1576864225299783,
+          0.2324934221912518
+        ],
+        [
+          0.31484854297295556,
+          1.162436892905398,
+          0.2705065778087482
+        ],
+        [
+          0.33293045234915347,
+          1.0352428540488112,
+          0.27918930571812695
+        ],
+        [
+          0.31666787091695736,
+          1.0246362084915857,
+          0.2659298215771576
+        ],
+        [
+          0.3257396687913758,
+          1.0214421404904206,
+          0.24447552556377894
+        ],
+        [
+          0.34760892964903145,
+          1.030074743460548,
+          0.24447552556377894
+        ],
+        [
+          0.352053078293482,
+          1.0386040535086347,
+          0.2659298215771576
+        ],
+        [
+          0.3595585824197735,
+          0.9611762131127074,
+          0.32155617262325303
+        ],
+        [
+          0.35807642339674395,
+          0.9597124457724677,
+          0.3204660103192358
+        ],
+        [
+          0.3592525818594502,
+          0.9586460686010689,
+          0.3187318375931429
+        ],
+        [
+          0.361461646788588,
+          0.9594507786045571,
+          0.3187502222100717
+        ],
+        [
+          0.36165076553544434,
+          0.9610144939091987,
+          0.3204957572542967
+        ]
+      ]
+    }
+  ],
+  "coordinate_system": "metres; Y up; +Z forward; floor Y=0",
+  "id": "hand-accessories-06",
+  "palette": {
+    "atlas_accessories_06_accent": "d6c5a0",
+    "atlas_accessories_06_bone": "cbc5ad",
+    "atlas_accessories_06_cloth": "35516d",
+    "atlas_accessories_06_dark": "33383b",
+    "atlas_accessories_06_hair": "614633",
+    "atlas_accessories_06_hair_light": "71513b",
+    "atlas_accessories_06_iris": "685d42",
+    "atlas_accessories_06_leather": "654833",
+    "atlas_accessories_06_lip": "886b56",
+    "atlas_accessories_06_metal": "919ba3",
+    "atlas_accessories_06_pupil": "272a2b",
+    "atlas_accessories_06_sclera": "d4d1bc",
+    "atlas_accessories_06_secondary": "938466",
+    "atlas_accessories_06_shadow": "775e4b",
+    "atlas_accessories_06_skin": "bd9577"
+  },
+  "production_pool": false,
+  "schema_version": 1
+}

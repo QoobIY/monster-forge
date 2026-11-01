@@ -1,0 +1,706 @@
+{
+  "attribute_reference": {
+    "authoring_revision": 1,
+    "authoring_sha256": "48159c92584473d8ca4c91dae38fc1cc9f3746807c5e3f1910c6bd4d7e872253",
+    "category": "beards",
+    "cell_pixels": [
+      0,
+      512,
+      307,
+      1024
+    ],
+    "depth_status": "Manually authored volumes; Front reference supplies silhouette/proportions only",
+    "design": {
+      "costume": "warden",
+      "face": {
+        "eye_tilt": -0.008,
+        "jaw": 0.86,
+        "nose": 0.057,
+        "width": 0.218
+      },
+      "gender": "male",
+      "hair": "swept",
+      "id": "hand-beards-06",
+      "label": "beards",
+      "library_variant": 6,
+      "palette": {
+        "accent": "d6c5a0",
+        "cloth": "35516d",
+        "hair": "614633",
+        "iris": "685d42",
+        "leather": "654833",
+        "metal": "919ba3",
+        "secondary": "938466",
+        "skin": "bd9577"
+      },
+      "race": "human"
+    },
+    "generation": {
+      "combined_mask": "../attribute_grid_mask_v1.png",
+      "combined_mask_sha256": "b67288dead6f5e6c48d8f0e1412d7cd39bbd08158e42df904c008ee3d6ac2234",
+      "id": "beards",
+      "image": "front.png",
+      "image_sha256": "689243b87913e324773815fcf9ea1f72b2d99e7512b1e18633a0ef3afa0d9e61",
+      "label": "Бороды",
+      "layout": {
+        "columns": 5,
+        "count": 10,
+        "rows": 2
+      },
+      "mask_transmission": "builtin tool has no mask argument; layout constraints in prompt",
+      "model_snapshot": null,
+      "model_snapshot_status": "not exposed by built-in tool",
+      "production_pool": false,
+      "prompt": "prompt.txt",
+      "prompt_sha256": "b44862906b910553e5de6cf74edfc101697cb2636262a937fa186a597364b4b9",
+      "purpose": "Ten attribute variants in one image; concept references, not reconstructed GLB assets",
+      "raw_response": "tool-response.json",
+      "raw_response_sha256": "9c93dc21b9adb91dffcccc1bda0cf452cc8d80fc5505453453f0efe13ee6b86a",
+      "schema_version": 1,
+      "style_reference_images": [],
+      "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+      "template_id": "constructor_attribute_grid_master_v1",
+      "template_sha256": "1577ff27f8a8c175c23674db6031a6b0c1b3b9e098061f31a0151a6157269c84",
+      "tool": "image_gen.imagegen",
+      "variant_count": 10,
+      "view": "Front"
+    },
+    "image": "media/experiments/constructor_attribute_references/v1/beards/front.png",
+    "image_sha256": "689243b87913e324773815fcf9ea1f72b2d99e7512b1e18633a0ef3afa0d9e61",
+    "material_groups": {
+      "atlas_beards_06_accent": "accent",
+      "atlas_beards_06_bone": "fixed",
+      "atlas_beards_06_cloth": "cloth",
+      "atlas_beards_06_dark": "fixed",
+      "atlas_beards_06_hair": "hair",
+      "atlas_beards_06_hair_light": "hair",
+      "atlas_beards_06_iris": "eyes",
+      "atlas_beards_06_leather": "leather",
+      "atlas_beards_06_lip": "skin",
+      "atlas_beards_06_metal": "metal",
+      "atlas_beards_06_pupil": "fixed",
+      "atlas_beards_06_sclera": "fixed",
+      "atlas_beards_06_secondary": "secondary",
+      "atlas_beards_06_shadow": "skin",
+      "atlas_beards_06_skin": "skin"
+    },
+    "method": "manual_low_poly_volumes",
+    "prompt_sha256": "b44862906b910553e5de6cf74edfc101697cb2636262a937fa186a597364b4b9",
+    "schema_version": 1,
+    "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+    "variant": 6
+  },
+  "commands": [
+    {
+      "authored_primitive": {
+        "id": "c001",
+        "material": "hair",
+        "op": "sweep",
+        "part": "beard_fork",
+        "path": [
+          [
+            -0.045,
+            2.105,
+            0.23
+          ],
+          [
+            -0.06,
+            2.015,
+            0.24
+          ],
+          [
+            -0.055,
+            1.875,
+            0.22
+          ]
+        ],
+        "purpose": "beard fork",
+        "radii": [
+          0.055,
+          0.047,
+          0.005
+        ],
+        "sides": 6,
+        "slot": "head",
+        "stage": 4
+      },
+      "faces": [
+        [
+          1,
+          6,
+          0
+        ],
+        [
+          7,
+          6,
+          1
+        ],
+        [
+          2,
+          7,
+          1
+        ],
+        [
+          8,
+          7,
+          2
+        ],
+        [
+          3,
+          8,
+          2
+        ],
+        [
+          9,
+          8,
+          3
+        ],
+        [
+          4,
+          9,
+          3
+        ],
+        [
+          10,
+          9,
+          4
+        ],
+        [
+          5,
+          10,
+          4
+        ],
+        [
+          11,
+          10,
+          5
+        ],
+        [
+          0,
+          11,
+          5
+        ],
+        [
+          6,
+          11,
+          0
+        ],
+        [
+          7,
+          12,
+          6
+        ],
+        [
+          13,
+          12,
+          7
+        ],
+        [
+          8,
+          13,
+          7
+        ],
+        [
+          14,
+          13,
+          8
+        ],
+        [
+          9,
+          14,
+          8
+        ],
+        [
+          15,
+          14,
+          9
+        ],
+        [
+          10,
+          15,
+          9
+        ],
+        [
+          16,
+          15,
+          10
+        ],
+        [
+          11,
+          16,
+          10
+        ],
+        [
+          17,
+          16,
+          11
+        ],
+        [
+          6,
+          17,
+          11
+        ],
+        [
+          12,
+          17,
+          6
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          4,
+          3,
+          0
+        ],
+        [
+          5,
+          4,
+          0
+        ],
+        [
+          12,
+          13,
+          14
+        ],
+        [
+          12,
+          14,
+          15
+        ],
+        [
+          12,
+          15,
+          16
+        ],
+        [
+          12,
+          16,
+          17
+        ]
+      ],
+      "id": "atlas_beards_06_0",
+      "material": "atlas_beards_06_hair",
+      "op": "indexed_mesh",
+      "part": "atlas_beards_06_beard_fork",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "head",
+      "stage": 4,
+      "vertices": [
+        [
+          -0.045,
+          2.1110737339341163,
+          0.28466360540704905
+        ],
+        [
+          -0.0919910655059951,
+          2.1157732009223134,
+          0.2564722100418295
+        ],
+        [
+          -0.09199106550599512,
+          2.109699466988197,
+          0.20180860463478048
+        ],
+        [
+          -0.045000000000000005,
+          2.0989262660658836,
+          0.17533639459295097
+        ],
+        [
+          0.0019910655059951,
+          2.0942267990776866,
+          0.2035277899581705
+        ],
+        [
+          0.001991065505995107,
+          2.100300533011803,
+          0.25819139536521957
+        ],
+        [
+          -0.060316529478269834,
+          2.012972233029834,
+          0.2869551697920909
+        ],
+        [
+          -0.10082218978726404,
+          2.0157626957645927,
+          0.2632801872016371
+        ],
+        [
+          -0.10050566030899422,
+          2.0177904627347587,
+          0.21632501740954613
+        ],
+        [
+          -0.05968347052173017,
+          2.017027766970166,
+          0.19304483020790905
+        ],
+        [
+          -0.019177810212735957,
+          2.0142373042354076,
+          0.2167198127983629
+        ],
+        [
+          -0.019494339691005787,
+          2.0122095372652415,
+          0.26367498259045385
+        ],
+        [
+          -0.05501630681419364,
+          1.8742923262455937,
+          0.22494963957729602
+        ],
+        [
+          -0.0593355535880551,
+          1.874496702533009,
+          0.22243919387192226
+        ],
+        [
+          -0.05931924677386147,
+          1.8752043762874155,
+          0.21748955429462624
+        ],
+        [
+          -0.054983693185806364,
+          1.8757076737544063,
+          0.21505036042270398
+        ],
+        [
+          -0.050664446411944904,
+          1.875503297466991,
+          0.21756080612807774
+        ],
+        [
+          -0.050680753226138534,
+          1.8747956237125845,
+          0.22251044570537376
+        ]
+      ]
+    },
+    {
+      "authored_primitive": {
+        "id": "c002",
+        "material": "hair",
+        "op": "sweep",
+        "part": "beard_fork",
+        "path": [
+          [
+            0.045,
+            2.105,
+            0.23
+          ],
+          [
+            0.06,
+            2.015,
+            0.24
+          ],
+          [
+            0.055,
+            1.875,
+            0.22
+          ]
+        ],
+        "purpose": "beard fork",
+        "radii": [
+          0.055,
+          0.047,
+          0.005
+        ],
+        "sides": 6,
+        "slot": "head",
+        "stage": 4
+      },
+      "faces": [
+        [
+          1,
+          6,
+          0
+        ],
+        [
+          7,
+          6,
+          1
+        ],
+        [
+          2,
+          7,
+          1
+        ],
+        [
+          8,
+          7,
+          2
+        ],
+        [
+          3,
+          8,
+          2
+        ],
+        [
+          9,
+          8,
+          3
+        ],
+        [
+          4,
+          9,
+          3
+        ],
+        [
+          10,
+          9,
+          4
+        ],
+        [
+          5,
+          10,
+          4
+        ],
+        [
+          11,
+          10,
+          5
+        ],
+        [
+          0,
+          11,
+          5
+        ],
+        [
+          6,
+          11,
+          0
+        ],
+        [
+          7,
+          12,
+          6
+        ],
+        [
+          13,
+          12,
+          7
+        ],
+        [
+          8,
+          13,
+          7
+        ],
+        [
+          14,
+          13,
+          8
+        ],
+        [
+          9,
+          14,
+          8
+        ],
+        [
+          15,
+          14,
+          9
+        ],
+        [
+          10,
+          15,
+          9
+        ],
+        [
+          16,
+          15,
+          10
+        ],
+        [
+          11,
+          16,
+          10
+        ],
+        [
+          17,
+          16,
+          11
+        ],
+        [
+          6,
+          17,
+          11
+        ],
+        [
+          12,
+          17,
+          6
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          4,
+          3,
+          0
+        ],
+        [
+          5,
+          4,
+          0
+        ],
+        [
+          12,
+          13,
+          14
+        ],
+        [
+          12,
+          14,
+          15
+        ],
+        [
+          12,
+          15,
+          16
+        ],
+        [
+          12,
+          16,
+          17
+        ]
+      ],
+      "id": "atlas_beards_06_1",
+      "material": "atlas_beards_06_hair",
+      "op": "indexed_mesh",
+      "part": "atlas_beards_06_beard_fork",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "head",
+      "stage": 4,
+      "vertices": [
+        [
+          0.045,
+          2.1110737339341163,
+          0.28466360540704905
+        ],
+        [
+          -0.001991065505995107,
+          2.100300533011803,
+          0.25819139536521957
+        ],
+        [
+          -0.001991065505995114,
+          2.0942267990776866,
+          0.20352778995817053
+        ],
+        [
+          0.04499999999999999,
+          2.0989262660658836,
+          0.17533639459295097
+        ],
+        [
+          0.09199106550599509,
+          2.109699466988197,
+          0.20180860463478043
+        ],
+        [
+          0.0919910655059951,
+          2.1157732009223134,
+          0.2564722100418295
+        ],
+        [
+          0.060316529478269834,
+          2.012972233029834,
+          0.2869551697920909
+        ],
+        [
+          0.019494339691005787,
+          2.0122095372652415,
+          0.26367498259045385
+        ],
+        [
+          0.019177810212735943,
+          2.0142373042354076,
+          0.21671981279836292
+        ],
+        [
+          0.059683470521730154,
+          2.017027766970166,
+          0.19304483020790905
+        ],
+        [
+          0.1005056603089942,
+          2.0177904627347587,
+          0.2163250174095461
+        ],
+        [
+          0.10082218978726404,
+          2.0157626957645927,
+          0.2632801872016371
+        ],
+        [
+          0.05501630681419364,
+          1.8742923262455937,
+          0.22494963957729602
+        ],
+        [
+          0.050680753226138534,
+          1.8747956237125845,
+          0.22251044570537376
+        ],
+        [
+          0.050664446411944904,
+          1.875503297466991,
+          0.21756080612807774
+        ],
+        [
+          0.054983693185806364,
+          1.8757076737544063,
+          0.21505036042270398
+        ],
+        [
+          0.05931924677386146,
+          1.8752043762874155,
+          0.21748955429462624
+        ],
+        [
+          0.0593355535880551,
+          1.874496702533009,
+          0.22243919387192226
+        ]
+      ]
+    }
+  ],
+  "coordinate_system": "metres; Y up; +Z forward; floor Y=0",
+  "id": "hand-beards-06",
+  "palette": {
+    "atlas_beards_06_accent": "d6c5a0",
+    "atlas_beards_06_bone": "cbc5ad",
+    "atlas_beards_06_cloth": "35516d",
+    "atlas_beards_06_dark": "33383b",
+    "atlas_beards_06_hair": "614633",
+    "atlas_beards_06_hair_light": "71513b",
+    "atlas_beards_06_iris": "685d42",
+    "atlas_beards_06_leather": "654833",
+    "atlas_beards_06_lip": "886b56",
+    "atlas_beards_06_metal": "919ba3",
+    "atlas_beards_06_pupil": "272a2b",
+    "atlas_beards_06_sclera": "d4d1bc",
+    "atlas_beards_06_secondary": "938466",
+    "atlas_beards_06_shadow": "775e4b",
+    "atlas_beards_06_skin": "bd9577"
+  },
+  "production_pool": false,
+  "schema_version": 1
+}

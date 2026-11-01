@@ -1,0 +1,526 @@
+{
+  "attribute_reference": {
+    "authoring_revision": 1,
+    "authoring_sha256": "48159c92584473d8ca4c91dae38fc1cc9f3746807c5e3f1910c6bd4d7e872253",
+    "category": "brows",
+    "cell_pixels": [
+      307,
+      512,
+      614,
+      1024
+    ],
+    "depth_status": "Manually authored volumes; Front reference supplies silhouette/proportions only",
+    "design": {
+      "costume": "warden",
+      "face": {
+        "eye_tilt": -0.004,
+        "jaw": 0.99,
+        "nose": 0.04,
+        "width": 0.248
+      },
+      "gender": "male",
+      "hair": "swept",
+      "id": "hand-brows-07",
+      "label": "brows",
+      "library_variant": 7,
+      "palette": {
+        "accent": "d6c5a0",
+        "cloth": "35516d",
+        "hair": "614633",
+        "iris": "685d42",
+        "leather": "654833",
+        "metal": "919ba3",
+        "secondary": "938466",
+        "skin": "bd9577"
+      },
+      "race": "human"
+    },
+    "generation": {
+      "combined_mask": "../attribute_grid_mask_v1.png",
+      "combined_mask_sha256": "b67288dead6f5e6c48d8f0e1412d7cd39bbd08158e42df904c008ee3d6ac2234",
+      "id": "brows",
+      "image": "front.png",
+      "image_sha256": "bccdc0cbd21326e5ed794793f6a8349df952b22d4455c1bcfa83c8b8d2dc3d4e",
+      "label": "Брови",
+      "layout": {
+        "columns": 5,
+        "count": 10,
+        "rows": 2
+      },
+      "mask_transmission": "builtin tool has no mask argument; layout constraints in prompt",
+      "model_snapshot": null,
+      "model_snapshot_status": "not exposed by built-in tool",
+      "production_pool": false,
+      "prompt": "prompt.txt",
+      "prompt_sha256": "1ba74f3ae065d08ed5753c83e3a1359d9291d14ab776b1cdd402d00bae8383c1",
+      "purpose": "Ten attribute variants in one image; concept references, not reconstructed GLB assets",
+      "raw_response": "tool-response.json",
+      "raw_response_sha256": "5315f7837ef19f8c4c72dcef6809e30d056d5ee735f780da8dd7d8454bf503f1",
+      "schema_version": 1,
+      "style_reference_images": [],
+      "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+      "template_id": "constructor_attribute_grid_master_v1",
+      "template_sha256": "1577ff27f8a8c175c23674db6031a6b0c1b3b9e098061f31a0151a6157269c84",
+      "tool": "image_gen.imagegen",
+      "variant_count": 10,
+      "view": "Front"
+    },
+    "image": "media/experiments/constructor_attribute_references/v1/brows/front.png",
+    "image_sha256": "bccdc0cbd21326e5ed794793f6a8349df952b22d4455c1bcfa83c8b8d2dc3d4e",
+    "material_groups": {
+      "atlas_brows_07_accent": "accent",
+      "atlas_brows_07_bone": "fixed",
+      "atlas_brows_07_cloth": "cloth",
+      "atlas_brows_07_dark": "fixed",
+      "atlas_brows_07_hair": "hair",
+      "atlas_brows_07_hair_light": "hair",
+      "atlas_brows_07_iris": "eyes",
+      "atlas_brows_07_leather": "leather",
+      "atlas_brows_07_lip": "skin",
+      "atlas_brows_07_metal": "metal",
+      "atlas_brows_07_pupil": "fixed",
+      "atlas_brows_07_sclera": "fixed",
+      "atlas_brows_07_secondary": "secondary",
+      "atlas_brows_07_shadow": "skin",
+      "atlas_brows_07_skin": "skin"
+    },
+    "method": "manual_low_poly_volumes",
+    "prompt_sha256": "1ba74f3ae065d08ed5753c83e3a1359d9291d14ab776b1cdd402d00bae8383c1",
+    "schema_version": 1,
+    "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+    "variant": 7
+  },
+  "commands": [
+    {
+      "authored_primitive": {
+        "id": "c001",
+        "material": "hair",
+        "op": "sweep",
+        "part": "anatomy_brow",
+        "path": [
+          [
+            -0.055,
+            2.43,
+            0.245
+          ],
+          [
+            -0.105,
+            2.43,
+            0.249
+          ],
+          [
+            -0.16,
+            2.418,
+            0.226
+          ]
+        ],
+        "purpose": "anatomy brow",
+        "radii": [
+          0.011,
+          0.011,
+          0.0077
+        ],
+        "sides": 4,
+        "slot": "head",
+        "stage": 2
+      },
+      "faces": [
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          5,
+          4,
+          1
+        ],
+        [
+          2,
+          5,
+          1
+        ],
+        [
+          6,
+          5,
+          2
+        ],
+        [
+          3,
+          6,
+          2
+        ],
+        [
+          7,
+          6,
+          3
+        ],
+        [
+          0,
+          7,
+          3
+        ],
+        [
+          4,
+          7,
+          0
+        ],
+        [
+          5,
+          8,
+          4
+        ],
+        [
+          9,
+          8,
+          5
+        ],
+        [
+          6,
+          9,
+          5
+        ],
+        [
+          10,
+          9,
+          6
+        ],
+        [
+          7,
+          10,
+          6
+        ],
+        [
+          11,
+          10,
+          7
+        ],
+        [
+          4,
+          11,
+          7
+        ],
+        [
+          8,
+          11,
+          4
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          8,
+          9,
+          10
+        ],
+        [
+          8,
+          10,
+          11
+        ]
+      ],
+      "id": "atlas_brows_07_0",
+      "material": "atlas_brows_07_hair",
+      "op": "indexed_mesh",
+      "part": "atlas_brows_07_anatomy_brow",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "head",
+      "stage": 2,
+      "vertices": [
+        [
+          -0.05587719744511179,
+          2.43,
+          0.23403503193610262
+        ],
+        [
+          -0.055,
+          2.419,
+          0.245
+        ],
+        [
+          -0.05412280255488821,
+          2.43,
+          0.25596496806389735
+        ],
+        [
+          -0.055,
+          2.4410000000000003,
+          0.245
+        ],
+        [
+          -0.1030779690170029,
+          2.4303233212868154,
+          0.23817404691281682
+        ],
+        [
+          -0.10373293647384049,
+          2.419073688859418,
+          0.24889863491790723
+        ],
+        [
+          -0.10692203098299709,
+          2.429676678713185,
+          0.2598259530871832
+        ],
+        [
+          -0.1062670635261595,
+          2.4409263111405823,
+          0.24910136508209277
+        ],
+        [
+          -0.15714043737796013,
+          2.418555173808563,
+          0.21887225956891537
+        ],
+        [
+          -0.15838349004860364,
+          2.4104718507343277,
+          0.22606216277657695
+        ],
+        [
+          -0.16285956262203988,
+          2.417444826191437,
+          0.23312774043108464
+        ],
+        [
+          -0.16161650995139637,
+          2.4255281492656726,
+          0.22593783722342306
+        ]
+      ]
+    },
+    {
+      "authored_primitive": {
+        "id": "c002",
+        "material": "hair",
+        "op": "sweep",
+        "part": "anatomy_brow",
+        "path": [
+          [
+            0.055,
+            2.43,
+            0.245
+          ],
+          [
+            0.105,
+            2.43,
+            0.249
+          ],
+          [
+            0.16,
+            2.418,
+            0.226
+          ]
+        ],
+        "purpose": "anatomy brow",
+        "radii": [
+          0.011,
+          0.011,
+          0.0077
+        ],
+        "sides": 4,
+        "slot": "head",
+        "stage": 2
+      },
+      "faces": [
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          5,
+          4,
+          1
+        ],
+        [
+          2,
+          5,
+          1
+        ],
+        [
+          6,
+          5,
+          2
+        ],
+        [
+          3,
+          6,
+          2
+        ],
+        [
+          7,
+          6,
+          3
+        ],
+        [
+          0,
+          7,
+          3
+        ],
+        [
+          4,
+          7,
+          0
+        ],
+        [
+          5,
+          8,
+          4
+        ],
+        [
+          9,
+          8,
+          5
+        ],
+        [
+          6,
+          9,
+          5
+        ],
+        [
+          10,
+          9,
+          6
+        ],
+        [
+          7,
+          10,
+          6
+        ],
+        [
+          11,
+          10,
+          7
+        ],
+        [
+          4,
+          11,
+          7
+        ],
+        [
+          8,
+          11,
+          4
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          8,
+          9,
+          10
+        ],
+        [
+          8,
+          10,
+          11
+        ]
+      ],
+      "id": "atlas_brows_07_1",
+      "material": "atlas_brows_07_hair",
+      "op": "indexed_mesh",
+      "part": "atlas_brows_07_anatomy_brow",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "head",
+      "stage": 2,
+      "vertices": [
+        [
+          0.05412280255488821,
+          2.43,
+          0.25596496806389735
+        ],
+        [
+          0.055,
+          2.419,
+          0.245
+        ],
+        [
+          0.05587719744511179,
+          2.43,
+          0.23403503193610262
+        ],
+        [
+          0.055,
+          2.4410000000000003,
+          0.245
+        ],
+        [
+          0.10692203098299709,
+          2.429676678713185,
+          0.2598259530871832
+        ],
+        [
+          0.10373293647384049,
+          2.419073688859418,
+          0.24889863491790723
+        ],
+        [
+          0.1030779690170029,
+          2.4303233212868154,
+          0.23817404691281682
+        ],
+        [
+          0.1062670635261595,
+          2.4409263111405823,
+          0.24910136508209277
+        ],
+        [
+          0.16285956262203988,
+          2.417444826191437,
+          0.23312774043108464
+        ],
+        [
+          0.15838349004860364,
+          2.4104718507343277,
+          0.22606216277657695
+        ],
+        [
+          0.15714043737796013,
+          2.418555173808563,
+          0.21887225956891537
+        ],
+        [
+          0.16161650995139637,
+          2.4255281492656726,
+          0.22593783722342306
+        ]
+      ]
+    }
+  ],
+  "coordinate_system": "metres; Y up; +Z forward; floor Y=0",
+  "id": "hand-brows-07",
+  "palette": {
+    "atlas_brows_07_accent": "d6c5a0",
+    "atlas_brows_07_bone": "cbc5ad",
+    "atlas_brows_07_cloth": "35516d",
+    "atlas_brows_07_dark": "33383b",
+    "atlas_brows_07_hair": "614633",
+    "atlas_brows_07_hair_light": "71513b",
+    "atlas_brows_07_iris": "685d42",
+    "atlas_brows_07_leather": "654833",
+    "atlas_brows_07_lip": "886b56",
+    "atlas_brows_07_metal": "919ba3",
+    "atlas_brows_07_pupil": "272a2b",
+    "atlas_brows_07_sclera": "d4d1bc",
+    "atlas_brows_07_secondary": "938466",
+    "atlas_brows_07_shadow": "775e4b",
+    "atlas_brows_07_skin": "bd9577"
+  },
+  "production_pool": false,
+  "schema_version": 1
+}

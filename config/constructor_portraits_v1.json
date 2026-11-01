@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "id": "constructor_portraits_v1",
+  "contract": "humanoid_v1",
+  "features": {
+    "nose": {
+      "profile": "Характер лица",
+      "button": "Кнопка",
+      "aquiline": "Орлиный",
+      "broad": "Широкий",
+      "flat": "Плоский",
+      "hooked": "С горбинкой",
+      "upturned": "Курносый",
+      "long": "Длинный",
+      "broken": "Сломанный",
+      "angular": "Гранёный",
+      "round": "Круглый"
+    },
+    "ears": {
+      "profile": "Характер лица",
+      "small": "Маленькие",
+      "large": "Большие",
+      "round": "Округлые",
+      "long": "Длинные",
+      "pointed": "Острые",
+      "swept": "Отведённые",
+      "drooping": "Опущенные",
+      "notched": "С надрезом",
+      "wide": "Широкие",
+      "asymmetric": "Разные"
+    },
+    "jaw": {
+      "profile": "Характер лица",
+      "soft": "Мягкая",
+      "square": "Квадратная",
+      "tapered": "Заострённая",
+      "broad": "Широкая",
+      "long": "Длинная",
+      "short": "Короткая",
+      "cleft": "С ямкой",
+      "heavy": "Массивная",
+      "gaunt": "Впалая",
+      "asymmetric": "Асимметричная"
+    },
+    "brows": {
+      "profile": "Характер лица",
+      "straight": "Прямые",
+      "arched": "Дугой",
+      "thick": "Густые",
+      "thin": "Тонкие",
+      "angled": "Угловатые",
+      "low": "Низкие",
+      "high": "Высокие",
+      "split": "С разрывом",
+      "wild": "Кустистые",
+      "uneven": "Неровные"
+    },
+    "mouth": {
+      "profile": "Характер лица",
+      "small": "Маленький",
+      "wide": "Широкий",
+      "full": "Полные губы",
+      "thin": "Тонкие губы",
+      "smile": "Улыбка",
+      "stern": "Суровый",
+      "crooked": "Кривой",
+      "scarred": "Со шрамом",
+      "fangs": "Клыки",
+      "teeth": "Видимые зубы"
+    }
+  },
+  "profiles": [
+    {
+      "nose": "button",
+      "ears": "small",
+      "jaw": "soft",
+      "brows": "straight",
+      "mouth": "small"
+    },
+    {
+      "nose": "aquiline",
+      "ears": "large",
+      "jaw": "square",
+      "brows": "arched",
+      "mouth": "smile"
+    },
+    {
+      "nose": "broad",
+      "ears": "round",
+      "jaw": "tapered",
+      "brows": "thick",
+      "mouth": "full"
+    },
+    {
+      "nose": "flat",
+      "ears": "long",
+      "jaw": "broad",
+      "brows": "thin",
+      "mouth": "thin"
+    },
+    {
+      "nose": "hooked",
+      "ears": "pointed",
+      "jaw": "long",
+      "brows": "angled",
+      "mouth": "stern"
+    },
+    {
+      "nose": "upturned",
+      "ears": "swept",
+      "jaw": "short",
+      "brows": "low",
+      "mouth": "wide"
+    },
+    {
+      "nose": "long",
+      "ears": "drooping",
+      "jaw": "cleft",
+      "brows": "high",
+      "mouth": "crooked"
+    },
+    {
+      "nose": "broken",
+      "ears": "notched",
+      "jaw": "heavy",
+      "brows": "split",
+      "mouth": "scarred"
+    },
+    {
+      "nose": "angular",
+      "ears": "wide",
+      "jaw": "gaunt",
+      "brows": "wild",
+      "mouth": "fangs"
+    },
+    {
+      "nose": "round",
+      "ears": "asymmetric",
+      "jaw": "asymmetric",
+      "brows": "uneven",
+      "mouth": "teeth"
+    }
+  ],
+  "race_shapes": {
+    "human": [
+      1,
+      1,
+      1,
+      "human"
+    ],
+    "elf": [
+      0.85,
+      1.07,
+      0.96,
+      "elf"
+    ],
+    "orc": [
+      1.28,
+      0.94,
+      1.12,
+      "orc"
+    ],
+    "minotaur": [
+      1.38,
+      1.03,
+      1.25,
+      "bull"
+    ],
+    "wolf": [
+      1.02,
+      1.02,
+      1.16,
+      "canine"
+    ],
+    "angel": [
+      0.94,
+      1.05,
+      1.02,
+      "angel"
+    ],
+    "demon": [
+      0.95,
+      1.1,
+      1.1,
+      "demon"
+    ],
+    "skeleton": [
+      1,
+      1,
+      1,
+      "skull"
+    ],
+    "boarfolk": [
+      1.25,
+      0.92,
+      1.15,
+      "boar"
+    ],
+    "elephantfolk": [
+      1.35,
+      1.12,
+      1.12,
+      "elephant"
+    ],
+    "mutant": [
+      1.15,
+      1.03,
+      1.12,
+      "mutant"
+    ],
+    "undead": [
+      0.91,
+      1.09,
+      0.91,
+      "undead"
+    ],
+    "gargoyle": [
+      1.17,
+      0.98,
+      1.16,
+      "stone"
+    ],
+    "tentaclefolk": [
+      1.12,
+      1.14,
+      1.1,
+      "cephalopod"
+    ]
+  },
+  "hair": {
+    "mohawk": "Ирокез",
+    "undercut": "Андеркат",
+    "curly": "Кудри",
+    "afro": "Афро",
+    "dreadlocks": "Дреды",
+    "ponytail": "Высокий хвост",
+    "low-tail": "Низкий хвост",
+    "double-buns": "Два пучка",
+    "pageboy": "Паж",
+    "long-waves": "Длинные волны",
+    "side-shave": "Выбритый бок",
+    "spiky": "Колючие пряди",
+    "pompadour": "Помпадур",
+    "pixie": "Пикси",
+    "side-braid": "Боковая коса",
+    "braid-crown": "Венок из кос",
+    "messy": "Растрёпанные",
+    "long-straight": "Длинные прямые",
+    "fringe": "Густая чёлка",
+    "crest": "Высокий гребень"
+  },
+  "beards": {
+    "none": "Без бороды",
+    "stubble": "Щетина",
+    "short": "Короткая",
+    "full": "Окладистая",
+    "long": "Длинная",
+    "pointed": "Клином",
+    "forked": "Раздвоенная",
+    "braided": "Плетёная",
+    "goatee": "Эспаньолка",
+    "mutton": "Бакенбарды",
+    "sideburns": "Виски"
+  },
+  "mustaches": {
+    "none": "Без усов",
+    "pencil": "Тонкие",
+    "thick": "Густые",
+    "handlebar": "Закрученные",
+    "horseshoe": "Подковой",
+    "walrus": "Моржовые",
+    "split": "Разделённые",
+    "braided": "Плетёные",
+    "twirl": "Спиральные",
+    "straight": "Прямые",
+    "short": "Короткие"
+  }
+}

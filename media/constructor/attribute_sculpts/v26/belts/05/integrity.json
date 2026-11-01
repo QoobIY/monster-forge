@@ -1,0 +1,11 @@
+{
+  "derived_files": {
+    "front.png": "d648fa3c27e300b7ec955434ec33f54b00feaa69cc6b1506a0e5237b08ea11b3",
+    "torso.glb": "9d8a9f14cbc17b1f05a6e335d19f4973aaafd1328dc733b00ed8e4105b8efb2b"
+  },
+  "files": {
+    "recipe.json": "e59644677f8ce5af6e310f2a589c4b15257efc1950285c63ec72e8d594d60637"
+  },
+  "schema_version": 2,
+  "triangles": 514
+}

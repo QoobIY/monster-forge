@@ -1,0 +1,37 @@
+{
+  "coordinates": "metres; Y up; +Z forward; floor Y=0",
+  "parts": {
+    "head": {
+      "model": "parts/head.glb",
+      "recipe": "parts/head.recipe.json",
+      "sha256": "09f63c3c9ecfbc17955409d18484d14d085e678f8853599a25f6dc4d56b2b42f"
+    },
+    "left_arm": {
+      "model": "parts/left_arm.glb",
+      "recipe": "parts/left_arm.recipe.json",
+      "sha256": "12922ec0ceade766009466547b78fe349d9e598a171f804f3762d39eebb0e213"
+    },
+    "left_leg": {
+      "model": "parts/left_leg.glb",
+      "recipe": "parts/left_leg.recipe.json",
+      "sha256": "37168b77c9887038d964d684533c7c0def6aa5354847475f3a0ef04da10ace38"
+    },
+    "right_arm": {
+      "model": "parts/right_arm.glb",
+      "recipe": "parts/right_arm.recipe.json",
+      "sha256": "0b78e14d7f99e96f33007e4addaec8a5afd3e628549ff274bb49de0641218d90"
+    },
+    "right_leg": {
+      "model": "parts/right_leg.glb",
+      "recipe": "parts/right_leg.recipe.json",
+      "sha256": "fb0a5ff0e2bee9f682cc1dc078f5fa9c14f6e980e14518555ee0ae3345438071"
+    },
+    "torso": {
+      "model": "parts/torso.glb",
+      "recipe": "parts/torso.recipe.json",
+      "sha256": "49eafd399f2b722b2ead6b9ce0a1ef4123b04e51285a0a87f50aeefbac750cc2"
+    }
+  },
+  "rig_reference": "humanoid_v1",
+  "schema_version": 1
+}

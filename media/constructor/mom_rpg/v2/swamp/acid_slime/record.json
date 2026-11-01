@@ -1,0 +1,119 @@
+{
+  "bind_profile": "canonical",
+  "constructor_settings": {
+    "arms": "native-slime-01",
+    "back": null,
+    "colors": {
+      "accent": null,
+      "back_frame": null,
+      "back_primary": null,
+      "back_secondary": null,
+      "cloth": null,
+      "eyes": null,
+      "hair": null,
+      "leather": null,
+      "metal": null,
+      "secondary": null,
+      "skin": null
+    },
+    "decor": {
+      "beard": "none",
+      "belt": "none",
+      "emblem": "none",
+      "headwear": "none",
+      "mustache": "none",
+      "pattern": "none",
+      "shoulders": "none"
+    },
+    "eye_shape": "original",
+    "eye_size": 1.0,
+    "face": "native-slime-01",
+    "features": {
+      "brows": "profile",
+      "ears": "profile",
+      "jaw": "profile",
+      "mouth": "profile",
+      "nose": "profile"
+    },
+    "form": "regular",
+    "gender": "male",
+    "hair": "original",
+    "legs": "native-slime-01",
+    "outfit": "native-slime-01",
+    "race": "slime",
+    "reference_parts": {
+      "accessories": 0,
+      "arms": 0,
+      "back": 0,
+      "beards": 0,
+      "belts": 0,
+      "body_forms": 0,
+      "boots": 0,
+      "brows": 0,
+      "colorways": 0,
+      "ears": 0,
+      "emblems": 0,
+      "eyes": 0,
+      "female_clothes": 0,
+      "female_faces": 0,
+      "gloves": 0,
+      "hair": 0,
+      "headwear": 0,
+      "jaws": 0,
+      "legs": 0,
+      "male_clothes": 0,
+      "male_faces": 0,
+      "mouths": 0,
+      "mustaches": 0,
+      "noses": 0,
+      "patterns": 0,
+      "race_heads": 0,
+      "shoulders": 0
+    },
+    "schema_version": 5
+  },
+  "id": "acid_slime",
+  "label": "MOM RPG · Кислотная жижа",
+  "parts": {
+    "head": {
+      "model": "parts/head.glb"
+    },
+    "left_wisp": {
+      "model": "parts/left_wisp.glb"
+    },
+    "right_wisp": {
+      "model": "parts/right_wisp.glb"
+    },
+    "torso": {
+      "model": "parts/torso.glb"
+    }
+  },
+  "race": "slime",
+  "rig": "ghost_v1",
+  "schema_version": 1,
+  "source_assembly": {
+    "bind_profile": "canonical",
+    "id": "37ac7929fbce21763f43fce85283dffbd17b5f5b142223222957dce366505f07",
+    "parts": {
+      "head": {
+        "model_sha256": "7f6c6053ded80ee14ccfc94ce38208fcf3138478131c13da5866e6db3d0ab891",
+        "revision_id": "4693574421fc9623ce616a967e97b38b03c34ed59b684b7c5c80050e66118e9b"
+      },
+      "left_wisp": {
+        "model_sha256": "7d300edcd070566a2f1787df7c7026a5e5c46813ecaa997613caf998b1be3773",
+        "revision_id": "7fb2884a60b09fa31a7753b326dcbaf7e4b1fbcee2928bc2b0f7fbb89bc5386f"
+      },
+      "right_wisp": {
+        "model_sha256": "139f0f3789d82e747f4a21736ccab82216222cbc25d28ce44918ec85343cd3f8",
+        "revision_id": "c2e734c1bfa1eab51589de1b4849ff523d9c9058706f008d506ef75f37d12d77"
+      },
+      "torso": {
+        "model_sha256": "0a88a7eef75713894104b9ea0c7407c4d65e38451c8c02348ec0078bbcc36e45",
+        "revision_id": "34e4851ab13d96187abfccfe04429020928f6682e5db75110fba23316b56d3ec"
+      }
+    },
+    "schema_version": 1,
+    "skeleton_id": "ghost_v1",
+    "skeleton_sha256": "aa3024436d94fee7a0fd7010a265f484e660105dca29f9e2fec8d4ded5131638"
+  }
+}

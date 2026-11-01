@@ -1,0 +1,92 @@
+{
+  "assembly_reference": "ghost_v1",
+  "bind_profile": "canonical",
+  "commands": [
+    {
+      "center": [
+        -0.59,
+        0.19,
+        0.08
+      ],
+      "id": "c001",
+      "material": "skin",
+      "op": "ellipsoid",
+      "part": "slime_pseudopod",
+      "purpose": "slime pseudopod",
+      "radii": [
+        0.37,
+        0.19,
+        0.43
+      ],
+      "rings": 4,
+      "sides": 10,
+      "skin_bone": "left_wisp",
+      "slot": "left_wisp",
+      "stage": 2
+    },
+    {
+      "center": [
+        -0.8,
+        0.12,
+        0.2
+      ],
+      "id": "c002",
+      "material": "secondary",
+      "op": "ellipsoid",
+      "part": "slime_outer_lobe",
+      "purpose": "slime outer lobe",
+      "radii": [
+        0.17,
+        0.12,
+        0.21
+      ],
+      "rings": 4,
+      "sides": 8,
+      "skin_bone": "left_wisp",
+      "slot": "left_wisp",
+      "stage": 2
+    }
+  ],
+  "constructor_anatomy": {
+    "contract": "ghost_v1",
+    "description_ru": "Бесформенные кислотные существа: студенистое ядро, верхняя масса и две боковые лопасти, без человеческих конечностей.",
+    "gender": "male",
+    "hair": "cropped",
+    "id": "native-slime-01",
+    "label": "Кислотная жижа",
+    "own_body": true,
+    "race": "slime",
+    "variant": 0
+  },
+  "coordinate_system": "metres; Y up; +Z forward; floor Y=0",
+  "id": "native-slime-01.left_wisp",
+  "label": "native-slime-01.left_wisp",
+  "palette": {
+    "accent": "9dd3ae",
+    "bone": "cbc5ad",
+    "cloth": "4c3c54",
+    "dark": "33383b",
+    "eyes": "e9ef8b",
+    "hair": "48372e",
+    "hair_light": "544035",
+    "leather": "573e32",
+    "lip": "537a30",
+    "metal": "85715b",
+    "pupil": "272a2b",
+    "sclera": "d4d1bc",
+    "secondary": "c4df77",
+    "shadow": "486a2a",
+    "skin": "73a943"
+  },
+  "schema_version": 1,
+  "stages": [
+    "Основные массы и опоры",
+    "Голова и анатомия",
+    "Одежда и защитные пластины",
+    "Отличительные детали",
+    "Кисти, опоры и завершающие акценты"
+  ],
+  "team_materials": [
+    "cloth"
+  ]
+}

@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "monster-forge-sdk"
+version = "1.3.0"
+description = "Standalone low-poly character constructor and hash-verified asset SDK"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE", "LICENSE_SCOPE.md"]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+app = [
+    "Flask>=3.0,<4",
+    "numpy>=2.0,<3",
+    "Pillow>=10.0,<13",
+    "pydantic>=2.12,<3",
+    "scipy>=1.14,<2",
+    "trimesh>=4.12,<5",
+]
+authoring = [
+    "monster-forge-sdk[app]",
+    "CairoSVG>=2.7,<3",
+]
+dev = [
+    "build>=1.2,<2",
+    "ruff>=0.11,<1",
+]
+
+[tool.setuptools]
+packages = ["monster_forge_sdk", "monster_forge_sdk._contracts"]
+
+[tool.setuptools.package-dir]
+# One immutable source in the checkout; wheels place these bytes inside the SDK.
+"monster_forge_sdk._contracts" = "media/rigs"
+
+[tool.setuptools.package-data]
+"monster_forge_sdk" = ["py.typed"]
+"monster_forge_sdk._contracts" = [
+    "body_rigs.json",
+    "humanoid/canonical.json",
+    "humanoid/workshop_knees_v1.json",
+]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "B"]
+
+[tool.uv]
+# The SDK supports 3.11; the application lock targets Python 3.12+.
+environments = ["python_version >= '3.12'"]

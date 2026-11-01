@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "rig_reference": "humanoid_v1",
+  "coordinates": "metres; Y up; +Z forward; floor Y=0",
+  "storage": "separate_slot_glb",
+  "assembly": "in memory only; no rescaling of individual parts",
+  "binding": "static shared-coordinate parts; skinning not yet authored",
+  "parts": {
+    "back_attachment": {
+      "model": "parts/back_attachment.glb",
+      "image": "parts/back_attachment.png",
+      "recipe": "parts/back_attachment.recipe.json",
+      "commands": [
+        "original_064"
+      ],
+      "triangles": 28,
+      "sha256": "c6c995d92fe43f46603238cdf6184b68b9b23b53d1b7baf8f66e0203bc733815",
+      "bounds_metres": [
+        [
+          -0.3199999928474426,
+          0.8700000047683716,
+          -0.375
+        ],
+        [
+          0.33000001311302185,
+          1.809999942779541,
+          -0.19900000095367432
+        ]
+      ]
+    },
+    "head": {
+      "model": "parts/head.glb",
+      "image": "parts/head.png",
+      "recipe": "parts/head.recipe.json",
+      "commands": [
+        "original_015",
+        "original_016",
+        "original_017",
+        "original_018",
+        "original_019",
+        "original_020",
+        "original_021",
+        "original_022",
+        "original_023",
+        "original_024",
+        "original_025",
+        "original_026",
+        "original_027",
+        "original_028",
+        "original_029",
+        "original_030",
+        "original_031",
+        "original_032",
+        "original_033",
+        "original_034",
+        "original_035",
+        "original_036",
+        "original_037",
+        "original_038",
+        "original_039",
+        "original_040",
+        "original_041",
+        "original_042",
+        "original_043",
+        "original_044",
+        "original_045",
+        "original_046",
+        "original_047",
+        "original_048"
+      ],
+      "triangles": 1278,
+      "sha256": "1961e14124ed603279a6005c3e1df3ca2b1146ba9a149ebd43481f672047ba71",
+      "bounds_metres": [
+        [
+          -0.44251155853271484,
+          1.9600000381469727,
+          -0.24021130800247192
+        ],
+        [
+          0.44251155853271484,
+          2.771688222885132,
+          0.425310879945755
+        ]
+      ]
+    },
+    "left_arm": {
+      "model": "parts/left_arm.glb",
+      "image": "parts/left_arm.png",
+      "recipe": "parts/left_arm.recipe.json",
+      "commands": [
+        "original_006",
+        "original_007",
+        "original_008",
+        "original_056",
+        "original_057"
+      ],
+      "triangles": 170,
+      "sha256": "00c1291d9d941353f718a82f471d8737183c00d92192c3717c73b6bbd9be2188",
+      "bounds_metres": [
+        [
+          -0.8928077816963196,
+          0.8209999799728394,
+          -0.08979984372854233
+        ],
+        [
+          -0.2596025764942169,
+          1.8899999856948853,
+          0.20600000023841858
+        ]
+      ]
+    },
+    "left_leg": {
+      "model": "parts/left_leg.glb",
+      "image": "parts/left_leg.png",
+      "recipe": "parts/left_leg.recipe.json",
+      "commands": [
+        "original_003",
+        "original_004",
+        "original_005",
+        "original_058",
+        "original_059"
+      ],
+      "triangles": 156,
+      "sha256": "f770c4bd6f05612d881c4124bb9a866932effe9cddf002987b6c6ce125cee333",
+      "bounds_metres": [
+        [
+          -0.4449999928474426,
+          0.0,
+          -0.13687613606452942
+        ],
+        [
+          -0.08410090953111649,
+          0.9673174619674683,
+          0.3700000047683716
+        ]
+      ]
+    },
+    "right_arm": {
+      "model": "parts/right_arm.glb",
+      "image": "parts/right_arm.png",
+      "recipe": "parts/right_arm.recipe.json",
+      "commands": [
+        "original_012",
+        "original_013",
+        "original_014",
+        "original_060",
+        "original_061"
+      ],
+      "triangles": 170,
+      "sha256": "90e1b44941d646d60e23c4fc83a187611f182896511aeb90763469163834ad12",
+      "bounds_metres": [
+        [
+          0.2596025764942169,
+          0.8209999799728394,
+          -0.08979984372854233
+        ],
+        [
+          0.8928077816963196,
+          1.8899999856948853,
+          0.20600000023841858
+        ]
+      ]
+    },
+    "right_leg": {
+      "model": "parts/right_leg.glb",
+      "image": "parts/right_leg.png",
+      "recipe": "parts/right_leg.recipe.json",
+      "commands": [
+        "original_009",
+        "original_010",
+        "original_011",
+        "original_062",
+        "original_063"
+      ],
+      "triangles": 156,
+      "sha256": "fc8033afc3a8d0f25fb1fce19790b94eb84cf4324f74eb5d868da89356ff7b31",
+      "bounds_metres": [
+        [
+          0.08410090953111649,
+          0.0,
+          -0.13687613606452942
+        ],
+        [
+          0.4449999928474426,
+          0.9673174619674683,
+          0.3700000047683716
+        ]
+      ]
+    },
+    "torso": {
+      "model": "parts/torso.glb",
+      "image": "parts/torso.png",
+      "recipe": "parts/torso.recipe.json",
+      "commands": [
+        "original_001",
+        "original_002",
+        "original_049",
+        "original_050",
+        "original_051",
+        "original_052",
+        "original_053",
+        "original_054",
+        "original_055"
+      ],
+      "triangles": 290,
+      "sha256": "91b5cd2b069eb3ce62e1265527956662e2196a694f0cc104b1b2f520c4036853",
+      "bounds_metres": [
+        [
+          -0.3400000035762787,
+          0.75,
+          -0.19496658444404602
+        ],
+        [
+          0.36000001430511475,
+          2.077507495880127,
+          0.2999870181083679
+        ]
+      ]
+    }
+  }
+}

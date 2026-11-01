@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "assembly_id": "b92b798fc2cb4dfd8d6f31de2d44635e9a40d947ae099a2d9ac1076d534d3a0c",
+  "settings": {
+    "schema_version": 5,
+    "race": "centaur",
+    "gender": "male",
+    "face": "expansion-centaur-male-01",
+    "hair": "original",
+    "form": "regular",
+    "outfit": "expansion-centaur-male-01",
+    "arms": "expansion-centaur-male-01",
+    "legs": "expansion-centaur-male-01",
+    "back": null,
+    "eye_size": 1.0,
+    "eye_shape": "original",
+    "colors": {
+      "hair": null,
+      "eyes": null,
+      "skin": null,
+      "cloth": null,
+      "accent": null,
+      "metal": null,
+      "leather": null,
+      "secondary": null,
+      "back_primary": null,
+      "back_secondary": null,
+      "back_frame": null
+    },
+    "decor": {
+      "emblem": "none",
+      "shoulders": "none",
+      "belt": "none",
+      "headwear": "none",
+      "pattern": "none",
+      "beard": "none",
+      "mustache": "none"
+    },
+    "features": {
+      "nose": "profile",
+      "ears": "profile",
+      "jaw": "profile",
+      "brows": "profile",
+      "mouth": "profile"
+    },
+    "reference_parts": {
+      "male_faces": 0,
+      "female_faces": 0,
+      "hair": 0,
+      "brows": 0,
+      "eyes": 0,
+      "noses": 0,
+      "ears": 0,
+      "jaws": 0,
+      "mouths": 0,
+      "beards": 0,
+      "mustaches": 0,
+      "race_heads": 0,
+      "body_forms": 0,
+      "male_clothes": 0,
+      "female_clothes": 0,
+      "arms": 0,
+      "legs": 0,
+      "gloves": 0,
+      "boots": 0,
+      "shoulders": 0,
+      "belts": 0,
+      "headwear": 0,
+      "emblems": 0,
+      "back": 0,
+      "accessories": 0,
+      "patterns": 0,
+      "colorways": 0
+    }
+  },
+  "files": {
+    "arms.png": "6f1a90e0f81236946ce134dc83d3960a38b70c7786560ac91bc082b008b298d0",
+    "face.png": "c46d1e2f198d15bb9abd64240b12747f8ed7f2eb40f1062d91a4269cd3158234",
+    "legs.png": "b803d176266cecadbdb9abaa39034d349549cb92666f1cc82517f050b17961e8",
+    "outfit.png": "7fea8767b4ea4c53a75606ef472b346f043e429fd6ecbf3440c27cdbf60c745c"
+  }
+}

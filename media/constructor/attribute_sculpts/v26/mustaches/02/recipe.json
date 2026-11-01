@@ -1,0 +1,616 @@
+{
+  "attribute_reference": {
+    "authoring_revision": 1,
+    "authoring_sha256": "48159c92584473d8ca4c91dae38fc1cc9f3746807c5e3f1910c6bd4d7e872253",
+    "category": "mustaches",
+    "cell_pixels": [
+      307,
+      0,
+      614,
+      512
+    ],
+    "depth_status": "Manually authored volumes; Front reference supplies silhouette/proportions only",
+    "design": {
+      "costume": "warden",
+      "face": {
+        "eye_tilt": 0,
+        "jaw": 0.66,
+        "nose": 0.06,
+        "width": 0.193
+      },
+      "gender": "male",
+      "hair": "swept",
+      "id": "hand-mustaches-02",
+      "label": "mustaches",
+      "library_variant": 2,
+      "palette": {
+        "accent": "d6c5a0",
+        "cloth": "35516d",
+        "hair": "614633",
+        "iris": "685d42",
+        "leather": "654833",
+        "metal": "919ba3",
+        "secondary": "938466",
+        "skin": "bd9577"
+      },
+      "race": "human"
+    },
+    "generation": {
+      "combined_mask": "../attribute_grid_mask_v1.png",
+      "combined_mask_sha256": "b67288dead6f5e6c48d8f0e1412d7cd39bbd08158e42df904c008ee3d6ac2234",
+      "id": "mustaches",
+      "image": "front.png",
+      "image_sha256": "0c0882b3234045d1d7cb3cd0c8803005bbf21e1d7676436562a52a4b50b17fb9",
+      "label": "Усы",
+      "layout": {
+        "columns": 5,
+        "count": 10,
+        "rows": 2
+      },
+      "mask_transmission": "builtin tool has no mask argument; layout constraints in prompt",
+      "model_snapshot": null,
+      "model_snapshot_status": "not exposed by built-in tool",
+      "production_pool": false,
+      "prompt": "prompt.txt",
+      "prompt_sha256": "e02123b151e6923d66ce958914e35cfc97f615d6bf9bec2ce642bed1352ef118",
+      "purpose": "Ten attribute variants in one image; concept references, not reconstructed GLB assets",
+      "raw_response": "tool-response.json",
+      "raw_response_sha256": "a9344ea3ab4b7b0c3733d4a46dc8dcebbf095e41822c446e28e9a854b3640db9",
+      "schema_version": 1,
+      "style_reference_images": [],
+      "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+      "template_id": "constructor_attribute_grid_master_v1",
+      "template_sha256": "1577ff27f8a8c175c23674db6031a6b0c1b3b9e098061f31a0151a6157269c84",
+      "tool": "image_gen.imagegen",
+      "variant_count": 10,
+      "view": "Front"
+    },
+    "image": "media/experiments/constructor_attribute_references/v1/mustaches/front.png",
+    "image_sha256": "0c0882b3234045d1d7cb3cd0c8803005bbf21e1d7676436562a52a4b50b17fb9",
+    "material_groups": {
+      "atlas_mustaches_02_accent": "accent",
+      "atlas_mustaches_02_bone": "fixed",
+      "atlas_mustaches_02_cloth": "cloth",
+      "atlas_mustaches_02_dark": "fixed",
+      "atlas_mustaches_02_hair": "hair",
+      "atlas_mustaches_02_hair_light": "hair",
+      "atlas_mustaches_02_iris": "eyes",
+      "atlas_mustaches_02_leather": "leather",
+      "atlas_mustaches_02_lip": "skin",
+      "atlas_mustaches_02_metal": "metal",
+      "atlas_mustaches_02_pupil": "fixed",
+      "atlas_mustaches_02_sclera": "fixed",
+      "atlas_mustaches_02_secondary": "secondary",
+      "atlas_mustaches_02_shadow": "skin",
+      "atlas_mustaches_02_skin": "skin"
+    },
+    "method": "manual_low_poly_volumes",
+    "prompt_sha256": "e02123b151e6923d66ce958914e35cfc97f615d6bf9bec2ce642bed1352ef118",
+    "schema_version": 1,
+    "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+    "variant": 2
+  },
+  "commands": [
+    {
+      "authored_primitive": {
+        "id": "c001",
+        "material": "hair",
+        "op": "sweep",
+        "part": "mustache_thick",
+        "path": [
+          [
+            -0.009,
+            2.16,
+            0.245
+          ],
+          [
+            -0.04875,
+            2.162,
+            0.255
+          ],
+          [
+            -0.075,
+            2.155,
+            0.245
+          ]
+        ],
+        "purpose": "mustache thick",
+        "radii": [
+          0.023,
+          0.023,
+          0.023
+        ],
+        "sides": 5,
+        "slot": "head",
+        "stage": 4
+      },
+      "faces": [
+        [
+          1,
+          5,
+          0
+        ],
+        [
+          6,
+          5,
+          1
+        ],
+        [
+          2,
+          6,
+          1
+        ],
+        [
+          7,
+          6,
+          2
+        ],
+        [
+          3,
+          7,
+          2
+        ],
+        [
+          8,
+          7,
+          3
+        ],
+        [
+          4,
+          8,
+          3
+        ],
+        [
+          9,
+          8,
+          4
+        ],
+        [
+          0,
+          9,
+          4
+        ],
+        [
+          5,
+          9,
+          0
+        ],
+        [
+          6,
+          10,
+          5
+        ],
+        [
+          11,
+          10,
+          6
+        ],
+        [
+          7,
+          11,
+          6
+        ],
+        [
+          12,
+          11,
+          7
+        ],
+        [
+          8,
+          12,
+          7
+        ],
+        [
+          13,
+          12,
+          8
+        ],
+        [
+          9,
+          13,
+          8
+        ],
+        [
+          14,
+          13,
+          9
+        ],
+        [
+          5,
+          14,
+          9
+        ],
+        [
+          10,
+          14,
+          5
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          4,
+          3,
+          0
+        ],
+        [
+          10,
+          11,
+          12
+        ],
+        [
+          10,
+          12,
+          13
+        ],
+        [
+          10,
+          13,
+          14
+        ]
+      ],
+      "id": "atlas_mustaches_02_0",
+      "material": "atlas_mustaches_02_hair",
+      "op": "indexed_mesh",
+      "part": "atlas_mustaches_02_mustache_thick",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "head",
+      "stage": 4,
+      "vertices": [
+        [
+          -0.014611321043173274,
+          2.16,
+          0.22269499885338626
+        ],
+        [
+          -0.01176784817286746,
+          2.1381516935836857,
+          0.23836746479611426
+        ],
+        [
+          -0.005099303203358111,
+          2.1464970040380953,
+          0.26320586895903214
+        ],
+        [
+          -0.003821388627000013,
+          2.173502995961905,
+          0.26288438101529427
+        ],
+        [
+          -0.009700138953601136,
+          2.1818483064163146,
+          0.23784728637617306
+        ],
+        [
+          -0.048783012548258085,
+          2.1624357656370066,
+          0.23200415214693615
+        ],
+        [
+          -0.047108090792015736,
+          2.140326798454609,
+          0.24747826689348762
+        ],
+        [
+          -0.04770223175476622,
+          2.148169459162915,
+          0.27334716113893387
+        ],
+        [
+          -0.049744352820096954,
+          2.175125457225279,
+          0.27386090228744475
+        ],
+        [
+          -0.050412312084863006,
+          2.18394251952019,
+          0.24830951753319763
+        ],
+        [
+          -0.06744264280754804,
+          2.157488408348796,
+          0.22342005152565614
+        ],
+        [
+          -0.06688446106728177,
+          2.134676118885236,
+          0.23792342708194947
+        ],
+        [
+          -0.07754167829500905,
+          2.1399507423389674,
+          0.2622063858871216
+        ],
+        [
+          -0.0846863825075017,
+          2.1660229283747907,
+          0.26271070421983816
+        ],
+        [
+          -0.07844483532265943,
+          2.176861802052209,
+          0.2387394312854346
+        ]
+      ]
+    },
+    {
+      "authored_primitive": {
+        "id": "c002",
+        "material": "hair",
+        "op": "sweep",
+        "part": "mustache_thick",
+        "path": [
+          [
+            0.009,
+            2.16,
+            0.245
+          ],
+          [
+            0.04875,
+            2.162,
+            0.255
+          ],
+          [
+            0.075,
+            2.155,
+            0.245
+          ]
+        ],
+        "purpose": "mustache thick",
+        "radii": [
+          0.023,
+          0.023,
+          0.023
+        ],
+        "sides": 5,
+        "slot": "head",
+        "stage": 4
+      },
+      "faces": [
+        [
+          1,
+          5,
+          0
+        ],
+        [
+          6,
+          5,
+          1
+        ],
+        [
+          2,
+          6,
+          1
+        ],
+        [
+          7,
+          6,
+          2
+        ],
+        [
+          3,
+          7,
+          2
+        ],
+        [
+          8,
+          7,
+          3
+        ],
+        [
+          4,
+          8,
+          3
+        ],
+        [
+          9,
+          8,
+          4
+        ],
+        [
+          0,
+          9,
+          4
+        ],
+        [
+          5,
+          9,
+          0
+        ],
+        [
+          6,
+          10,
+          5
+        ],
+        [
+          11,
+          10,
+          6
+        ],
+        [
+          7,
+          11,
+          6
+        ],
+        [
+          12,
+          11,
+          7
+        ],
+        [
+          8,
+          12,
+          7
+        ],
+        [
+          13,
+          12,
+          8
+        ],
+        [
+          9,
+          13,
+          8
+        ],
+        [
+          14,
+          13,
+          9
+        ],
+        [
+          5,
+          14,
+          9
+        ],
+        [
+          10,
+          14,
+          5
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          4,
+          3,
+          0
+        ],
+        [
+          10,
+          11,
+          12
+        ],
+        [
+          10,
+          12,
+          13
+        ],
+        [
+          10,
+          13,
+          14
+        ]
+      ],
+      "id": "atlas_mustaches_02_1",
+      "material": "atlas_mustaches_02_hair",
+      "op": "indexed_mesh",
+      "part": "atlas_mustaches_02_mustache_thick",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "head",
+      "stage": 4,
+      "vertices": [
+        [
+          0.0033886789568267238,
+          2.16,
+          0.26730500114661376
+        ],
+        [
+          0.00829986104639886,
+          2.1381516935836857,
+          0.25215271362382696
+        ],
+        [
+          0.014178611372999986,
+          2.1464970040380953,
+          0.22711561898470572
+        ],
+        [
+          0.012900696796641891,
+          2.173502995961905,
+          0.22679413104096785
+        ],
+        [
+          0.006232151827132538,
+          2.1818483064163146,
+          0.25163253520388573
+        ],
+        [
+          0.04871698745174192,
+          2.1615642343629933,
+          0.27799584785306386
+        ],
+        [
+          0.047087687915137,
+          2.14005748047981,
+          0.2616904824668024
+        ],
+        [
+          0.04775564717990305,
+          2.148874542774721,
+          0.23613909771255526
+        ],
+        [
+          0.049797768245233784,
+          2.175830540837085,
+          0.23665283886106614
+        ],
+        [
+          0.05039190920798427,
+          2.183673201545391,
+          0.2625217331065124
+        ],
+        [
+          0.08255735719245196,
+          2.1525115916512036,
+          0.26657994847434385
+        ],
+        [
+          0.07155516467734056,
+          2.133138197947791,
+          0.2512605687145654
+        ],
+        [
+          0.0653136174924983,
+          2.143977071625209,
+          0.22728929578016183
+        ],
+        [
+          0.07245832170499095,
+          2.170049257661032,
+          0.2277936141128784
+        ],
+        [
+          0.08311553893271822,
+          2.1753238811147635,
+          0.2520765729180505
+        ]
+      ]
+    }
+  ],
+  "coordinate_system": "metres; Y up; +Z forward; floor Y=0",
+  "id": "hand-mustaches-02",
+  "palette": {
+    "atlas_mustaches_02_accent": "d6c5a0",
+    "atlas_mustaches_02_bone": "cbc5ad",
+    "atlas_mustaches_02_cloth": "35516d",
+    "atlas_mustaches_02_dark": "33383b",
+    "atlas_mustaches_02_hair": "614633",
+    "atlas_mustaches_02_hair_light": "71513b",
+    "atlas_mustaches_02_iris": "685d42",
+    "atlas_mustaches_02_leather": "654833",
+    "atlas_mustaches_02_lip": "886b56",
+    "atlas_mustaches_02_metal": "919ba3",
+    "atlas_mustaches_02_pupil": "272a2b",
+    "atlas_mustaches_02_sclera": "d4d1bc",
+    "atlas_mustaches_02_secondary": "938466",
+    "atlas_mustaches_02_shadow": "775e4b",
+    "atlas_mustaches_02_skin": "bd9577"
+  },
+  "production_pool": false,
+  "schema_version": 1
+}

@@ -1,0 +1,1372 @@
+{
+  "attribute_reference": {
+    "authoring_revision": 1,
+    "authoring_sha256": "c08b239bac889a1bc3684cae69ee01975d2a2602bec824def7446ae7d6182671",
+    "category": "shoulders",
+    "cell_pixels": [
+      0,
+      0,
+      307,
+      512
+    ],
+    "depth_status": "Manually authored volumes; Front reference supplies silhouette/proportions only",
+    "design": {
+      "costume": "warden",
+      "face": {
+        "eye_tilt": -0.01,
+        "jaw": 0.99,
+        "nose": 0.05,
+        "width": 0.236
+      },
+      "gender": "male",
+      "hair": "swept",
+      "id": "hand-shoulders-01",
+      "label": "shoulders",
+      "library_variant": 1,
+      "palette": {
+        "accent": "d6c5a0",
+        "cloth": "35516d",
+        "hair": "614633",
+        "iris": "685d42",
+        "leather": "654833",
+        "metal": "919ba3",
+        "secondary": "938466",
+        "skin": "bd9577"
+      },
+      "race": "human"
+    },
+    "generation": {
+      "combined_mask": "../attribute_grid_mask_v1.png",
+      "combined_mask_sha256": "b67288dead6f5e6c48d8f0e1412d7cd39bbd08158e42df904c008ee3d6ac2234",
+      "id": "shoulders",
+      "image": "front.png",
+      "image_sha256": "9e5aaa0e1f68dcb3ddc7149ebb55b06c154328ef16b668bab1a436a76d1ae1f1",
+      "label": "Наплечники",
+      "layout": {
+        "columns": 5,
+        "count": 10,
+        "rows": 2
+      },
+      "mask_transmission": "builtin tool has no mask argument; layout constraints in prompt",
+      "model_snapshot": null,
+      "model_snapshot_status": "not exposed by built-in tool",
+      "production_pool": false,
+      "prompt": "prompt.txt",
+      "prompt_sha256": "e2bf30c42c3f7d27dcac0d980a4821946a4c912480c9ff67c9328c00e05b544f",
+      "purpose": "Ten attribute variants in one image; concept references, not reconstructed GLB assets",
+      "raw_response": "tool-response.json",
+      "raw_response_sha256": "9f60bda94641ec8ca24ed2eb899a5653d03a63bf365725414985efcfa931731a",
+      "schema_version": 1,
+      "style_reference_images": [],
+      "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+      "template_id": "constructor_attribute_grid_master_v1",
+      "template_sha256": "1577ff27f8a8c175c23674db6031a6b0c1b3b9e098061f31a0151a6157269c84",
+      "tool": "image_gen.imagegen",
+      "variant_count": 10,
+      "view": "Front"
+    },
+    "image": "media/experiments/constructor_attribute_references/v1/shoulders/front.png",
+    "image_sha256": "9e5aaa0e1f68dcb3ddc7149ebb55b06c154328ef16b668bab1a436a76d1ae1f1",
+    "material_groups": {
+      "atlas_shoulders_01_accent": "accent",
+      "atlas_shoulders_01_bone": "fixed",
+      "atlas_shoulders_01_cloth": "cloth",
+      "atlas_shoulders_01_dark": "fixed",
+      "atlas_shoulders_01_decor_accent": "accent",
+      "atlas_shoulders_01_decor_bone": "fixed",
+      "atlas_shoulders_01_decor_cloth": "cloth",
+      "atlas_shoulders_01_decor_dark": "fixed",
+      "atlas_shoulders_01_decor_hair": "hair",
+      "atlas_shoulders_01_decor_hair_light": "hair",
+      "atlas_shoulders_01_decor_iris": "eyes",
+      "atlas_shoulders_01_decor_leather": "leather",
+      "atlas_shoulders_01_decor_lip": "skin",
+      "atlas_shoulders_01_decor_metal": "metal",
+      "atlas_shoulders_01_decor_pupil": "fixed",
+      "atlas_shoulders_01_decor_sclera": "fixed",
+      "atlas_shoulders_01_decor_secondary": "secondary",
+      "atlas_shoulders_01_decor_shadow": "skin",
+      "atlas_shoulders_01_decor_skin": "skin",
+      "atlas_shoulders_01_hair": "hair",
+      "atlas_shoulders_01_hair_light": "hair",
+      "atlas_shoulders_01_iris": "eyes",
+      "atlas_shoulders_01_leather": "leather",
+      "atlas_shoulders_01_lip": "skin",
+      "atlas_shoulders_01_metal": "metal",
+      "atlas_shoulders_01_pupil": "fixed",
+      "atlas_shoulders_01_sclera": "fixed",
+      "atlas_shoulders_01_secondary": "secondary",
+      "atlas_shoulders_01_shadow": "skin",
+      "atlas_shoulders_01_skin": "skin"
+    },
+    "method": "manual_low_poly_volumes",
+    "prompt_sha256": "e2bf30c42c3f7d27dcac0d980a4821946a4c912480c9ff67c9328c00e05b544f",
+    "schema_version": 1,
+    "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+    "variant": 1
+  },
+  "commands": [
+    {
+      "authored_primitive": {
+        "authored_primitive": {
+          "center": [
+            -0.405,
+            1.84,
+            0.045
+          ],
+          "id": "c001",
+          "material": "metal",
+          "op": "ellipsoid",
+          "part": "ornament_shoulder_plate",
+          "purpose": "ornament shoulder plate",
+          "radii": [
+            0.185,
+            0.13,
+            0.19
+          ],
+          "rings": 4,
+          "sides": 6,
+          "slot": "left_arm",
+          "stage": 4
+        },
+        "body_silhouette_revision": {
+          "bind_frame": "machine_of_monsters.animation.load_skeleton",
+          "max_surface_displacement_metres": 0.04832888744857016,
+          "revision": 1,
+          "schema_version": 1
+        },
+        "faces": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            2,
+            3
+          ],
+          [
+            0,
+            3,
+            4
+          ],
+          [
+            0,
+            4,
+            5
+          ],
+          [
+            0,
+            5,
+            6
+          ],
+          [
+            0,
+            6,
+            1
+          ],
+          [
+            1,
+            7,
+            2
+          ],
+          [
+            2,
+            7,
+            8
+          ],
+          [
+            2,
+            8,
+            3
+          ],
+          [
+            3,
+            8,
+            9
+          ],
+          [
+            3,
+            9,
+            4
+          ],
+          [
+            4,
+            9,
+            10
+          ],
+          [
+            4,
+            10,
+            5
+          ],
+          [
+            5,
+            10,
+            11
+          ],
+          [
+            5,
+            11,
+            6
+          ],
+          [
+            6,
+            11,
+            12
+          ],
+          [
+            6,
+            12,
+            1
+          ],
+          [
+            1,
+            12,
+            7
+          ],
+          [
+            7,
+            13,
+            8
+          ],
+          [
+            8,
+            13,
+            14
+          ],
+          [
+            8,
+            14,
+            9
+          ],
+          [
+            9,
+            14,
+            15
+          ],
+          [
+            9,
+            15,
+            10
+          ],
+          [
+            10,
+            15,
+            16
+          ],
+          [
+            10,
+            16,
+            11
+          ],
+          [
+            11,
+            16,
+            17
+          ],
+          [
+            11,
+            17,
+            12
+          ],
+          [
+            12,
+            17,
+            18
+          ],
+          [
+            12,
+            18,
+            7
+          ],
+          [
+            7,
+            18,
+            13
+          ],
+          [
+            19,
+            14,
+            13
+          ],
+          [
+            19,
+            15,
+            14
+          ],
+          [
+            19,
+            16,
+            15
+          ],
+          [
+            19,
+            17,
+            16
+          ],
+          [
+            19,
+            18,
+            17
+          ],
+          [
+            19,
+            13,
+            18
+          ]
+        ],
+        "id": "decor_left_arm_0",
+        "material": "decor_metal",
+        "op": "indexed_mesh",
+        "part": "ornament_shoulder_plate",
+        "purpose": "User-selected ornament; immutable body part revision",
+        "slot": "left_arm",
+        "stage": 4,
+        "vertices": [
+          [
+            -0.40873238566131026,
+            1.7131381953028428,
+            0.04314264524103832
+          ],
+          [
+            -0.2930644914747812,
+            1.7594993723876842,
+            0.0439
+          ],
+          [
+            -0.34728177810984234,
+            1.7555888328213543,
+            0.1344758431716472
+          ],
+          [
+            -0.4608432145734428,
+            1.7415015875633322,
+            0.1338355138417371
+          ],
+          [
+            -0.5181934618789359,
+            1.7337618738442522,
+            0.042730113702571286
+          ],
+          [
+            -0.46198227272082854,
+            1.7401094053831943,
+            -0.047734957106684454
+          ],
+          [
+            -0.34842083625722803,
+            1.754196650641216,
+            -0.047094627776774395
+          ],
+          [
+            -0.2508,
+            1.8312,
+            0.0439
+          ],
+          [
+            -0.32295,
+            1.8312,
+            0.1722449648408538
+          ],
+          [
+            -0.4742275061634024,
+            1.822671936911397,
+            0.17185732560955366
+          ],
+          [
+            -0.5553330037082819,
+            1.8117263288009888,
+            0.04301483312731769
+          ],
+          [
+            -0.47583837764376696,
+            1.8207030939909516,
+            -0.08492209693217415
+          ],
+          [
+            -0.32295,
+            1.8312,
+            -0.08444496484085379
+          ],
+          [
+            -0.2930644914747812,
+            1.902900627612316,
+            0.0439
+          ],
+          [
+            -0.3440822457373906,
+            1.902900627612316,
+            0.13465359497011675
+          ],
+          [
+            -0.4461177542626094,
+            1.902900627612316,
+            0.13465359497011675
+          ],
+          [
+            -0.49839517124604005,
+            1.9013610398424232,
+            0.043830018737732165
+          ],
+          [
+            -0.44611775426260947,
+            1.902900627612316,
+            -0.04685359497011673
+          ],
+          [
+            -0.3440822457373906,
+            1.902900627612316,
+            -0.046853594970116756
+          ],
+          [
+            -0.3951,
+            1.9326,
+            0.0439
+          ]
+        ]
+      },
+      "faces": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          0,
+          6,
+          1
+        ],
+        [
+          1,
+          7,
+          2
+        ],
+        [
+          2,
+          7,
+          8
+        ],
+        [
+          2,
+          8,
+          3
+        ],
+        [
+          3,
+          8,
+          9
+        ],
+        [
+          3,
+          9,
+          4
+        ],
+        [
+          4,
+          9,
+          10
+        ],
+        [
+          4,
+          10,
+          5
+        ],
+        [
+          5,
+          10,
+          11
+        ],
+        [
+          5,
+          11,
+          6
+        ],
+        [
+          6,
+          11,
+          12
+        ],
+        [
+          6,
+          12,
+          1
+        ],
+        [
+          1,
+          12,
+          7
+        ],
+        [
+          7,
+          13,
+          8
+        ],
+        [
+          8,
+          13,
+          14
+        ],
+        [
+          8,
+          14,
+          9
+        ],
+        [
+          9,
+          14,
+          15
+        ],
+        [
+          9,
+          15,
+          10
+        ],
+        [
+          10,
+          15,
+          16
+        ],
+        [
+          10,
+          16,
+          11
+        ],
+        [
+          11,
+          16,
+          17
+        ],
+        [
+          11,
+          17,
+          12
+        ],
+        [
+          12,
+          17,
+          18
+        ],
+        [
+          12,
+          18,
+          7
+        ],
+        [
+          7,
+          18,
+          13
+        ],
+        [
+          19,
+          14,
+          13
+        ],
+        [
+          19,
+          15,
+          14
+        ],
+        [
+          19,
+          16,
+          15
+        ],
+        [
+          19,
+          17,
+          16
+        ],
+        [
+          19,
+          18,
+          17
+        ],
+        [
+          19,
+          13,
+          18
+        ]
+      ],
+      "id": "atlas_shoulders_01_0",
+      "material": "atlas_shoulders_01_decor_metal",
+      "op": "indexed_mesh",
+      "part": "atlas_shoulders_01_ornament_shoulder_plate",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "left_arm",
+      "stage": 4,
+      "vertices": [
+        [
+          -0.40873238566131026,
+          1.7131381953028428,
+          0.04314264524103832
+        ],
+        [
+          -0.2930644914747812,
+          1.7594993723876842,
+          0.0439
+        ],
+        [
+          -0.34728177810984234,
+          1.7555888328213543,
+          0.1344758431716472
+        ],
+        [
+          -0.4608432145734428,
+          1.7415015875633322,
+          0.1338355138417371
+        ],
+        [
+          -0.5181934618789359,
+          1.7337618738442522,
+          0.042730113702571286
+        ],
+        [
+          -0.46198227272082854,
+          1.7401094053831943,
+          -0.047734957106684454
+        ],
+        [
+          -0.34842083625722803,
+          1.754196650641216,
+          -0.047094627776774395
+        ],
+        [
+          -0.2508,
+          1.8312,
+          0.0439
+        ],
+        [
+          -0.32295,
+          1.8312,
+          0.1722449648408538
+        ],
+        [
+          -0.4742275061634024,
+          1.822671936911397,
+          0.17185732560955366
+        ],
+        [
+          -0.5553330037082819,
+          1.8117263288009888,
+          0.04301483312731769
+        ],
+        [
+          -0.47583837764376696,
+          1.8207030939909516,
+          -0.08492209693217415
+        ],
+        [
+          -0.32295,
+          1.8312,
+          -0.08444496484085379
+        ],
+        [
+          -0.2930644914747812,
+          1.902900627612316,
+          0.0439
+        ],
+        [
+          -0.3440822457373906,
+          1.902900627612316,
+          0.13465359497011675
+        ],
+        [
+          -0.4461177542626094,
+          1.902900627612316,
+          0.13465359497011675
+        ],
+        [
+          -0.49839517124604005,
+          1.9013610398424232,
+          0.043830018737732165
+        ],
+        [
+          -0.44611775426260947,
+          1.902900627612316,
+          -0.04685359497011673
+        ],
+        [
+          -0.3440822457373906,
+          1.902900627612316,
+          -0.046853594970116756
+        ],
+        [
+          -0.3951,
+          1.9326,
+          0.0439
+        ]
+      ]
+    },
+    {
+      "authored_primitive": {
+        "authored_primitive": {
+          "center": [
+            0.405,
+            1.84,
+            0.045
+          ],
+          "id": "c001",
+          "material": "metal",
+          "op": "ellipsoid",
+          "part": "ornament_shoulder_plate",
+          "purpose": "ornament shoulder plate",
+          "radii": [
+            0.185,
+            0.13,
+            0.19
+          ],
+          "rings": 4,
+          "sides": 6,
+          "slot": "right_arm",
+          "stage": 4
+        },
+        "body_silhouette_revision": {
+          "bind_frame": "machine_of_monsters.animation.load_skeleton",
+          "max_surface_displacement_metres": 0.04832888744857016,
+          "revision": 1,
+          "schema_version": 1
+        },
+        "faces": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            2,
+            3
+          ],
+          [
+            0,
+            3,
+            4
+          ],
+          [
+            0,
+            4,
+            5
+          ],
+          [
+            0,
+            5,
+            6
+          ],
+          [
+            0,
+            6,
+            1
+          ],
+          [
+            1,
+            7,
+            2
+          ],
+          [
+            2,
+            7,
+            8
+          ],
+          [
+            2,
+            8,
+            3
+          ],
+          [
+            3,
+            8,
+            9
+          ],
+          [
+            3,
+            9,
+            4
+          ],
+          [
+            4,
+            9,
+            10
+          ],
+          [
+            4,
+            10,
+            5
+          ],
+          [
+            5,
+            10,
+            11
+          ],
+          [
+            5,
+            11,
+            6
+          ],
+          [
+            6,
+            11,
+            12
+          ],
+          [
+            6,
+            12,
+            1
+          ],
+          [
+            1,
+            12,
+            7
+          ],
+          [
+            7,
+            13,
+            8
+          ],
+          [
+            8,
+            13,
+            14
+          ],
+          [
+            8,
+            14,
+            9
+          ],
+          [
+            9,
+            14,
+            15
+          ],
+          [
+            9,
+            15,
+            10
+          ],
+          [
+            10,
+            15,
+            16
+          ],
+          [
+            10,
+            16,
+            11
+          ],
+          [
+            11,
+            16,
+            17
+          ],
+          [
+            11,
+            17,
+            12
+          ],
+          [
+            12,
+            17,
+            18
+          ],
+          [
+            12,
+            18,
+            7
+          ],
+          [
+            7,
+            18,
+            13
+          ],
+          [
+            19,
+            14,
+            13
+          ],
+          [
+            19,
+            15,
+            14
+          ],
+          [
+            19,
+            16,
+            15
+          ],
+          [
+            19,
+            17,
+            16
+          ],
+          [
+            19,
+            18,
+            17
+          ],
+          [
+            19,
+            13,
+            18
+          ]
+        ],
+        "id": "decor_right_arm_0",
+        "material": "decor_metal",
+        "op": "indexed_mesh",
+        "part": "ornament_shoulder_plate",
+        "purpose": "User-selected ornament; immutable body part revision",
+        "slot": "right_arm",
+        "stage": 4,
+        "vertices": [
+          [
+            0.40873238566131026,
+            1.7131381953028428,
+            0.04314264524103832
+          ],
+          [
+            0.5181934618789359,
+            1.7337618738442522,
+            0.04273011370257127
+          ],
+          [
+            0.4608432145734428,
+            1.7415015875633322,
+            0.1338355138417371
+          ],
+          [
+            0.34728177810984234,
+            1.7555888328213543,
+            0.1344758431716472
+          ],
+          [
+            0.2930644914747812,
+            1.7594993723876842,
+            0.04390000000000001
+          ],
+          [
+            0.348420836257228,
+            1.754196650641216,
+            -0.04709462777677435
+          ],
+          [
+            0.4619822727208285,
+            1.7401094053831943,
+            -0.047734957106684496
+          ],
+          [
+            0.5553330037082819,
+            1.8117263288009888,
+            0.04301483312731767
+          ],
+          [
+            0.4742275061634025,
+            1.822671936911397,
+            0.17185732560955366
+          ],
+          [
+            0.32295,
+            1.8312,
+            0.1722449648408538
+          ],
+          [
+            0.2508,
+            1.8312,
+            0.043900000000000015
+          ],
+          [
+            0.32294999999999996,
+            1.8312,
+            -0.08444496484085379
+          ],
+          [
+            0.4758383776437669,
+            1.8207030939909516,
+            -0.08492209693217417
+          ],
+          [
+            0.49839517124604005,
+            1.9013610398424232,
+            0.04383001873773215
+          ],
+          [
+            0.4461177542626094,
+            1.902900627612316,
+            0.13465359497011675
+          ],
+          [
+            0.3440822457373906,
+            1.902900627612316,
+            0.13465359497011675
+          ],
+          [
+            0.2930644914747812,
+            1.902900627612316,
+            0.04390000000000001
+          ],
+          [
+            0.34408224573739055,
+            1.902900627612316,
+            -0.04685359497011673
+          ],
+          [
+            0.4461177542626094,
+            1.902900627612316,
+            -0.046853594970116756
+          ],
+          [
+            0.3951,
+            1.9326,
+            0.0439
+          ]
+        ]
+      },
+      "faces": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          0,
+          6,
+          1
+        ],
+        [
+          1,
+          7,
+          2
+        ],
+        [
+          2,
+          7,
+          8
+        ],
+        [
+          2,
+          8,
+          3
+        ],
+        [
+          3,
+          8,
+          9
+        ],
+        [
+          3,
+          9,
+          4
+        ],
+        [
+          4,
+          9,
+          10
+        ],
+        [
+          4,
+          10,
+          5
+        ],
+        [
+          5,
+          10,
+          11
+        ],
+        [
+          5,
+          11,
+          6
+        ],
+        [
+          6,
+          11,
+          12
+        ],
+        [
+          6,
+          12,
+          1
+        ],
+        [
+          1,
+          12,
+          7
+        ],
+        [
+          7,
+          13,
+          8
+        ],
+        [
+          8,
+          13,
+          14
+        ],
+        [
+          8,
+          14,
+          9
+        ],
+        [
+          9,
+          14,
+          15
+        ],
+        [
+          9,
+          15,
+          10
+        ],
+        [
+          10,
+          15,
+          16
+        ],
+        [
+          10,
+          16,
+          11
+        ],
+        [
+          11,
+          16,
+          17
+        ],
+        [
+          11,
+          17,
+          12
+        ],
+        [
+          12,
+          17,
+          18
+        ],
+        [
+          12,
+          18,
+          7
+        ],
+        [
+          7,
+          18,
+          13
+        ],
+        [
+          19,
+          14,
+          13
+        ],
+        [
+          19,
+          15,
+          14
+        ],
+        [
+          19,
+          16,
+          15
+        ],
+        [
+          19,
+          17,
+          16
+        ],
+        [
+          19,
+          18,
+          17
+        ],
+        [
+          19,
+          13,
+          18
+        ]
+      ],
+      "id": "atlas_shoulders_01_1",
+      "material": "atlas_shoulders_01_decor_metal",
+      "op": "indexed_mesh",
+      "part": "atlas_shoulders_01_ornament_shoulder_plate",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "right_arm",
+      "stage": 4,
+      "vertices": [
+        [
+          0.40873238566131026,
+          1.7131381953028428,
+          0.04314264524103832
+        ],
+        [
+          0.5181934618789359,
+          1.7337618738442522,
+          0.04273011370257127
+        ],
+        [
+          0.4608432145734428,
+          1.7415015875633322,
+          0.1338355138417371
+        ],
+        [
+          0.34728177810984234,
+          1.7555888328213543,
+          0.1344758431716472
+        ],
+        [
+          0.2930644914747812,
+          1.7594993723876842,
+          0.04390000000000001
+        ],
+        [
+          0.348420836257228,
+          1.754196650641216,
+          -0.04709462777677435
+        ],
+        [
+          0.4619822727208285,
+          1.7401094053831943,
+          -0.047734957106684496
+        ],
+        [
+          0.5553330037082819,
+          1.8117263288009888,
+          0.04301483312731767
+        ],
+        [
+          0.4742275061634025,
+          1.822671936911397,
+          0.17185732560955366
+        ],
+        [
+          0.32295,
+          1.8312,
+          0.1722449648408538
+        ],
+        [
+          0.2508,
+          1.8312,
+          0.043900000000000015
+        ],
+        [
+          0.32294999999999996,
+          1.8312,
+          -0.08444496484085379
+        ],
+        [
+          0.4758383776437669,
+          1.8207030939909516,
+          -0.08492209693217417
+        ],
+        [
+          0.49839517124604005,
+          1.9013610398424232,
+          0.04383001873773215
+        ],
+        [
+          0.4461177542626094,
+          1.902900627612316,
+          0.13465359497011675
+        ],
+        [
+          0.3440822457373906,
+          1.902900627612316,
+          0.13465359497011675
+        ],
+        [
+          0.2930644914747812,
+          1.902900627612316,
+          0.04390000000000001
+        ],
+        [
+          0.34408224573739055,
+          1.902900627612316,
+          -0.04685359497011673
+        ],
+        [
+          0.4461177542626094,
+          1.902900627612316,
+          -0.046853594970116756
+        ],
+        [
+          0.3951,
+          1.9326,
+          0.0439
+        ]
+      ]
+    }
+  ],
+  "coordinate_system": "metres; Y up; +Z forward; floor Y=0",
+  "id": "hand-shoulders-01",
+  "palette": {
+    "atlas_shoulders_01_accent": "d6c5a0",
+    "atlas_shoulders_01_bone": "cbc5ad",
+    "atlas_shoulders_01_cloth": "35516d",
+    "atlas_shoulders_01_dark": "33383b",
+    "atlas_shoulders_01_decor_accent": "d0b67a",
+    "atlas_shoulders_01_decor_bone": "cbc5ad",
+    "atlas_shoulders_01_decor_cloth": "667b83",
+    "atlas_shoulders_01_decor_dark": "33383b",
+    "atlas_shoulders_01_decor_hair": "544136",
+    "atlas_shoulders_01_decor_hair_light": "614b3f",
+    "atlas_shoulders_01_decor_iris": "659198",
+    "atlas_shoulders_01_decor_leather": "624c3d",
+    "atlas_shoulders_01_decor_lip": "88735c",
+    "atlas_shoulders_01_decor_metal": "919ba1",
+    "atlas_shoulders_01_decor_pupil": "272a2b",
+    "atlas_shoulders_01_decor_sclera": "d4d1bc",
+    "atlas_shoulders_01_decor_secondary": "976356",
+    "atlas_shoulders_01_decor_shadow": "776551",
+    "atlas_shoulders_01_decor_skin": "bda080",
+    "atlas_shoulders_01_hair": "614633",
+    "atlas_shoulders_01_hair_light": "71513b",
+    "atlas_shoulders_01_iris": "685d42",
+    "atlas_shoulders_01_leather": "654833",
+    "atlas_shoulders_01_lip": "886b56",
+    "atlas_shoulders_01_metal": "919ba3",
+    "atlas_shoulders_01_pupil": "272a2b",
+    "atlas_shoulders_01_sclera": "d4d1bc",
+    "atlas_shoulders_01_secondary": "938466",
+    "atlas_shoulders_01_shadow": "775e4b",
+    "atlas_shoulders_01_skin": "bd9577"
+  },
+  "production_pool": false,
+  "schema_version": 1
+}

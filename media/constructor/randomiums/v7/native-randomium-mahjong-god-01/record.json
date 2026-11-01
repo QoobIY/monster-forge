@@ -1,0 +1,20 @@
+{
+  "authoring": "procedural geometry; original visual reference; no image generation",
+  "contract": "humanoid_v1",
+  "description_ru": "Голова — вертикальная костяшка маджонга цвета слоновой кости с зелёной обратной стороной и красным знаком 中. Общее тело рандомиумов. На задней стороне локтей бамбук и круги, на коленях 萬 и восточный ветер 東.",
+  "gender": "male",
+  "hair": "cropped",
+  "id": "native-randomium-mahjong-god-01",
+  "label": "Бог маджонга",
+  "own_body": true,
+  "previous_source_revision": "media/constructor/randomiums/v6",
+  "race": "randomium",
+  "reference_image": "reference.png",
+  "reference_scope": "shared body and original random god; mahjong head and symbols are authored geometry",
+  "reference_sha256": "026a9c4b35154ca87308f7bc207a04f162d281d023cce23d2be359a5a6dda2b9",
+  "schema_version": 1,
+  "source_character_id": "character.20260827t113124z-72c73d54",
+  "source_character_revision": 4,
+  "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+  "variant": 1
+}

@@ -1,0 +1,355 @@
+{% extends "base.html" %} {% block title %}Персонажи · Monster Forge{% endblock %} {% block head %}
+<link rel="stylesheet" href="/static/characters/constructor.css?v=workspace-1" />
+<script type="module" src="/static/characters/constructor.js?v=modules-1"></script>
+{% endblock %} {% block content %}
+<main class="constructor-page">
+  <aside class="constructor-controls">
+    <div class="intro">
+      <div>
+        <span class="eyebrow">ПЕРСОНАЖИ</span>
+        <h1>Собери своего персонажа.</h1>
+        <p>Выбери детали, проверь модель и сохрани сборку.</p>
+      </div>
+      <button id="randomize" class="secondary" type="button">↻ Новый образ</button>
+    </div>
+    <div class="workspace-tabs" role="tablist" aria-label="Работа с персонажами">
+      <button
+        id="body-parts-tab"
+        type="button"
+        role="tab"
+        aria-selected="true"
+        aria-controls="body-parts-panel"
+        tabindex="0"
+      >
+        <strong>Body Parts</strong>
+        <small>Внешность и детали</small>
+      </button>
+      <button
+        id="assembly-tab"
+        type="button"
+        role="tab"
+        aria-selected="false"
+        aria-controls="assembly-panel"
+        tabindex="-1"
+      >
+        <strong>Assembly</strong>
+        <small>Сохранённые сборки</small>
+      </button>
+    </div>
+    <section id="body-parts-panel" role="tabpanel" aria-labelledby="body-parts-tab" tabindex="0">
+      <section class="collection" hidden>
+        <div class="section-label">
+          <h2>Образы по AI-референсам</h2>
+          <span>10 новых комплектов · можно разобрать и смешать</span>
+        </div>
+        <div
+          id="reference-cards"
+          class="card-grid"
+          role="group"
+          aria-label="Образы по референсам"
+        ></div>
+        <p id="reference-link" class="hint"></p>
+      </section>
+      <section class="collection">
+        <div class="section-label">
+          <h2>Раса</h2>
+          <span id="race-count"></span>
+        </div>
+        <div id="race-cards" class="race-grid" role="group" aria-label="Раса"></div>
+      </section>
+      <section class="collection">
+        <div class="section-label">
+          <h2>Пол</h2>
+          <span id="gender-note"></span>
+        </div>
+        <div id="gender-cards" class="segments" role="group" aria-label="Пол"></div>
+      </section>
+      <section id="part-browser" class="part-browser" aria-label="Детали персонажа">
+        <div class="section-label">
+          <h2>Детали персонажа</h2>
+          <span>Выбери ячейку, чтобы открыть варианты</span>
+        </div>
+        <div id="part-cells" class="part-cells"></div>
+        <div id="part-options" class="part-options" hidden>
+          <button
+            id="close-part-options"
+            class="close-part-options"
+            type="button"
+            aria-label="Закрыть варианты"
+          >
+            ×
+          </button>
+          <div id="part-panels"></div>
+        </div>
+      </section>
+      <section class="collection">
+        <div class="section-label">
+          <h2>Лицо</h2>
+          <span>Разная анатомия, не только пропорции</span>
+        </div>
+        <div id="face-cards" class="card-grid" role="group" aria-label="Лицо"></div>
+      </section>
+      <section class="collection feature-section">
+        <div class="section-label">
+          <h2>Нос и морда</h2>
+          <span>Независимая черта лица</span>
+        </div>
+        <div id="nose-cards" class="card-grid" role="group" aria-label="Нос и морда"></div>
+      </section>
+      <section class="collection feature-section">
+        <div class="section-label">
+          <h2>Уши</h2>
+          <span>Независимая черта лица</span>
+        </div>
+        <div id="ears-cards" class="card-grid" role="group" aria-label="Уши"></div>
+      </section>
+      <section class="collection feature-section">
+        <div class="section-label">
+          <h2>Челюсть</h2>
+          <span>Независимая черта лица</span>
+        </div>
+        <div id="jaw-cards" class="card-grid" role="group" aria-label="Челюсть"></div>
+      </section>
+      <section class="collection feature-section">
+        <div class="section-label">
+          <h2>Брови</h2>
+          <span>Независимая черта лица</span>
+        </div>
+        <div id="brows-cards" class="card-grid" role="group" aria-label="Брови"></div>
+      </section>
+      <section class="collection feature-section">
+        <div class="section-label">
+          <h2>Рот и зубы</h2>
+          <span>Независимая черта лица</span>
+        </div>
+        <div id="mouth-cards" class="card-grid" role="group" aria-label="Рот и зубы"></div>
+      </section>
+      <section class="collection">
+        <div class="section-label">
+          <h2>Волосы</h2>
+          <span id="hair-count"></span>
+        </div>
+        <div id="hair-cards" class="card-grid" role="group" aria-label="Причёска"></div>
+      </section>
+      <section class="collection cosmetic-section">
+        <div class="section-label">
+          <h2>Борода</h2>
+          <span>Отдельно от причёски</span>
+        </div>
+        <div id="beard-cards" class="card-grid" role="group" aria-label="Борода"></div>
+      </section>
+      <section class="collection cosmetic-section">
+        <div class="section-label">
+          <h2>Усы</h2>
+          <span>Отдельно от причёски</span>
+        </div>
+        <div id="mustache-cards" class="card-grid" role="group" aria-label="Усы"></div>
+      </section>
+      <section class="collection">
+        <div class="section-label">
+          <h2>Силуэт</h2>
+          <span>13 вариантов · включая три мощных телосложения</span>
+        </div>
+        <div id="form-cards" class="card-grid compact" role="group" aria-label="Телосложение"></div>
+      </section>
+      <section class="collection">
+        <div class="section-label">
+          <h2>Глаза</h2>
+          <span>Форма и цвет</span>
+        </div>
+        <div id="eye-cards" class="card-grid compact" role="group" aria-label="Форма глаз"></div>
+        <label class="range-field">
+          Размер глаз
+          <output id="eye-size-label">100%</output>
+          <input id="eye-size" type="range" min="85" max="115" value="100" />
+        </label>
+      </section>
+      <section class="collection">
+        <div class="section-label">
+          <h2>Цвета внешности</h2>
+          <button id="reset-appearance" class="text-button" type="button">Исходные цвета</button>
+        </div>
+        <div id="appearance-colors" class="colors"></div>
+      </section>
+      <section class="collection">
+        <div class="section-label">
+          <h2>Костюм</h2>
+          <label class="check">
+            <input type="checkbox" id="link-limbs" checked />
+            Весь комплект
+          </label>
+        </div>
+        <div id="outfit-cards" class="card-grid" role="group" aria-label="Костюм"></div>
+      </section>
+      <section class="collection">
+        <div class="section-label">
+          <h2 id="arm-label">Руки</h2>
+          <span>Можно выбрать отдельно от костюма</span>
+        </div>
+        <div id="arms-cards" class="card-grid" role="group" aria-label="Руки"></div>
+      </section>
+      <section class="collection">
+        <div class="section-label">
+          <h2 id="leg-label">Ноги</h2>
+          <span>Можно выбрать отдельно от костюма</span>
+        </div>
+        <div id="legs-cards" class="card-grid" role="group" aria-label="Ноги"></div>
+      </section>
+      <section class="collection compact-colors">
+        <div class="section-label">
+          <h2>Расцветка костюма</h2>
+          <span>Палитры с превью</span>
+        </div>
+        <details id="palette-picker" class="palette-picker">
+          <summary aria-label="Выбрать расцветку костюма">
+            <img id="palette-current-preview" alt="Пример расцветки" />
+            <span>
+              <strong id="palette-current-label">Исходные цвета</strong>
+              <small>Примеры сочетаний материалов</small>
+            </span>
+            <span class="picker-chevron" aria-hidden="true">⌄</span>
+          </summary>
+          <div
+            id="palette-cards"
+            class="palette-menu"
+            role="listbox"
+            aria-label="Расцветка костюма"
+          ></div>
+        </details>
+        <details class="custom-material-colors">
+          <summary>Свои цвета материалов</summary>
+          <div id="outfit-colors" class="colors"></div>
+        </details>
+        <button id="reset-outfit" class="text-button" type="button">Исходная расцветка</button>
+      </section>
+      <section class="collection" id="rune-accessories">
+        <div class="section-label">
+          <h2>Руны и узоры</h2>
+          <span>Знаки, вышивка и орнаменты</span>
+        </div>
+        <div id="pattern-cards" class="card-grid" role="group" aria-label="Узор"></div>
+      </section>
+      <section class="collection">
+        <div class="section-label">
+          <h2>Фигуры и эмблемы</h2>
+          <span>Объёмный рельеф на груди</span>
+        </div>
+        <div id="emblem-cards" class="card-grid" role="group" aria-label="Эмблема"></div>
+      </section>
+      <section class="collection">
+        <div class="section-label">
+          <h2>Наплечники</h2>
+          <span>Пластины, перья, рога и камни</span>
+        </div>
+        <div id="shoulders-cards" class="card-grid" role="group" aria-label="Наплечники"></div>
+      </section>
+      <section class="collection" id="belt-accessories">
+        <div class="section-label">
+          <h2>Пояс и аксессуары</h2>
+          <span>Книги, колбы, инструменты и подсумки</span>
+        </div>
+        <div id="belt-cards" class="card-grid" role="group" aria-label="Пояс и аксессуары"></div>
+      </section>
+      <section class="collection" id="head-accessories">
+        <div class="section-label">
+          <h2>Шлемы и украшения головы</h2>
+          <span>Шлемы, нимб, короны и обручи</span>
+        </div>
+        <div
+          id="headwear-cards"
+          class="card-grid"
+          role="group"
+          aria-label="Шлемы и украшения головы"
+        ></div>
+      </section>
+      <section class="collection" id="back-accessories">
+        <div class="section-label">
+          <h2>Спина</h2>
+          <button id="back-view" class="text-button" type="button">Показать со спины ↻</button>
+        </div>
+        <p class="hint">Плащи, крылья, снаряжение и броня · совместимые детали</p>
+        <div id="back-cards" class="card-grid" role="group" aria-label="Спина"></div>
+        <h3>Отдельная расцветка спины</h3>
+        <div
+          id="back-palette-cards"
+          class="palette-grid"
+          role="group"
+          aria-label="Палитра спины"
+        ></div>
+        <div id="back-colors" class="colors"></div>
+        <button id="reset-back" class="text-button" type="button">Исходные цвета спины</button>
+      </section>
+    </section>
+    <section
+      id="assembly-panel"
+      class="collection assembly-panel"
+      role="tabpanel"
+      aria-labelledby="assembly-tab"
+      tabindex="0"
+      hidden
+    >
+      <div class="section-label">
+        <h2>Сохранённые сборки</h2>
+        <button id="refresh-saved" class="text-button" type="button">Обновить список</button>
+      </div>
+      <p class="hint">
+        Открой сборку для редактирования или проверь её опубликованную версию. Новое сохранение
+        создаёт отдельную ревизию.
+      </p>
+      <p id="saved-status" class="hint" role="status">Загружаем сборки…</p>
+      <p id="saved-error" class="error" hidden role="alert"></p>
+      <div id="saved-list" aria-busy="true"></div>
+    </section>
+  </aside>
+  <section class="workspace">
+    <div class="viewer-heading">
+      <div>
+        <span class="eyebrow">ТВОЙ ПЕРСОНАЖ</span>
+        <h2 id="character-name">Новый персонаж</h2>
+      </div>
+      <span id="busy" role="status">Собираем…</span>
+    </div>
+    <div class="viewer-shell">
+      <canvas id="viewer" aria-label="3D-превью составного персонажа"></canvas>
+      <div id="viewer-error" hidden role="alert"></div>
+      <div class="viewer-toolbar">
+        <button type="button" id="front-view">Спереди</button>
+        <button type="button" id="reset-view">↻ Вид</button>
+        <button type="button" id="background" aria-pressed="false">Светлый фон</button>
+        <button type="button" id="show-bones" aria-pressed="false">Скелет</button>
+        <button type="button" id="fullscreen" aria-label="На весь экран">⛶</button>
+      </div>
+      <div class="viewer-footer">
+        <span>Вращай мышью · Приближай колесом</span>
+        <span id="mesh-info"></span>
+      </div>
+    </div>
+    <div
+      id="slot-cards"
+      class="segments part-controls"
+      role="group"
+      aria-label="Показать часть"
+    ></div>
+    <div class="actions">
+      <button type="button" id="save" class="primary" disabled>Сохранить сборку</button>
+      <button type="button" id="export" class="secondary" disabled>Скачать сборку · ZIP</button>
+      <button type="button" id="screenshot" class="text-button" disabled>PNG ↓</button>
+    </div>
+    <p id="save-result" class="hint" role="status"></p>
+    <div id="error" class="error" hidden role="alert"></div>
+    <div id="warnings" class="warnings" role="status"></div>
+    <p class="modular-note">
+      <span id="parts-count">6 частей</span>
+      ·
+      <span id="contract-note">сохраняются инструкция сборки и готовая модель со скелетом</span>
+      <br />
+      В архиве: инструкция
+      <code>assembly.json</code>
+      и модель
+      <code>model.glb</code>
+      .
+    </p>
+  </section>
+</main>
+
+{% endblock %}

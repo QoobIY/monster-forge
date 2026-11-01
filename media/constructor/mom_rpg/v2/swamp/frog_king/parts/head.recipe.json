@@ -1,0 +1,486 @@
+{
+  "assembly_reference": "quadruped_v1",
+  "bind_profile": "canonical",
+  "commands": [
+    {
+      "center": [
+        0,
+        0.76,
+        0.8
+      ],
+      "id": "c001",
+      "material": "skin",
+      "op": "ellipsoid",
+      "part": "frog_broad_head",
+      "purpose": "frog broad head",
+      "radii": [
+        0.71,
+        0.29,
+        0.57
+      ],
+      "rings": 4,
+      "sides": 12,
+      "skin_bone": "head",
+      "slot": "head",
+      "stage": 2
+    },
+    {
+      "center": [
+        0,
+        0.55,
+        1.03
+      ],
+      "id": "c002",
+      "material": "secondary",
+      "op": "ellipsoid",
+      "part": "frog_lower_jaw",
+      "purpose": "frog lower jaw",
+      "radii": [
+        0.6,
+        0.12,
+        0.37
+      ],
+      "rings": 4,
+      "sides": 12,
+      "skin_bone": "head",
+      "slot": "head",
+      "stage": 2
+    },
+    {
+      "center": [
+        0,
+        0.64,
+        1.29
+      ],
+      "id": "c003",
+      "material": "dark",
+      "op": "ellipsoid",
+      "part": "frog_mouth",
+      "purpose": "frog mouth",
+      "radii": [
+        0.59,
+        0.022,
+        0.08
+      ],
+      "rings": 4,
+      "sides": 12,
+      "skin_bone": "head",
+      "slot": "head",
+      "stage": 2
+    },
+    {
+      "center": [
+        -0.46,
+        1.0,
+        0.86
+      ],
+      "id": "c004",
+      "material": "skin",
+      "op": "ellipsoid",
+      "part": "frog_eye_socket",
+      "purpose": "frog eye socket",
+      "radii": [
+        0.2,
+        0.22,
+        0.21
+      ],
+      "rings": 4,
+      "sides": 10,
+      "skin_bone": "head",
+      "slot": "head",
+      "stage": 2
+    },
+    {
+      "center": [
+        -0.46,
+        1.02,
+        1.03
+      ],
+      "id": "c005",
+      "material": "eyes",
+      "op": "ellipsoid",
+      "part": "frog_eye",
+      "purpose": "frog eye",
+      "radii": [
+        0.14,
+        0.15,
+        0.055
+      ],
+      "rings": 4,
+      "sides": 10,
+      "skin_bone": "head",
+      "slot": "head",
+      "stage": 2
+    },
+    {
+      "center": [
+        -0.46,
+        1.02,
+        1.08
+      ],
+      "id": "c006",
+      "material": "pupil",
+      "op": "ellipsoid",
+      "part": "frog_pupil",
+      "purpose": "frog pupil",
+      "radii": [
+        0.036,
+        0.105,
+        0.016
+      ],
+      "rings": 4,
+      "sides": 8,
+      "skin_bone": "head",
+      "slot": "head",
+      "stage": 2
+    },
+    {
+      "center": [
+        -0.17,
+        0.88,
+        1.31
+      ],
+      "id": "c007",
+      "material": "dark",
+      "op": "ellipsoid",
+      "part": "frog_nostril",
+      "purpose": "frog nostril",
+      "radii": [
+        0.025,
+        0.02,
+        0.017
+      ],
+      "rings": 4,
+      "sides": 8,
+      "skin_bone": "head",
+      "slot": "head",
+      "stage": 2
+    },
+    {
+      "center": [
+        0.46,
+        1.0,
+        0.86
+      ],
+      "id": "c008",
+      "material": "skin",
+      "op": "ellipsoid",
+      "part": "frog_eye_socket",
+      "purpose": "frog eye socket",
+      "radii": [
+        0.2,
+        0.22,
+        0.21
+      ],
+      "rings": 4,
+      "sides": 10,
+      "skin_bone": "head",
+      "slot": "head",
+      "stage": 2
+    },
+    {
+      "center": [
+        0.46,
+        1.02,
+        1.03
+      ],
+      "id": "c009",
+      "material": "eyes",
+      "op": "ellipsoid",
+      "part": "frog_eye",
+      "purpose": "frog eye",
+      "radii": [
+        0.14,
+        0.15,
+        0.055
+      ],
+      "rings": 4,
+      "sides": 10,
+      "skin_bone": "head",
+      "slot": "head",
+      "stage": 2
+    },
+    {
+      "center": [
+        0.46,
+        1.02,
+        1.08
+      ],
+      "id": "c010",
+      "material": "pupil",
+      "op": "ellipsoid",
+      "part": "frog_pupil",
+      "purpose": "frog pupil",
+      "radii": [
+        0.036,
+        0.105,
+        0.016
+      ],
+      "rings": 4,
+      "sides": 8,
+      "skin_bone": "head",
+      "slot": "head",
+      "stage": 2
+    },
+    {
+      "center": [
+        0.17,
+        0.88,
+        1.31
+      ],
+      "id": "c011",
+      "material": "dark",
+      "op": "ellipsoid",
+      "part": "frog_nostril",
+      "purpose": "frog nostril",
+      "radii": [
+        0.025,
+        0.02,
+        0.017
+      ],
+      "rings": 4,
+      "sides": 8,
+      "skin_bone": "head",
+      "slot": "head",
+      "stage": 2
+    },
+    {
+      "id": "c012",
+      "material": "metal",
+      "op": "loft",
+      "part": "frog_crown_band",
+      "purpose": "frog crown band",
+      "sides": 8,
+      "skin_bone": "head",
+      "slot": "head",
+      "stage": 2,
+      "stations": [
+        [
+          1.04,
+          0,
+          0.54,
+          0.28,
+          0.19
+        ],
+        [
+          1.16,
+          0,
+          0.54,
+          0.29,
+          0.2
+        ]
+      ]
+    },
+    {
+      "id": "c013",
+      "material": "accent",
+      "op": "sweep",
+      "part": "frog_crown_tip",
+      "path": [
+        [
+          -0.22,
+          1.13,
+          0.56
+        ],
+        [
+          -0.22,
+          1.34,
+          0.56
+        ]
+      ],
+      "purpose": "frog crown tip",
+      "radii": [
+        0.07,
+        0.004
+      ],
+      "sides": 6,
+      "skin_bone": "head",
+      "slot": "head",
+      "stage": 2
+    },
+    {
+      "id": "c014",
+      "material": "accent",
+      "op": "sweep",
+      "part": "frog_crown_tip",
+      "path": [
+        [
+          0,
+          1.13,
+          0.56
+        ],
+        [
+          0,
+          1.43,
+          0.56
+        ]
+      ],
+      "purpose": "frog crown tip",
+      "radii": [
+        0.07,
+        0.004
+      ],
+      "sides": 6,
+      "skin_bone": "head",
+      "slot": "head",
+      "stage": 2
+    },
+    {
+      "id": "c015",
+      "material": "accent",
+      "op": "sweep",
+      "part": "frog_crown_tip",
+      "path": [
+        [
+          0.22,
+          1.13,
+          0.56
+        ],
+        [
+          0.22,
+          1.34,
+          0.56
+        ]
+      ],
+      "purpose": "frog crown tip",
+      "radii": [
+        0.07,
+        0.004
+      ],
+      "sides": 6,
+      "skin_bone": "head",
+      "slot": "head",
+      "stage": 2
+    }
+  ],
+  "constructor": {
+    "schema_version": 1,
+    "settings": {
+      "arms": "native-frog-03",
+      "back": null,
+      "colors": {
+        "accent": null,
+        "back_frame": null,
+        "back_primary": null,
+        "back_secondary": null,
+        "cloth": null,
+        "eyes": null,
+        "hair": null,
+        "leather": null,
+        "metal": null,
+        "secondary": null,
+        "skin": null
+      },
+      "decor": {
+        "beard": "none",
+        "belt": "none",
+        "emblem": "none",
+        "headwear": "none",
+        "mustache": "none",
+        "pattern": "none",
+        "shoulders": "none"
+      },
+      "eye_shape": "original",
+      "eye_size": 1.0,
+      "face": "native-frog-03",
+      "features": {
+        "brows": "profile",
+        "ears": "profile",
+        "jaw": "profile",
+        "mouth": "profile",
+        "nose": "profile"
+      },
+      "form": "regular",
+      "gender": "male",
+      "hair": "original",
+      "legs": "native-frog-03",
+      "outfit": "native-frog-03",
+      "race": "frog",
+      "reference_parts": {
+        "accessories": 0,
+        "arms": 0,
+        "back": 0,
+        "beards": 0,
+        "belts": 0,
+        "body_forms": 0,
+        "boots": 0,
+        "brows": 0,
+        "colorways": 0,
+        "ears": 0,
+        "emblems": 0,
+        "eyes": 0,
+        "female_clothes": 0,
+        "female_faces": 0,
+        "gloves": 0,
+        "hair": 0,
+        "headwear": 0,
+        "jaws": 0,
+        "legs": 0,
+        "male_clothes": 0,
+        "male_faces": 0,
+        "mouths": 0,
+        "mustaches": 0,
+        "noses": 0,
+        "patterns": 0,
+        "race_heads": 0,
+        "shoulders": 0
+      },
+      "schema_version": 5
+    },
+    "slot": "head",
+    "sources": [
+      {
+        "donor": "native-frog-03",
+        "manifest_sha256": "3f04f43c4f7bd22e6e00e626c595aa5ba0001141ec1595c71086c9f45493aaa4",
+        "model_sha256": "09f57a15870ac8fd4a7fba827c2d59ad5d3ef7158ac01577bdd17a3d2f3b1236",
+        "recipe_sha256": "865f1ef065c8703c2d4553978430072800128efb6b3077d6265de3771ec4eab3",
+        "record_sha256": "74734fdb3f0ed4c3cf6c005403cb15d7bb03302514c3ed2160766474db49eace",
+        "reference_files": [],
+        "slot": "head"
+      }
+    ],
+    "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07"
+  },
+  "constructor_anatomy": {
+    "contract": "quadruped_v1",
+    "description_ru": "Четвероногие земноводные с широким ртом, выпуклыми глазами, складными задними ногами и перепонками.",
+    "gender": "male",
+    "hair": "cropped",
+    "id": "native-frog-03",
+    "label": "Королевская лягушка",
+    "own_body": true,
+    "race": "frog",
+    "variant": 2
+  },
+  "coordinate_system": "metres; Y up; +Z forward; floor Y=0",
+  "id": "constructor.facd6d4797a06074aac4dcce25eee0d4f91c5f908f8e8e2db1060fe301ab0abb.head",
+  "label": "native-frog-03.head",
+  "palette": {
+    "accent": "c2a05c",
+    "bone": "cbc5ad",
+    "cloth": "4c3c54",
+    "dark": "33383b",
+    "eyes": "dec35f",
+    "hair": "48372e",
+    "hair_light": "544035",
+    "leather": "573e32",
+    "lip": "475e30",
+    "metal": "85715b",
+    "pupil": "272a2b",
+    "sclera": "d4d1bc",
+    "secondary": "c1c88a",
+    "shadow": "3e532a",
+    "skin": "628342"
+  },
+  "schema_version": 1,
+  "stages": [
+    "Основные массы и опоры",
+    "Голова и анатомия",
+    "Одежда и защитные пластины",
+    "Отличительные детали",
+    "Кисти, опоры и завершающие акценты"
+  ],
+  "team_materials": [
+    "cloth"
+  ]
+}

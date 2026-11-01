@@ -1,0 +1,16 @@
+{
+  "name": "monster-forge-frontend",
+  "private": true,
+  "license": "Apache-2.0",
+  "scripts": {
+    "format": "prettier --write .prettierrc.json package.json \"static/**/*.{js,css,json}\" \"templates/**/*.html\" \"tests/frontend/**/*.mjs\"",
+    "check:format": "prettier --check .prettierrc.json package.json \"static/**/*.{js,css,json}\" \"templates/**/*.html\" \"tests/frontend/**/*.mjs\"",
+    "test:frontend": "node --test tests/frontend/constructor.test.mjs"
+  },
+  "devDependencies": {
+    "prettier": "3.6.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

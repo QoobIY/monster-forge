@@ -1,0 +1,260 @@
+{
+  "description": {
+    "identity": "Орки · Проводница Снежных Троп",
+    "limitations": "Authoring draft; visual and in-game motion acceptance pending",
+    "method": "New original character geometry; existing models guide style only"
+  },
+  "gender": "female",
+  "id": "library-orc-06",
+  "index_entry": {
+    "group": "original",
+    "id": "library-orc-06",
+    "label": "Орки · Проводница Снежных Троп",
+    "record": "library-orc-06/record.json",
+    "status": "built",
+    "thumbnail": null
+  },
+  "label": "Орки · Проводница Снежных Троп",
+  "original_design": {
+    "authoring_revision": 2,
+    "bind_source": "machine_of_monsters.animation.load_skeleton",
+    "method": "Original numerical art direction; no donor character mesh or recipe loaded",
+    "schema_version": 1,
+    "spec": {
+      "costume": "pathfinder",
+      "face": {
+        "eye_tilt": 0.003,
+        "jaw": 0.64,
+        "nose": 0.065,
+        "width": 0.217
+      },
+      "gender": "female",
+      "hair": "forelock",
+      "id": "library-orc-06",
+      "label": "Орки · Проводница Снежных Троп",
+      "library_variant": 6,
+      "palette": {
+        "accent": "c2c6bb",
+        "cloth": "526a80",
+        "hair": "778286",
+        "iris": "779ca1",
+        "leather": "5d5148",
+        "metal": "899599",
+        "skin": "768267"
+      },
+      "race": "orc"
+    },
+    "style_profile": {
+      "art_direction": "All characters, creatures, equipment, projectiles, buildings, terrain pieces, and decorations must use one coherent low-poly visual language. Each asset should read as a lightweight production mesh, not concept art, not a high-poly render, and not a glossy toy. Do not imitate a recognizable game, franchise, or studio style.",
+      "geometry_rules": "Use primitive-based construction with visible planar facets, hard silhouette breaks, chunky masses, few large mesh pieces, and a deliberately low triangle budget. Avoid tiny geometry, ornate trim, dense sculpting, smooth subdivision, and high-frequency detail.",
+      "global_negative": "photorealistic, high-poly, ultra detailed, smooth subdivision, dense mesh, tiny surface detail, ornate trim, cinematic lighting, complex background, glossy plastic, anime, chibi, voxel, pixel art, flat 2D illustration, painterly concept art, text, labels, watermark, UI",
+      "material_rules": "Use matte hand-painted diffuse colors, 2 to 4 main material colors, broad color regions, simple gradients, very sparse painted highlights, and no realistic pores, scratches, fibers, or micro surface detail.",
+      "name": "Unified low-poly project style",
+      "presentation_rules": "Use a neutral dark #1e1e1e background, orthographic camera, centered full asset, equal padding, clean silhouette, no text, no labels, no UI, no watermark, and no cropped parts."
+    },
+    "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07"
+  },
+  "parts": {
+    "back_attachment": {
+      "bounds_metres": [
+        [
+          -0.3199999928474426,
+          0.8700000047683716,
+          -0.375
+        ],
+        [
+          0.33000001311302185,
+          1.809999942779541,
+          -0.19900000095367432
+        ]
+      ],
+      "commands": [
+        "original_049"
+      ],
+      "image": "parts/back_attachment.png",
+      "model": "parts/back_attachment.glb",
+      "recipe": "parts/back_attachment.recipe.json",
+      "sha256": "a37a433faae80b09b81530c4fd51fbc972b9acc37632ef3e9a3648b69e336a5b",
+      "triangles": 28
+    },
+    "head": {
+      "bounds_metres": [
+        [
+          -0.2549999952316284,
+          2.0350000858306885,
+          -0.24021130800247192
+        ],
+        [
+          0.2549999952316284,
+          2.630000114440918,
+          0.27970632910728455
+        ]
+      ],
+      "commands": [
+        "original_015",
+        "original_016",
+        "original_017",
+        "original_018",
+        "original_019",
+        "original_020",
+        "original_021",
+        "original_022",
+        "original_023",
+        "original_024",
+        "original_025",
+        "original_026",
+        "original_027",
+        "original_028",
+        "original_029",
+        "original_030",
+        "original_031",
+        "original_032",
+        "original_033",
+        "original_034",
+        "original_035"
+      ],
+      "image": "parts/head.png",
+      "model": "parts/head.glb",
+      "recipe": "parts/head.recipe.json",
+      "sha256": "2cf39a5886819c0a943cd6aa26a9d199a85c5cb7a6ab949dc28b8d7a4739e292",
+      "triangles": 840
+    },
+    "left_arm": {
+      "bounds_metres": [
+        [
+          -0.8928077816963196,
+          0.8209999799728394,
+          -0.08979984372854233
+        ],
+        [
+          -0.2596025764942169,
+          1.8899999856948853,
+          0.20600000023841858
+        ]
+      ],
+      "commands": [
+        "original_006",
+        "original_007",
+        "original_008",
+        "original_041",
+        "original_042"
+      ],
+      "image": "parts/left_arm.png",
+      "model": "parts/left_arm.glb",
+      "recipe": "parts/left_arm.recipe.json",
+      "sha256": "ebeb6c982d489e2efaae3f30d7d873900b07c2ede78086104c19fe3437536aad",
+      "triangles": 170
+    },
+    "left_leg": {
+      "bounds_metres": [
+        [
+          -0.4449999928474426,
+          0.0,
+          -0.13687613606452942
+        ],
+        [
+          -0.08410090953111649,
+          0.9673174619674683,
+          0.3700000047683716
+        ]
+      ],
+      "commands": [
+        "original_003",
+        "original_004",
+        "original_005",
+        "original_043",
+        "original_044"
+      ],
+      "image": "parts/left_leg.png",
+      "model": "parts/left_leg.glb",
+      "recipe": "parts/left_leg.recipe.json",
+      "sha256": "ae08f659296be370b168be92541b432324289b58a7ac9fe9fd3afbb1b375d98e",
+      "triangles": 156
+    },
+    "right_arm": {
+      "bounds_metres": [
+        [
+          0.2596025764942169,
+          0.8209999799728394,
+          -0.08979984372854233
+        ],
+        [
+          0.8928077816963196,
+          1.8899999856948853,
+          0.20600000023841858
+        ]
+      ],
+      "commands": [
+        "original_012",
+        "original_013",
+        "original_014",
+        "original_045",
+        "original_046"
+      ],
+      "image": "parts/right_arm.png",
+      "model": "parts/right_arm.glb",
+      "recipe": "parts/right_arm.recipe.json",
+      "sha256": "4eed78c84c03b1bf87e9e940f163d4d09263f651eeec76ceced58a6b9f6220b6",
+      "triangles": 170
+    },
+    "right_leg": {
+      "bounds_metres": [
+        [
+          0.08410090953111649,
+          0.0,
+          -0.13687613606452942
+        ],
+        [
+          0.4449999928474426,
+          0.9673174619674683,
+          0.3700000047683716
+        ]
+      ],
+      "commands": [
+        "original_009",
+        "original_010",
+        "original_011",
+        "original_047",
+        "original_048"
+      ],
+      "image": "parts/right_leg.png",
+      "model": "parts/right_leg.glb",
+      "recipe": "parts/right_leg.recipe.json",
+      "sha256": "9828aa60db3b4dd6101b703a262662a8fd3526523248863e3cd73f00e6f9f5d8",
+      "triangles": 156
+    },
+    "torso": {
+      "bounds_metres": [
+        [
+          -0.3050000071525574,
+          0.9800000190734863,
+          -0.19496658444404602
+        ],
+        [
+          0.36000001430511475,
+          2.077507495880127,
+          0.2999870181083679
+        ]
+      ],
+      "commands": [
+        "original_001",
+        "original_002",
+        "original_036",
+        "original_037",
+        "original_038",
+        "original_039",
+        "original_040"
+      ],
+      "image": "parts/torso.png",
+      "model": "parts/torso.glb",
+      "recipe": "parts/torso.recipe.json",
+      "sha256": "b615168b06bd083547dbd8b59f94b593a8e5c62b59be6bc244a5eafa3210285e",
+      "triangles": 246
+    }
+  },
+  "race": "orc",
+  "reference_image": null,
+  "rig": "humanoid_v1",
+  "schema_version": 1,
+  "triangles": 1766
+}

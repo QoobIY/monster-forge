@@ -1,0 +1,2260 @@
+{
+  "attribute_reference": {
+    "authoring_revision": 1,
+    "authoring_sha256": "e56a294b021eb58bb982901f3f3d2be22a611e5b3f368faea374ba263b48b05f",
+    "category": "headwear",
+    "cell_pixels": [
+      0,
+      512,
+      307,
+      1024
+    ],
+    "depth_status": "Manually authored volumes; Front reference supplies silhouette/proportions only",
+    "design": {
+      "costume": "warden",
+      "face": {
+        "eye_tilt": -0.008,
+        "jaw": 0.86,
+        "nose": 0.057,
+        "width": 0.218
+      },
+      "gender": "male",
+      "hair": "swept",
+      "id": "hand-headwear-06",
+      "label": "headwear",
+      "library_variant": 6,
+      "palette": {
+        "accent": "d6c5a0",
+        "cloth": "35516d",
+        "hair": "614633",
+        "iris": "685d42",
+        "leather": "654833",
+        "metal": "919ba3",
+        "secondary": "938466",
+        "skin": "bd9577"
+      },
+      "race": "human"
+    },
+    "generation": {
+      "combined_mask": "../attribute_grid_mask_v1.png",
+      "combined_mask_sha256": "b67288dead6f5e6c48d8f0e1412d7cd39bbd08158e42df904c008ee3d6ac2234",
+      "id": "headwear",
+      "image": "front.png",
+      "image_sha256": "d9c361a7b844326184eb15ee87abbc79f34e2dd70bf2d51a37fcf362f2b285c7",
+      "label": "Головные аксессуары",
+      "layout": {
+        "columns": 5,
+        "count": 10,
+        "rows": 2
+      },
+      "mask_transmission": "builtin tool has no mask argument; layout constraints in prompt",
+      "model_snapshot": null,
+      "model_snapshot_status": "not exposed by built-in tool",
+      "production_pool": false,
+      "prompt": "prompt.txt",
+      "prompt_sha256": "fc0876a8fa1339358066b4210a6dcf42bf6a99ef36208dbcacb6dacfc3e77aac",
+      "purpose": "Ten attribute variants in one image; concept references, not reconstructed GLB assets",
+      "raw_response": "tool-response.json",
+      "raw_response_sha256": "32a9b68a988f2d745c25c2945294cb8ce143ce1445351dc8e3349ef00a3bf47e",
+      "schema_version": 1,
+      "style_reference_images": [],
+      "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+      "template_id": "constructor_attribute_grid_master_v1",
+      "template_sha256": "1577ff27f8a8c175c23674db6031a6b0c1b3b9e098061f31a0151a6157269c84",
+      "tool": "image_gen.imagegen",
+      "variant_count": 10,
+      "view": "Front"
+    },
+    "image": "media/experiments/constructor_attribute_references/v1/headwear/front.png",
+    "image_sha256": "d9c361a7b844326184eb15ee87abbc79f34e2dd70bf2d51a37fcf362f2b285c7",
+    "material_groups": {
+      "atlas_headwear_06_accent": "accent",
+      "atlas_headwear_06_bone": "fixed",
+      "atlas_headwear_06_cloth": "cloth",
+      "atlas_headwear_06_dark": "fixed",
+      "atlas_headwear_06_decor_accent": "accent",
+      "atlas_headwear_06_decor_bone": "fixed",
+      "atlas_headwear_06_decor_cloth": "cloth",
+      "atlas_headwear_06_decor_dark": "fixed",
+      "atlas_headwear_06_decor_hair": "hair",
+      "atlas_headwear_06_decor_hair_light": "hair",
+      "atlas_headwear_06_decor_iris": "eyes",
+      "atlas_headwear_06_decor_leather": "leather",
+      "atlas_headwear_06_decor_lip": "skin",
+      "atlas_headwear_06_decor_metal": "metal",
+      "atlas_headwear_06_decor_pupil": "fixed",
+      "atlas_headwear_06_decor_sclera": "fixed",
+      "atlas_headwear_06_decor_secondary": "secondary",
+      "atlas_headwear_06_decor_shadow": "skin",
+      "atlas_headwear_06_decor_skin": "skin",
+      "atlas_headwear_06_hair": "hair",
+      "atlas_headwear_06_hair_light": "hair",
+      "atlas_headwear_06_iris": "eyes",
+      "atlas_headwear_06_leather": "leather",
+      "atlas_headwear_06_lip": "skin",
+      "atlas_headwear_06_metal": "metal",
+      "atlas_headwear_06_pupil": "fixed",
+      "atlas_headwear_06_sclera": "fixed",
+      "atlas_headwear_06_secondary": "secondary",
+      "atlas_headwear_06_shadow": "skin",
+      "atlas_headwear_06_skin": "skin"
+    },
+    "method": "manual_low_poly_volumes",
+    "prompt_sha256": "fc0876a8fa1339358066b4210a6dcf42bf6a99ef36208dbcacb6dacfc3e77aac",
+    "schema_version": 1,
+    "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+    "variant": 6
+  },
+  "commands": [
+    {
+      "authored_primitive": {
+        "authored_primitive": {
+          "authored_outline_metres": [
+            [
+              0.19,
+              2.51,
+              0.025
+            ],
+            [
+              0.3,
+              2.75,
+              0
+            ],
+            [
+              0.36,
+              2.68,
+              0.01
+            ],
+            [
+              0.235,
+              2.5,
+              0.045
+            ]
+          ],
+          "depth_assumption": {
+            "back_metres": [
+              0.0,
+              -0.025,
+              -0.015000000000000001,
+              0.019999999999999997
+            ],
+            "bevel_fraction": 0.09,
+            "crown_metres": 0.006,
+            "front_metres": [
+              0.025,
+              0.0,
+              0.01,
+              0.045
+            ]
+          },
+          "faces": [
+            [
+              4,
+              1,
+              0
+            ],
+            [
+              4,
+              5,
+              1
+            ],
+            [
+              1,
+              8,
+              0
+            ],
+            [
+              9,
+              8,
+              1
+            ],
+            [
+              5,
+              2,
+              1
+            ],
+            [
+              5,
+              6,
+              2
+            ],
+            [
+              2,
+              9,
+              1
+            ],
+            [
+              10,
+              9,
+              2
+            ],
+            [
+              6,
+              3,
+              2
+            ],
+            [
+              6,
+              7,
+              3
+            ],
+            [
+              3,
+              10,
+              2
+            ],
+            [
+              11,
+              10,
+              3
+            ],
+            [
+              7,
+              0,
+              3
+            ],
+            [
+              7,
+              4,
+              0
+            ],
+            [
+              0,
+              11,
+              3
+            ],
+            [
+              8,
+              11,
+              0
+            ],
+            [
+              12,
+              5,
+              4
+            ],
+            [
+              12,
+              6,
+              5
+            ],
+            [
+              12,
+              7,
+              6
+            ],
+            [
+              12,
+              4,
+              7
+            ],
+            [
+              11,
+              8,
+              9
+            ],
+            [
+              9,
+              10,
+              11
+            ]
+          ],
+          "id": "c001",
+          "material": "secondary",
+          "op": "indexed_mesh",
+          "part": "ornament_head_feather",
+          "purpose": "ornament head feather",
+          "slot": "head",
+          "stage": 4,
+          "vertices": [
+            [
+              0.19,
+              2.51,
+              0.025
+            ],
+            [
+              0.3,
+              2.75,
+              0.0
+            ],
+            [
+              0.36,
+              2.68,
+              0.01
+            ],
+            [
+              0.235,
+              2.5,
+              0.045
+            ],
+            [
+              0.197313,
+              2.519,
+              0.031
+            ],
+            [
+              0.297412,
+              2.7374,
+              0.006
+            ],
+            [
+              0.352013,
+              2.6737,
+              0.016
+            ],
+            [
+              0.238262,
+              2.5099,
+              0.051
+            ],
+            [
+              0.19,
+              2.51,
+              0.0
+            ],
+            [
+              0.3,
+              2.75,
+              -0.025
+            ],
+            [
+              0.36,
+              2.68,
+              -0.015
+            ],
+            [
+              0.235,
+              2.5,
+              0.02
+            ],
+            [
+              0.27125,
+              2.61,
+              0.0344
+            ]
+          ]
+        },
+        "faces": [
+          [
+            4,
+            1,
+            0
+          ],
+          [
+            4,
+            5,
+            1
+          ],
+          [
+            1,
+            8,
+            0
+          ],
+          [
+            9,
+            8,
+            1
+          ],
+          [
+            5,
+            2,
+            1
+          ],
+          [
+            5,
+            6,
+            2
+          ],
+          [
+            2,
+            9,
+            1
+          ],
+          [
+            10,
+            9,
+            2
+          ],
+          [
+            6,
+            3,
+            2
+          ],
+          [
+            6,
+            7,
+            3
+          ],
+          [
+            3,
+            10,
+            2
+          ],
+          [
+            11,
+            10,
+            3
+          ],
+          [
+            7,
+            0,
+            3
+          ],
+          [
+            7,
+            4,
+            0
+          ],
+          [
+            0,
+            11,
+            3
+          ],
+          [
+            8,
+            11,
+            0
+          ],
+          [
+            12,
+            5,
+            4
+          ],
+          [
+            12,
+            6,
+            5
+          ],
+          [
+            12,
+            7,
+            6
+          ],
+          [
+            12,
+            4,
+            7
+          ],
+          [
+            11,
+            8,
+            9
+          ],
+          [
+            9,
+            10,
+            11
+          ]
+        ],
+        "id": "decor_head_0",
+        "material": "decor_secondary",
+        "op": "indexed_mesh",
+        "part": "ornament_head_feather",
+        "purpose": "User-selected ornament; immutable body part revision",
+        "slot": "head",
+        "stage": 4,
+        "vertices": [
+          [
+            0.19,
+            2.51,
+            0.025
+          ],
+          [
+            0.3,
+            2.75,
+            0.0
+          ],
+          [
+            0.36,
+            2.68,
+            0.01
+          ],
+          [
+            0.235,
+            2.5,
+            0.045
+          ],
+          [
+            0.197313,
+            2.519,
+            0.031
+          ],
+          [
+            0.297412,
+            2.7374,
+            0.006
+          ],
+          [
+            0.352013,
+            2.6737,
+            0.016
+          ],
+          [
+            0.238262,
+            2.5099,
+            0.051
+          ],
+          [
+            0.19,
+            2.51,
+            0.0
+          ],
+          [
+            0.3,
+            2.75,
+            -0.025
+          ],
+          [
+            0.36,
+            2.68,
+            -0.015
+          ],
+          [
+            0.235,
+            2.5,
+            0.02
+          ],
+          [
+            0.27125,
+            2.61,
+            0.0344
+          ]
+        ]
+      },
+      "faces": [
+        [
+          4,
+          1,
+          0
+        ],
+        [
+          4,
+          5,
+          1
+        ],
+        [
+          1,
+          8,
+          0
+        ],
+        [
+          9,
+          8,
+          1
+        ],
+        [
+          5,
+          2,
+          1
+        ],
+        [
+          5,
+          6,
+          2
+        ],
+        [
+          2,
+          9,
+          1
+        ],
+        [
+          10,
+          9,
+          2
+        ],
+        [
+          6,
+          3,
+          2
+        ],
+        [
+          6,
+          7,
+          3
+        ],
+        [
+          3,
+          10,
+          2
+        ],
+        [
+          11,
+          10,
+          3
+        ],
+        [
+          7,
+          0,
+          3
+        ],
+        [
+          7,
+          4,
+          0
+        ],
+        [
+          0,
+          11,
+          3
+        ],
+        [
+          8,
+          11,
+          0
+        ],
+        [
+          12,
+          5,
+          4
+        ],
+        [
+          12,
+          6,
+          5
+        ],
+        [
+          12,
+          7,
+          6
+        ],
+        [
+          12,
+          4,
+          7
+        ],
+        [
+          11,
+          8,
+          9
+        ],
+        [
+          9,
+          10,
+          11
+        ]
+      ],
+      "id": "atlas_headwear_06_0",
+      "material": "atlas_headwear_06_decor_secondary",
+      "op": "indexed_mesh",
+      "part": "atlas_headwear_06_ornament_head_feather",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "head",
+      "stage": 4,
+      "vertices": [
+        [
+          0.19,
+          2.51,
+          0.025
+        ],
+        [
+          0.3,
+          2.75,
+          0.0
+        ],
+        [
+          0.36,
+          2.68,
+          0.01
+        ],
+        [
+          0.235,
+          2.5,
+          0.045
+        ],
+        [
+          0.197313,
+          2.519,
+          0.031
+        ],
+        [
+          0.297412,
+          2.7374,
+          0.006
+        ],
+        [
+          0.352013,
+          2.6737,
+          0.016
+        ],
+        [
+          0.238262,
+          2.5099,
+          0.051
+        ],
+        [
+          0.19,
+          2.51,
+          0.0
+        ],
+        [
+          0.3,
+          2.75,
+          -0.025
+        ],
+        [
+          0.36,
+          2.68,
+          -0.015
+        ],
+        [
+          0.235,
+          2.5,
+          0.02
+        ],
+        [
+          0.27125,
+          2.61,
+          0.0344
+        ]
+      ]
+    },
+    {
+      "authored_primitive": {
+        "authored_primitive": {
+          "id": "c002",
+          "material": "metal",
+          "op": "sweep",
+          "part": "ornament_feather_shaft",
+          "path": [
+            [
+              0.21,
+              2.5,
+              0.041
+            ],
+            [
+              0.31,
+              2.73,
+              0.02
+            ]
+          ],
+          "purpose": "ornament feather shaft",
+          "radii": [
+            0.005,
+            0.002
+          ],
+          "sides": 4,
+          "slot": "head",
+          "stage": 4
+        },
+        "faces": [
+          [
+            1,
+            4,
+            0
+          ],
+          [
+            5,
+            4,
+            1
+          ],
+          [
+            2,
+            5,
+            1
+          ],
+          [
+            6,
+            5,
+            2
+          ],
+          [
+            3,
+            6,
+            2
+          ],
+          [
+            7,
+            6,
+            3
+          ],
+          [
+            0,
+            7,
+            3
+          ],
+          [
+            4,
+            7,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            2,
+            0
+          ],
+          [
+            4,
+            5,
+            6
+          ],
+          [
+            4,
+            6,
+            7
+          ]
+        ],
+        "id": "decor_head_1",
+        "material": "decor_metal",
+        "op": "indexed_mesh",
+        "part": "ornament_feather_shaft",
+        "purpose": "User-selected ornament; immutable body part revision",
+        "slot": "head",
+        "stage": 4,
+        "vertices": [
+          [
+            0.21,
+            2.4995453693384175,
+            0.03602071180171811
+          ],
+          [
+            0.20541163325785242,
+            2.5019784487555423,
+            0.040819359026667855
+          ],
+          [
+            0.21,
+            2.5004546306615825,
+            0.04597928819828189
+          ],
+          [
+            0.21458836674214757,
+            2.4980215512444577,
+            0.04118064097333215
+          ],
+          [
+            0.31,
+            2.729818147735367,
+            0.018008284720687245
+          ],
+          [
+            0.30816465330314097,
+            2.730791379502217,
+            0.019927743610667143
+          ],
+          [
+            0.31,
+            2.730181852264633,
+            0.021991715279312755
+          ],
+          [
+            0.31183534669685903,
+            2.729208620497783,
+            0.020072256389332858
+          ]
+        ]
+      },
+      "faces": [
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          5,
+          4,
+          1
+        ],
+        [
+          2,
+          5,
+          1
+        ],
+        [
+          6,
+          5,
+          2
+        ],
+        [
+          3,
+          6,
+          2
+        ],
+        [
+          7,
+          6,
+          3
+        ],
+        [
+          0,
+          7,
+          3
+        ],
+        [
+          4,
+          7,
+          0
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          4,
+          5,
+          6
+        ],
+        [
+          4,
+          6,
+          7
+        ]
+      ],
+      "id": "atlas_headwear_06_1",
+      "material": "atlas_headwear_06_decor_metal",
+      "op": "indexed_mesh",
+      "part": "atlas_headwear_06_ornament_feather_shaft",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "head",
+      "stage": 4,
+      "vertices": [
+        [
+          0.21,
+          2.4995453693384175,
+          0.03602071180171811
+        ],
+        [
+          0.20541163325785242,
+          2.5019784487555423,
+          0.040819359026667855
+        ],
+        [
+          0.21,
+          2.5004546306615825,
+          0.04597928819828189
+        ],
+        [
+          0.21458836674214757,
+          2.4980215512444577,
+          0.04118064097333215
+        ],
+        [
+          0.31,
+          2.729818147735367,
+          0.018008284720687245
+        ],
+        [
+          0.30816465330314097,
+          2.730791379502217,
+          0.019927743610667143
+        ],
+        [
+          0.31,
+          2.730181852264633,
+          0.021991715279312755
+        ],
+        [
+          0.31183534669685903,
+          2.729208620497783,
+          0.020072256389332858
+        ]
+      ]
+    },
+    {
+      "authored_primitive": {
+        "authored_primitive": {
+          "id": "c003",
+          "material": "accent",
+          "op": "sweep",
+          "part": "ornament_feather_barb",
+          "path": [
+            [
+              0.22,
+              2.54,
+              0.042
+            ],
+            [
+              0.268,
+              2.56,
+              0.042
+            ]
+          ],
+          "purpose": "ornament feather barb",
+          "radii": [
+            0.002,
+            0.001
+          ],
+          "sides": 4,
+          "slot": "head",
+          "stage": 4
+        },
+        "faces": [
+          [
+            1,
+            4,
+            0
+          ],
+          [
+            5,
+            4,
+            1
+          ],
+          [
+            2,
+            5,
+            1
+          ],
+          [
+            6,
+            5,
+            2
+          ],
+          [
+            3,
+            6,
+            2
+          ],
+          [
+            7,
+            6,
+            3
+          ],
+          [
+            0,
+            7,
+            3
+          ],
+          [
+            4,
+            7,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            2,
+            0
+          ],
+          [
+            4,
+            5,
+            6
+          ],
+          [
+            4,
+            6,
+            7
+          ]
+        ],
+        "id": "decor_head_2",
+        "material": "decor_accent",
+        "op": "indexed_mesh",
+        "part": "ornament_feather_barb",
+        "purpose": "User-selected ornament; immutable body part revision",
+        "slot": "head",
+        "stage": 4,
+        "vertices": [
+          [
+            0.22,
+            2.54,
+            0.044000000000000004
+          ],
+          [
+            0.22076923076923077,
+            2.538153846153846,
+            0.042
+          ],
+          [
+            0.22,
+            2.54,
+            0.04
+          ],
+          [
+            0.21923076923076923,
+            2.541846153846154,
+            0.042
+          ],
+          [
+            0.268,
+            2.56,
+            0.043000000000000003
+          ],
+          [
+            0.2683846153846154,
+            2.559076923076923,
+            0.042
+          ],
+          [
+            0.268,
+            2.56,
+            0.041
+          ],
+          [
+            0.26761538461538464,
+            2.560923076923077,
+            0.042
+          ]
+        ]
+      },
+      "faces": [
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          5,
+          4,
+          1
+        ],
+        [
+          2,
+          5,
+          1
+        ],
+        [
+          6,
+          5,
+          2
+        ],
+        [
+          3,
+          6,
+          2
+        ],
+        [
+          7,
+          6,
+          3
+        ],
+        [
+          0,
+          7,
+          3
+        ],
+        [
+          4,
+          7,
+          0
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          4,
+          5,
+          6
+        ],
+        [
+          4,
+          6,
+          7
+        ]
+      ],
+      "id": "atlas_headwear_06_2",
+      "material": "atlas_headwear_06_decor_accent",
+      "op": "indexed_mesh",
+      "part": "atlas_headwear_06_ornament_feather_barb",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "head",
+      "stage": 4,
+      "vertices": [
+        [
+          0.22,
+          2.54,
+          0.044000000000000004
+        ],
+        [
+          0.22076923076923077,
+          2.538153846153846,
+          0.042
+        ],
+        [
+          0.22,
+          2.54,
+          0.04
+        ],
+        [
+          0.21923076923076923,
+          2.541846153846154,
+          0.042
+        ],
+        [
+          0.268,
+          2.56,
+          0.043000000000000003
+        ],
+        [
+          0.2683846153846154,
+          2.559076923076923,
+          0.042
+        ],
+        [
+          0.268,
+          2.56,
+          0.041
+        ],
+        [
+          0.26761538461538464,
+          2.560923076923077,
+          0.042
+        ]
+      ]
+    },
+    {
+      "authored_primitive": {
+        "authored_primitive": {
+          "id": "c004",
+          "material": "accent",
+          "op": "sweep",
+          "part": "ornament_feather_barb",
+          "path": [
+            [
+              0.236,
+              2.573,
+              0.042
+            ],
+            [
+              0.284,
+              2.593,
+              0.042
+            ]
+          ],
+          "purpose": "ornament feather barb",
+          "radii": [
+            0.002,
+            0.001
+          ],
+          "sides": 4,
+          "slot": "head",
+          "stage": 4
+        },
+        "faces": [
+          [
+            1,
+            4,
+            0
+          ],
+          [
+            5,
+            4,
+            1
+          ],
+          [
+            2,
+            5,
+            1
+          ],
+          [
+            6,
+            5,
+            2
+          ],
+          [
+            3,
+            6,
+            2
+          ],
+          [
+            7,
+            6,
+            3
+          ],
+          [
+            0,
+            7,
+            3
+          ],
+          [
+            4,
+            7,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            2,
+            0
+          ],
+          [
+            4,
+            5,
+            6
+          ],
+          [
+            4,
+            6,
+            7
+          ]
+        ],
+        "id": "decor_head_3",
+        "material": "decor_accent",
+        "op": "indexed_mesh",
+        "part": "ornament_feather_barb",
+        "purpose": "User-selected ornament; immutable body part revision",
+        "slot": "head",
+        "stage": 4,
+        "vertices": [
+          [
+            0.236,
+            2.573,
+            0.044000000000000004
+          ],
+          [
+            0.23676923076923076,
+            2.571153846153846,
+            0.042
+          ],
+          [
+            0.236,
+            2.573,
+            0.04
+          ],
+          [
+            0.23523076923076922,
+            2.574846153846154,
+            0.042
+          ],
+          [
+            0.284,
+            2.593,
+            0.043000000000000003
+          ],
+          [
+            0.28438461538461535,
+            2.592076923076923,
+            0.042
+          ],
+          [
+            0.284,
+            2.593,
+            0.041
+          ],
+          [
+            0.2836153846153846,
+            2.593923076923077,
+            0.042
+          ]
+        ]
+      },
+      "faces": [
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          5,
+          4,
+          1
+        ],
+        [
+          2,
+          5,
+          1
+        ],
+        [
+          6,
+          5,
+          2
+        ],
+        [
+          3,
+          6,
+          2
+        ],
+        [
+          7,
+          6,
+          3
+        ],
+        [
+          0,
+          7,
+          3
+        ],
+        [
+          4,
+          7,
+          0
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          4,
+          5,
+          6
+        ],
+        [
+          4,
+          6,
+          7
+        ]
+      ],
+      "id": "atlas_headwear_06_3",
+      "material": "atlas_headwear_06_decor_accent",
+      "op": "indexed_mesh",
+      "part": "atlas_headwear_06_ornament_feather_barb",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "head",
+      "stage": 4,
+      "vertices": [
+        [
+          0.236,
+          2.573,
+          0.044000000000000004
+        ],
+        [
+          0.23676923076923076,
+          2.571153846153846,
+          0.042
+        ],
+        [
+          0.236,
+          2.573,
+          0.04
+        ],
+        [
+          0.23523076923076922,
+          2.574846153846154,
+          0.042
+        ],
+        [
+          0.284,
+          2.593,
+          0.043000000000000003
+        ],
+        [
+          0.28438461538461535,
+          2.592076923076923,
+          0.042
+        ],
+        [
+          0.284,
+          2.593,
+          0.041
+        ],
+        [
+          0.2836153846153846,
+          2.593923076923077,
+          0.042
+        ]
+      ]
+    },
+    {
+      "authored_primitive": {
+        "authored_primitive": {
+          "id": "c005",
+          "material": "accent",
+          "op": "sweep",
+          "part": "ornament_feather_barb",
+          "path": [
+            [
+              0.252,
+              2.606,
+              0.042
+            ],
+            [
+              0.3,
+              2.626,
+              0.042
+            ]
+          ],
+          "purpose": "ornament feather barb",
+          "radii": [
+            0.002,
+            0.001
+          ],
+          "sides": 4,
+          "slot": "head",
+          "stage": 4
+        },
+        "faces": [
+          [
+            1,
+            4,
+            0
+          ],
+          [
+            5,
+            4,
+            1
+          ],
+          [
+            2,
+            5,
+            1
+          ],
+          [
+            6,
+            5,
+            2
+          ],
+          [
+            3,
+            6,
+            2
+          ],
+          [
+            7,
+            6,
+            3
+          ],
+          [
+            0,
+            7,
+            3
+          ],
+          [
+            4,
+            7,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            2,
+            0
+          ],
+          [
+            4,
+            5,
+            6
+          ],
+          [
+            4,
+            6,
+            7
+          ]
+        ],
+        "id": "decor_head_4",
+        "material": "decor_accent",
+        "op": "indexed_mesh",
+        "part": "ornament_feather_barb",
+        "purpose": "User-selected ornament; immutable body part revision",
+        "slot": "head",
+        "stage": 4,
+        "vertices": [
+          [
+            0.252,
+            2.606,
+            0.044000000000000004
+          ],
+          [
+            0.25276923076923075,
+            2.604153846153846,
+            0.042
+          ],
+          [
+            0.252,
+            2.606,
+            0.04
+          ],
+          [
+            0.25123076923076926,
+            2.607846153846154,
+            0.042
+          ],
+          [
+            0.3,
+            2.626,
+            0.043000000000000003
+          ],
+          [
+            0.30038461538461536,
+            2.625076923076923,
+            0.042
+          ],
+          [
+            0.3,
+            2.626,
+            0.041
+          ],
+          [
+            0.2996153846153846,
+            2.626923076923077,
+            0.042
+          ]
+        ]
+      },
+      "faces": [
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          5,
+          4,
+          1
+        ],
+        [
+          2,
+          5,
+          1
+        ],
+        [
+          6,
+          5,
+          2
+        ],
+        [
+          3,
+          6,
+          2
+        ],
+        [
+          7,
+          6,
+          3
+        ],
+        [
+          0,
+          7,
+          3
+        ],
+        [
+          4,
+          7,
+          0
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          4,
+          5,
+          6
+        ],
+        [
+          4,
+          6,
+          7
+        ]
+      ],
+      "id": "atlas_headwear_06_4",
+      "material": "atlas_headwear_06_decor_accent",
+      "op": "indexed_mesh",
+      "part": "atlas_headwear_06_ornament_feather_barb",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "head",
+      "stage": 4,
+      "vertices": [
+        [
+          0.252,
+          2.606,
+          0.044000000000000004
+        ],
+        [
+          0.25276923076923075,
+          2.604153846153846,
+          0.042
+        ],
+        [
+          0.252,
+          2.606,
+          0.04
+        ],
+        [
+          0.25123076923076926,
+          2.607846153846154,
+          0.042
+        ],
+        [
+          0.3,
+          2.626,
+          0.043000000000000003
+        ],
+        [
+          0.30038461538461536,
+          2.625076923076923,
+          0.042
+        ],
+        [
+          0.3,
+          2.626,
+          0.041
+        ],
+        [
+          0.2996153846153846,
+          2.626923076923077,
+          0.042
+        ]
+      ]
+    },
+    {
+      "authored_primitive": {
+        "authored_primitive": {
+          "id": "c006",
+          "material": "accent",
+          "op": "sweep",
+          "part": "ornament_feather_barb",
+          "path": [
+            [
+              0.268,
+              2.639,
+              0.042
+            ],
+            [
+              0.316,
+              2.659,
+              0.042
+            ]
+          ],
+          "purpose": "ornament feather barb",
+          "radii": [
+            0.002,
+            0.001
+          ],
+          "sides": 4,
+          "slot": "head",
+          "stage": 4
+        },
+        "faces": [
+          [
+            1,
+            4,
+            0
+          ],
+          [
+            5,
+            4,
+            1
+          ],
+          [
+            2,
+            5,
+            1
+          ],
+          [
+            6,
+            5,
+            2
+          ],
+          [
+            3,
+            6,
+            2
+          ],
+          [
+            7,
+            6,
+            3
+          ],
+          [
+            0,
+            7,
+            3
+          ],
+          [
+            4,
+            7,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            2,
+            0
+          ],
+          [
+            4,
+            5,
+            6
+          ],
+          [
+            4,
+            6,
+            7
+          ]
+        ],
+        "id": "decor_head_5",
+        "material": "decor_accent",
+        "op": "indexed_mesh",
+        "part": "ornament_feather_barb",
+        "purpose": "User-selected ornament; immutable body part revision",
+        "slot": "head",
+        "stage": 4,
+        "vertices": [
+          [
+            0.268,
+            2.639,
+            0.044000000000000004
+          ],
+          [
+            0.26876923076923076,
+            2.6371538461538457,
+            0.042
+          ],
+          [
+            0.268,
+            2.639,
+            0.04
+          ],
+          [
+            0.26723076923076927,
+            2.640846153846154,
+            0.042
+          ],
+          [
+            0.316,
+            2.659,
+            0.043000000000000003
+          ],
+          [
+            0.3163846153846154,
+            2.658076923076923,
+            0.042
+          ],
+          [
+            0.316,
+            2.659,
+            0.041
+          ],
+          [
+            0.31561538461538463,
+            2.659923076923077,
+            0.042
+          ]
+        ]
+      },
+      "faces": [
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          5,
+          4,
+          1
+        ],
+        [
+          2,
+          5,
+          1
+        ],
+        [
+          6,
+          5,
+          2
+        ],
+        [
+          3,
+          6,
+          2
+        ],
+        [
+          7,
+          6,
+          3
+        ],
+        [
+          0,
+          7,
+          3
+        ],
+        [
+          4,
+          7,
+          0
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          4,
+          5,
+          6
+        ],
+        [
+          4,
+          6,
+          7
+        ]
+      ],
+      "id": "atlas_headwear_06_5",
+      "material": "atlas_headwear_06_decor_accent",
+      "op": "indexed_mesh",
+      "part": "atlas_headwear_06_ornament_feather_barb",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "head",
+      "stage": 4,
+      "vertices": [
+        [
+          0.268,
+          2.639,
+          0.044000000000000004
+        ],
+        [
+          0.26876923076923076,
+          2.6371538461538457,
+          0.042
+        ],
+        [
+          0.268,
+          2.639,
+          0.04
+        ],
+        [
+          0.26723076923076927,
+          2.640846153846154,
+          0.042
+        ],
+        [
+          0.316,
+          2.659,
+          0.043000000000000003
+        ],
+        [
+          0.3163846153846154,
+          2.658076923076923,
+          0.042
+        ],
+        [
+          0.316,
+          2.659,
+          0.041
+        ],
+        [
+          0.31561538461538463,
+          2.659923076923077,
+          0.042
+        ]
+      ]
+    },
+    {
+      "authored_primitive": {
+        "authored_primitive": {
+          "id": "c007",
+          "material": "accent",
+          "op": "sweep",
+          "part": "ornament_feather_barb",
+          "path": [
+            [
+              0.284,
+              2.672,
+              0.042
+            ],
+            [
+              0.332,
+              2.692,
+              0.042
+            ]
+          ],
+          "purpose": "ornament feather barb",
+          "radii": [
+            0.002,
+            0.001
+          ],
+          "sides": 4,
+          "slot": "head",
+          "stage": 4
+        },
+        "faces": [
+          [
+            1,
+            4,
+            0
+          ],
+          [
+            5,
+            4,
+            1
+          ],
+          [
+            2,
+            5,
+            1
+          ],
+          [
+            6,
+            5,
+            2
+          ],
+          [
+            3,
+            6,
+            2
+          ],
+          [
+            7,
+            6,
+            3
+          ],
+          [
+            0,
+            7,
+            3
+          ],
+          [
+            4,
+            7,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            2,
+            0
+          ],
+          [
+            4,
+            5,
+            6
+          ],
+          [
+            4,
+            6,
+            7
+          ]
+        ],
+        "id": "decor_head_6",
+        "material": "decor_accent",
+        "op": "indexed_mesh",
+        "part": "ornament_feather_barb",
+        "purpose": "User-selected ornament; immutable body part revision",
+        "slot": "head",
+        "stage": 4,
+        "vertices": [
+          [
+            0.284,
+            2.672,
+            0.044000000000000004
+          ],
+          [
+            0.2847692307692307,
+            2.670153846153846,
+            0.042
+          ],
+          [
+            0.284,
+            2.672,
+            0.04
+          ],
+          [
+            0.28323076923076923,
+            2.673846153846154,
+            0.042
+          ],
+          [
+            0.332,
+            2.692,
+            0.043000000000000003
+          ],
+          [
+            0.3323846153846154,
+            2.691076923076923,
+            0.042
+          ],
+          [
+            0.332,
+            2.692,
+            0.041
+          ],
+          [
+            0.33161538461538465,
+            2.692923076923077,
+            0.042
+          ]
+        ]
+      },
+      "faces": [
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          5,
+          4,
+          1
+        ],
+        [
+          2,
+          5,
+          1
+        ],
+        [
+          6,
+          5,
+          2
+        ],
+        [
+          3,
+          6,
+          2
+        ],
+        [
+          7,
+          6,
+          3
+        ],
+        [
+          0,
+          7,
+          3
+        ],
+        [
+          4,
+          7,
+          0
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          4,
+          5,
+          6
+        ],
+        [
+          4,
+          6,
+          7
+        ]
+      ],
+      "id": "atlas_headwear_06_6",
+      "material": "atlas_headwear_06_decor_accent",
+      "op": "indexed_mesh",
+      "part": "atlas_headwear_06_ornament_feather_barb",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "head",
+      "stage": 4,
+      "vertices": [
+        [
+          0.284,
+          2.672,
+          0.044000000000000004
+        ],
+        [
+          0.2847692307692307,
+          2.670153846153846,
+          0.042
+        ],
+        [
+          0.284,
+          2.672,
+          0.04
+        ],
+        [
+          0.28323076923076923,
+          2.673846153846154,
+          0.042
+        ],
+        [
+          0.332,
+          2.692,
+          0.043000000000000003
+        ],
+        [
+          0.3323846153846154,
+          2.691076923076923,
+          0.042
+        ],
+        [
+          0.332,
+          2.692,
+          0.041
+        ],
+        [
+          0.33161538461538465,
+          2.692923076923077,
+          0.042
+        ]
+      ]
+    }
+  ],
+  "coordinate_system": "metres; Y up; +Z forward; floor Y=0",
+  "id": "hand-headwear-06",
+  "palette": {
+    "atlas_headwear_06_accent": "d6c5a0",
+    "atlas_headwear_06_bone": "cbc5ad",
+    "atlas_headwear_06_cloth": "35516d",
+    "atlas_headwear_06_dark": "33383b",
+    "atlas_headwear_06_decor_accent": "d0b67a",
+    "atlas_headwear_06_decor_bone": "cbc5ad",
+    "atlas_headwear_06_decor_cloth": "667b83",
+    "atlas_headwear_06_decor_dark": "33383b",
+    "atlas_headwear_06_decor_hair": "544136",
+    "atlas_headwear_06_decor_hair_light": "614b3f",
+    "atlas_headwear_06_decor_iris": "659198",
+    "atlas_headwear_06_decor_leather": "624c3d",
+    "atlas_headwear_06_decor_lip": "88735c",
+    "atlas_headwear_06_decor_metal": "919ba1",
+    "atlas_headwear_06_decor_pupil": "272a2b",
+    "atlas_headwear_06_decor_sclera": "d4d1bc",
+    "atlas_headwear_06_decor_secondary": "976356",
+    "atlas_headwear_06_decor_shadow": "776551",
+    "atlas_headwear_06_decor_skin": "bda080",
+    "atlas_headwear_06_hair": "614633",
+    "atlas_headwear_06_hair_light": "71513b",
+    "atlas_headwear_06_iris": "685d42",
+    "atlas_headwear_06_leather": "654833",
+    "atlas_headwear_06_lip": "886b56",
+    "atlas_headwear_06_metal": "919ba3",
+    "atlas_headwear_06_pupil": "272a2b",
+    "atlas_headwear_06_sclera": "d4d1bc",
+    "atlas_headwear_06_secondary": "938466",
+    "atlas_headwear_06_shadow": "775e4b",
+    "atlas_headwear_06_skin": "bd9577"
+  },
+  "production_pool": false,
+  "schema_version": 1
+}

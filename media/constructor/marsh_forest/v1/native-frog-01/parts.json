@@ -1,0 +1,42 @@
+{
+  "coordinates": "metres; Y up; +Z forward; floor Y=0",
+  "parts": {
+    "front_left_leg": {
+      "model": "parts/front_left_leg.glb",
+      "recipe": "parts/front_left_leg.recipe.json",
+      "sha256": "1f670af58d4e7d29d82fac6318e96335fab7c8453032bd6163f6f09f4940992b"
+    },
+    "front_right_leg": {
+      "model": "parts/front_right_leg.glb",
+      "recipe": "parts/front_right_leg.recipe.json",
+      "sha256": "26a9333c8f0bdf3b6d8e31f4fbb966a82ed252c2b94d6ba037293b50440ad0d0"
+    },
+    "head": {
+      "model": "parts/head.glb",
+      "recipe": "parts/head.recipe.json",
+      "sha256": "417ae970eaff276f9944f64de6e57ea2fcfac729964d1fa55c51f8b7a9578e43"
+    },
+    "hind_left_leg": {
+      "model": "parts/hind_left_leg.glb",
+      "recipe": "parts/hind_left_leg.recipe.json",
+      "sha256": "a0c643c306475438ccc17e714f5e9b62e5348c30929c05f2ea4b89a4822783c1"
+    },
+    "hind_right_leg": {
+      "model": "parts/hind_right_leg.glb",
+      "recipe": "parts/hind_right_leg.recipe.json",
+      "sha256": "70101ece8ed8e21ae33163a552294c40793324274bdaf86dde941ec516b27808"
+    },
+    "tail": {
+      "model": "parts/tail.glb",
+      "recipe": "parts/tail.recipe.json",
+      "sha256": "73a147fed4ebdb35762294098bf9af4008f8a95097812713044eaa203c072067"
+    },
+    "torso": {
+      "model": "parts/torso.glb",
+      "recipe": "parts/torso.recipe.json",
+      "sha256": "78afbd6dbf8b95c39631677e8bc12c454f931c9bc5ba0234eb42aaed7bee412b"
+    }
+  },
+  "rig_reference": "quadruped_v1",
+  "schema_version": 1
+}

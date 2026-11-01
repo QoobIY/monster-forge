@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Референсы деталей · Monster Forge</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: #171b1a;
+        color: #eeeae0;
+        font-family: system-ui, sans-serif;
+      }
+      main {
+        max-width: 1320px;
+        margin: auto;
+        padding: 32px 24px;
+      }
+      a {
+        color: #dac091;
+      }
+      h1 {
+        font-size: clamp(28px, 4vw, 48px);
+        margin: 18px 0 8px;
+      }
+      p {
+        color: #b4bcb4;
+        line-height: 1.6;
+      }
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 9px;
+        margin: 24px 0 40px;
+      }
+      nav a {
+        padding: 9px 13px;
+        border: 1px solid #414c43;
+        border-radius: 10px;
+        text-decoration: none;
+        font-size: 14px;
+      }
+      section {
+        margin: 0 0 48px;
+        scroll-margin-top: 20px;
+      }
+      .heading {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 15px;
+      }
+      h2 {
+        font-size: 23px;
+        font-weight: 600;
+      }
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border: 1px solid #344035;
+        border-radius: 14px;
+        background: #1e1e1e;
+      }
+      small {
+        color: #9eaa9f;
+      }
+      .eyebrow {
+        letter-spacing: 0.16em;
+        font-size: 12px;
+        color: #d3b988;
+      }
+      .open {
+        font-size: 14px;
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <a href="/creature-workshop/constructor/">← Конструктор</a>
+      <h1>Референсы по элементам</h1>
+      <p>
+        Каждый лист — 10 вариантов одного признака в сетке 2 × 5. {{ entries|length }} из {{ total
+        }} листов готовы.
+      </p>
+      <nav>
+        {% for e in entries %}
+        <a href="#{{e.id}}">{{e.label}}</a>
+        {% endfor %}
+      </nav>
+      {% for e in entries %}
+      <section id="{{e.id}}">
+        <div class="heading">
+          <h2>{{e.label}}</h2>
+          <a
+            class="open"
+            href="/creature-workshop/constructor/attribute-references/images/{{e.id}}.png"
+            target="_blank"
+            rel="noopener"
+          >
+            Открыть оригинал ↗
+          </a>
+        </div>
+        <a
+          href="/creature-workshop/constructor/attribute-references/images/{{e.id}}.png"
+          target="_blank"
+          rel="noopener"
+        >
+          <img
+            src="/creature-workshop/constructor/attribute-references/images/{{e.id}}.png"
+            alt="{{e.label}}: 10 вариантов, два ряда по пять"
+            width="1536"
+            height="1024"
+            loading="lazy"
+          />
+        </a>
+        <p><small>Imagegen · Front · 10 вариантов</small></p>
+      </section>
+      {% endfor %}
+    </main>
+  </body>
+</html>

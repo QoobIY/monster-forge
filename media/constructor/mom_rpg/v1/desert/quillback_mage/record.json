@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "quillback_mage",
+  "label": "Иглогрив маг",
+  "race": "quillback",
+  "rig": "quadruped_v1",
+  "gait": "walk",
+  "bind_profile": "canonical",
+  "parts": {
+    "torso": {
+      "model": "parts/torso.v2.glb"
+    },
+    "head": {
+      "model": "parts/head.glb"
+    },
+    "tail": {
+      "model": "parts/tail.glb"
+    },
+    "front_left_leg": {
+      "model": "parts/front_left_leg.glb"
+    },
+    "front_right_leg": {
+      "model": "parts/front_right_leg.glb"
+    },
+    "hind_left_leg": {
+      "model": "parts/hind_left_leg.glb"
+    },
+    "hind_right_leg": {
+      "model": "parts/hind_right_leg.glb"
+    }
+  },
+  "tags": [
+    "mom_rpg",
+    "desert",
+    "quillback_mage"
+  ]
+}

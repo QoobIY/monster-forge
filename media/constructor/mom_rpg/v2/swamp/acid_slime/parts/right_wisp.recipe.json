@@ -1,0 +1,180 @@
+{
+  "assembly_reference": "ghost_v1",
+  "bind_profile": "canonical",
+  "commands": [
+    {
+      "center": [
+        0.59,
+        0.19,
+        0.08
+      ],
+      "id": "c001",
+      "material": "skin",
+      "op": "ellipsoid",
+      "part": "slime_pseudopod",
+      "purpose": "slime pseudopod",
+      "radii": [
+        0.37,
+        0.19,
+        0.43
+      ],
+      "rings": 4,
+      "sides": 10,
+      "skin_bone": "right_wisp",
+      "slot": "right_wisp",
+      "stage": 2
+    },
+    {
+      "center": [
+        0.8,
+        0.12,
+        0.2
+      ],
+      "id": "c002",
+      "material": "secondary",
+      "op": "ellipsoid",
+      "part": "slime_outer_lobe",
+      "purpose": "slime outer lobe",
+      "radii": [
+        0.17,
+        0.12,
+        0.21
+      ],
+      "rings": 4,
+      "sides": 8,
+      "skin_bone": "right_wisp",
+      "slot": "right_wisp",
+      "stage": 2
+    }
+  ],
+  "constructor": {
+    "schema_version": 1,
+    "settings": {
+      "arms": "native-slime-01",
+      "back": null,
+      "colors": {
+        "accent": null,
+        "back_frame": null,
+        "back_primary": null,
+        "back_secondary": null,
+        "cloth": null,
+        "eyes": null,
+        "hair": null,
+        "leather": null,
+        "metal": null,
+        "secondary": null,
+        "skin": null
+      },
+      "decor": {
+        "beard": "none",
+        "belt": "none",
+        "emblem": "none",
+        "headwear": "none",
+        "mustache": "none",
+        "pattern": "none",
+        "shoulders": "none"
+      },
+      "eye_shape": "original",
+      "eye_size": 1.0,
+      "face": "native-slime-01",
+      "features": {
+        "brows": "profile",
+        "ears": "profile",
+        "jaw": "profile",
+        "mouth": "profile",
+        "nose": "profile"
+      },
+      "form": "regular",
+      "gender": "male",
+      "hair": "original",
+      "legs": "native-slime-01",
+      "outfit": "native-slime-01",
+      "race": "slime",
+      "reference_parts": {
+        "accessories": 0,
+        "arms": 0,
+        "back": 0,
+        "beards": 0,
+        "belts": 0,
+        "body_forms": 0,
+        "boots": 0,
+        "brows": 0,
+        "colorways": 0,
+        "ears": 0,
+        "emblems": 0,
+        "eyes": 0,
+        "female_clothes": 0,
+        "female_faces": 0,
+        "gloves": 0,
+        "hair": 0,
+        "headwear": 0,
+        "jaws": 0,
+        "legs": 0,
+        "male_clothes": 0,
+        "male_faces": 0,
+        "mouths": 0,
+        "mustaches": 0,
+        "noses": 0,
+        "patterns": 0,
+        "race_heads": 0,
+        "shoulders": 0
+      },
+      "schema_version": 5
+    },
+    "slot": "right_wisp",
+    "sources": [
+      {
+        "donor": "native-slime-01",
+        "manifest_sha256": "eabd60df6ab7e545cec6713047b52ff853a2b87704d6f7aeb0719e9bc13bf271",
+        "model_sha256": "f7e1dc430d22aa54790252e37012b5e25563f6f5fe7195b739a70545bb9e87c6",
+        "recipe_sha256": "23a349b57b209e7d59fba1fb1d272a2096162fb6f4f3a669bfd49d9d3c4013a0",
+        "record_sha256": "93ef2c509d082117f9aa5949b64d801924135009121f79e285215264c5fc5aa1",
+        "reference_files": [],
+        "slot": "right_wisp"
+      }
+    ],
+    "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07"
+  },
+  "constructor_anatomy": {
+    "contract": "ghost_v1",
+    "description_ru": "Бесформенные кислотные существа: студенистое ядро, верхняя масса и две боковые лопасти, без человеческих конечностей.",
+    "gender": "male",
+    "hair": "cropped",
+    "id": "native-slime-01",
+    "label": "Кислотная жижа",
+    "own_body": true,
+    "race": "slime",
+    "variant": 0
+  },
+  "coordinate_system": "metres; Y up; +Z forward; floor Y=0",
+  "id": "constructor.f291b5008c1ef3864ef34e3bc101390e9a72e09b761c4a025a9f7abcbdadff49.right_wisp",
+  "label": "native-slime-01.right_wisp",
+  "palette": {
+    "accent": "9dd3ae",
+    "bone": "cbc5ad",
+    "cloth": "4c3c54",
+    "dark": "33383b",
+    "eyes": "e9ef8b",
+    "hair": "48372e",
+    "hair_light": "544035",
+    "leather": "573e32",
+    "lip": "537a30",
+    "metal": "85715b",
+    "pupil": "272a2b",
+    "sclera": "d4d1bc",
+    "secondary": "c4df77",
+    "shadow": "486a2a",
+    "skin": "73a943"
+  },
+  "schema_version": 1,
+  "stages": [
+    "Основные массы и опоры",
+    "Голова и анатомия",
+    "Одежда и защитные пластины",
+    "Отличительные детали",
+    "Кисти, опоры и завершающие акценты"
+  ],
+  "team_materials": [
+    "cloth"
+  ]
+}

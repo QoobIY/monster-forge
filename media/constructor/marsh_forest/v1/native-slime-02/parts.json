@@ -1,0 +1,27 @@
+{
+  "coordinates": "metres; Y up; +Z forward; floor Y=0",
+  "parts": {
+    "head": {
+      "model": "parts/head.glb",
+      "recipe": "parts/head.recipe.json",
+      "sha256": "5d2135ea688f61f8d50583cddb72fe3ed3c83bf4edf32736b7a95ffeb7d5803b"
+    },
+    "left_wisp": {
+      "model": "parts/left_wisp.glb",
+      "recipe": "parts/left_wisp.recipe.json",
+      "sha256": "5b209ea894931bc6b35f78c8f1bcab43910d2ec23ebed719563aca76b4b069f4"
+    },
+    "right_wisp": {
+      "model": "parts/right_wisp.glb",
+      "recipe": "parts/right_wisp.recipe.json",
+      "sha256": "2ebf59d993c2f38935b5f7cd69da81251a4ee6878ae5b6d77cc880daa808064f"
+    },
+    "torso": {
+      "model": "parts/torso.glb",
+      "recipe": "parts/torso.recipe.json",
+      "sha256": "c64a5ec184b9779e58a0c8bb386104c52539d460b4634bd617ba715f0dcf2c27"
+    }
+  },
+  "rig_reference": "ghost_v1",
+  "schema_version": 1
+}

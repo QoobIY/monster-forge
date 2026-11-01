@@ -1,0 +1,13 @@
+{
+  "contract": "ghost_v1",
+  "description_ru": "Бесформенные кислотные существа: студенистое ядро, верхняя масса и две боковые лопасти, без человеческих конечностей.",
+  "gender": "male",
+  "hair": "cropped",
+  "id": "native-slime-02",
+  "label": "Болотный слизень",
+  "own_body": true,
+  "race": "slime",
+  "rig": "ghost_v1",
+  "schema_version": 1,
+  "variant": 1
+}

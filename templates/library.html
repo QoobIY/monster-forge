@@ -1,0 +1,99 @@
+{% extends "base.html" %} {% block title %}{{ heading }} · Monster Forge{% endblock %} {% block head
+%}
+<link rel="stylesheet" href="/static/library.css?v=workspace-1" />
+<script type="module" src="/static/library.js?v=modules-1"></script>
+{% endblock %} {% block content %}
+<main class="library-page" data-kind="{{ kind }}">
+  <div class="library-intro">
+    <span class="eyebrow">БИБЛИОТЕКА АССЕТОВ</span>
+    <h1>{{ heading }}</h1>
+    <p>{{ description }}</p>
+  </div>
+  {% if active=='icons' %}
+  <details class="style-panel">
+    <summary>
+      <span class="style-dot">✦</span>
+      <span>
+        <strong>Стиль библиотеки</strong>
+        <small>Сохранённый профиль и исходники</small>
+      </span>
+      <span class="details-arrow">⌄</span>
+    </summary>
+    <div class="style-content">
+      <img src="/styles/icons/mom-style-reference.jpg" alt="Референс стиля библиотеки" />
+      <div>
+        <p>Гранёные формы, чёткий силуэт, выразительный цвет. Без рамок и надписей.</p>
+        <pre id="style-prompt">Загружаем промпт…</pre>
+        <button id="copy-prompt" class="library-secondary">Копировать промпт</button>
+        <a href="/styles/icons/prompts-mom.json" download>Исходные промпты ↗</a>
+      </div>
+    </div>
+  </details>
+  {% endif %}
+  <div class="library-layout">
+    <section class="asset-collection" aria-label="Список ассетов">
+      <div class="library-toolbar">
+        <label class="library-search">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="10" cy="10" r="6" />
+            <path d="m15 15 6 6" />
+          </svg>
+          <input
+            id="asset-search"
+            type="search"
+            placeholder="Поиск по названию или категории"
+            autocomplete="off"
+            aria-label="Поиск ассетов"
+          />
+        </label>
+        <span id="asset-count" role="status">Загружаем…</span>
+      </div>
+      <div id="group-filters" class="group-filters" role="group" aria-label="Категории"></div>
+      <p id="library-error" class="library-error" hidden role="alert"></p>
+      <div id="asset-grid" class="asset-grid" aria-label="Ассеты"></div>
+      <p id="empty-results" class="empty-results" hidden>
+        Ничего не найдено. Попробуй другое название.
+      </p>
+      <div id="scroll-sentinel" class="scroll-sentinel" hidden aria-hidden="true"></div>
+    </section>
+    <aside class="asset-inspector" aria-label="Предпросмотр выбранного ассета">
+      <div class="inspector-heading">
+        <span class="eyebrow">ПРЕДПРОСМОТР</span>
+        <h2 id="asset-title">Выбери ассет</h2>
+        <p id="asset-group">Нажми на карточку слева</p>
+      </div>
+      <div class="asset-stage" id="asset-stage">
+        {% if active=='decorations' %}
+        <canvas id="asset-canvas" aria-label="3D-превью декорации"></canvas>
+        <div id="viewer-error" hidden role="alert"></div>
+        <div class="stage-tools">
+          <button id="reset-model" type="button" title="Сбросить ракурс">↻</button>
+          <button id="fullscreen-model" type="button" title="На весь экран">⛶</button>
+        </div>
+        <span class="stage-hint">Вращай мышью · Приближай колесом</span>
+        {% else %}
+        <img id="selected-image" alt="" hidden />
+        <span class="stage-hint">
+          {{ 'Бесшовный материал' if active=='terrain' else 'Иконка в исходном качестве' }}
+        </span>
+        {% endif %}
+      </div>
+      <div class="inspector-info">
+        <span id="asset-metrics" role="status"></span>
+        <button id="toggle-background" type="button" aria-pressed="false">Светлый фон</button>
+      </div>
+      <a id="download-asset" class="library-primary disabled" aria-disabled="true">
+        Скачать {{ 'GLB' if active=='decorations' else 'PNG' if active=='terrain' else 'иконку' }} ↓
+      </a>
+      <details class="asset-sdk-details">
+        <summary>Использовать в своём проекте</summary>
+        <p>SDK возвращает файл из Monster Forge.</p>
+        <code id="asset-identity"></code>
+        <button id="copy-id" type="button">Копировать ID</button>
+        <pre id="asset-code"></pre>
+        <a href="/sdk/">Подключение SDK ↗</a>
+      </details>
+    </aside>
+  </div>
+</main>
+{% endblock %}

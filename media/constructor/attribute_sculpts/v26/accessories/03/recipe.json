@@ -1,0 +1,713 @@
+{
+  "attribute_reference": {
+    "authoring_revision": 1,
+    "authoring_sha256": "48159c92584473d8ca4c91dae38fc1cc9f3746807c5e3f1910c6bd4d7e872253",
+    "category": "accessories",
+    "cell_pixels": [
+      614,
+      0,
+      921,
+      512
+    ],
+    "depth_status": "Manually authored volumes; Front reference supplies silhouette/proportions only",
+    "design": {
+      "costume": "warden",
+      "face": {
+        "eye_tilt": 0.002,
+        "jaw": 0.83,
+        "nose": 0.036,
+        "width": 0.239
+      },
+      "gender": "male",
+      "hair": "swept",
+      "id": "hand-accessories-03",
+      "label": "accessories",
+      "library_variant": 3,
+      "palette": {
+        "accent": "d6c5a0",
+        "cloth": "35516d",
+        "hair": "614633",
+        "iris": "685d42",
+        "leather": "654833",
+        "metal": "919ba3",
+        "secondary": "938466",
+        "skin": "bd9577"
+      },
+      "race": "human"
+    },
+    "generation": {
+      "combined_mask": "../attribute_grid_mask_v1.png",
+      "combined_mask_sha256": "b67288dead6f5e6c48d8f0e1412d7cd39bbd08158e42df904c008ee3d6ac2234",
+      "id": "accessories",
+      "image": "front.png",
+      "image_sha256": "006bec47d5e6a16265017d8ccdcc166e6dd04a637e1d133464e7b2e8d505441a",
+      "label": "Дополнительные аксессуары",
+      "layout": {
+        "columns": 5,
+        "count": 10,
+        "rows": 2
+      },
+      "mask_transmission": "builtin tool has no mask argument; layout constraints in prompt",
+      "model_snapshot": null,
+      "model_snapshot_status": "not exposed by built-in tool",
+      "production_pool": false,
+      "prompt": "prompt.txt",
+      "prompt_sha256": "b834d5cae471f4465d5f45339a2708086d1d4e9eeb7fa608bb2b559d32a9c304",
+      "purpose": "Ten attribute variants in one image; concept references, not reconstructed GLB assets",
+      "raw_response": "tool-response.json",
+      "raw_response_sha256": "ddb735c912f08690d033c3213b061e29a1e79908297e4f5729a225a75e1ff159",
+      "schema_version": 1,
+      "style_reference_images": [],
+      "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+      "template_id": "constructor_attribute_grid_master_v1",
+      "template_sha256": "1577ff27f8a8c175c23674db6031a6b0c1b3b9e098061f31a0151a6157269c84",
+      "tool": "image_gen.imagegen",
+      "variant_count": 10,
+      "view": "Front"
+    },
+    "image": "media/experiments/constructor_attribute_references/v1/accessories/front.png",
+    "image_sha256": "006bec47d5e6a16265017d8ccdcc166e6dd04a637e1d133464e7b2e8d505441a",
+    "material_groups": {
+      "atlas_accessories_03_accent": "accent",
+      "atlas_accessories_03_bone": "fixed",
+      "atlas_accessories_03_cloth": "cloth",
+      "atlas_accessories_03_dark": "fixed",
+      "atlas_accessories_03_hair": "hair",
+      "atlas_accessories_03_hair_light": "hair",
+      "atlas_accessories_03_iris": "eyes",
+      "atlas_accessories_03_leather": "leather",
+      "atlas_accessories_03_lip": "skin",
+      "atlas_accessories_03_metal": "metal",
+      "atlas_accessories_03_pupil": "fixed",
+      "atlas_accessories_03_sclera": "fixed",
+      "atlas_accessories_03_secondary": "secondary",
+      "atlas_accessories_03_shadow": "skin",
+      "atlas_accessories_03_skin": "skin"
+    },
+    "method": "manual_low_poly_volumes",
+    "prompt_sha256": "b834d5cae471f4465d5f45339a2708086d1d4e9eeb7fa608bb2b559d32a9c304",
+    "schema_version": 1,
+    "style_sha256": "c30fb82dea1583a48ecbbde7b6ebac778cac98a0d50e2f94721ab693d9d84f07",
+    "variant": 3
+  },
+  "commands": [
+    {
+      "authored_primitive": {
+        "id": "c001",
+        "material": "accent",
+        "op": "sweep",
+        "part": "scroll",
+        "path": [
+          [
+            0.188,
+            0.99,
+            0.26
+          ],
+          [
+            0.188,
+            1.17,
+            0.26
+          ]
+        ],
+        "purpose": "scroll",
+        "radii": [
+          0.029,
+          0.029
+        ],
+        "sides": 6,
+        "slot": "torso",
+        "stage": 2
+      },
+      "faces": [
+        [
+          1,
+          6,
+          0
+        ],
+        [
+          7,
+          6,
+          1
+        ],
+        [
+          2,
+          7,
+          1
+        ],
+        [
+          8,
+          7,
+          2
+        ],
+        [
+          3,
+          8,
+          2
+        ],
+        [
+          9,
+          8,
+          3
+        ],
+        [
+          4,
+          9,
+          3
+        ],
+        [
+          10,
+          9,
+          4
+        ],
+        [
+          5,
+          10,
+          4
+        ],
+        [
+          11,
+          10,
+          5
+        ],
+        [
+          0,
+          11,
+          5
+        ],
+        [
+          6,
+          11,
+          0
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          4,
+          3,
+          0
+        ],
+        [
+          5,
+          4,
+          0
+        ],
+        [
+          6,
+          7,
+          8
+        ],
+        [
+          6,
+          8,
+          9
+        ],
+        [
+          6,
+          9,
+          10
+        ],
+        [
+          6,
+          10,
+          11
+        ]
+      ],
+      "id": "atlas_accessories_03_0",
+      "material": "atlas_accessories_03_accent",
+      "op": "indexed_mesh",
+      "part": "atlas_accessories_03_scroll",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "torso",
+      "stage": 2,
+      "vertices": [
+        [
+          0.188,
+          0.99,
+          0.231
+        ],
+        [
+          0.16288526329025127,
+          0.99,
+          0.2455
+        ],
+        [
+          0.16288526329025127,
+          0.99,
+          0.2745
+        ],
+        [
+          0.188,
+          0.99,
+          0.28900000000000003
+        ],
+        [
+          0.2131147367097487,
+          0.99,
+          0.2745
+        ],
+        [
+          0.21311473670974873,
+          0.99,
+          0.2455
+        ],
+        [
+          0.188,
+          1.17,
+          0.231
+        ],
+        [
+          0.16288526329025127,
+          1.17,
+          0.2455
+        ],
+        [
+          0.16288526329025127,
+          1.17,
+          0.2745
+        ],
+        [
+          0.188,
+          1.17,
+          0.28900000000000003
+        ],
+        [
+          0.2131147367097487,
+          1.17,
+          0.2745
+        ],
+        [
+          0.21311473670974873,
+          1.17,
+          0.2455
+        ]
+      ]
+    },
+    {
+      "authored_primitive": {
+        "id": "c002",
+        "material": "accent",
+        "op": "sweep",
+        "part": "scroll",
+        "path": [
+          [
+            0.25,
+            0.99,
+            0.26
+          ],
+          [
+            0.25,
+            1.17,
+            0.26
+          ]
+        ],
+        "purpose": "scroll",
+        "radii": [
+          0.029,
+          0.029
+        ],
+        "sides": 6,
+        "slot": "torso",
+        "stage": 2
+      },
+      "faces": [
+        [
+          1,
+          6,
+          0
+        ],
+        [
+          7,
+          6,
+          1
+        ],
+        [
+          2,
+          7,
+          1
+        ],
+        [
+          8,
+          7,
+          2
+        ],
+        [
+          3,
+          8,
+          2
+        ],
+        [
+          9,
+          8,
+          3
+        ],
+        [
+          4,
+          9,
+          3
+        ],
+        [
+          10,
+          9,
+          4
+        ],
+        [
+          5,
+          10,
+          4
+        ],
+        [
+          11,
+          10,
+          5
+        ],
+        [
+          0,
+          11,
+          5
+        ],
+        [
+          6,
+          11,
+          0
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          4,
+          3,
+          0
+        ],
+        [
+          5,
+          4,
+          0
+        ],
+        [
+          6,
+          7,
+          8
+        ],
+        [
+          6,
+          8,
+          9
+        ],
+        [
+          6,
+          9,
+          10
+        ],
+        [
+          6,
+          10,
+          11
+        ]
+      ],
+      "id": "atlas_accessories_03_1",
+      "material": "atlas_accessories_03_accent",
+      "op": "indexed_mesh",
+      "part": "atlas_accessories_03_scroll",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "torso",
+      "stage": 2,
+      "vertices": [
+        [
+          0.25,
+          0.99,
+          0.231
+        ],
+        [
+          0.22488526329025127,
+          0.99,
+          0.2455
+        ],
+        [
+          0.22488526329025127,
+          0.99,
+          0.2745
+        ],
+        [
+          0.25,
+          0.99,
+          0.28900000000000003
+        ],
+        [
+          0.27511473670974873,
+          0.99,
+          0.2745
+        ],
+        [
+          0.27511473670974873,
+          0.99,
+          0.2455
+        ],
+        [
+          0.25,
+          1.17,
+          0.231
+        ],
+        [
+          0.22488526329025127,
+          1.17,
+          0.2455
+        ],
+        [
+          0.22488526329025127,
+          1.17,
+          0.2745
+        ],
+        [
+          0.25,
+          1.17,
+          0.28900000000000003
+        ],
+        [
+          0.27511473670974873,
+          1.17,
+          0.2745
+        ],
+        [
+          0.27511473670974873,
+          1.17,
+          0.2455
+        ]
+      ]
+    },
+    {
+      "authored_primitive": {
+        "id": "c003",
+        "material": "accent",
+        "op": "sweep",
+        "part": "scroll",
+        "path": [
+          [
+            0.312,
+            0.99,
+            0.26
+          ],
+          [
+            0.312,
+            1.17,
+            0.26
+          ]
+        ],
+        "purpose": "scroll",
+        "radii": [
+          0.029,
+          0.029
+        ],
+        "sides": 6,
+        "slot": "torso",
+        "stage": 2
+      },
+      "faces": [
+        [
+          1,
+          6,
+          0
+        ],
+        [
+          7,
+          6,
+          1
+        ],
+        [
+          2,
+          7,
+          1
+        ],
+        [
+          8,
+          7,
+          2
+        ],
+        [
+          3,
+          8,
+          2
+        ],
+        [
+          9,
+          8,
+          3
+        ],
+        [
+          4,
+          9,
+          3
+        ],
+        [
+          10,
+          9,
+          4
+        ],
+        [
+          5,
+          10,
+          4
+        ],
+        [
+          11,
+          10,
+          5
+        ],
+        [
+          0,
+          11,
+          5
+        ],
+        [
+          6,
+          11,
+          0
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          4,
+          3,
+          0
+        ],
+        [
+          5,
+          4,
+          0
+        ],
+        [
+          6,
+          7,
+          8
+        ],
+        [
+          6,
+          8,
+          9
+        ],
+        [
+          6,
+          9,
+          10
+        ],
+        [
+          6,
+          10,
+          11
+        ]
+      ],
+      "id": "atlas_accessories_03_2",
+      "material": "atlas_accessories_03_accent",
+      "op": "indexed_mesh",
+      "part": "atlas_accessories_03_scroll",
+      "purpose": "Manually simplified reference silhouette and volume",
+      "slot": "torso",
+      "stage": 2,
+      "vertices": [
+        [
+          0.312,
+          0.99,
+          0.231
+        ],
+        [
+          0.28688526329025127,
+          0.99,
+          0.2455
+        ],
+        [
+          0.28688526329025127,
+          0.99,
+          0.2745
+        ],
+        [
+          0.312,
+          0.99,
+          0.28900000000000003
+        ],
+        [
+          0.33711473670974873,
+          0.99,
+          0.2745
+        ],
+        [
+          0.33711473670974873,
+          0.99,
+          0.2455
+        ],
+        [
+          0.312,
+          1.17,
+          0.231
+        ],
+        [
+          0.28688526329025127,
+          1.17,
+          0.2455
+        ],
+        [
+          0.28688526329025127,
+          1.17,
+          0.2745
+        ],
+        [
+          0.312,
+          1.17,
+          0.28900000000000003
+        ],
+        [
+          0.33711473670974873,
+          1.17,
+          0.2745
+        ],
+        [
+          0.33711473670974873,
+          1.17,
+          0.2455
+        ]
+      ]
+    }
+  ],
+  "coordinate_system": "metres; Y up; +Z forward; floor Y=0",
+  "id": "hand-accessories-03",
+  "palette": {
+    "atlas_accessories_03_accent": "d6c5a0",
+    "atlas_accessories_03_bone": "cbc5ad",
+    "atlas_accessories_03_cloth": "35516d",
+    "atlas_accessories_03_dark": "33383b",
+    "atlas_accessories_03_hair": "614633",
+    "atlas_accessories_03_hair_light": "71513b",
+    "atlas_accessories_03_iris": "685d42",
+    "atlas_accessories_03_leather": "654833",
+    "atlas_accessories_03_lip": "886b56",
+    "atlas_accessories_03_metal": "919ba3",
+    "atlas_accessories_03_pupil": "272a2b",
+    "atlas_accessories_03_sclera": "d4d1bc",
+    "atlas_accessories_03_secondary": "938466",
+    "atlas_accessories_03_shadow": "775e4b",
+    "atlas_accessories_03_skin": "bd9577"
+  },
+  "production_pool": false,
+  "schema_version": 1
+}

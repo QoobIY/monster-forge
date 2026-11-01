@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{% block title %}Monster Forge{% endblock %}</title>
+    {% block head %}{% endblock %}
+    <link rel="stylesheet" href="/static/project.css?v=modules-1" />
+  </head>
+  <body>
+    <header class="forge-header">
+      <a href="/" class="forge-brand">
+        <span class="forge-mark" aria-hidden="true">◇</span>
+        <span>
+          MONSTER FORGE
+          <small>Конструктор персонажей</small>
+        </span>
+      </a>
+      <nav class="forge-nav" aria-label="Разделы проекта">
+        <a href="/characters/" aria-current="{{ 'page' if active == 'characters' else 'false' }}">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="7" r="3" />
+            <path d="M5 21v-3a7 7 0 0 1 14 0v3M8 14v7m8-7v7" />
+          </svg>
+          Персонажи
+        </a>
+        <a href="/icons/" aria-current="{{ 'page' if active == 'icons' else 'false' }}">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="3" y="3" width="7" height="7" rx="2" />
+            <rect x="14" y="3" width="7" height="7" rx="2" />
+            <rect x="3" y="14" width="7" height="7" rx="2" />
+            <rect x="14" y="14" width="7" height="7" rx="2" />
+          </svg>
+          Иконки
+        </a>
+        <a href="/terrain/" aria-current="{{ 'page' if active == 'terrain' else 'false' }}">
+          Ландшафт
+        </a>
+        <a href="/decorations/" aria-current="{{ 'page' if active == 'decorations' else 'false' }}">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m12 2 7 10h-4l5 7H4l5-7H5L12 2Zm0 17v3" />
+          </svg>
+          Декорации
+        </a>
+      </nav>
+      <a
+        class="forge-doc-link"
+        href="/sdk/"
+        aria-current="{{ 'page' if active == 'sdk' else 'false' }}"
+      >
+        SDK ↗
+      </a>
+    </header>
+    {% block content %}{% endblock %}
+  </body>
+</html>

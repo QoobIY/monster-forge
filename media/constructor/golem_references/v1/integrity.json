@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "files": {
+    "original-response.json": "0996e8fe5724cd53c3165225c39130313112b0061d309873cdcb542624f17935",
+    "front.png": "3f0094f9096a7cb8c62777f8829cfddd9e2f7ac568eff4e17f080ddab11ea25c",
+    "master-front.png": "4e58efdd8f457a46f56475b33524b2f24ebc5ab3d251d0c62a5e1e685d99aa77",
+    "prompt.json": "3fa57fda83a95650958d68c6224e6edc08357e74f69dac7e3d2c6d1947045e42"
+  }
+}

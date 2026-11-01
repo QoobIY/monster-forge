@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "frog_mutant",
+  "label": "Лягушка-мутант",
+  "race": "frog",
+  "rig": "quadruped_v1",
+  "gait": "hop",
+  "parts": {
+    "torso": {
+      "model": "parts/torso.glb"
+    },
+    "head": {
+      "model": "parts/head.glb"
+    },
+    "tail": {
+      "model": "parts/tail.glb"
+    },
+    "front_left_leg": {
+      "model": "parts/front_left_leg.glb"
+    },
+    "front_right_leg": {
+      "model": "parts/front_right_leg.glb"
+    },
+    "hind_left_leg": {
+      "model": "parts/hind_left_leg.glb"
+    },
+    "hind_right_leg": {
+      "model": "parts/hind_right_leg.glb"
+    }
+  },
+  "tags": [
+    "mom_rpg",
+    "swamp",
+    "frog",
+    "quadruped"
+  ]
+}

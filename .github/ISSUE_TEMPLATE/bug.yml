@@ -1,0 +1,21 @@
+name: Bug report
+description: Report a reproducible workflow or contract failure
+body:
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Smallest reproduction
+      description: Include commands, contract/schema versions and asset IDs. Use a minimal part or assembly. Do not include credentials or material you cannot share.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Python, Node, OS, app mode, and shared MoM revision when applicable.
